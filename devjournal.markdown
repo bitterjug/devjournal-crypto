@@ -389,3 +389,5 @@ Can we do:
  - Site-map/user story/workflow plan for site with Ellie?
  - SSO with Sharepoint should be treated as a lower priority.
  - what is relationshiup with ALFIE code base and V4c?
+ - What needs to be on a card for it to become a candidate?
+ - when can we estimate
