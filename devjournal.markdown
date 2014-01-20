@@ -229,6 +229,7 @@ emulating keystrokes, then they can be _undone_ with
 
 The script below (`tmp/note.vim`) inserts the time and date stamp.
 
+``` VimL
     " Note
     "
 
@@ -247,6 +248,7 @@ The script below (`tmp/note.vim`) inserts the time and date stamp.
     endfunction
 
     let Note_loaded = 1
+```
 
 Still need to:
 
@@ -375,5 +377,9 @@ Welcome back!
 - [x] What does this stuff look like on Github?
 
 
+
+
+
+## 2014-01-20 09:55 Monday
 
 
