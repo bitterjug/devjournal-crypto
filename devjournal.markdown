@@ -420,5 +420,7 @@ Can we do:
  - [ ] Marko to get met a sample of good card details/spec to look at from
    3ie
 
- - [ ] MCS invite Ellie and Marko to UML tool and talk though model
- - SparkleShare for Ellie (or Dropbox, ...?)
+ - [x] MCS invite Elly and Marko to UML tool 
+ - [ ] Talk Elly through data model 
+ - [ ] SparkleShare for Elly (or Dropbox, ...?)
+
