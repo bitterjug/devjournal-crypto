@@ -379,3 +379,13 @@ For some reason I Can't get these to render as checkboxes.
 
 Also, I want better Markdown syntax highlighting, maybe topoe
 
+
+## 2014-01-20 10:53 Monday
+
+V4C Kick-off meeting
+
+Can we do:
+
+ - Site-map/user story/workflow plan for site with Ellie?
+ - SSO with Sharepoint should be treated as a lower priority.
+ - what is relationshiup with ALFIE code base and V4c?
