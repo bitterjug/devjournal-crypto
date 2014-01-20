@@ -1,4 +1,3 @@
-
 Writing note.sh
 =================
 
@@ -372,8 +371,8 @@ a calendar shred by the devs?)
 
 Welcome back!
 
- - [ ] What does this stuff look like on Github?
- - [x] What does this stuff look like on Github?
+- [ ] What does this stuff look like on Github?
+- [x] What does this stuff look like on Github?
 
 
 
