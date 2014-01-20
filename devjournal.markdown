@@ -402,5 +402,6 @@ Can we do:
             - JAvascript approach don't just bung js files in a directory
               and link to them.
             - Set up front-end environment, e.g. Grunt/Require.js, etc.
+            - Need javascript tests, need automatic running/ build server
 
  - when can we estimate cards (what to they need)
