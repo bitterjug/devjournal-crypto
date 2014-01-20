@@ -427,4 +427,8 @@ Can we do:
 
 ## 2014-01-20 14:53 Monday
 
+Possible insight on sub-indicator: 
+corresponds to rows in the tool
+Is it the atomic level at which you measure, so that later measurements in that
+row replace/override earlier ones. As opposed to being added together.
 
