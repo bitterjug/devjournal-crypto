@@ -421,6 +421,10 @@ Can we do:
    3ie
 
  - [x] MCS invite Elly and Marko to UML tool 
- - [ ] Talk Elly through data model 
+ - [ ] Talk Elly and Marko through data model 
  - [ ] SparkleShare for Elly (or Dropbox, ...?)
+
+
+## 2014-01-20 14:53 Monday
+
 
