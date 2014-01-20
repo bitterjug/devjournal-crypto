@@ -400,6 +400,11 @@ Can we do:
       start working on it.
         - If there are mock-up images, are they "the spririt" or the exact
           look of the things we have to build?
+        - A list of features that have to be there, if not directly
+          implied by the mock-ups.
+        - Anything that is not included is not part of the story (c.f.
+          story of boolean logical search, which entailed definition of a
+          grammar for the search language)
     - technical approach
         - e.g save 'Outputs' they are several levels deep nested formsets
           vs e.g.  backbone
@@ -411,3 +416,6 @@ Can we do:
         - Need javascript tests, need automatic running/ build server
 
  - when can we estimate cards (what to they need)
+
+- [ ] Marko to get met a sample of good card details/spec to look at from
+  3ie
