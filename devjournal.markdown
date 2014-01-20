@@ -394,14 +394,20 @@ Can we do:
     - What should it look like (visual design)
     - How should it behave
     - the whole journey
+    - Definition of Done (it's done when you can do the following things
+      with the system.) outline of steps to test manually
+    - Every feature that has to be in the story should be listed before we
+      start working on it.
+        - If there are mock-up images, are they "the spririt" or the exact
+          look of the things we have to build?
     - technical approach
         - e.g save 'Outputs' they are several levels deep nested formsets
           vs e.g.  backbone
-            - Both are 'unknown' to some degree
-            - Don't feel comfortable enough to estimate
-            - JAvascript approach don't just bung js files in a directory
-              and link to them.
-            - Set up front-end environment, e.g. Grunt/Require.js, etc.
-            - Need javascript tests, need automatic running/ build server
+        - Both are 'unknown' to some degree
+        - Don't feel comfortable enough to estimate
+        - JAvascript approach don't just bung js files in a directory and
+          link to them.
+        - Set up front-end environment, e.g. Grunt/Require.js, etc.
+        - Need javascript tests, need automatic running/ build server
 
  - when can we estimate cards (what to they need)
