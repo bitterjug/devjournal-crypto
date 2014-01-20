@@ -261,6 +261,7 @@ Still need to:
 
 This version inserts the date only if it isn't already there
 
+``` VimL
     " Note
     "
 
@@ -279,7 +280,7 @@ This version inserts the date only if it isn't already there
     endfunction
 
     let Note_loaded = 1
-
+```
 
 
 ## 2014-01-12 20:13 Sunday
@@ -377,3 +378,4 @@ Welcome back!
 For some reason I Can't get these to render as checkboxes.
 
 Also, I want better Markdown syntax highlighting, maybe topoe
+
