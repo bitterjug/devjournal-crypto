@@ -372,6 +372,9 @@ a calendar shred by the devs?)
 
 Welcome back!
 
-## 2014-01-20 09:48 Monday
+ - [ ] What does this stuff look like on Github?
+ - [x] What does this stuff look like on Github?
+
+
 
 
