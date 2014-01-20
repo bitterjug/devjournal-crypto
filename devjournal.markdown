@@ -427,8 +427,15 @@ Can we do:
 
 ## 2014-01-20 14:53 Monday
 
-Possible insight on sub-indicator: 
-corresponds to rows in the tool
-Is it the atomic level at which you measure, so that later measurements in that
-row replace/override earlier ones. As opposed to being added together.
+Possible insight on sub-indicator: corresponds to rows in the tool Is it the
+atomic level at which you measure, so that later measurements in that row
+replace/override earlier ones. As opposed to being added together.
+
+
+## 2014-01-20 16:19 Monday
+
+Ask George:
+
+- [ ] Is achievement of outputs one of the indicators for outcomes?
+- [ ] There can be only one Goal, ok, but what about more than one outcome?
 
