@@ -390,4 +390,16 @@ Can we do:
  - SSO with Sharepoint should be treated as a lower priority.
  - what is relationshiup with ALFIE code base and V4c?
  - What needs to be on a card for it to become a candidate?
- - when can we estimate
+    - What should it look like (visual design)
+    - How should it behave
+    - the whole journey
+    - technical approach
+        - e.g save 'Outputs' they are several levels deep nested formsets
+          vs e.g.  backbone
+            - Both are 'unknown' to some degree
+            - Don't feel comfortable enough to estimate
+            - JAvascript approach don't just bung js files in a directory
+              and link to them.
+            - Set up front-end environment, e.g. Grunt/Require.js, etc.
+
+ - when can we estimate cards (what to they need)
