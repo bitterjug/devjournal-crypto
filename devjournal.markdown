@@ -229,7 +229,6 @@ emulating keystrokes, then they can be _undone_ with
 
 The script below (`tmp/note.vim`) inserts the time and date stamp.
 
-``` VimL
     " Note
     "
 
@@ -248,7 +247,6 @@ The script below (`tmp/note.vim`) inserts the time and date stamp.
     endfunction
 
     let Note_loaded = 1
-```
 
 Still need to:
 
@@ -363,8 +361,8 @@ Via `gconf-editor`:
 ## 2014-01-17 15:47 Friday
 
 Idea:
-Write google apps script to pull data out of a google calendar into a
-spreadsheet and use to log time by different developeers (if we
+Write Google apps script to pull data out of a Google calendar into a
+spreadsheet and use to log time by different developers (if we
 can do it on our company docs account, we should be able to pull from
 a calendar shred by the devs?)
 
@@ -373,13 +371,9 @@ a calendar shred by the devs?)
 
 Welcome back!
 
-- [ ] What does this stuff look like on Github?
-- [x] What does this stuff look like on Github?
+* [ ] What does this stuff look like on Github?
+* [x] What does this stuff look like on Github?
 
+For some reason I Can't get these to render as checkboxes.
 
-
-
-
-## 2014-01-20 09:55 Monday
-
-
+Also, I want better Markdown syntax highlighting, maybe topoe
