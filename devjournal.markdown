@@ -417,5 +417,7 @@ Can we do:
 
  - when can we estimate cards (what to they need)
 
-- [ ] Marko to get met a sample of good card details/spec to look at from
-  3ie
+ - [ ] Marko to get met a sample of good card details/spec to look at from
+   3ie
+
+ - [ ] MCS invite Ellie and Marko to UML tool and talk though model
