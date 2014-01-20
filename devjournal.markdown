@@ -421,3 +421,4 @@ Can we do:
    3ie
 
  - [ ] MCS invite Ellie and Marko to UML tool and talk though model
+ - SparkleShare for Ellie
