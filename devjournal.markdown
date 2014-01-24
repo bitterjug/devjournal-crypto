@@ -439,3 +439,10 @@ Ask George:
 - [ ] Is achievement of outputs one of the indicators for outcomes?
 - [ ] There can be only one Goal, ok, but what about more than one outcome?
 
+
+## 2014-01-24 15:04 Friday
+
+A theory about sub-indicators.
+ Sub-indicators:
+        - are non-overalpping category spaces 
+        - where later measurements replace earlier ones
