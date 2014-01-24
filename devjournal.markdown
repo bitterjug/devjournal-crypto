@@ -456,5 +456,6 @@ Helps to write polyglog python
 `order` help us set the sequence of, e.g. milestones.
 
 See 'serializers' in DjangoRestFramework.
+ModelViewset in DJR don't look at reverse relationshiups.
 
 
