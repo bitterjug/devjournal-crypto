@@ -446,3 +446,10 @@ A theory about sub-indicators.
  Sub-indicators:
         - are non-overalpping category spaces 
         - where later measurements replace earlier ones
+
+## 2014-01-24 15:34 Friday
+
+`python_2_unicode_compatible`
+
+Helps to write polyglog python
+
