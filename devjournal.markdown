@@ -467,3 +467,10 @@ This is how Marko creates scoped globals variables in javascript
 ``` javascript
     var Aptivate = window.Aptivate = window.Aptivate || {};
 ```
+
+## 2014-01-28 16:38 Tuesday
+
+
+Check out what require.js does (one day)
+It controls loading until dependencies are loaded
+and also controls global name spaces.
