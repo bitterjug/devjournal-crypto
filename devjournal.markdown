@@ -459,3 +459,11 @@ See 'serializers' in DjangoRestFramework.
 ModelViewset in DJR don't look at reverse relationships.
 
 
+
+## 2014-01-28 14:54 Tuesday
+
+This is how Marko creates scoped globals variables in javascript
+
+``` javascript
+    var Aptivate = window.Aptivate = window.Aptivate || {};
+```
