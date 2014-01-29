@@ -497,3 +497,8 @@ and also controls global name spaces.
   not is whether it will make it easier to build generic filtering. I just
   don't know yet.
 
+
+## 2014-01-29 16:49 Wednesday
+
+* Eventually our models (which are in models/models) will be separated
+into separate javascript files and loaded only when needed using require.
