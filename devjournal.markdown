@@ -474,3 +474,26 @@ This is how Marko creates scoped globals variables in javascript
 Check out what require.js does (one day)
 It controls loading until dependencies are loaded
 and also controls global name spaces.
+
+## 2014-01-29 12:35 Wednesday
+
+- A LogFrame should know what its milestones are
+- These might be a subset of the available reporting periods (this relationship
+  is different from  the Taxonomy-Term relationship. Taxonomy might be
+  'reporting periods' and have more time points than we choose to show as
+  milestones in the LogFrame
+- But I feel uncomfortable with all Terms having an optional link to Logframe 
+  in case they play the role of milestone
+
+- However milestones are qualativively different from other tags because they
+  have an associated end date or date period. 
+  
+- An Indicator should know if and what its sub-indicators are. There might be
+  none.
+- I think it makes sense for Indicator to have an associated sub-indicator
+  Taxonomy whose members are the sub-indicator rows 
+
+* The real decision behind whether Milestones are a kind of taxonomy-term or
+  not is whether it will make it easier to build generic filtering. I just
+  don't know yet.
+
