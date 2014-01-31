@@ -510,5 +510,14 @@ for some reason. Switching our logframe and result serializers to ModelSerialize
 enabled one level of nesting.
 
 - Switching the logframe serializer back to Hyperlinkedmodelserializer 
-gets our url represented as a full url
+gets our url represented as a full url. So long as I don't include the 'id'
+field in the field set. If I do, I get 
 
+    Exception at /api/logframes/1/
+
+    Could not resolve URL for hyperlinked relationship using view name
+    "result-detail". You may have failed to include the related model in your
+    API, or incorrectly configured the `lookup_field` attribute on this field.
+
+I think it might be trying to use our url conf to lookup "result-detail"
+and identify which url pattern to use for reverse.
