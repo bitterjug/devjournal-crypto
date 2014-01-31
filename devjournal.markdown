@@ -536,4 +536,6 @@ and identify which url pattern to use for reverse.
   can't link to parent -- another Result, because it is trying to find a
   view called 'result-detail'.
 
-
+- The instructions say that to use Hyperlinkedmodelserializer we must make
+  sure our url patterns are named. This is where it's looking for
+  `result-detail`.
