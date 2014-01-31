@@ -530,3 +530,10 @@ and identify which url pattern to use for reverse.
   I really want to at the moment because instead of a list of urls for the
   results associated with my logframe, I can go to `/logframe/n/results/` to
   get a list of them.
+
+- I can get results to render with Hyperlinkedmodelserializers so long as
+  I don't include any linking fields in the field set. In particular I
+  can't link to parent -- another Result, because it is trying to find a
+  view called 'result-detail'.
+
+
