@@ -505,8 +505,10 @@ into separate javascript files and loaded only when needed using require.
 
 ## 2014-01-31 19:52 Friday
 
-`drf-routes-nested` is somewhat tricky to set up with `HyperlinkedModelSerializer`
+- `drf-routes-nested` is somewhat tricky to set up with `HyperlinkedModelSerializer`
 for some reason. Switching our logframe and result serializers to ModelSerializer
 enabled one level of nesting.
 
+- Switching the logframe serializer back to Hyperlinkedmodelserializer 
+gets our url represented as a full url
 
