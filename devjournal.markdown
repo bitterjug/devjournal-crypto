@@ -502,3 +502,11 @@ and also controls global name spaces.
 
 * Eventually our models (which are in models/models) will be separated
 into separate javascript files and loaded only when needed using require.
+
+## 2014-01-31 19:52 Friday
+
+`drf-routes-nested` is somewhat tricky to set up with `HyperlinkedModelSerializer`
+for some reason. Switching our logframe and result serializers to ModelSerializer
+enabled one level of nesting.
+
+
