@@ -518,6 +518,15 @@ field in the field set. If I do, I get
     Could not resolve URL for hyperlinked relationship using view name
     "result-detail". You may have failed to include the related model in your
     API, or incorrectly configured the `lookup_field` attribute on this field.
-
+    
 I think it might be trying to use our url conf to lookup "result-detail"
 and identify which url pattern to use for reverse.
+
+- Hyperlinkedmodelserializer don't include id by default, instead they have a
+  url field.
+- I get the error if I try and force them to have an 'id' field.
+- Maybe we don't need it if we have URLs?
+- I also get the problem if I try to include linked results.  but I'm not sure
+  I really want to at the moment because instead of a list of urls for the
+  results associated with my logframe, I can go to `/logframe/n/results/` to
+  get a list of them.
