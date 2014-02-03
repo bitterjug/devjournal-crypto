@@ -610,3 +610,11 @@ to avoid having to escape them with explicitly verbatim django tags?
 
 [Backgrid](http://backgridjs.com/) a library of backbone widgets to use in grid display.
 
+
+## 2014-02-03 16:54 Monday
+
+Javascript developmentin vim:
+
+- [ ] check syntax on save -- syntastic plugin?
+- [ ] highlighting: highlight function names as headings 
+    and method names in objects
