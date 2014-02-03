@@ -601,3 +601,7 @@ that you can hide it in print stylesheets.
 
 Handlebars templates -- do we want a new template tag to load them verbatim
 to avoid having to escape them with explicity verbatim django tags?
+
+## 2014-02-03 15:41 Monday
+
+[Flexbox](http://www.w3.org/TR/css3-flexbox/) for making things that are table-like.
