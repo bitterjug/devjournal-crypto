@@ -605,3 +605,8 @@ to avoid having to escape them with explicitly verbatim django tags?
 ## 2014-02-03 15:41 Monday
 
 [Flexbox](http://www.w3.org/TR/css3-flexbox/) for making things that are table-like.
+
+## 2014-02-03 16:52 Monday
+
+[Backgrid](http://backgridjs.com/) a library of backbone widgets to use in grid display.
+
