@@ -595,3 +595,9 @@ And here is backbone_sync
 When the element is empty you can't click on it. 
 So add placeholder text, and mark the element with a class so 
 that you can hide it in print stylesheets.
+
+## 2014-02-03 15:36 Monday
+
+
+Handlebars templates -- do we want a new template tag to load them verbatim
+to avoid having to escape them with explicity verbatim django tags?
