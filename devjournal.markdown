@@ -545,3 +545,47 @@ and identify which url pattern to use for reverse.
 Backbone nested views: render sub-view in out-of-dom element
 and then add to dom.
 
+
+## 2014-02-03 14:44 Monday
+
+Here's the require config that loads backbone_sync to fix csrf errors 
+witht the django back end.
+
+     var require = {
+         paths: {
+             'jquery': 'lib/jquery',
+             'underscore': 'lib/underscore',
+             'backbone_base': 'lib/backbone',
+             'backbone': 'lib/backbone_sync',
+             'handlebars': 'lib/handlebars',
+         },                
+         shim: {            
+             'underscore': { 
+                 exports: '_' 
+             },                
+             'backbone_base': { 
+                 deps: ['underscore', 'jquery'],    
+                 exports: 'Backbone'     
+             },           
+             'backbone': {
+                 deps: ['backbone_base'],
+                 exports: 'Backbone'  
+             },          
+             'handlebars': {           
+                 exports: 'Handlebars'  
+             }          
+         }
+     };
+
+And here is backbone_sync
+
+    (function() {
+      var _sync = Backbone.sync;
+      Backbone.sync = function(method, model, options){
+        options.beforeSend = function(xhr){
+          var token = $('meta[name="csrf-token"]').attr('content');
+          xhr.setRequestHeader('X-CSRFToken', token);
+        };
+        return _sync(method, model, options);
+      };
+    })();
