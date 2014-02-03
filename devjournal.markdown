@@ -589,3 +589,9 @@ And here is backbone_sync
         return _sync(method, model, options);
       };
     })();
+
+## 2014-02-03 15:14 Monday
+
+When the element is empty you can't click on it. 
+So add placeholder text, and mark the element with a class so 
+that you can hide it in print stylesheets.
