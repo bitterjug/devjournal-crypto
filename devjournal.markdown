@@ -539,3 +539,9 @@ and identify which url pattern to use for reverse.
 - The instructions say that to use Hyperlinkedmodelserializer we must make
   sure our url patterns are named. This is where it's looking for
   `result-detail`.
+
+## 2014-02-03 12:27 Monday
+
+Backbone nested views: render sub-view in out-of-dom element
+and then add to dom.
+
