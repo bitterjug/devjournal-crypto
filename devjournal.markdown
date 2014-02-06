@@ -618,3 +618,13 @@ Javascript developmentin vim:
 - [ ] check syntax on save -- syntastic plugin?
 - [ ] highlighting: highlight function names as headings 
     and method names in objects
+
+## 2014-02-06 14:54 Thursday
+
+See [This article](http://elucidblue.com/2012/12/24/making-qunit-play-nice-with-requirejs/) for a way to make Qunit work with require.js
+
+    define(['qunit'], function(qunit) {
+        var testFiles = ['test', 'modules', 'here'];
+        require(testFiles, qunit.load);
+    });
+
