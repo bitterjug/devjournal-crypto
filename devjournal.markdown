@@ -627,4 +627,11 @@ See [This article](http://elucidblue.com/2012/12/24/making-qunit-play-nice-with-
         var testFiles = ['test', 'modules', 'here'];
         require(testFiles, qunit.load);
     });
+    
+## 2014-02-06 23:27 Thursday
 
+Added `assumptions` to Aptivate data. Boy that was hard.
+I hate those tests!
+
+Next up, populate the assumption collection (For a logframe) from this dataset (using reset?)
+Check how assumptions part of interface behaves.
