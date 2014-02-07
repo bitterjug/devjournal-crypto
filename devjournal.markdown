@@ -618,6 +618,30 @@ Javascript developmentin vim:
 - [ ] check syntax on save -- syntastic plugin?
 - [ ] highlighting: highlight function names as headings 
     and method names in objects
+# v4c
+
+## 2014-02-06 14:29 Thursday
+
+ * Use a backbone router -- to trigger different entry point 
+   functions .
+
+ * Create overview and results v-pages in separate folder
+ pages/result.js
+
+    create the right result from the results collection
+    and use it to instantiate a view to present it
+
+ pages/overview.js
+
+ * Main would use a router to call the main function from the
+   apropriate page.
+
+ * Main would load the relevant data from Aptivate.data into
+ collections 
+
+
+* in principle when creating a result, we could also create an empty
+  indicator  at the server side (because result without indicator is not useful)
 
 ## 2014-02-06 14:54 Thursday
 
@@ -635,3 +659,4 @@ I hate those tests!
 
 Next up, populate the assumption collection (For a logframe) from this dataset (using reset?)
 Check how assumptions part of interface behaves.
+
