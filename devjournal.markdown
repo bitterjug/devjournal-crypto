@@ -682,3 +682,5 @@ NOTE: `addEmptyAssmption` had to have `this` bound in order to work.
 
 [This article](http://alexkehayias.tumblr.com/post/26630944947/backbone-in-the-wild-lessons-learned-using-backbone-js) 
 by a django dev writing backbone talks about how to boostrap your app with a view for the whole thing, and other hints.
+
+Also recommends one view/model per file when working with require
