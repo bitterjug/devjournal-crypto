@@ -678,3 +678,7 @@ but in the  meantime, here's what works:
 
 NOTE: `addEmptyAssmption` had to have `this` bound in order to work.
 
+## 2014-02-08 20:55 Saturday
+
+[This article](http://alexkehayias.tumblr.com/post/26630944947/backbone-in-the-wild-lessons-learned-using-backbone-js) 
+by a django dev writing backbone talks about how to boostrap your app with a view for the whole thing, and other hints.
