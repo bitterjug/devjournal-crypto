@@ -684,3 +684,11 @@ NOTE: `addEmptyAssmption` had to have `this` bound in order to work.
 by a django dev writing backbone talks about how to boostrap your app with a view for the whole thing, and other hints.
 
 Also recommends one view/model per file when working with require
+
+## 2014-02-08 21:37 Saturday
+
+Main does too much! Main is loaded asynchronously, so this
+data set up cannot be relid upon and should be moved to a separate
+script upon which other modules may explicitly depend to get the
+instantiated collections and models.  
+See: http://requirejs.org/docs/api.html#data-main 
