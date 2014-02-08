@@ -660,3 +660,21 @@ I hate those tests!
 Next up, populate the assumption collection (For a logframe) from this dataset (using reset?)
 Check how assumptions part of interface behaves.
 
+## 2014-02-08 15:07 Saturday
+
+`Collection.fetch()` is asynchronous and non-blocking so doing 
+
+    this.assumptions.fetch()
+    this.assumptions.add(...empty one...)
+    
+doesn't put the new one at the end. The second line completes before the first one.
+OK I'm going to switch `fetch` to `reset` soon, when I load data from `Aptivate.data`
+but in the  meantime, here's what works:
+
+            this.assumptions.fetch({
+                success: this.addEmptyAssumption
+            });
+
+
+NOTE: `addEmptyAssmption` had to have `this` bound in order to work.
+
