@@ -701,3 +701,13 @@ Holy Crap! Blocks don't create new scope in Javascript.
 And variable definitions (not assignments) get moved (or 
 [hoisted](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html))
 to the top of their enclosing function scope before execution.
+
+## 2014-02-09 21:41 Sunday
+
+No, seriously, this asynchronous malarky is just mental.  Don't initialize
+members in their declaration if the value depends on anything else. This
+bit me where I was picking up values of our global variable
+`Aptivate.collections`.  This gets set up in `main.js` in what I'm calling
+'run time' but the body of the class definition is executed at `load
+time`, which we cannot rely upon when loading asynchronously with require.
+
