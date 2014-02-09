@@ -741,3 +741,11 @@ common to nest collections inside models.
 
 [This tutorial](http://css.dzone.com/articles/backbone-relational-tutorial)
 refers to something called [backbone-relational](http://backbonerelational.org/)
+
+## 2014-02-09 22:19 Sunday
+
+Our `collections` module had implicit dependency on our `models` module
+because it referred to model names via Aptivate.<model>. But we can't
+guarantee the order in which `models` and `collections` get loaded
+so this dependency is not necessarily met by referring to the global 
+variable. Explicit dependencies looking ever more appealing.
