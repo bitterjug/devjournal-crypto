@@ -737,7 +737,9 @@ I want by magic logic, or create separate collections for each `Result`?
 And how to associate those collections with the `Result` model objects?
 
 The [Backbone docs](http://backbonejs.org/#FAQ-nested) say it's
-common to nest collections inside models.
+common to nest collections inside models. The example shows an example
+of a collection whose url is specific to its owning model object (implying
+nested url scheme for API, which my gut still tells me we should be using)
 
 [This tutorial](http://css.dzone.com/articles/backbone-relational-tutorial)
 refers to something called [backbone-relational](http://backbonerelational.org/)
@@ -746,6 +748,6 @@ refers to something called [backbone-relational](http://backbonerelational.org/)
 
 Our `collections` module had implicit dependency on our `models` module
 because it referred to model names via Aptivate.<model>. But we can't
-guarantee the order in which `models` and `collections` get loaded
-so this dependency is not necessarily met by referring to the global 
-variable. Explicit dependencies looking ever more appealing.
+guarantee the order in which `models` and `collections` get loaded so this
+dependency is not necessarily met by referring to the global variable.
+Explicit dependencies looking ever more appealing.
