@@ -711,3 +711,12 @@ bit me where I was picking up values of our global variable
 'run time' but the body of the class definition is executed at `load
 time`, which we cannot rely upon when loading asynchronously with require.
 
+
+I'm wondering whether instead of a global variable we'd be better
+keeping these things in a module object and managing dependencies
+explicitly with require. Having written that down it sounds like
+a complete no brainer. Hmm.
+
+## 2014-02-09 21:44 Sunday
+
+And another thing: 
