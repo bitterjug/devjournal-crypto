@@ -694,3 +694,10 @@ http://requirejs.org/docs/api.html#data-main
 
 
 
+
+## 2014-02-09 20:11 Sunday
+
+Holy Crap! Blocks don't create new scope in Javascript.
+And variable definitions (not assignments) get moved (or 
+[hoisted](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html))
+to the top of their enclosing function scope before execution.
