@@ -719,4 +719,9 @@ a complete no brainer. Hmm.
 
 ## 2014-02-09 21:44 Sunday
 
-And another thing: 
+And another thing: we using `backbone-subview` to let the dom elements
+tell us which views to attach where. And we're creating a view per field
+for the inline editing. IT might be possible to use a per-model view and
+let the dom elements specify which field they are interested in.
+See "Inline binding declarations" in 
+[epoxyjs](http://epoxyjs.org/tutorials.html#simple-bindings)
