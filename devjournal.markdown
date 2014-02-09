@@ -725,3 +725,19 @@ for the inline editing. IT might be possible to use a per-model view and
 let the dom elements specify which field they are interested in.
 See "Inline binding declarations" in 
 [epoxyjs](http://epoxyjs.org/tutorials.html#simple-bindings)
+
+## 2014-02-09 21:52 Sunday
+
+How do we manage one-to-many relationships among models?  E.g. Assumptions
+per Result? At the time of writing I have a single global collection for
+the assumptions, and its url that of all the assumptions in the API. If I
+were to `fetch()` them, I'd end up with many more than I want. Should I
+populate the collection with all the `Assumptions`, and select only those
+I want by magic logic, or create separate collections for each `Result`?
+And how to associate those collections with the `Result` model objects?
+
+The [Backbone docs](http://backbonejs.org/#FAQ-nested) say it's
+common to nest collections inside models.
+
+[This tutorial](http://css.dzone.com/articles/backbone-relational-tutorial)
+refers to something called [backbone-relational](http://backbonerelational.org/)
