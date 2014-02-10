@@ -796,6 +796,15 @@ Finally,
 [this](http://stackoverflow.com/questions/15815216/passing-arguments-to-a-backbone-views-constructor)
 is how you access parameters to constructors.
 
+Or perhaps not. Doesn't seem to work. Try this instead:
+
+``` javascript
+
+        initialize: function(options){
+            this.stuff = options.stuff;
+        }
+```
+
 ## 2014-02-10 16:14 Monday
 
 How confident am I that hierarchical models work?
@@ -818,5 +827,9 @@ with the result.
         - maybe a `render()` to display values already in the collection, and
           to call on `reset` events?
         - some wiring to update its view when values change
+
+
+
+## 2014-02-10 16:43 Monday
 
 
