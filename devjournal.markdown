@@ -781,7 +781,8 @@ From Marko:
 
 * How confident that hierarchical models work?
 
-  * Test
+  * Test update -- do we have to include the parent id or can the API infer it
+    from the URL?
 
 * Pretend the Assumptions collection we have is the one for the selected result
 
