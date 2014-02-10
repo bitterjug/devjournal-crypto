@@ -839,11 +839,3 @@ Javascript vim options
  - [ ] snippet for define([ ], function{ ... })
 
 
-
-## 2014-02-10 16:50 Monday
-
-
-
-## 2014-02-10 16:51 Monday
-
-
