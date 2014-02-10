@@ -845,3 +845,9 @@ Javascript vim options
 Here's a generic 
 [collection view ](https://github.com/anthonyshort/backbone.collectionview)
 for Backbone.
+
+## 2014-02-10 17:15 Monday
+
+Just exactly how the hell do you access arbitrary argument lists in JavaScript
+functions? 
+[Like this](https://javascriptweblog.wordpress.com/2011/01/18/javascripts-arguments-object-and-beyond/)
