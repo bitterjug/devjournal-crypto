@@ -779,14 +779,9 @@ From Marko:
 
 ## 2014-02-10 11:09 Monday
 
-* How confident that hierarchical models work?
+* [x] Pretend the Assumptions collection we have is the one for the selected result
 
-  * Test update -- do we have to include the parent id or can the API infer it
-    from the URL?
-
-* Pretend the Assumptions collection we have is the one for the selected result
-
-* Build a subset of the structured data:
+* [x] Build a subset of the structured data:
 
 ```
     Result: Model ------> :Collection ------*> Assumptions:Model
@@ -800,3 +795,12 @@ From Marko:
 Finally,
 [this](http://stackoverflow.com/questions/15815216/passing-arguments-to-a-backbone-views-constructor)
 is how you access parameters to constructors.
+
+## 2014-02-10 16:14 Monday
+
+How confident am I that hierarchical models work?
+  * Test update -- do we have to include the parent id or can the API infer it
+    from the URL?
+
+
+
