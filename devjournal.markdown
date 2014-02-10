@@ -794,3 +794,9 @@ From Marko:
 ```
 
 * For the time being, let ResultPage have a reference to the result object
+
+## 2014-02-10 15:05 Monday
+
+Finally,
+[this](http://stackoverflow.com/questions/15815216/passing-arguments-to-a-backbone-views-constructor)
+is how you access parameters to constructors.
