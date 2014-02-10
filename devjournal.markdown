@@ -681,9 +681,11 @@ NOTE: `addEmptyAssmption` had to have `this` bound in order to work.
 ## 2014-02-08 20:55 Saturday
 
 [This article](http://alexkehayias.tumblr.com/post/26630944947/backbone-in-the-wild-lessons-learned-using-backbone-js) 
-by a django dev writing backbone talks about how to boostrap your app with a view for the whole thing, and other hints.
+by a django dev writing backbone talks about how to bootstrap your app with a view for the whole thing, and other hints.
 
 Also recommends one view/model per file when working with require
+
+See also [This one on Zombies](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/)
 
 ## 2014-02-08 21:37 Saturday
 
@@ -751,3 +753,13 @@ because it referred to model names via Aptivate.<model>. But we can't
 guarantee the order in which `models` and `collections` get loaded so this
 dependency is not necessarily met by referring to the global variable.
 Explicit dependencies looking ever more appealing.
+
+## 2014-02-10 09:01 Monday
+
+
+From Marko:
+
+> I just remembered another possible problem. I *think* django rest
+> doesn't return anything on POST but we want it to return created object
+> so we get its id. Without it we can't update it later. Not sure how to
+> do that but hopefully there's an app for it. 
