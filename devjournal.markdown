@@ -754,7 +754,7 @@ dependency is not necessarily met by referring to the global variable.
 Explicit dependencies looking ever more appealing.
 
 
-#rest-framework
+@rest-framework
 
 ## 2014-02-10 09:01 Monday
 
@@ -766,7 +766,7 @@ From Marko:
 > do that but hopefully there's an app for it. 
 
 
-#zombies
+@zombies
 
 ## 2014-02-10 09:34 Monday
 
@@ -775,7 +775,7 @@ From Marko:
 * [Zombies](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/)
 
 
-#v4c
+@v4c
 
 ## 2014-02-10 11:09 Monday
 
@@ -848,6 +848,6 @@ for Backbone.
 
 ## 2014-02-10 17:15 Monday
 
-Just exactly how the hell do you access arbitrary argument lists in JavaScript
+Just exactly how the hell do you access arbitrary argument lists in @JavaScript
 functions? 
 [Like this](https://javascriptweblog.wordpress.com/2011/01/18/javascripts-arguments-object-and-beyond/)
