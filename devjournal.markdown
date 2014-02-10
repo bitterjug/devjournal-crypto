@@ -821,12 +821,13 @@ with the result.
     * For the time being, just `fetch()` it. -- later we can set it up with a
       smarter URL or some query parameters to get the right ones.
  
-- [x] Use that collection as the one that gets rendered on the page.
+* [x] Use that collection as the one that gets rendered on the page.
 
-- [ ] `assumotion/list-view` needs :-
-        - maybe a `render()` to display values already in the collection, and
-          to call on `reset` events?
-        - some wiring to update its view when values change
+* `assumotion/list-view` needs :-
+        - [ ] maybe a `render()` to display values already in the collection,
+          and to call on `reset` events?
+        - [x] some wiring to update its view when values change -- already has
+          it
 
 
 ## 2014-02-10 16:45 Monday
@@ -840,5 +841,9 @@ Javascript vim options
 
 
 ## 2014-02-10 16:50 Monday
+
+
+
+## 2014-02-10 16:51 Monday
 
 
