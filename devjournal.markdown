@@ -808,8 +808,12 @@ How confident am I that hierarchical models work?
 We now have two two Assumptions collections: the global one and one associated
 with the result.
 
-* [ ] Get data into the Result's one.
+* [x] Get data into the Result's one.
     * For the time being, just `fetch()` it. -- later we can set it up with a
       smarter URL or some query parameters to get the right ones.
  
 - [ ] Use that collection as the one that gets rendered on the page.
+
+## 2014-02-10 16:27 Monday
+
+
