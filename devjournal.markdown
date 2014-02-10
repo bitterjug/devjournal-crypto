@@ -839,3 +839,9 @@ Javascript vim options
  - [ ] snippet for define([ ], function{ ... })
 
 
+
+## 2014-02-10 16:58 Monday
+
+Here's a generic 
+[collection view ](https://github.com/anthonyshort/backbone.collectionview)
+for Backbone.
