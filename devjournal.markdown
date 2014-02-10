@@ -821,7 +821,7 @@ with the result.
     * For the time being, just `fetch()` it. -- later we can set it up with a
       smarter URL or some query parameters to get the right ones.
  
-- [ ] Use that collection as the one that gets rendered on the page.
+- [x] Use that collection as the one that gets rendered on the page.
 
 - [ ] `assumotion/list-view` needs :-
         - maybe a `render()` to display values already in the collection, and
@@ -836,5 +836,9 @@ Javascript vim options
  - [ ] set number
  - [ ] 80 character lines
  - [ ] snippet for define([ ], function{ ... })
+
+
+
+## 2014-02-10 16:50 Monday
 
 
