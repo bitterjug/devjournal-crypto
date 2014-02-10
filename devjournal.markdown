@@ -829,7 +829,12 @@ with the result.
         - some wiring to update its view when values change
 
 
+## 2014-02-10 16:45 Monday
 
-## 2014-02-10 16:43 Monday
+Javascript vim options
+ - [ ] better syntax highlighting
+ - [ ] set number
+ - [ ] 80 character lines
+ - [ ] snippet for define([ ], function{ ... })
 
 
