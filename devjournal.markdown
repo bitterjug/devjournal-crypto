@@ -756,6 +756,8 @@ Explicit dependencies looking ever more appealing.
 ## 2014-02-10 09:01 Monday
 
 
+#rest-framework
+
 From Marko:
 
 > I just remembered another possible problem. I *think* django rest
@@ -763,6 +765,13 @@ From Marko:
 > so we get its id. Without it we can't update it later. Not sure how to
 > do that but hopefully there's an app for it. 
 
+## 2014-02-10 09:34 Monday
+
 #zombies
-[This article](http://alexkehayias.tumblr.com/post/26630944947/backbone-in-the-wild-lessons-learned-using-backbone-js) 
-See also [This one on Zombies](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/)
+
+[Clean this shit up](http://alexkehayias.tumblr.com/post/26630944947/backbone-in-the-wild-lessons-learned-using-backbone-js) 
+
+[Zombies](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/)
+
+
+
