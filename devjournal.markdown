@@ -814,6 +814,9 @@ with the result.
  
 - [ ] Use that collection as the one that gets rendered on the page.
 
-## 2014-02-10 16:27 Monday
+- [ ] `assumotion/list-view` needs :-
+        - maybe a `render()` to display values already in the collection, and
+          to call on `reset` events?
+        - some wiring to update its view when values change
 
 
