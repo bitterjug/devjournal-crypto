@@ -779,12 +779,18 @@ From Marko:
 
 ## 2014-02-10 11:09 Monday
 
+* How confident that hierarchical models work?
+
+** Test
+
 * Pretend the Assumptions collection we have is the one for the selected result
 
 * Build a subset of the structured data:
 
 ```
-    Result: Model ------> :Collection ---------*> Assumptions:Model
+    Result: Model ------> :Collection ------*> Assumptions:Model
 
 ```
+
+
 
