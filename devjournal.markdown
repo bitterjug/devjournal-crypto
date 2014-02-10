@@ -685,7 +685,6 @@ by a django dev writing backbone talks about how to bootstrap your app with a vi
 
 Also recommends one view/model per file when working with require
 
-See also [This one on Zombies](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/)
 
 ## 2014-02-08 21:37 Saturday
 
@@ -763,3 +762,7 @@ From Marko:
 > doesn't return anything on POST but we want it to return created object
 > so we get its id. Without it we can't update it later. Not sure how to
 > do that but hopefully there's an app for it. 
+
+#zombies
+[This article](http://alexkehayias.tumblr.com/post/26630944947/backbone-in-the-wild-lessons-learned-using-backbone-js) 
+See also [This one on Zombies](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/)
