@@ -753,10 +753,10 @@ guarantee the order in which `models` and `collections` get loaded so this
 dependency is not necessarily met by referring to the global variable.
 Explicit dependencies looking ever more appealing.
 
-## 2014-02-10 09:01 Monday
-
 
 #rest-framework
+
+## 2014-02-10 09:01 Monday
 
 From Marko:
 
@@ -765,11 +765,26 @@ From Marko:
 > so we get its id. Without it we can't update it later. Not sure how to
 > do that but hopefully there's an app for it. 
 
-## 2014-02-10 09:34 Monday
 
 #zombies
+
+## 2014-02-10 09:34 Monday
 
 * [Clean this shit up](http://alexkehayias.tumblr.com/post/26630944947/backbone-in-the-wild-lessons-learned-using-backbone-js) 
 
 * [Zombies](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/)
+
+
+#v4c
+
+## 2014-02-10 11:09 Monday
+
+* Pretend the Assumptions collection we have is the one for the selected result
+
+* Build a subset of the structured data:
+
+    Result: Model
+              `------> :Collection
+                              `---------*> Assumptions:Model
+
 
