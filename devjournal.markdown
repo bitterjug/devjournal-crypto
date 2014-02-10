@@ -793,5 +793,4 @@ From Marko:
 
 ```
 
-
-
+* For the time being, let ResultPage have a reference to the result object
