@@ -783,6 +783,8 @@ From Marko:
 
 * Build a subset of the structured data:
 
+```
     Result: Model ------> :Collection ---------*> Assumptions:Model
 
+```
 
