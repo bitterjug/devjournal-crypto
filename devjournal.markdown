@@ -887,6 +887,3 @@ But that's ugly. So I'm preferring:
 - [ ] Add a subview for indicator container
 - [ ] add editabble name and description parts
 
-## 2014-02-11 13:21 Tuesday
-
-
