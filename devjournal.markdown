@@ -887,3 +887,7 @@ But that's ugly. So I'm preferring:
 - [ ] Add a subview for indicator container
 - [ ] add editabble name and description parts
 
+
+## 2014-02-11 14:00 Tuesday
+
+One day, when Git is a pain, try [Gitv](http://www.gregsexton.org/portfolio/gitv/) for vim.
