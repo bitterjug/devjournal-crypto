@@ -835,6 +835,7 @@ with the result.
 ## 2014-02-10 16:45 Monday
 
 Javascript vim options
+ - [x] syntastic checkinng with jshint
  - [ ] better syntax highlighting
  - [ ] set number
  - [ ] 80 character lines
@@ -885,3 +886,7 @@ But that's ugly. So I'm preferring:
 - [ ] Attach it to the result.indicators
 - [ ] Add a subview for indicator container
 - [ ] add editabble name and description parts
+
+## 2014-02-11 13:21 Tuesday
+
+
