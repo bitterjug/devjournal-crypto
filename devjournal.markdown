@@ -893,4 +893,7 @@ But that's ugly. So I'm preferring:
 One day, when Git is a pain, try [Gitv](http://www.gregsexton.org/portfolio/gitv/) for @vim
 
 
+## 2014-02-11 14:23 Tuesday
 
+[Backbone.CollectionView](https://github.com/rotundasoftware/backbone.collectionView/blob/master/src/backbone.collectionView.js)
+uses a collection container to "store, retrieve and shut-down" subviews.
