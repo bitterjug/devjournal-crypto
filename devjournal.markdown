@@ -856,3 +856,8 @@ functions?
 
 
 
+
+## 2014-02-11 10:56 Tuesday
+
+We have separate definitions for collections but maybe we don't need them,
+maybe they are simple customizations of  standard collections.
