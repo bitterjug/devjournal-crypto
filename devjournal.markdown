@@ -877,3 +877,11 @@ But that's ugly. So I'm preferring:
 
     var Xs = Backbone.Collection.extend({...}));
     new Xs();
+
+## 2014-02-11 12:12 Tuesday
+
+- [ ] Make indicator-list subview which gets installed in the whole
+  middle frame under the ribbon.
+- [ ] Attach it to the result.indicators
+- [ ] Add a subview for indicator container
+- [ ] add editabble name and description parts
