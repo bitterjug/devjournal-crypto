@@ -836,10 +836,20 @@ with the result.
 
 Javascript vim options
  - [x] syntastic checkinng with jshint
- - [ ] better syntax highlighting
- - [ ] set number
- - [ ] 80 character lines
+ - [ ] better syntax highlighting.
+
+       The `vim-javascript-syntax` plugin tries to highlight the arg list of
+       anonymous functions as a function name. @fail @vim @javascript. Maybe
+       the one it's branched from is better?
+
+ - [x] set number
+ - [x] 80 character lines
  - [ ] snippet for define([ ], function{ ... })
+
+       Doesn't work. Maybe UltiSnips isnt getting my tabs any more.
+       Since I use it rarely, I could bind it to something harder to type.
+
+ - [ ] Find out how to remove trailing spaces
 
 
 
@@ -905,8 +915,4 @@ Have reconsidered
 [Backbone.CollectionView](https://github.com/rotundasoftware/backbone.collectionView/blob/master/src/backbone.collectionView.js)
 for the indicator list (quick scan of functionality) and currently I'm not seeing a close mapping with what we want.
 
-## 2014-02-11 15:21 Tuesday
 
-The `vim-javascript-syntax` plugin tries to highlight the arg list of anonymous
-functions as a function name. @fail @vim @javascript. Maybe the one it's
-branched from is better?
