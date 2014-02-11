@@ -916,3 +916,11 @@ Have reconsidered
 for the indicator list (quick scan of functionality) and currently I'm not seeing a close mapping with what we want.
 
 
+
+## 2014-02-11 15:46 Tuesday
+
+Don't be tempted -- as I  just was, to move `_.bindAll(...)` to the end of
+`initialize` if there are `listen_to` calls in there. It's imperative, not declarative:
+you have to _do it_ to those methods before setting them as event handler callbacks.
+
+
