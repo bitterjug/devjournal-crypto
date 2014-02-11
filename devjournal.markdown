@@ -904,3 +904,9 @@ uses a collection container to "store, retrieve and shut-down" subviews.
 Have reconsidered 
 [Backbone.CollectionView](https://github.com/rotundasoftware/backbone.collectionView/blob/master/src/backbone.collectionView.js)
 for the indicator list (quick scan of functionality) and currently I'm not seeing a close mapping with what we want.
+
+## 2014-02-11 15:21 Tuesday
+
+The `vim-javascript-syntax` plugin tries to highlight the arg list of anonymous
+functions as a function name. @fail @vim @javascript. Maybe the one it's
+branched from is better?
