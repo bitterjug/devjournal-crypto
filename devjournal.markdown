@@ -923,4 +923,9 @@ Don't be tempted -- as I  just was, to move `_.bindAll(...)` to the end of
 `initialize` if there are `listen_to` calls in there. It's imperative, not declarative:
 you have to _do it_ to those methods before setting them as event handler callbacks.
 
+## 2014-02-11 16:52 Tuesday
 
+Refactored more generic `ListView` out of `AssumptionList`. Used it as the basis for Indicator list.
+Problem is it currently tries to render as a list, which might not be what we want. I suspect the original
+app used either embedded tables or divs, so I might have to remove the list dependency from `Listview`, or at least
+make it overridable.
