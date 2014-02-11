@@ -855,9 +855,25 @@ functions?
 [Like this](https://javascriptweblog.wordpress.com/2011/01/18/javascripts-arguments-object-and-beyond/)
 
 
-
-
 ## 2014-02-11 10:56 Tuesday
 
 We have separate definitions for collections but maybe we don't need them,
 maybe they are simple customizations of  standard collections.
+
+## 2014-02-11 12:03 Tuesday
+
+Removed the custom collection class definitions for a Assumptions and Indicators.
+There still needs to be a class definition:
+
+This:
+
+    new Backbone.Collection.extend({...})();
+
+Doesn't work. The association is wrong. I guess this would work:
+
+    (new Backbone.Collection.extend({...}))();
+
+But that's ugly. So I'm preferring:
+
+    var Xs = Backbone.Collection.extend({...}));
+    new Xs();
