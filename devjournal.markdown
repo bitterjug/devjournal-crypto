@@ -897,3 +897,10 @@ One day, when Git is a pain, try [Gitv](http://www.gregsexton.org/portfolio/gitv
 
 [Backbone.CollectionView](https://github.com/rotundasoftware/backbone.collectionView/blob/master/src/backbone.collectionView.js)
 uses a collection container to "store, retrieve and shut-down" subviews.
+
+## 2014-02-11 14:26 Tuesday
+
+
+Have reconsidered 
+[Backbone.CollectionView](https://github.com/rotundasoftware/backbone.collectionView/blob/master/src/backbone.collectionView.js)
+for the indicator list (quick scan of functionality) and currently I'm not seeing a close mapping with what we want.
