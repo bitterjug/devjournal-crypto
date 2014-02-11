@@ -618,9 +618,11 @@ Javascript developmentin vim:
 - [ ] check syntax on save -- syntastic plugin?
 - [ ] highlighting: highlight function names as headings 
     and method names in objects
-# v4c
+- [ ] Editor tools like [Tern](http://ternjs.net/doc/manual.html)
 
 ## 2014-02-06 14:29 Thursday
+
+@v4c
 
  * Use a backbone router -- to trigger different entry point 
    functions .
@@ -851,3 +853,6 @@ for Backbone.
 Just exactly how the hell do you access arbitrary argument lists in @JavaScript
 functions? 
 [Like this](https://javascriptweblog.wordpress.com/2011/01/18/javascripts-arguments-object-and-beyond/)
+
+
+
