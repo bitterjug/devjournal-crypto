@@ -1049,3 +1049,12 @@ Because we can set that stuff as options on the view and also pass them
 to the template ccontext. 
 
 
+
+## 2014-02-12 23:56 Wednesday
+
+Next priority is to link the assumptions and indicators to the selected result objectt.
+
+ - [ ] Check out if what nested routes in the API do if you post something
+ with the wrong key value.
+ - [ ] Merge that branch with dev and try build the urls for the sub-models based on their owning ones.
+ - [ ] See what happens when you save POST to those urls
