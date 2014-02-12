@@ -1034,9 +1034,18 @@ per object.
 ## 2014-02-12 23:38 Wednesday
 
 Finnally managed to do the refactor I spent all afternoon attempting
-where the small, declarative subclasses of `Input` view get replaced
+where the small, declarative subclasses of `InputView` view get replaced
 wtih inline declarations. Reduced tne overall number of lines.
 
-I'm noping
+I'm noping we can make `InputView` into an even more generic `EditableView`
+(stareted referring to it ass that in anticipation) that will allow us
+to generically specify:
+
+ - the input element
+ - placeholder text, 
+ - etc
+
+Because we can set that stuff as options on the view and also pass them
+to the template ccontext. 
 
 
