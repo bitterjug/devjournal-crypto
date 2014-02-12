@@ -968,8 +968,28 @@ for backbone, in coffeescript
 
 ## 2014-02-12 11:47 Wednesday
 
-Having touble with the difference between subclassing and instantiating.
-AFIK in a prototype based language these should be the same. But
-I'm guessing the Backbone's View only copies certain properties into
-instances when you instantiate. Whereas somehow when I create my own
-subclass and instantiate that I can pass anything through. Eek.
+Having touble with the difference between subclassing and instantiating.  AFIK
+in a prototype based language these should be the same. But I'm guessing the
+Backbone's View only copies certain properties into instances when you
+instantiate. Whereas somehow when I create my own subclass and instantiate that
+I can pass anything through. Eek.
+
+## 2014-02-12 14:34 Wednesday
+
+Turns out the functructor for `Backbone.View` only copies properties from `options` 
+to `this` if they are listed in `viewOptions`. 
+
+```javascript
+  var View = Backbone.View = function(options) {
+    ...
+    options || (options = {});
+    _.extend(this, _.pick(options, viewOptions));
+    ...
+  };
+
+  // List of view options to be merged as properties.
+  var viewOptions = ['model', 'collection', 'el', 'id', 'attributes', 'className', 'tagName', 'events'];
+```
+
+But
+
