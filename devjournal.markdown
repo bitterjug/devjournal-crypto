@@ -968,4 +968,8 @@ for backbone, in coffeescript
 
 ## 2014-02-12 11:47 Wednesday
 
-
+Having touble with the difference between subclassing and instantiating.
+AFIK in a prototype based language these should be the same. But
+I'm guessing the Backbone's View only copies certain properties into
+instances when you instantiate. Whereas somehow when I create my own
+subclass and instantiate that I can pass anything through. Eek.
