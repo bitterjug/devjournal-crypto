@@ -1017,4 +1017,8 @@ is a bit tricky because extend puts new features on the prototype
 whereas instantiation passes them to the constructor -- whuc then
 passes them on to initialize. And in there if we copy values
 to `this`, we risk overwriting values added with `.extend()`
-with `undefined`, if the value isn't in options.
+with `undefined`, if the value isn't in options. And at the moemnt
+we seem to do some of each.
+
+
+
