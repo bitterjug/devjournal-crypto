@@ -940,16 +940,18 @@ Simply added it to the instantiation in Result Container.
 
 So now my list to do looks like this:
 
-- [x] Make indicator-list sub-view which gets installed in the whole
-  middle frame under the ribbon.
+- [x] Make indicator-list sub-view which gets installed in the whole middle
+  frame under the ribbon.
 - [x] Attach it to the result.indicators
 - [x] Add a sub-view for indicator container
 - [ ] add editable name and description parts
 - [ ] Make sure the update/save logic works and adds a new row
-- [ ] Can we get rid of the simple subclasses of `InputView` if they do
-  nothing more than set values like template and attributes, they could be
-  inlined where they are instantiated.
+- [ ] Can we get rid of the simple subclasses of `InputView` if they do nothing
+  more than set values like template and attributes, they could be inlined
+  where they are instantiated.
 - [ ] Check why I can't save assumptions, and maybe write a test for it.
+- [ ] I just added a `indicator-name.handlebars` which is _the same_ as
+  `result-name.handlebars`. Refactor that shit!
 
 - [ ] Can we have a generic xxxx-container view?
 
@@ -962,4 +964,8 @@ So now my list to do looks like this:
 
 Here is [in-place editing](https://github.com/hendrikbeneke/backbone-editable/blob/master/backbone_editable.js.coffee) 
 for backbone, in coffeescript
+
+
+## 2014-02-12 11:47 Wednesday
+
 
