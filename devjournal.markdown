@@ -984,6 +984,7 @@ to `this` if they are listed in `viewOptions`.
     ...
     options || (options = {});
     _.extend(this, _.pick(options, viewOptions));
+    this.initialize.apply(this, arguments);
     ...
   };
 
@@ -991,5 +992,6 @@ to `this` if they are listed in `viewOptions`.
   var viewOptions = ['model', 'collection', 'el', 'id', 'attributes', 'className', 'tagName', 'events'];
 ```
 
-But
+But the same arguments that the constructor gets are also passed to `initialize`.
+
 
