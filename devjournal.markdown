@@ -951,3 +951,8 @@ So now my list to do looks like this:
   inlined where they are instantiated.
 - [ ] Check why I can't save assumptions, and maybe write a test for it.
 
+- [ ] Can we have a generic xxxx-container view?
+
+## 2014-02-12 11:26 Wednesday
+
+
