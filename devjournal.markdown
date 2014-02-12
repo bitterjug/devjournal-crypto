@@ -949,4 +949,5 @@ So now my list to do looks like this:
 - [ ] Can we get rid of the simple subclasses of `InputView` if they do
   nothing more than set values like template and attributes, they could be
   inlined where they are instantiated.
+- [ ] Check why I can't save assumptions, and maybe write a test for it.
 
