@@ -928,4 +928,18 @@ you have to _do it_ to those methods before setting them as event handler callba
 Refactored more generic `ListView` out of `AssumptionList`. Used it as the basis for Indicator list.
 Problem is it currently tries to render as a list, which might not be what we want. I suspect the original
 app used either embedded tables or divs, so I might have to remove the list dependency from `Listview`, or at least
-make it overridable.
+make it overridable. 
+
+## 2014-02-12 09:50 Wednesday
+
+Turns out the tag in `Listview` is overridable in the normal way.
+Simply added it to the instantiation in Result Container.
+
+So now my list to do looks like this:
+
+- [x] Make indicator-list sub-view which gets installed in the whole
+      middle frame under the ribbon.
+- [x] Attach it to the result.indicators
+- [x] Add a sub-view for indicator container
+- [ ] add editable name and description parts
+- [ ] Make sure the update/save logic works and adds a new row
