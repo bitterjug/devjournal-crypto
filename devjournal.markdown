@@ -950,7 +950,7 @@ So now my list to do looks like this:
   more than set values like template and attributes, they could be inlined
   where they are instantiated.
 - [x] Check why I can't save assumptions, and maybe write a test for it.
-- [ ] I just added a `indicator-name.handlebars` which is _the same_ as
+- [x] I just added a `indicator-name.handlebars` which is _the same_ as
   `result-name.handlebars`. Refactor that shit!
 
 - [ ] Can we have a generic xxxx-container view?
