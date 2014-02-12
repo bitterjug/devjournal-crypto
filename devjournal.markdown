@@ -1007,3 +1007,14 @@ my `initialize`.
       ...
 
 ```
+
+## 2014-02-12 16:21 Wednesday
+
+Abortive attempt to refactor out the remaining duplication
+of simple views by writing init methods on our generic views
+that copy their required parameters from `options`.  This
+is a bit tricky because extend puts new features on the prototype
+whereas instantiation passes them to the constructor -- whuc then
+passes them on to initialize. And in there if we copy values
+to `this`, we risk overwriting values added with `.extend()`
+with `undefined`, if the value isn't in options.
