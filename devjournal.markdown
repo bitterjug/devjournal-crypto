@@ -1021,4 +1021,13 @@ with `undefined`, if the value isn't in options. And at the moemnt
 we seem to do some of each.
 
 
+## 2014-02-12 22:40 Wednesday
+
+There is a cunning `_.once()` in Underscorejs, but it doesn't do what
+I hoped it would: Instead of caching the results of a method per
+object, it caches the results of the the function once forever,
+irrespective of object.  There is also `memorize`, but this
+is similar: caches multiple results for efficiency but not
+per object. 
+
 
