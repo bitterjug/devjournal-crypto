@@ -950,6 +950,3 @@ So now my list to do looks like this:
   nothing more than set values like template and attributes, they could be
   inlined where they are instantiated.
 
-## 2014-02-12 10:05 Wednesday
-
-
