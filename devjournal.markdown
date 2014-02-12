@@ -938,8 +938,11 @@ Simply added it to the instantiation in Result Container.
 So now my list to do looks like this:
 
 - [x] Make indicator-list sub-view which gets installed in the whole
-      middle frame under the ribbon.
+  middle frame under the ribbon.
 - [x] Attach it to the result.indicators
 - [x] Add a sub-view for indicator container
 - [ ] add editable name and description parts
 - [ ] Make sure the update/save logic works and adds a new row
+- [ ] Can we get rid of the simple subclasses of `InputView` if they do
+  nothing more than set values like template and attributes, they could be
+  inlined where they are instantiated.
