@@ -953,6 +953,7 @@ So now my list to do looks like this:
 
 - [ ] Can we have a generic xxxx-container view?
 
-## 2014-02-12 11:26 Wednesday
+## 2014-02-12 11:29 Wednesday
 
+- [ ] Find out how pymode removes trailing white space and do it to Javascript
 
