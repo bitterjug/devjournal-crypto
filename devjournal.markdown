@@ -944,12 +944,12 @@ So now my list to do looks like this:
   frame under the ribbon.
 - [x] Attach it to the result.indicators
 - [x] Add a sub-view for indicator container
-- [ ] add editable name and description parts
-- [ ] Make sure the update/save logic works and adds a new row
-- [ ] Can we get rid of the simple subclasses of `InputView` if they do nothing
+- [x] add editable name and description parts
+- [x] Make sure the update/save logic works and adds a new row
+- [x] Can we get rid of the simple subclasses of `InputView` if they do nothing
   more than set values like template and attributes, they could be inlined
   where they are instantiated.
-- [ ] Check why I can't save assumptions, and maybe write a test for it.
+- [x] Check why I can't save assumptions, and maybe write a test for it.
 - [ ] I just added a `indicator-name.handlebars` which is _the same_ as
   `result-name.handlebars`. Refactor that shit!
 
@@ -1033,5 +1033,10 @@ per object.
 
 ## 2014-02-12 23:38 Wednesday
 
-Finnally managed to 
+Finnally managed to do the refactor I spent all afternoon attempting
+where the small, declarative subclasses of `Input` view get replaced
+wtih inline declarations. Reduced tne overall number of lines.
+
+I'm noping
+
 
