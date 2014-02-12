@@ -1,3 +1,6 @@
+<!--
+vim: sw=2 ft=ghmarkdown
+-->
 Writing note.sh
 =================
 
@@ -946,3 +949,7 @@ So now my list to do looks like this:
 - [ ] Can we get rid of the simple subclasses of `InputView` if they do
   nothing more than set values like template and attributes, they could be
   inlined where they are instantiated.
+
+## 2014-02-12 10:05 Wednesday
+
+
