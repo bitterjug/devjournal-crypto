@@ -1005,7 +1005,6 @@ my `initialize`.
             this.newModelOptions = options.newModelOptions;
             this.options = _.clone(options);
       ...
-
 ```
 
 ## 2014-02-12 16:21 Wednesday
@@ -1030,4 +1029,9 @@ irrespective of object.  There is also `memorize`, but this
 is similar: caches multiple results for efficiency but not
 per object. 
 
+
+
+## 2014-02-12 23:38 Wednesday
+
+Finnally managed to 
 
