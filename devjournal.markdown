@@ -993,5 +993,21 @@ to `this` if they are listed in `viewOptions`.
 ```
 
 But the same arguments that the constructor gets are also passed to `initialize`.
+So I can explicitly copy the additional ones I want over onto `this` inside
+my `initialize`.
+
+```javascript
+    var ListView = Backbone.View.extend({
+
+        initialize: function (options) {
+            this.items = options.collection;
+            this.itemView = options.itemView;
+            this.newModelOptions = options.newModelOptions;
+            this.options = _.clone(options);
+      ...
+
+```
+
+## 2014-02-12 14:56 Wednesday
 
 
