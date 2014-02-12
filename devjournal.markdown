@@ -957,3 +957,9 @@ So now my list to do looks like this:
 
 - [ ] Find out how pymode removes trailing white space and do it to Javascript
 
+
+## 2014-02-12 11:45 Wednesday
+
+Here is [in-place editing](https://github.com/hendrikbeneke/backbone-editable/blob/master/backbone_editable.js.coffee) 
+for backbone, in coffeescript
+
