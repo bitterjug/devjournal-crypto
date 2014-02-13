@@ -1082,3 +1082,9 @@ current solution below:
    stuff being used for other purposes.
  - `extend` `this` so as not to set the instance attribute if its not defined
    in `options`. (I had a problem befoproe setting it to `undefined`)
+
+## 2014-02-13 10:40 Thursday
+
+Looking at the nested routes version of the API:
+
+- [ ] The trailing slash is back: how do we get rid of that?
