@@ -1137,13 +1137,31 @@ from it is possible to use some [standard django filtering
 framework](http://www.django-rest-framework.org/api-guide/filtering#djangofilterbackend)
 to add filtering options).
 
- - When you create 
+ - When you create a nested router, you can pass the lookup field which
+   determines the name of the regexp match parameter for the parent single-item
+   url. IT gets the name of the lookup field from the parent appended to it
+   (`pk` by default) so in this case below:
 
- ```python
+``` python
     logframe_router = routers.NestedSimpleRouter(
         router,
         r'logframes',
         lookup='log_frame_',
     )
     logframe_router.register(r'results', ResultViewSet)
-  ```
+```
+
+ I end up inside the view with `self.kwargs = { 'log_frame_pk': 2 }` or
+ something, which I can pass directlyu to the manager to filter the results objects:
+
+
+``` python
+class ResultViewSet(viewsets.ModelViewSet):
+    model = Result
+    serializer_class = ResultSerializer
+
+    def get_queryset(self):
+        return Result.objects.filter(**self.kwargs)
+```
+
+  
