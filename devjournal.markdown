@@ -1136,3 +1136,14 @@ isn't much difference between using url components and query parameters (apart
 from it is possible to use some [standard django filtering
 framework](http://www.django-rest-framework.org/api-guide/filtering#djangofilterbackend)
 to add filtering options).
+
+ - When you create 
+
+ ```python
+    logframe_router = routers.NestedSimpleRouter(
+        router,
+        r'logframes',
+        lookup='log_frame_',
+    )
+    logframe_router.register(r'results', ResultViewSet)
+  ```
