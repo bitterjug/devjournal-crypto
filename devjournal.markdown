@@ -1156,12 +1156,12 @@ to add filtering options).
 
 
 ``` python
-class ResultViewSet(viewsets.ModelViewSet):
-    model = Result
-    serializer_class = ResultSerializer
+  class ResultViewSet(viewsets.ModelViewSet):
+      model = Result
+      serializer_class = ResultSerializer
 
-    def get_queryset(self):
-        return Result.objects.filter(**self.kwargs)
+      def get_queryset(self):
+          return Result.objects.filter(**self.kwargs)
 ```
 
   
