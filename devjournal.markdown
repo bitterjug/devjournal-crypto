@@ -1103,3 +1103,32 @@ Ok back to the drawing board.
 
 Let's fish out our properties with query parameters. Do we have those?
 
+
+## 2014-02-13 15:38 Thursday
+
+URL scheme design (after talking with Hamish).
+
+- Each Collection in the client has a url, 
+
+- It wants to be able to get from that url to get its contents
+
+- Since I have collections _per_ containing object (like assumptions _per_
+  result) I want a get to that url to get the assumptions for that result.  So
+  I'd like to be able to go to `/logframe/1/results` to get all the results for
+  the first logframe.
+
+- They also want to be able to put/post to those urls to create/update objects
+  And it might be convenient if we coul just put `{ 'description': "blah" }` to
+  `/result/5/assumptions` to create Assumption `{ result: 5, description: "blah" }`
+
+- Hamish says there are problems with urls of the form `/logframe/1/results/2`
+  beacuse what if result 2 actually belongs to logframe 4? Do we have to
+  validate this?  He suggests `/logframe/1/results` woul list the owned
+  results, but `/results/n` would be the cannical url for any given result.
+
+- The problem I have with this is that I don't want my collections to have
+  different urls to use for getting and putting.
+
+
+
+- I'd like to be
