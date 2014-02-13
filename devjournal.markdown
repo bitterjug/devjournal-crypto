@@ -1165,3 +1165,8 @@ to add filtering options).
 ```
 
   
+
+## 2014-02-13 17:10 Thursday
+
+- [ ] We might not want the python api views in @v4c to support get for
+  indivdual objects, instead we might jsut support lists and put/post?
