@@ -1087,8 +1087,8 @@ current solution below:
 
 Looking at the nested routes version of the API:
 
-- [-] The trailing slash is back: how do we get rid of that?
-- [-] Even worse! `/logframes/1/` and `/logframes/2/` give the same set of
+- [ ] The trailing slash is back: how do we get rid of that?
+- [x] Even worse! `/logframes/1/` and `/logframes/2/` give the same set of
   logframes, so even though the urls are nested, it's not iterpreting the key
   value at all at the moment.
 
@@ -1169,4 +1169,21 @@ to add filtering options).
 ## 2014-02-13 17:10 Thursday
 
 - [ ] We might not want the python api views in @v4c to support get for
-  indivdual objects, instead we might jsut support lists and put/post?
+   indivdual objects, instead we might jsut support lists and put/post?
+
+- [ ] Error checking for urls of the form: `/logframe/1/result/2/assumptions`
+  if result 2 doesn't belong to logframe 1. This is particularly important for
+  posting to these, where we might try and infer the id of the owning object
+  from the url. -- Though we could probably get away with a sloppy version that
+  only looks at the nearest parameter, so posting to
+  `/logframe/1/result/2/assumptions` wouldn't care if result 2 belonged to
+  logframe 1, but wuld create an assumption with result = 2, unless it
+  specified a different result id.  A more elegant solution would be t do
+  proper checking but we might wait until later for that.
+  
+          
+
+## 2014-02-13 17:18 Thursday
+
+- [ ] Make sure we can post to these urls to create, and then let them fill in
+  missing 'owner' values from the url.
