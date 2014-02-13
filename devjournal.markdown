@@ -1087,7 +1087,19 @@ current solution below:
 
 Looking at the nested routes version of the API:
 
-- [ ] The trailing slash is back: how do we get rid of that?
-- [ ] Even worse! `/logframes/1/` and `/logframes/2/` give the same set of
+- [-] The trailing slash is back: how do we get rid of that?
+- [-] Even worse! `/logframes/1/` and `/logframes/2/` give the same set of
   logframes, so even though the urls are nested, it's not iterpreting the key
   value at all at the moment.
+
+## 2014-02-13 12:44 Thursday
+
+OK I spent all morning trying to figure out how nested routes might
+possibly work; how they might select one object within another.
+AFACT it's only the url structure that it deals with and I Can't see
+how to select the queryset to work with. Pfft!
+
+Ok back to the drawing board.
+
+Let's fish out our properties with query parameters. Do we have those?
+
