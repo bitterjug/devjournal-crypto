@@ -1058,3 +1058,27 @@ Next priority is to link the assumptions and indicators to the selected result o
  with the wrong key value.
  - [ ] Merge that branch with dev and try build the urls for the sub-models based on their owning ones.
  - [ ] See what happens when you save POST to those urls
+
+## 2014-02-13 09:36 Thursday
+
+Here's a good trick. BaseView needs `template_selector` to work.  I want to be
+able to supply this either when extending or instantiating.  Extend simply adds
+it to the prototype, but instantiation needs to look for it in the provided
+options argument and copy it over, which by default it won't  because it's not
+one of the standard `viewOptions` that Backbone.View copies accross. My
+current solution below:
+
+``` javascript
+      constructor: function (options) {
+          Backbone.View.apply(this, arguments);
+          _.extend(this, _.pick(options, 'template_selector'));
+      },
+```
+
+ - override `constructor` to do this, to leave `initialize` free for subclasses
+   to redefinne safely.
+ - call the parent class's constructor explicitly (the only way to do it)
+ - `_pick` the require options from the options parameter not to get any other
+   stuff being used for other purposes.
+ - `extend` `this` so as not to set the instance attribute if its not defined
+   in `options`. (I had a problem befoproe setting it to `undefined`)
