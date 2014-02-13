@@ -1129,6 +1129,10 @@ URL scheme design (after talking with Hamish).
 - The problem I have with this is that I don't want my collections to have
   different urls to use for getting and putting.
 
+## 2014-02-13 16:31 Thursday
 
-
-- I'd like to be
+Since we have to roll our own filtering by parts of the URL anyways, there
+isn't much difference between using url components and query parameters (apart
+from it is possible to use some [standard django filtering
+framework](http://www.django-rest-framework.org/api-guide/filtering#djangofilterbackend)
+to add filtering options).
