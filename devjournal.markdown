@@ -1088,3 +1088,6 @@ current solution below:
 Looking at the nested routes version of the API:
 
 - [ ] The trailing slash is back: how do we get rid of that?
+- [ ] Even worse! `/logframes/1/` and `/logframes/2/` give the same set of
+  logframes, so even though the urls are nested, it's not iterpreting the key
+  value at all at the moment.
