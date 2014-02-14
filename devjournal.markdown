@@ -399,22 +399,24 @@ Can we do:
     - the whole journey
     - Definition of Done (it's done when you can do the following things
       with the system.) outline of steps to test manually
+
     - Every feature that has to be in the story should be listed before we
       start working on it.
-        - If there are mock-up images, are they "the spririt" or the exact
-          look of the things we have to build?
-        - A list of features that have to be there, if not directly
-          implied by the mock-ups.
-        - Anything that is not included is not part of the story (c.f.
-          story of boolean logical search, which entailed definition of a
-          grammar for the search language)
+
+        - If there are mock-up images, are they "the spririt" or the exact look
+          of the things we have to build?
+        - A list of features that have to be there, if not directly implied by
+          the mock-ups.
+        - Anything that is not included is not part of the story (c.f.  story
+          of boolean logical search, which entailed definition of a grammar for
+          the search language)
     - technical approach
-        - e.g save 'Outputs' they are several levels deep nested formsets
-          vs e.g.  backbone
+        - e.g save 'Outputs' they are several levels deep nested formsets vs
+          e.g.  backbone
         - Both are 'unknown' to some degree
         - Don't feel comfortable enough to estimate
-        - JAvascript approach don't just bung js files in a directory and
-          link to them.
+        - JAvascript approach don't just bung js files in a directory and link
+          to them.
         - Set up front-end environment, e.g. Grunt/Require.js, etc.
         - Need javascript tests, need automatic running/ build server
 
@@ -1217,4 +1219,8 @@ I don't want to do that.  What inference can Backbone do for itself?
 
 Models derive their url from url base, by adding their id to the end.
 The base comes either from `urlRoot`, or from `this.collection.url`.
+
+
+## 2014-02-14 11:14 Friday
+
 
