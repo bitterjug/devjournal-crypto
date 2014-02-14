@@ -1169,7 +1169,7 @@ to add filtering options).
 ## 2014-02-13 17:10 Thursday
 
 - [ ] We might not want the python api views in @v4c to support get for
-   indivdual objects, instead we might jsut support lists and put/post?
+   individual objects, instead we might jsut support lists and put/post?
 
 - [ ] Error checking for urls of the form: `/logframe/1/result/2/assumptions`
   if result 2 doesn't belong to logframe 1. This is particularly important for
@@ -1177,7 +1177,7 @@ to add filtering options).
   from the url. -- Though we could probably get away with a sloppy version that
   only looks at the nearest parameter, so posting to
   `/logframe/1/result/2/assumptions` wouldn't care if result 2 belonged to
-  logframe 1, but wuld create an assumption with result = 2, unless it
+  logframe 1, but would create an assumption with result = 2, unless it
   specified a different result id.  A more elegant solution would be t do
   proper checking but we might wait until later for that.
   
@@ -1185,11 +1185,22 @@ to add filtering options).
 
 ## 2014-02-13 17:18 Thursday
 
-- [ ] Make sure we can post to these urls to create, and then let them fill in
-  missing 'owner' values from the url.
+- [x] Make sure we can post to these urls to create, 
+- [ ] Make object creation on nested routes fill in the owning object's key
+  value from the URL if it is not set. (This isn't currently urgent because
+  the client side stores the owning object in list view, but I would like 
+  to see if that would go away.)
 
 ## 2014-02-14 09:29 Friday
 
 Here' because I don't know where else to put it, is 
 [Radio Swiss Jazz](http://www.radioswissjazz.ch/live/mp3.m3u)
+
+
+## 2014-02-14 10:24 Friday
+
+Merged nested_routes into master. Need 
+
+We currently set the `urlRoot` explicitly in models AND collections.
+I don't want to do that. 
 
