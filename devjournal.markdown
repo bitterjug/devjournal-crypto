@@ -1199,8 +1199,9 @@ Here' because I don't know where else to put it, is
 
 ## 2014-02-14 10:24 Friday
 
-Merged nested_routes into master. Need 
+Merged nested_routes into master. 
 
 We currently set the `urlRoot` explicitly in models AND collections.
-I don't want to do that. 
+I don't want to do that.  What inference can Backbone do for itself?
+
 
