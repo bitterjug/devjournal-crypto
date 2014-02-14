@@ -1193,6 +1193,3 @@ to add filtering options).
 Here' because I don't know where else to put it, is 
 [Radio Swiss Jazz](http://www.radioswissjazz.ch/live/mp3.m3u)
 
-## 2014-02-14 09:29 Friday
-
-
