@@ -1187,3 +1187,8 @@ to add filtering options).
 
 - [ ] Make sure we can post to these urls to create, and then let them fill in
   missing 'owner' values from the url.
+
+## 2014-02-14 09:29 Friday
+
+Here' because I don't know where else to put it, is Radio Swiss JAzz
+http://www.radioswissjazz.ch/live/mp3.m3u
