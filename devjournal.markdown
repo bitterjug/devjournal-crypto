@@ -1204,4 +1204,17 @@ Merged nested_routes into master.
 We currently set the `urlRoot` explicitly in models AND collections.
 I don't want to do that.  What inference can Backbone do for itself?
 
+``` javascript
+    url: function() {
+      var base =
+        _.result(this, 'urlRoot') ||
+        _.result(this.collection, 'url') ||
+        urlError();
+      if (this.isNew()) return base;
+      return base.replace(/([^\/])$/, '$1/') + encodeURIComponent(this.id);
+    },
+```
+
+Models derive their url from url base, by adding their id to the end.
+The base comes either from `urlRoot`, or from `this.collection.url`.
 
