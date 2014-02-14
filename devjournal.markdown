@@ -1220,7 +1220,3 @@ I don't want to do that.  What inference can Backbone do for itself?
 Models derive their url from url base, by adding their id to the end.
 The base comes either from `urlRoot`, or from `this.collection.url`.
 
-
-## 2014-02-14 11:14 Friday
-
-
