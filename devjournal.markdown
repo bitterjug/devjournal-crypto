@@ -1,6 +1,5 @@
 <!--
 vim: sw=2 ft=ghmarkdown
-vim: hi Todo guibg=#000 guifg=#fff gui=bold
 vim: match Todo /\[ \]/
 -->
 Writing note.sh
@@ -1271,5 +1270,9 @@ setting up the data for the first time.
 
 
 ## 2014-02-17 14:12 Monday
+
+
+
+## 2014-02-17 14:13 Monday
 
 
