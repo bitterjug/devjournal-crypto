@@ -1234,3 +1234,9 @@ USer Interface Events
 ## 2014-02-14 15:13 Friday
 
 - [ ] Check if source is using the same data field as the description!
+
+## 2014-02-17 09:43 Monday
+
+ - [ ] Seems odd that the collection classes I have defined in
+   `results.js` don't have model set. How do they know what to instantiate
+   when adding new ones? 
