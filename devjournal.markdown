@@ -1265,10 +1265,11 @@ events, if such exist.
 
 ## 2014-02-17 13:56 Monday
 
-The above is quite true. Fetch calls add by default but you can make it
-do reset by passing `{ reset: true }` which is kinda what we want when
-setting up the data for the first time.
+The above is quite true. Fetch calls add by default but you can make it do
+reset by passing `{ reset: true }` which is kinda what we want when setting up
+the data for the first time.
 
 ## 2014-02-17 14:16 Monday
 
-Next up: Render the measurements
+Next up: Render the measurements. Where do those come from?  Are they in the
+model yet? The plan says they should be owned by the indicators.
