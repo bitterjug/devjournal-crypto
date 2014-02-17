@@ -1283,3 +1283,13 @@ What I'm trying to do now, is:
 - And a data tag to identify the milestone column it belongs to
 - Then in the `subviewCreators`, or in side the created view, see if we can
   pick up these data values to choose the right `Target` model to manipulate. 
+
+## 2014-02-17 17:28 Monday
+
+ - [ ] The Result page has url `/logframe/1/` but there should be only one
+   Logframe in the system, so maybe the url should be  `/result/<n>` which is 
+   the result uniqe ID
+
+ - [ ] Make fixture with v4c logframe data in.
+
+ - [ ] Deploy to staging server.
