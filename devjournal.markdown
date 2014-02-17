@@ -1,6 +1,5 @@
 <!--
 vim: sw=2 ft=ghmarkdown
-vim: match Title /\[ \]/
 -->
 Writing note.sh
 =================
