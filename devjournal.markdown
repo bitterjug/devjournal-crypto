@@ -1237,6 +1237,8 @@ USer Interface Events
 
 ## 2014-02-17 09:43 Monday
 
+Addin milestones 
+
  - [x] Seems odd that the collection classes I have defined in
    `results.js` don't have model set. How do they know what to instantiate
    when adding new ones? 
@@ -1251,11 +1253,11 @@ USer Interface Events
 
 ## 2014-02-17 12:44 Monday
 
-I wanted a non editable view for milestones.  So I split out the genric view
+I wanted a non editable view for milestones.  So I split out the generic view
 rendering from our `list-view` into a `static-list` and leaving `list-view` as
-a subclass that adds the unsaved item behaviour.  In the process I re-bounbd
+a subclass that adds the unsaved item behaviour.  In the process I re-bounb
 `addEmptyItem` to `rese` event instead of explicitly calling `fetch({ success:
-this.addEmptyItem });`.  The broblem is that the reset event is triggered once
+this.addEmptyItem });`.  The problem is that the reset event is triggered once
 the elements are all removed, but not after they have all been added.  In fact
 you can't know when they have all been added, because `fetch` inserts them one
 at a time with `addd`. So I think we need to bind `addEmptyItem` to the `sync`
@@ -1266,3 +1268,7 @@ events, if such exist.
 The above is quite true. Fetch calls add by default but you can make it
 do reset by passing `{ reset: true }` which is kinda what we want when
 setting up the data for the first time.
+
+## 2014-02-17 14:16 Monday
+
+Next up: Render the measurements
