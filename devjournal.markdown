@@ -1247,14 +1247,18 @@ USer Interface Events
 
 ## 2014-02-17 12:44 Monday
 
-I wanted a non editable view for milestones. 
-So I split out the genric view rendering from our `list-view` into
-a `static-list` and leaving `list-view` as a subclass that adds
-the unsaved item behaviour. 
-In the process I re-bounbd `addEmptyItem` to `rese` event
-instead of explicitly calling `fetch({ success: this.addEmptyItem });`.
-The broblem is that the reset event is triggered once the
-elements are all removed, but not after they have all been added.
-In fact you can't know when they have all been added, because
-`fetch` inserts them one at a time with `addd`. So I think we need
-to bind `addEmptyItem` to the `sync` events, if such exist.
+I wanted a non editable view for milestones.  So I split out the genric view
+rendering from our `list-view` into a `static-list` and leaving `list-view` as
+a subclass that adds the unsaved item behaviour.  In the process I re-bounbd
+`addEmptyItem` to `rese` event instead of explicitly calling `fetch({ success:
+this.addEmptyItem });`.  The broblem is that the reset event is triggered once
+the elements are all removed, but not after they have all been added.  In fact
+you can't know when they have all been added, because `fetch` inserts them one
+at a time with `addd`. So I think we need to bind `addEmptyItem` to the `sync`
+events, if such exist.
+
+## 2014-02-17 13:56 Monday
+
+The above is quite true. Fetch calls add by default but you can make it
+do reset by passing `{ reset: true }` which is kinda what we want when
+setting up the data for the first time.
