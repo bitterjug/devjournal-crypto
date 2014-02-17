@@ -1,5 +1,7 @@
 <!--
 vim: sw=2 ft=ghmarkdown
+hi todo guibg=#000 guifg=#fff gui=bold
+hi todo guibg=#000 guifg=#fff gui=bold
 -->
 Writing note.sh
 =================
