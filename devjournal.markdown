@@ -1266,8 +1266,3 @@ events, if such exist.
 The above is quite true. Fetch calls add by default but you can make it
 do reset by passing `{ reset: true }` which is kinda what we want when
 setting up the data for the first time.
-
-
-## 2014-02-17 14:13 Monday
-
-
