@@ -1,5 +1,5 @@
 <!--
-vim: sw=2 ft=ghmarkdown
+vim: sw=2 ft=ghmarkdown spell
 -->
 Writing note.sh
 =================
@@ -1255,7 +1255,7 @@ Addin milestones
 
 I wanted a non editable view for milestones.  So I split out the generic view
 rendering from our `list-view` into a `static-list` and leaving `list-view` as
-a subclass that adds the unsaved item behaviour.  In the process I re-bounb
+a subclass that adds the unsaved item behaviour.  In the process I re-bound
 `addEmptyItem` to `rese` event instead of explicitly calling `fetch({ success:
 this.addEmptyItem });`.  The problem is that the reset event is triggered once
 the elements are all removed, but not after they have all been added.  In fact
