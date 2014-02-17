@@ -1,7 +1,7 @@
 <!--
 vim: sw=2 ft=ghmarkdown
-hi todo guibg=#000 guifg=#fff gui=bold
-hi todo guibg=#000 guifg=#fff gui=bold
+vim: hi todo guibg=#000 guifg=#fff gui=bold
+vim: hi todo guibg=#000 guifg=#fff gui=bold
 -->
 Writing note.sh
 =================
@@ -1270,5 +1270,9 @@ do reset by passing `{ reset: true }` which is kinda what we want when
 setting up the data for the first time.
 
 ## 2014-02-17 14:06 Monday
+
+
+
+## 2014-02-17 14:12 Monday
 
 
