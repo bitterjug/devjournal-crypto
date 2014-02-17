@@ -1249,7 +1249,7 @@ Addin milestones
 
 ## 2014-02-17 11:31 Monday
 
- - [ ] MAke the milestones  filtered by their owning logframe in the API
+ - [x] Make the milestones  filtered by their owning logframe in the API
 
 ## 2014-02-17 12:44 Monday
 
