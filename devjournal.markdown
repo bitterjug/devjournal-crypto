@@ -1240,3 +1240,7 @@ USer Interface Events
  - [ ] Seems odd that the collection classes I have defined in
    `results.js` don't have model set. How do they know what to instantiate
    when adding new ones? 
+
+## 2014-02-17 11:31 Monday
+
+ - [ ] MAke the milestones  filtered by their owning logframe in the API
