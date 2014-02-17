@@ -1233,13 +1233,17 @@ USer Interface Events
 
 ## 2014-02-14 15:13 Friday
 
-- [ ] Check if source is using the same data field as the description!
+- [x] Check if source is using the same data field as the description!
 
 ## 2014-02-17 09:43 Monday
 
- - [ ] Seems odd that the collection classes I have defined in
+ - [x] Seems odd that the collection classes I have defined in
    `results.js` don't have model set. How do they know what to instantiate
    when adding new ones? 
+
+   A: I think they just instantiate `Backbone.Model`, and the only
+   behaviour that I require them to have is that they work out 
+   their url from their containing collection; which they do.
 
 ## 2014-02-17 11:31 Monday
 
@@ -1262,3 +1266,7 @@ events, if such exist.
 The above is quite true. Fetch calls add by default but you can make it
 do reset by passing `{ reset: true }` which is kinda what we want when
 setting up the data for the first time.
+
+## 2014-02-17 14:06 Monday
+
+
