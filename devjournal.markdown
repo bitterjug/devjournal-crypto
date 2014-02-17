@@ -1273,3 +1273,13 @@ the data for the first time.
 
 Next up: Render the measurements. Where do those come from?  Are they in the
 model yet? The plan says they should be owned by the indicators.
+
+## 2014-02-17 16:34 Monday
+
+What I'm trying to do now, is:
+
+- Render a table row for the values
+- Each with a sub-view tag to trigger a sub-view
+- And a data tag to identify the milestone column it belongs to
+- Then in the `subviewCreators`, or in side the created view, see if we can
+  pick up these data values to choose the right `Target` model to manipulate. 
