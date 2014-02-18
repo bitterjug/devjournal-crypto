@@ -1326,3 +1326,10 @@ there is a target value for each one
  - [ ] Delete buttons!
 
  - [ ] Validate numeric inputs for Target values
+
+ - [ ] Click outside the input box should save, not cancel
+
+ - [ ] 
+
+
+
