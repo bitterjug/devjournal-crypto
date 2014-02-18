@@ -1304,3 +1304,7 @@ there is a target value for each one
 - If there is, render an editable view for that target value
 - If not, create an unsaved target view
 
+
+## 2014-02-18 11:36 Tuesday
+
+ - [ ] The `<thead>` in my table doesn't have the title row in it.
