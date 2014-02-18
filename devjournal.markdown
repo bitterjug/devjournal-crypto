@@ -1308,3 +1308,7 @@ there is a target value for each one
 ## 2014-02-18 11:36 Tuesday
 
  - [ ] The `<thead>` in my table doesn't have the title row in it.
+
+ - [ ] The targets table for unsaved indicators needs to listen to save events
+   on its owning indicator and re-render
+
