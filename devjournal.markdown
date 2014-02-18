@@ -1296,7 +1296,7 @@ What I'm trying to do now, is:
 
 ## 2014-02-18 09:05 Tuesday
 
-Update stretegy for rendering targets:
+Update strategy for rendering targets:
 
 - Create a view with both the milestones list and all the available targets
 - Iterate over the milestones, which define  the structure, and see if
@@ -1313,12 +1313,16 @@ there is a target value for each one
  - [ ] The `<thead>` in my table doesn't have the title row in it.
 
  - [ ] Forked backbone-subviews to try and fix the bug where it only works with
-   divs. I can make the qunit tests run in my browser, but they stop if I add
+   divs. I can make the qUnit tests run in my browser, but they stop if I add
    one. Not sure what to do.
 
 ## 2014-02-18 15:58 Tuesday
 
- - [ ] Make the Milestone collections sort by their order value.
- There isn't, as yet, any way to edit those order variables, except for
- hacking it in the admin interface. But at least we could set up the
- right milestones that way, with a bit of work.
+ - [ ] Make the Milestone collections sort by their order value.  There isn't,
+   as yet, any way to edit those order variables, except for hacking it in the
+   admin interface. But at least we could set up the right milestones that way,
+   with a bit of work.
+
+ - [ ] M
+
+
