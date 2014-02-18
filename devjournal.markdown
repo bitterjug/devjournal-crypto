@@ -1312,3 +1312,9 @@ there is a target value for each one
  - [ ] The targets table for unsaved indicators needs to listen to save events
    on its owning indicator and re-render
 
+
+## 2014-02-18 14:51 Tuesday
+
+ - [ ] Forked backbone-subviews to try and fix the bug where it only works with
+   divs. I can make the qunit tests run in my browser, but they stop if I add
+   one. Not sure what to do.
