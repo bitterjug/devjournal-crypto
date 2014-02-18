@@ -1307,14 +1307,18 @@ there is a target value for each one
 
 ## 2014-02-18 11:36 Tuesday
 
- - [ ] The `<thead>` in my table doesn't have the title row in it.
-
- - [ ] The targets table for unsaved indicators needs to listen to save events
+ - [x] The targets table for unsaved indicators needs to listen to save events
    on its owning indicator and re-render
 
-
-## 2014-02-18 14:51 Tuesday
+ - [ ] The `<thead>` in my table doesn't have the title row in it.
 
  - [ ] Forked backbone-subviews to try and fix the bug where it only works with
    divs. I can make the qunit tests run in my browser, but they stop if I add
    one. Not sure what to do.
+
+## 2014-02-18 15:58 Tuesday
+
+ - [ ] Make the Milestone collections sort by their order value.
+ There isn't, as yet, any way to edit those order variables, except for
+ hacking it in the admin interface. But at least we could set up the
+ right milestones that way, with a bit of work.
