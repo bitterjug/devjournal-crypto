@@ -1325,4 +1325,4 @@ there is a target value for each one
 
  - [ ] Delete buttons!
 
-
+ - [ ] Validate numeric inputs for Target values
