@@ -1323,6 +1323,6 @@ there is a target value for each one
    admin interface. But at least we could set up the right milestones that way,
    with a bit of work.
 
- - [ ] M
+ - [ ] Delete buttons!
 
 
