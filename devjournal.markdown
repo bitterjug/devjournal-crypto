@@ -1293,3 +1293,14 @@ What I'm trying to do now, is:
  - [ ] Make fixture with v4c logframe data in.
 
  - [ ] Deploy to staging server.
+
+## 2014-02-18 09:05 Tuesday
+
+Update stretegy for rendering targets:
+
+- Create a view with both the milestones list and all the available targets
+- Iterate over the milestones, which define  the structure, and see if
+there is a target value for each one
+- If there is, render an editable view for that target value
+- If not, create an unsaved target view
+
