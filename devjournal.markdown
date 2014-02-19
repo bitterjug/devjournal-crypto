@@ -1350,3 +1350,11 @@ Need to get the sub-indicators collection into the data-model,
   - [x] add to the Indicator model
   - [ ] Make the gui show any existing subindicator(s)?
   - [ ] Make the api send a 'total' sub-indicator if there aren't any?
+
+Sub-indicator view doesn't always show the single 'total' subindicator I hav 
+created: this I think is because the data is being loaded asynchronously, and it
+renders before the data arrives. So there needs to be a sub-indicator list
+view that watches the relevant collection, and renders when there are chagnes
+and is in charge of adding rows when new subindicators come into existence.
+
+
