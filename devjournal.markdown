@@ -1329,7 +1329,14 @@ there is a target value for each one
 
  - [ ] Click outside the input box should save, not cancel
 
- - [ ] 
+
+## 2014-02-19 15:17 Wednesday
+
+NOTE! 
+Django Debug toolbar breaks the app! Don't use it.
 
 
-
+ - [ ] I'd like to find a way to make our EditbaleXXX templates more generic.
+   We could pass the enclosing element type in as a context parameter.  Since
+   they are mainly a single element, we in fact generate them programmatically
+   which would be even neater.
