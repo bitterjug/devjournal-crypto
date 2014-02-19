@@ -1343,18 +1343,24 @@ Django Debug toolbar breaks the app! Don't use it.
 
 ## 2014-02-19 15:37 Wednesday
 
-  - [ ] Sub-indicators
+Sub-indicators:
 
 Need to get the sub-indicators collection into the data-model, 
 
   - [x] add to the Indicator model
-  - [ ] Make the gui show any existing subindicator(s)?
+  - [x] Make the gui show any existing subindicator(s)?
   - [ ] Make the api send a 'total' sub-indicator if there aren't any?
+  - [ ] Fix it so you can't save Targets unless the subindicator in that row is saved,
+        and so you can't save subindicators until the indicator is saved, etc.
+  - [ ] Format numerics with commas
+  - [ ] Validate numerics
 
-Sub-indicator view doesn't always show the single 'total' subindicator I hav 
+ 
+Sub-indicator view doesn't always show the single 'total' subindicator I have 
 created: this I think is because the data is being loaded asynchronously, and it
 renders before the data arrives. So there needs to be a sub-indicator list
 view that watches the relevant collection, and renders when there are changes
 and is in charge of adding rows when new subindicators come into existence.
+
 
 
