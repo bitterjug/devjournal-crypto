@@ -1340,3 +1340,9 @@ Django Debug toolbar breaks the app! Don't use it.
    We could pass the enclosing element type in as a context parameter.  Since
    they are mainly a single element, we in fact generate them programmatically
    which would be even neater.
+
+## 2014-02-19 15:37 Wednesday
+
+Need to get the sub-indicators collection into the data-model, 
+
+  - [ ]  add to the Indicator model
