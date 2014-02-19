@@ -1343,12 +1343,10 @@ Django Debug toolbar breaks the app! Don't use it.
 
 ## 2014-02-19 15:37 Wednesday
 
+  - [ ] Sub-indicators
+
 Need to get the sub-indicators collection into the data-model, 
 
   - [x] add to the Indicator model
   - [ ] Make the gui show any existing subindicator(s)?
   - [ ] Make the api send a 'total' sub-indicator if there aren't any?
-
-## 2014-02-19 16:05 Wednesday
-
-
