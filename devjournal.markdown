@@ -1346,3 +1346,4 @@ Django Debug toolbar breaks the app! Don't use it.
 Need to get the sub-indicators collection into the data-model, 
 
   - [ ]  add to the Indicator model
+  - [ ]  Make the api send a 'total' sub-indicator if there aren't any?
