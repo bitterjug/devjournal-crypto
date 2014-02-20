@@ -1310,24 +1310,23 @@ there is a target value for each one
  - [x] The targets table for unsaved indicators needs to listen to save events
    on its owning indicator and re-render
 
- - [ ] The `<thead>` in my table doesn't have the title row in it.
-
- - [ ] Forked backbone-subviews to try and fix the bug where it only works with
-   divs. I can make the qUnit tests run in my browser, but they stop if I add
-   one. Not sure what to do.
+ - [ ] The `<thead>` in my table doesn't have the title row in it.  Forked
+   backbone-subviews to try and fix the bug where it only works with divs. I
+   can make the qUnit tests run in my browser, but they stop if I add one. Not
+   sure what to do.
 
 ## 2014-02-18 15:58 Tuesday
 
- - [ ] Make the Milestone collections sort by their order value.  There isn't,
+ - Make the Milestone collections sort by their order value.  There isn't,
    as yet, any way to edit those order variables, except for hacking it in the
    admin interface. But at least we could set up the right milestones that way,
    with a bit of work.
 
- - [ ] Delete buttons!
+ - Delete buttons!
 
- - [ ] Validate numeric inputs for Target values
+ - Validate numeric inputs for Target values
 
- - [ ] Click outside the input box should save, not cancel
+ - Click outside the input box should save, not cancel
 
 
 ## 2014-02-19 15:17 Wednesday
@@ -1336,7 +1335,7 @@ NOTE!
 Django Debug toolbar breaks the app! Don't use it.
 
 
- - [ ] I'd like to find a way to make our EditbaleXXX templates more generic.
+ - I'd like to find a way to make our EditbaleXXX templates more generic.
    We could pass the enclosing element type in as a context parameter.  Since
    they are mainly a single element, we in fact generate them programmatically
    which would be even neater.
@@ -1373,7 +1372,26 @@ and is in charge of adding rows when new subindicators come into existence.
  - [ ] Make fixture with v4c logframe data in.
 
  - [ ] Deploy to staging server.
-  - [ ] Fix it so you can't save Targets unless the subindicator in that row is saved,
-        and so you can't save subindicators until the indicator is saved, etc.
-  - [ ] Format numerics with commas
-  - [ ] Validate numerics
+
+ - [ ] Fix it so you can't save Targets unless the subindicator in that row is saved,
+       and so you can't save subindicators until the indicator is saved, etc.
+
+ - [ ] Format numerics with commas
+
+ - [ ] Validate numerics
+
+ - [ ] Make the Milestone collections sort by their order value.  There isn't,
+   as yet, any way to edit those order variables, except for hacking it in the
+   admin interface. But at least we could set up the right milestones that way,
+   with a bit of work.
+
+ - [ ] Delete buttons!
+
+ - [ ] Validate numeric inputs for Target values
+
+ - [ ] Click outside the input box should save, not cancel
+
+ - [ ] The `<thead>` in my table doesn't have the title row in it.  Forked
+   backbone-subviews to try and fix the bug where it only works with divs. I
+   can make the qUnit tests run in my browser, but they stop if I add one. Not
+   sure what to do.
