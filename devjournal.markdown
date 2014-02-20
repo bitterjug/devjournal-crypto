@@ -1405,3 +1405,7 @@ Revised to do list:
  - [ ] Impact weighting box floats over result description on result page
 
  - [ ] Add other relevant data to Aptivate.data on page and use to set-up in browser initial data structure
+
+ - [ ] Protect the logframe content with user permissions, at least login required
+
+
