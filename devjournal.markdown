@@ -1412,7 +1412,17 @@ Revised to do list:
 
  - [ ] The ugly black tabs are caused by $tabs-background not being in scope somehow in the relevant file
 
- - [ ] After vanilla deploy, the server didn't have permssion to access 
+ - [x] After vanilla deploy, the server didn't have permssion to access 
 
     OSError at /logframe/1/result/2/
     [Errno 13] Permission denied: '/var/django/v4clogframe/current/django/website/static/.webassets-cache'
+
+There's an interesting problem with getting the id of a newly created subindicator to use
+in its target values: the new ID doesn't come back from the server until 'some time later' 
+asynchronously.
+
+We need to not render the target values until the subindicator's id is known.
+Which means we need to be listening to its sync events.
+
+ - [ ] I tried re-using the sub-indicator view for each render of the target row, but this stopped
+       it responding to click events for some reason I can't yet figure out
