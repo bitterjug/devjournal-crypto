@@ -1365,7 +1365,7 @@ and is in charge of adding rows when new subindicators come into existence.
 
 Revised to do list:
 
- - [ ] The Result page has url `/logframe/1/` but there should be only one
+ - [x] The Result page has url `/logframe/1/` but there should be only one
    Logframe in the system, so maybe the url should be  `/result/<n>` which is 
    the result uniqe ID
 
@@ -1399,5 +1399,9 @@ Revised to do list:
 
 
  - [ ] Might need a default contribution weighting too?
+
+
+
+## 2014-02-20 11:57 Thursday
 
 
