@@ -1363,7 +1363,7 @@ and is in charge of adding rows when new subindicators come into existence.
 
 ## 2014-02-20 11:01 Thursday
 
- - [ ] Change the url for results page to /result/<n>
+Revised to do list:
 
  - [ ] The Result page has url `/logframe/1/` but there should be only one
    Logframe in the system, so maybe the url should be  `/result/<n>` which is 
