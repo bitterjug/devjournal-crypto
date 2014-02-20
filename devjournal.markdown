@@ -1412,4 +1412,7 @@ Revised to do list:
 
  - [ ] The ugly black tabs are caused by $tabs-background not being in scope somehow in the relevant file
 
+ - [ ] After vanilla deploy, the server didn't have permssion to access 
 
+  OSError at /logframe/1/result/2/
+  [Errno 13] Permission denied: '/var/django/v4clogframe/current/django/website/static/.webassets-cache'
