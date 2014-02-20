@@ -1409,3 +1409,7 @@ Revised to do list:
  - [ ] Protect the logframe content with user permissions, at least login required
 
  - [ ] Use precompiled handlebars templates
+
+ - [ ] The ugly black tabs are caused by $tabs-background not being in scope somehow in the relevant file
+
+
