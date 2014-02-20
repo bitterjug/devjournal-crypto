@@ -1378,7 +1378,7 @@ Revised to do list:
 
  - [ ] Format numerics with commas
 
- - [ ] Validate numerics
+ - [ ] Validate numeric inputs for Target values
 
  - [ ] Make the Milestone collections sort by their order value.  There isn't,
    as yet, any way to edit those order variables, except for hacking it in the
@@ -1386,8 +1386,6 @@ Revised to do list:
    with a bit of work.
 
  - [ ] Delete buttons!
-
- - [ ] Validate numeric inputs for Target values
 
  - [ ] Click outside the input box should save, not cancel
 
