@@ -1369,9 +1369,10 @@ Revised to do list:
    Logframe in the system, so maybe the url should be  `/result/<n>` which is 
    the result uniqe ID
 
+ - [ ] Changing the result number in the url has no effect, always go to the first one.
  - [ ] Make fixture with v4c logframe data in.
 
- - [ ] Deploy to staging server.
+ - [x] Deploy to staging server.
 
  - [ ] Fix it so you can't save Targets unless the subindicator in that row is saved,
        and so you can't save subindicators until the indicator is saved, etc.
@@ -1400,8 +1401,5 @@ Revised to do list:
 
  - [ ] Might need a default contribution weighting too?
 
-
-
-## 2014-02-20 11:57 Thursday
-
+ - [ ] Impact weighting box floats over result description on result page
 
