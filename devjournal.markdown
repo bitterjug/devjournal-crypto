@@ -1369,7 +1369,8 @@ Revised to do list:
    Logframe in the system, so maybe the url should be  `/result/<n>` which is 
    the result uniqe ID
 
- - [ ] Changing the result number in the url has no effect, always go to the first one.
+ - [x] Changing the result number in the url has no effect, always go to the first one.
+
  - [ ] Make fixture with v4c logframe data in.
 
  - [x] Deploy to staging server.
@@ -1404,7 +1405,3 @@ Revised to do list:
  - [ ] Impact weighting box floats over result description on result page
 
  - [ ] Add other relevant data to Aptivate.data on page and use to set-up in browser initial data structure
-
-## 2014-02-20 14:43 Thursday
-
-
