@@ -1417,12 +1417,22 @@ Revised to do list:
     OSError at /logframe/1/result/2/
     [Errno 13] Permission denied: '/var/django/v4clogframe/current/django/website/static/.webassets-cache'
 
+
+ - [ ] I tried re-using the sub-indicator view for each render of the target row, but this stopped
+       it responding to click events for some reason I can't yet figure out
+
 There's an interesting problem with getting the id of a newly created subindicator to use
 in its target values: the new ID doesn't come back from the server until 'some time later' 
 asynchronously.
 
 We need to not render the target values until the subindicator's id is known.
-Which means we need to be listening to its sync events.
+Which means we need to be listening to its sync events. By calling render on the subindicator row
+view when the subindictor saves, and by not drawing the target values until there _is_ a subindicator
+we can get the desired behaviour for creating subindicators.
 
- - [ ] I tried re-using the sub-indicator view for each render of the target row, but this stopped
-       it responding to click events for some reason I can't yet figure out
+Now there is a sumilar probelm with new indicators:
+
+- Saving a new indicator now triggers `sync()` on its subindicators -- to pick up the default subindicator.
+- That row looks good: the newly pulled subindicator has its parent indicator id and Target values in that row are saved ok.
+- But the empty subindicator that appears under the newly-appeared default one is not behaving properly: it doesn't know it's owning indicator, and so target values in that row are not getting saved
+- If I reload he page, it looks the same, with the 'Total' sbindicator and an unsaved subindicator below, but _now_ I the subindicator appears to know its owning indicator and crates a properly functioning row.
