@@ -1375,7 +1375,7 @@ Revised to do list:
 
  - [x] Deploy to staging server.
 
- - [ ] Fix it so you can't save Targets unless the subindicator in that row is saved,
+ - [x] Fix it so you can't save Targets unless the subindicator in that row is saved,
        and so you can't save subindicators until the indicator is saved, etc.
 
  - [ ] Format numerics with commas
