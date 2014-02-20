@@ -1408,4 +1408,4 @@ Revised to do list:
 
  - [ ] Protect the logframe content with user permissions, at least login required
 
-
+ - [ ] Use precompiled handlebars templates
