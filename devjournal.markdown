@@ -1286,9 +1286,9 @@ What I'm trying to do now, is:
 
 ## 2014-02-17 17:28 Monday
 
- - The Result page has url `/logframe/1/` but there should be only one
-   Logframe in the system, so maybe the url should be  `/result/<n>` which is 
-   the result uniqe ID
+ - The Result page has url `/logframe/1/` but there should be only one Logframe
+   in the system, so maybe the url should be  `/result/<n>` which is the result
+   uniqe ID
 
  - Make fixture with v4c logframe data in.
 
@@ -1350,10 +1350,10 @@ Need to get the sub-indicators collection into the data-model,
   - [x] add to the Indicator model
   - [x] Make the gui show any existing subindicator(s)?
   - [x] Make the api send a 'total' sub-indicator if there aren't any?
-  - [ ] Fix it so you can't save Targets unless the subindicator in that row is saved,
-        and so you can't save subindicators until the indicator is saved, etc.
-  - [ ] Format numerics with commas
-  - [ ] Validate numerics
+  - Fix it so you can't save Targets unless the subindicator in that row is saved,
+    and so you can't save subindicators until the indicator is saved, etc.
+  - Format numerics with commas
+  - Validate numerics
 
  
 Sub-indicator view doesn't always show the single 'total' subindicator I have 
@@ -1366,9 +1366,6 @@ and is in charge of adding rows when new subindicators come into existence.
 
  - [ ] Change the url for results page to /result/<n>
 
-
-
-
  - [ ] The Result page has url `/logframe/1/` but there should be only one
    Logframe in the system, so maybe the url should be  `/result/<n>` which is 
    the result uniqe ID
@@ -1376,3 +1373,7 @@ and is in charge of adding rows when new subindicators come into existence.
  - [ ] Make fixture with v4c logframe data in.
 
  - [ ] Deploy to staging server.
+  - [ ] Fix it so you can't save Targets unless the subindicator in that row is saved,
+        and so you can't save subindicators until the indicator is saved, etc.
+  - [ ] Format numerics with commas
+  - [ ] Validate numerics
