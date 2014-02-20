@@ -1414,5 +1414,5 @@ Revised to do list:
 
  - [ ] After vanilla deploy, the server didn't have permssion to access 
 
-  OSError at /logframe/1/result/2/
-  [Errno 13] Permission denied: '/var/django/v4clogframe/current/django/website/static/.webassets-cache'
+    OSError at /logframe/1/result/2/
+    [Errno 13] Permission denied: '/var/django/v4clogframe/current/django/website/static/.webassets-cache'
