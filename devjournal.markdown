@@ -1286,13 +1286,13 @@ What I'm trying to do now, is:
 
 ## 2014-02-17 17:28 Monday
 
- - [ ] The Result page has url `/logframe/1/` but there should be only one
+ - The Result page has url `/logframe/1/` but there should be only one
    Logframe in the system, so maybe the url should be  `/result/<n>` which is 
    the result uniqe ID
 
- - [ ] Make fixture with v4c logframe data in.
+ - Make fixture with v4c logframe data in.
 
- - [ ] Deploy to staging server.
+ - Deploy to staging server.
 
 ## 2014-02-18 09:05 Tuesday
 
@@ -1349,7 +1349,7 @@ Need to get the sub-indicators collection into the data-model,
 
   - [x] add to the Indicator model
   - [x] Make the gui show any existing subindicator(s)?
-  - [ ] Make the api send a 'total' sub-indicator if there aren't any?
+  - [x] Make the api send a 'total' sub-indicator if there aren't any?
   - [ ] Fix it so you can't save Targets unless the subindicator in that row is saved,
         and so you can't save subindicators until the indicator is saved, etc.
   - [ ] Format numerics with commas
@@ -1362,5 +1362,17 @@ renders before the data arrives. So there needs to be a sub-indicator list
 view that watches the relevant collection, and renders when there are changes
 and is in charge of adding rows when new subindicators come into existence.
 
+## 2014-02-20 11:01 Thursday
+
+ - [ ] Change the url for results page to /result/<n>
 
 
+
+
+ - [ ] The Result page has url `/logframe/1/` but there should be only one
+   Logframe in the system, so maybe the url should be  `/result/<n>` which is 
+   the result uniqe ID
+
+ - [ ] Make fixture with v4c logframe data in.
+
+ - [ ] Deploy to staging server.
