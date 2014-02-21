@@ -1440,3 +1440,7 @@ Now there is a sumilar probelm with new indicators:
 ## 2014-02-21 12:58 Friday
 
  - [ ] Dump logframe from Staging server
+
+## 2014-02-21 17:00 Friday
+
+ - [ ] Entering white space in an input item and saving makes it impossible to click to edit again.
