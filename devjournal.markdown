@@ -1443,4 +1443,9 @@ Now there is a sumilar probelm with new indicators:
 
 ## 2014-02-21 17:00 Friday
 
- - [ ] Entering white space in an input item and saving makes it impossible to click to edit again.
+ - [ ] Entering white space in an input item and saving makes it
+   impossible to click to edit again.
+
+ - [ ] Clearing out all the text and pressing enter/tab doesn't send a
+   save with empty string back to the server so the old value is
+   preserved.
