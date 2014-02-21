@@ -1436,3 +1436,7 @@ Now there is a sumilar probelm with new indicators:
 - That row looks good: the newly pulled subindicator has its parent indicator id and Target values in that row are saved ok.
 - But the empty subindicator that appears under the newly-appeared default one is not behaving properly: it doesn't know it's owning indicator, and so target values in that row are not getting saved
 - If I reload he page, it looks the same, with the 'Total' sbindicator and an unsaved subindicator below, but _now_ I the subindicator appears to know its owning indicator and crates a properly functioning row.
+
+## 2014-02-21 12:58 Friday
+
+ - [ ] Dump logframe from Staging server
