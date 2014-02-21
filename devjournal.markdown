@@ -1449,3 +1449,8 @@ Now there is a sumilar probelm with new indicators:
  - [ ] Clearing out all the text and pressing enter/tab doesn't send a
    save with empty string back to the server so the old value is
    preserved.
+
+ - [ ] White space in long description fields gets collapsed; map line breaks
+   to `<br>`?
+
+
