@@ -1453,4 +1453,18 @@ Now there is a sumilar probelm with new indicators:
  - [ ] White space in long description fields gets collapsed; map line breaks
    to `<br>`?
 
+ - [ ] While trying to use Jquery to animate adding new items, I found out we do unnecessary
+    re-draws: edit the description of an indicator and it re-renders all the target values.
+    See the following excerpt from `static-list.js`
+ 
+
+```javascript
+         addItem: function (item) {
+            // TODO: re-use existing sub-views if possible?
+            var $el = new this.itemView({ model: item }).render().$el.hide();
+            this.$el.append($el);
+            $el.show(500);
+        },
+
+```
 
