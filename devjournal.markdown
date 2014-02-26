@@ -1495,3 +1495,8 @@ with `this.model` as the context.
 ## 2014-02-26 20:15 Wednesday
 
 - Update the api to send 1:n relations as a list of ids
+
+## 2014-02-26 21:12 Wednesday
+
+I think we're looking for indicators too early in the process; that somehow they have
+not been fetched yet.
