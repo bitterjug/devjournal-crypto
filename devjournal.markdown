@@ -1491,3 +1491,7 @@ Rewrite list views using Backbone.Subviews:
 - I'm guessing that this becomes a base view, i.e. its render is rendering a template 
 with `this.model` as the context.
 
+
+## 2014-02-26 20:15 Wednesday
+
+- Update the api to send 1:n relations as a list of ids
