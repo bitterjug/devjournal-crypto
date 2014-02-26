@@ -1485,3 +1485,9 @@ Rewrite list views using Backbone.Subviews:
 
 - To put the placeholders in the right place the parent object should be the context
   for rendering the template.
+
+## 2014-02-26 17:09 Wednesday
+
+- I'm guessing that this becomes a base view, i.e. its render is rendering a template 
+with `this.model` as the context.
+
