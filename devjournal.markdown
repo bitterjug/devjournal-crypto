@@ -1468,3 +1468,20 @@ Now there is a sumilar probelm with new indicators:
 
 ```
 
+
+## 2014-02-26 16:53 Wednesday
+
+Rewrite list views using Backbone.Subviews:
+
+- Render the list as a list of placeholders with sufficient info for their
+  relevant views to be created. This means:
+
+- The parent object should include the related objects attribute as a list of
+  IDs. 
+
+- The Subview creators might pull out the models from the relevant collection
+  (which might also be attached to the parent model, but directly, not in the
+  attributes dict) using, e.g. the id from the placeholder.
+
+- To put the placeholders in the right place the parent object should be the context
+  for rendering the template.
