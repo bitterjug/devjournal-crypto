@@ -1529,3 +1529,10 @@ and stuff would stay the same, and the change events for adding items etc would
 come from the correct collections, other wise, for example, we end up listening
 to add/reset evcents on a collection attahed  to `/api/indicators` and when one
 of those is added, how do we know which list to re-render?
+
+## 2014-02-27 10:21 Thursday
+
+Made template-list use a collection instead of a model. This avoids the problem
+of finding a generic way to tell the template which attribute of the model
+contains the list we're interested in iterating.
+
