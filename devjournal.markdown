@@ -1546,3 +1546,13 @@ which means it uses the one already in the cache. Maybe the caching algorithm
 needs to know -- in some generic way, if there are multiple instances of the same
 subview creator and cache them by name and identity somehow. Damnit.
 
+
+## 2014-02-27 14:37 Thursday
+
+Here's an interesting idea:
+
+```javascript
+  this.$el.data( "view", this );
+```
+
+Use the DOM to store a ref to the view responsible for an element.
