@@ -1453,9 +1453,10 @@ Now there is a sumilar probelm with new indicators:
  - [ ] White space in long description fields gets collapsed; map line breaks
    to `<br>`?
 
- - [ ] While trying to use Jquery to animate adding new items, I found out we do unnecessary
-    re-draws: edit the description of an indicator and it re-renders all the target values.
-    See the following excerpt from `static-list.js`
+ - [ ] While trying to use Jquery to animate adding new items, I found out we
+   do unnecessary re-draws: edit the description of an indicator and it
+   re-renders all the target values.  See the following excerpt from
+   `static-list.js`
  
 
 ```javascript
@@ -1518,3 +1519,13 @@ related objects even when those have not yet been loaded.
 
   - Unless we program it defensively, somehow?
 
+
+## 2014-02-27 09:55 Thursday
+
+What if instead of having a model to render, template list has a collection,
+and assumes it can render the id of its contents. Then we could load them up
+with the nested Collections alreadyy in the in-page data structure, the urls
+and stuff would stay the same, and the change events for adding items etc would
+come from the correct collections, other wise, for example, we end up listening
+to add/reset evcents on a collection attahed  to `/api/indicators` and when one
+of those is added, how do we know which list to re-render?
