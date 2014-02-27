@@ -1500,3 +1500,21 @@ with `this.model` as the context.
 
 I think we're looking for indicators too early in the process; that somehow they have
 not been fetched yet.
+
+## 2014-02-27 09:30 Thursday
+
+Race conditions between asynchronously loading data with fetch and rendering
+the page.  Before we did't see these because the list view was listening to add
+and reset methods on the collection, but now it just renders itself and uses
+the forward foreign key pointers from its model to infer the existence of the
+related objects even when those have not yet been loaded. 
+
+- On the plus side, we let the objects take care of their  nesting structure
+  themselves, and it gives a good way to process the internal foreign key data
+  representations (lists of ids)
+
+- On the minus side, we now have to have a loaded collection for the related
+  objects before we can even begin to think about rendering the owner.
+
+  - Unless we program it defensively, somehow?
+
