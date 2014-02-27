@@ -1536,3 +1536,13 @@ Made template-list use a collection instead of a model. This avoids the problem
 of finding a generic way to tell the template which attribute of the model
 contains the list we're interested in iterating.
 
+
+## 2014-02-27 12:09 Thursday
+
+Grrr! Backbone.subviews!
+It caches the sub-views it creates in a hash keyed by the value of `data-subview`.
+So when I create a bunch of them in a loop, they all have the same selector
+which means it uses the one already in the cache. Maybe the caching algorithm 
+needs to know -- in some generic way, if there are multiple instances of the same
+subview creator and cache them by name and identity somehow. Damnit.
+
