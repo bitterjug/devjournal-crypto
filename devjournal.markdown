@@ -1556,3 +1556,10 @@ Here's an interesting idea:
 ```
 
 Use the DOM to store a ref to the view responsible for an element.
+
+## 2014-02-27 17:34 Thursday
+
+OK, Subviews fixed to accept and cache multiple views of the same kind and the
+app using it in a couple of places. Next thing to do is to extend it to 
+provide the functionality of the add-one-unsaved-item view.
+
