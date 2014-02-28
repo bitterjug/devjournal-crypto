@@ -1571,3 +1571,9 @@ adds the additional item there. The new one doesn't have `addAll`, it just uses
 `render`. So, when do we add the new one? Render is effectively rendering the
 `this.collection`, so we want the new, unsaved item to be in the collection by
 the time we render. So let's try adding it in `initialize`
+
+## 2014-02-28 17:07 Friday
+
+I think that by making addone-list call its parent (template-list)'s
+constructor I am registering a render method on add events that calls the wrong
+render: the one from base-view not the one from addone-list.
