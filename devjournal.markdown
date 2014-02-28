@@ -1567,5 +1567,8 @@ provide the functionality of the add-one-unsaved-item view.
 ## 2014-02-28 15:33 Friday
 
 Rewriting `list-view` as `addone-list`.  The old one overrides `addAll` and
-adds the additional item there. The new one doesn't have addAll, it just uses
-render. So, when do we add the new one?
+adds the additional item there. The new one doesn't have `addAll`, it just uses
+`render`. So, when do we add the new one? Render is effectively rendering the
+`this.collection`, so we want the new, unsaved item to be in the collection by
+the time we render.
+
