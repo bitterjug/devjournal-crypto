@@ -1563,3 +1563,9 @@ OK, Subviews fixed to accept and cache multiple views of the same kind and the
 app using it in a couple of places. Next thing to do is to extend it to 
 provide the functionality of the add-one-unsaved-item view.
 
+
+## 2014-02-28 15:33 Friday
+
+Rewriting `list-view` as `addone-list`.  The old one overrides `addAll` and
+adds the additional item there. The new one doesn't have addAll, it just uses
+render. So, when do we add the new one?
