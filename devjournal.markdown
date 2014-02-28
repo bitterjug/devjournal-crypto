@@ -1574,6 +1574,14 @@ the time we render. So let's try adding it in `initialize`
 
 ## 2014-02-28 17:07 Friday
 
-I think that by making addone-list call its parent (template-list)'s
-constructor I am registering a render method on add events that calls the wrong
-render: the one from base-view not the one from addone-list.
+  I think that by making addone-list call its parent (template-list)'s
+  constructor I am registering a render method on add events that calls the wrong
+  render: the one from base-view not the one from addone-list.
+
+
+Nope, that's not it. It's this: by adding an unsaved item, we're adding
+one that has no id. But the template-list view uses the `id` attribute
+to choose which subview to create. 
+
+
+
