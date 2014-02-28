@@ -1570,5 +1570,4 @@ Rewriting `list-view` as `addone-list`.  The old one overrides `addAll` and
 adds the additional item there. The new one doesn't have `addAll`, it just uses
 `render`. So, when do we add the new one? Render is effectively rendering the
 `this.collection`, so we want the new, unsaved item to be in the collection by
-the time we render.
-
+the time we render. So let's try adding it in `initialize`
