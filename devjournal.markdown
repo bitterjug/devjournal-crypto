@@ -1638,3 +1638,15 @@ and thus it no longer knows the collection it belongs to? And if so, what the he
 ## 2014-03-03 16:31 Monday
 
 - [ ] Add `itemViewOptions` in list view used when instantiated `itemView`.
+
+## 2014-03-03 18:06 Monday
+
+
+There IS a reset event when the data is loaded.
+This removes the model from the collection.
+Then we get two new models, 1 and 2 in the page.
+Their placeholders cause calls to subviewCreator which finds out the relevant objects ok.
+The new placeholder DOESN'T because we already created the view for the new item
+and it is in the subviews cache. So that view has been silently returned to the
+page, but the model is already removed from the collection. 
+
