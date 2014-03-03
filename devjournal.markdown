@@ -1623,3 +1623,8 @@ Now I want to work backward from the template I want to be able to write:
   list has reached its max size
 - [ ] The template can add classes to the items which get propagated onto the
   subview elements.
+
+I can foresee a problem where the unsaved item view remains with 
+a handle on the formerly unsaved item which is now saved.
+
+
