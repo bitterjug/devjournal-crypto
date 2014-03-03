@@ -1591,16 +1591,30 @@ to choose which subview to create.
 ## 2014-03-03 10:43 Monday
 
     
-  Now initially the addone-list renders the empty item ok though there's a bug
-  which means the empty assumption doesn't save - no url set?  It's a bit of a
-  dog's breakfast to avoid problems of recursion when adding the empty item to
-  the collection triggers render first time through.
-  
-  i really want the position of the unsaved item to be determined by the
-  template. that means being able to exclude it from the template iteration,
-  eithe with template logic or by removing it fro the collection that gets
-  passed in, then the template can ask for it explicitly by setting
-  data-subview-id="new".
-  
-  and if I do that, to make marko's requested max size feature I'll have to
-  override templatecreator for liss to return null if the collection is full.
+Now initially the addone-list renders the empty item ok though there's a bug
+which means the empty assumption doesn't save - no url set?  It's a bit of a
+dog's breakfast to avoid problems of recursion when adding the empty item to
+the collection triggers render first time through.
+
+i really want the position of the unsaved item to be determined by the
+template. that means being able to exclude it from the template iteration,
+eithe with template logic or by removing it fro the collection that gets
+passed in, then the template can ask for it explicitly by setting
+data-subview-id="new".
+
+and if I do that, to make marko's requested max size feature I'll have to
+override templatecreator for liss to return null if the collection is full.
+
+## 2014-03-03 12:11 Monday
+
+Now I want to work backward from the template I want to be able to write:
+
+``` handlebars
+{{#each items}}
+<div data-subview="itemView" data-subview-id="{{this.id}}"></div>
+{{/each }}
+<div data-subview="itemView" data-subview-id="new"></div>
+```
+
+- The unsaved item does not appear in the list of items to iterate
+- The template may explicitly ask for the unsaved item by  using 'new' as the id.
