@@ -1634,3 +1634,7 @@ one, we get back a fresh one each time.
 Does the reset that loads initial data into the collection remove the unsaved item
 and thus it no longer knows the collection it belongs to? And if so, what the hell do we do next?
 
+
+## 2014-03-03 16:31 Monday
+
+- [ ] Add `itemViewOptions` in list view used when instantiated `itemView`.
