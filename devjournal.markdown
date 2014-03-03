@@ -1555,6 +1555,8 @@ Here's an interesting idea:
   this.$el.data( "view", this );
 ```
 
+## 2014-02-27 17:34 Thursday
+
 Use the DOM to store a ref to the view responsible for an element.
 
 ## 2014-02-27 17:34 Thursday
@@ -1585,3 +1587,20 @@ to choose which subview to create.
 
 
 
+
+## 2014-03-03 10:43 Monday
+
+    
+  Now initially the addone-list renders the empty item ok though there's a bug
+  which means the empty assumption doesn't save - no url set?  It's a bit of a
+  dog's breakfast to avoid problems of recursion when adding the empty item to
+  the collection triggers render first time through.
+  
+  i really want the position of the unsaved item to be determined by the
+  template. that means being able to exclude it from the template iteration,
+  eithe with template logic or by removing it fro the collection that gets
+  passed in, then the template can ask for it explicitly by setting
+  data-subview-id="new".
+  
+  and if I do that, to make marko's requested max size feature I'll have to
+  override templatecreator for liss to return null if the collection is full.
