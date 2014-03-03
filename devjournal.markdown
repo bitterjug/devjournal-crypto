@@ -1624,7 +1624,7 @@ Now I want to work backward from the template I want to be able to write:
 - [ ] The template can add classes to the items which get propagated onto the
   subview elements.
 
-I can foresee a problem where the unsaved item view remains with 
-a handle on the formerly unsaved item which is now saved.
-
-
+I can foresee a problem where the unsaved item view remains with a handle on
+the formerly unsaved item which is now saved.  Using `add()` with fallback to
+return the existing object only works for objects that have an ID. For the new
+one, we get back a fresh one each time.
