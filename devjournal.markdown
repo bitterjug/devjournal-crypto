@@ -1613,7 +1613,7 @@ Now I want to work backward from the template I want to be able to write:
 {{#each items}}
 <div data-subview="itemView" data-subview-id="{{this.id}}"></div>
 {{/each }}
-<div data-subview="itemView" data-subview-id="new"></div>
+<div class="unsaved" data-subview="itemView" data-subview-id="new"></div>
 ```
 
 - [ ] The unsaved item does not appear in the list of items to iterate
@@ -1621,6 +1621,5 @@ Now I want to work backward from the template I want to be able to write:
   the id.
 - [ ] The subviewCreators can return undefined for the unsaved item when the
   list has reached its max size
-- [ ]
-
-
+- [ ] The template can add classes to the items which get propagated onto the
+  subview elements.
