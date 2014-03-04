@@ -1616,10 +1616,10 @@ Now I want to work backward from the template I want to be able to write:
 <div class="unsaved" data-subview="itemView" data-subview-id="new"></div>
 ```
 
-- [ ] The unsaved item does not appear in the list of items to iterate
-- [ ] The template may explicitly ask for the unsaved item by  using 'new' as
+- [x] The unsaved item does not appear in the list of items to iterate
+- [x] The template may explicitly ask for the unsaved item by  using 'new' as
   the id.
-- [ ] The subviewCreators can return undefined for the unsaved item when the
+- [x] The subviewCreators can return undefined for the unsaved item when the
   list has reached its max size
 - [ ] The template can add classes to the items which get propagated onto the
   subview elements.
