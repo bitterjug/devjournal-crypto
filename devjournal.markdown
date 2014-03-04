@@ -1650,3 +1650,11 @@ The new placeholder DOESN'T because we already created the view for the new item
 and it is in the subviews cache. So that view has been silently returned to the
 page, but the model is already removed from the collection. 
 
+
+## 2014-03-04 16:47 Tuesday
+
+Testing with qunit sucks because I want to test the logic of the templates too
+but currently I have to include them in the containing html file to make the tests
+run. What I really want is to load them dynamically as part of running the test.
+What's the answer to that?
+
