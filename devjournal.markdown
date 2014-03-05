@@ -1619,7 +1619,7 @@ Now I want to work backward from the template I want to be able to write:
 - [x] The unsaved item does not appear in the list of items to iterate
 - [x] The template may explicitly ask for the unsaved item by  using 'new' as
   the id.
-- [x] The subviewCreators can return undefined for the unsaved item when the
+- [x] The `subviewCreators` can return undefined for the unsaved item when the
   list has reached its max size
 - [ ] The template can add classes to the items which get propagated onto the
   subview elements.
@@ -1645,7 +1645,7 @@ and thus it no longer knows the collection it belongs to? And if so, what the he
 There IS a reset event when the data is loaded.
 This removes the model from the collection.
 Then we get two new models, 1 and 2 in the page.
-Their placeholders cause calls to subviewCreator which finds out the relevant objects ok.
+Their placeholders cause calls to `subviewCreator `which finds out the relevant objects ok.
 The new placeholder DOESN'T because we already created the view for the new item
 and it is in the subviews cache. So that view has been silently returned to the
 page, but the model is already removed from the collection. 
@@ -1653,8 +1653,19 @@ page, but the model is already removed from the collection.
 
 ## 2014-03-04 16:47 Tuesday
 
-Testing with qunit sucks because I want to test the logic of the templates too
+Testing with qUnit sucks because I want to test the logic of the templates too
 but currently I have to include them in the containing html file to make the tests
 run. What I really want is to load them dynamically as part of running the test.
 What's the answer to that?
+
+
+## 2014-03-05 10:29 Wednesday
+
+- [ ] The list views used int he milestone/target view don't lend themselves
+  easily to the re-written views with templates because there are many (one for
+  each milestone/sub-indicator combination) unsaved items. The new view needs
+  each of these to have a unique cache value. 
+
+  Maybe I can use the row/column values as the cache values for unsaved items
+  and actual id's for saved ones. That's going to be a bit more complicated.
 
