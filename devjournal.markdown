@@ -1672,4 +1672,5 @@ What's the answer to that?
 
 ## 2014-03-05 12:07 Wednesday
 
-When using the new list class for result overviews, there will no longer be a need to set the element type to div.
+- [ ] When using the new list class for result overviews, there will no longer
+  be a need to set the element type to `div`.
