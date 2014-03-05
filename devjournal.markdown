@@ -1674,3 +1674,8 @@ What's the answer to that?
 
 - [ ] When using the new list class for result overviews, there will no longer
   be a need to set the element type to `div`.
+
+## 2014-03-05 15:10 Wednesday
+
+Change how `TemplateList `gets its items to the template context after Marko
+addes `getTemplateData`
