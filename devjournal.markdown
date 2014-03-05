@@ -1637,7 +1637,7 @@ and thus it no longer knows the collection it belongs to? And if so, what the he
 
 ## 2014-03-03 16:31 Monday
 
-- [ ] Add `itemViewOptions` in list view used when instantiated `itemView`.
+- [x] Add `itemViewOptions` in list view used when instantiated `itemView`.
 
 ## 2014-03-03 18:06 Monday
 
@@ -1672,10 +1672,15 @@ What's the answer to that?
 
 ## 2014-03-05 12:07 Wednesday
 
-- [ ] When using the new list class for result overviews, there will no longer
+- [x] When using the new list class for result overviews, there will no longer
   be a need to set the element type to `div`.
 
 ## 2014-03-05 15:10 Wednesday
 
 Change how `TemplateList `gets its items to the template context after Marko
 addes `getTemplateData`
+
+## 2014-03-05 17:14 Wednesday
+
+- [ ] Replace marko's "work-round" for passing level or something to the subviews
+with a solution using `itemViewOptions`.
