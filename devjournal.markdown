@@ -1669,3 +1669,7 @@ What's the answer to that?
   Maybe I can use the row/column values as the cache values for unsaved items
   and actual id's for saved ones. That's going to be a bit more complicated.
 
+
+## 2014-03-05 12:07 Wednesday
+
+When using the new list class for result overviews, there will no longer be a need to set the element type to div.
