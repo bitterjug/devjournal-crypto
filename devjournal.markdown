@@ -1684,3 +1684,13 @@ addes `getTemplateData`
 
 - [ ] Replace marko's "work-round" for passing level or something to the subviews
 with a solution using `itemViewOptions`.
+
+## 2014-03-06 15:03 Thursday
+
+- [ ] Uniform spelling and punctuation 
+- [ ] Change existing template use to use:
+- [ ] Are we going to rewrite the api ?
+- [ ] 
+- [ ] 
+- [ ] 
+
