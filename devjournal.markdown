@@ -1719,5 +1719,5 @@ all those controls for the created element.
 How about the basic design assumption for editable fields is that there is an
 attribute of the model that we want to present in either a) an editable tag,
 e.g. input, or a presentation tag, e.g. div/span/h1, etc. And we just do it
-program aerially, and only use a program aerially in the case where the rendering entails
-more complex html?
+program aerially, and only use a program aerially in the case where the
+rendering entails more complex html?
