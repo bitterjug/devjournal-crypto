@@ -1688,9 +1688,36 @@ with a solution using `itemViewOptions`.
 ## 2014-03-06 15:03 Thursday
 
 - [ ] Uniform spelling and punctuation 
-- [ ] Change existing template use to use:
-- [ ] Are we going to rewrite the api ?
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] modularise the API code in python when we rewrite it
+- [ ] modularise the API code in python when we rewrite it
 
+
+
+## 2014-03-06 16:58 Thursday
+
+- [ ] Change existing template use to use: single tempalte ??/
+
+
+one reason we get everything wrapped in a div is because of how BaseView works:
+
+``` javascript
+            this.$el.html(
+                template(
+                    this.getTemplateData ? this.getTemplateData(modelJson) : modelJson
+                )
+            );
+```
+
+This says insert the result of rendering the template inside $el. So we neer
+loose the el. This explains why we have unnecessary divs round all the editable
+items.
+
+The template for editable-field is heading towards `<{{tag}}
+class="{{classes}}" ...>{{content}}</{{tag}}> `i.e. totally generic but we have
+all those controls for the created element.
+
+How about the basic design assumption for editable fields is that there is an
+attribute of the model that we want to present in either a) an editable tag,
+e.g. input, or a presentation tag, e.g. div/span/h1, etc. And we just do it
+program aerially, and only use a program aerially in the case where the rendering entails
+more complex html?
