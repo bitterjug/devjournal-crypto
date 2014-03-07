@@ -1740,3 +1740,5 @@ They had a generic relation to attach them to resuts?
 ## 2014-03-07 11:54 Friday
 
 - [ ] Make name fields optional in activities and budgetlines
+- [ ] We currently don't enforce, e.g. the 256 max character length on name fields, etc.
+
