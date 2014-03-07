@@ -1721,3 +1721,13 @@ attribute of the model that we want to present in either a) an editable tag,
 e.g. input, or a presentation tag, e.g. div/span/h1, etc. And we just do it
 program aerially, and only use a program aerially in the case where the
 rendering entails more complex html?
+
+## 2014-03-07 09:26 Friday
+
+- [ ] I can expand unsaved results and add save activities against them, well I
+  cant' that fails.
+- [ ] We need to guard against saving with the field is empty, the back end
+  doesn't like it.
+
+
+
