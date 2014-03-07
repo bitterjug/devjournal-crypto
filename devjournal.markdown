@@ -1735,4 +1735,8 @@ rendering entails more complex html?
 ## 2014-03-07 11:18 Friday
 
 Maybe activities should live in their own app? Might be easier if 
-They had a generic relatin to attach them to resuts?
+They had a generic relation to attach them to resuts?
+
+## 2014-03-07 11:54 Friday
+
+- [ ] Make name fields optional in activities and budgetlines
