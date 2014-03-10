@@ -1746,3 +1746,11 @@ They had a generic relation to attach them to resuts?
 ## 2014-03-10 09:41 Monday
 
 - [ ] Leave commas in while editing amount fields
+
+- [ ] Better "information design" for amount totals -- marko doesn't like the
+  bigger fonts and right justified totals
+
+- [ ] discussion about how we tackle delete
+
+
+
