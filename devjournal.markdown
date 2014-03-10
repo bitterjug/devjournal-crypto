@@ -1762,6 +1762,8 @@ They had a generic relation to attach them to resuts?
 
 - [ ] Talk to Luke Everett about linking to sharepoint documents
 
-## 2014-03-10 16:00 Monday
-
 - [ ] v4c login css (From ruforum) needs reworking
+
+- [ ] Conditional loading, to reduce page size
+
+
