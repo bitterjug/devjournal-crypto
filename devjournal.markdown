@@ -1742,3 +1742,7 @@ They had a generic relation to attach them to resuts?
 - [ ] Make name fields optional in activities and budgetlines
 - [ ] We currently don't enforce, e.g. the 256 max character length on name fields, etc.
 
+
+## 2014-03-10 09:41 Monday
+
+- [ ] Leave commas in while editing amount fields
