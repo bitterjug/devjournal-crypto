@@ -1750,8 +1750,8 @@ They had a generic relation to attach them to resuts?
 - [ ] Better "information design" for amount totals -- marko doesn't like the
   bigger fonts and right justified totals
 
-- [ ] discussion about how we tackle delete
+- [ ] Discussion about how we tackle Delete
 
 - [ ] Overview page should start wtih Goal and Outcome expanded, showing outputs, probabl???
 
-
+- [ ] Discuss how we tackle oob updates (someone added something to the tree I have to refresh the page)
