@@ -1755,3 +1755,8 @@ They had a generic relation to attach them to resuts?
 - [ ] Overview page should start wtih Goal and Outcome expanded, showing outputs, probabl???
 
 - [ ] Discuss how we tackle oob updates (someone added something to the tree I have to refresh the page)
+
+- [ ] Results don't have indicators and shit, remove edit button
+
+- [ ] Open the the dashboard with top two levels expanded (show outputs)
+
