@@ -1752,5 +1752,6 @@ They had a generic relation to attach them to resuts?
 
 - [ ] discussion about how we tackle delete
 
+- [ ] Overview page should start wtih Goal and Outcome expanded, showing outputs, probabl???
 
 
