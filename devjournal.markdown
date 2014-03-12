@@ -1767,3 +1767,7 @@ They had a generic relation to attach them to resuts?
 - [ ] Conditional loading, to reduce page size
 
 - [ ] Design the feedback process for, e.g. serer errors
+
+## 2014-03-12 15:31 Wednesday
+
+- [ ] Can't enter empty amount field for TA. If I clear the field I get `.00` !!
