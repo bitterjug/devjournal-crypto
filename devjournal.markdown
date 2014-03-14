@@ -1776,3 +1776,18 @@ They had a generic relation to attach them to resuts?
 ## 2014-03-14 10:35 Friday
 
 - [ ] Create new indicator creates two blank subindicator items in the table
+
+## 2014-03-14 15:38 Friday
+
+### Filter by lead:
+
+- [ ] Does the Impact really match?  
+
+  yes if you think of this as a computer scientist would: hierarchically but
+  possibly not if you consider the goal and outcome to be different things.  If
+  we were to change the user interface design to resemble the mockups: with the
+  single impact and outcome separate from the outputs, then the message we
+  would be sending wuld mean those top level items do NOT match. Since there
+  are only one of each there is no information in saying they match (by
+  transitivity).  So maybe we should make both these chagnes.
+  
