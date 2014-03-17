@@ -1796,3 +1796,7 @@ They had a generic relation to attach them to resuts?
 
 - [ ] When following link to accept system invitation I get "Djanog Administration" page,
 need to add some branding
+
+## 2014-03-17 12:25 Monday
+
+- [ ] The world "null" appears in indicator descriptions when I try to edit them.
