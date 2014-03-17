@@ -1803,9 +1803,17 @@ need to add some branding
 
 ## 2014-03-17 14:40 Monday
 
-- [ ] In Marko's rework of loading data from the flat API we have the subcollections
-  owned by their views. I would prefer to have them owned by the relevant model  object
-  as before so that there is a single data structure for the app and the data structure
-  is effectively isolated there, the views don't need to have knowledge of how the
-  data model objects are related to one another, they just get given a collection, 
-  (or subcollection) and render it.
+- [ ] In Marko's rework of loading data from the flat API we have the
+  subcollections owned by their views. I would prefer to have them owned by the
+  relevant model  object as before so that there is a single data structure for
+  the app and the data structure is effectively isolated there, the views don't
+  need to have knowledge of how the data model objects are related to one
+  another, they just get given a collection, (or subcollection) and render it.
+  This is really bugging me. I don't like the idea that the relationships
+  between objects might be defined more than once if we had different views
+  showing the same object relation in different ways. Instead of just rendering the
+  collection from the data model, they would each recreate that collection and
+  define the data dependency in the view. Yickk!
+
+
+
