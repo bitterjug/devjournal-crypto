@@ -1815,5 +1815,7 @@ need to add some branding
   collection from the data model, they would each recreate that collection and
   define the data dependency in the view. Yickk!
 
-
+  Another reason I don't like it is it introduces dependency on Aptivate.logframe
+  all over the place, whereas if I just passed in a collection object or
+  it found one on the given object, it would be easier to create testing configurations.
 
