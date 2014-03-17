@@ -1800,3 +1800,12 @@ need to add some branding
 ## 2014-03-17 12:25 Monday
 
 - [ ] The world "null" appears in indicator descriptions when I try to edit them.
+
+## 2014-03-17 14:40 Monday
+
+- [ ] In Marko's rework of loading data from the flat API we have the subcollections
+  owned by their views. I would prefer to have them owned by the relevant model  object
+  as before so that there is a single data structure for the app and the data structure
+  is effectively isolated there, the views don't need to have knowledge of how the
+  data model objects are related to one another, they just get given a collection, 
+  (or subcollection) and render it.
