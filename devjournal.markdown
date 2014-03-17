@@ -1791,3 +1791,8 @@ They had a generic relation to attach them to resuts?
   are only one of each there is no information in saying they match (by
   transitivity).  So maybe we should make both these chagnes.
   
+
+## 2014-03-17 10:41 Monday
+
+- [ ] When following link to accept system invitation I get "Djanog Administration" page,
+need to add some branding
