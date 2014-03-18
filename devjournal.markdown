@@ -1855,3 +1855,11 @@ Adding status updates
 - [ ] In the models file Marko has divided the models according to what page
   they sit on, I disagree with this way of structuring things around the pages,
   I want things structured around the data model.
+
+- [ ]  Something is wrong with our setup. In order to add a new view, I have to change:
+  - models.js to add the model
+  - collections.js to add the collection, which duplicates the url in the model
+  - app.js to instantiate the collection
+  - rounter.js to put data into it.
+
+
