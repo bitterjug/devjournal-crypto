@@ -1839,6 +1839,7 @@ Adding status updates
 - [ ] Custom container view for status that puts the most recent one at the top when closed and the edit page at the top when open
 - [ ] Put status codes into Aptivate.data
 - [ ] Remove unneeded status codes in Aptivate.logframe.statuscodes 
+- [ ] Add user (back-end?)
 
 ## 2014-03-18 11:15 Tuesday
 
@@ -1862,4 +1863,8 @@ Adding status updates
   - collections.js to add the collection, which duplicates the url in the model
   - app.js to instantiate the collection
   - router.js to put data into it.
+
+
+## 2014-03-18 15:04 Tuesday
+
 
