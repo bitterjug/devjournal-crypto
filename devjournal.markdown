@@ -1860,6 +1860,10 @@ Adding status updates
   - models.js to add the model
   - collections.js to add the collection, which duplicates the url in the model
   - app.js to instantiate the collection
-  - resultpage.js to put data into it.
+  - router.js to put data into it.
+
+
+
+## 2014-03-18 14:21 Tuesday
 
 
