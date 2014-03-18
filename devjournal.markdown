@@ -1824,12 +1824,16 @@ need to add some branding
 
 Adding status updates
 
-- [ ] Add [django-cuser](https://github.com/Alir3z4/django-cuser)
+- Add [django-cuser](https://github.com/Alir3z4/django-cuser)-
+  
+  Not such a good idea, the ruforum user stuff has switched out the user model and Cuser
+  doesn't know how to work with different ones. Marko says `request.user` has current user.
+  Maybe just put that into `aptivate.data` and use to fill the field in js?
+
 - [x] Add model for status types 
 - [x] Add admin for status types
-- [ ] Create model for status updates 
-  - with cuser field
-  - With datetime now field
+- [x] Create model for status updates 
+  - With datetime field
 - [ ] Add API for status types and status updates
 - [ ] Add status list to page
 - [ ] Sort by date
@@ -1842,3 +1846,7 @@ Adding status updates
 ## 2014-03-18 11:23 Tuesday
 
 - [ ] Better text representation of status updates? Include code/date?
+
+## 2014-03-18 11:48 Tuesday
+
+
