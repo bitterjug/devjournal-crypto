@@ -1856,7 +1856,7 @@ Adding status updates
   they sit on, I disagree with this way of structuring things around the pages,
   I want things structured around the data model.
 
-- [ ]  Something is wrong with our setup. In order to add a new view, I have to change:
+- [ ]  Something is wrong with our encapsulation. In order to add a new view, I have to change:
   - models.js to add the model
   - collections.js to add the collection, which duplicates the url in the model
   - app.js to instantiate the collection
