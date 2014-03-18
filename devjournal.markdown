@@ -1752,21 +1752,20 @@ They had a generic relation to attach them to resuts?
 
 - [ ] Discussion about how we tackle Delete
 
-- [ ] Overview page should start wtih Goal and Outcome expanded, showing outputs, probabl???
+- [ ] Overview page should start with Goal and Outcome expanded, showing outputs, probabl???
+  - [ ] Open the dashboard with top two levels expanded (show outputs)
 
 - [ ] Discuss how we tackle oob updates (someone added something to the tree I have to refresh the page)
 
 - [ ] Results don't have indicators and shit, remove edit button
 
-- [ ] Open the the dashboard with top two levels expanded (show outputs)
-
-- [ ] Talk to Luke Everett about linking to sharepoint documents
+- [x] Talk to Luke Everett about linking to sharepoint documents
 
 - [ ] v4c login css (From ruforum) needs reworking
 
 - [ ] Conditional loading, to reduce page size
 
-- [ ] Design the feedback process for, e.g. serer errors
+- [ ] Design the feedback process for, e.g. server errors
 
 ## 2014-03-12 15:31 Wednesday
 
@@ -1838,6 +1837,8 @@ Adding status updates
 - [ ] Add status list to page
 - [ ] Sort by date?
 - [ ] Custom container view for status that puts the most recent one at the top when closed and the edit page at the top when open
+- [ ] Put status codes into Aptivate.data
+- [ ] Remove unneeded status codes in Aptivate.logframe.statuscodes 
 
 ## 2014-03-18 11:15 Tuesday
 
@@ -1861,9 +1862,4 @@ Adding status updates
   - collections.js to add the collection, which duplicates the url in the model
   - app.js to instantiate the collection
   - router.js to put data into it.
-
-
-
-## 2014-03-18 14:21 Tuesday
-
 
