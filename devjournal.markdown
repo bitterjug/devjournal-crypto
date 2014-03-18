@@ -1835,11 +1835,13 @@ Adding status updates
   - With datetime field
 - [x] Add API for status types and status updates
 - [ ] Add status list to page
-- [ ] Sort by date?
-- [ ] Custom container view for status that puts the most recent one at the top when closed and the edit page at the top when open
 - [x] Put status codes into Aptivate.data
 - [x] Remove unneeded status codes in Aptivate.logframe.statuscodes 
 - [ ] Add user (back-end?)
+- [ ] Add description
+- [ ] Add date
+- [ ] Custom container view for status that puts the most recent one at the top when closed and the edit page at the top when open
+- [ ] Sort by date?
 
 ## 2014-03-18 11:15 Tuesday
 
