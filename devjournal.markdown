@@ -1819,3 +1819,18 @@ need to add some branding
   all over the place, whereas if I just passed in a collection object or
   it found one on the given object, it would be easier to create testing configurations.
 
+
+## 2014-03-18 09:46 Tuesday
+
+Adding status updates
+
+- [ ] Add [django-cuser](https://github.com/Alir3z4/django-cuser)
+- [ ] Add model for status types 
+- [ ] Add admin for status types
+- [ ] Create model for status updates 
+  - with cuser field
+  - With datetime now field
+- [ ] Add API for status types and status updates
+- [ ] Add status list to page
+- [ ] Sort by date
+- 
