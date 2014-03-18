@@ -1833,8 +1833,8 @@ Adding status updates
 - [ ] Add API for status types and status updates
 - [ ] Add status list to page
 - [ ] Sort by date
-- 
 
-## 2014-03-18 11:08 Tuesday
+## 2014-03-18 11:15 Tuesday
 
+- [ ] Should status updates be updatable at all? only by their author?
 
