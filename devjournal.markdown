@@ -1863,8 +1863,3 @@ Adding status updates
   - collections.js to add the collection, which duplicates the url in the model
   - app.js to instantiate the collection
   - router.js to put data into it.
-
-
-## 2014-03-18 15:04 Tuesday
-
-
