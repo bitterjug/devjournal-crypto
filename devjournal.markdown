@@ -1849,3 +1849,9 @@ Adding status updates
 - [ ] Do we still get unnecessary divs on our list views? I thought that was
   cleared up now? But I notice Marko renders acctivitiy lines in separate table
   from the headings for some reason?
+
+## 2014-03-18 14:15 Tuesday
+
+- [ ] In the models file Marko has divided the models according to what page
+  they sit on, I disagree with this way of structuring things around the pages,
+  I want things structured around the data model.
