@@ -1825,8 +1825,8 @@ need to add some branding
 Adding status updates
 
 - [ ] Add [django-cuser](https://github.com/Alir3z4/django-cuser)
-- [ ] Add model for status types 
-- [ ] Add admin for status types
+- [x] Add model for status types 
+- [x] Add admin for status types
 - [ ] Create model for status updates 
   - with cuser field
   - With datetime now field
@@ -1834,3 +1834,7 @@ Adding status updates
 - [ ] Add status list to page
 - [ ] Sort by date
 - 
+
+## 2014-03-18 11:08 Tuesday
+
+
