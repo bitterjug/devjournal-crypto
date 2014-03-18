@@ -1834,19 +1834,12 @@ Adding status updates
 - [x] Add admin for status types
 - [x] Create model for status updates 
   - With datetime field
-- [ ] Add API for status types and status updates
+- [x] Add API for status types and status updates
 - [ ] Add status list to page
-- [ ] Sort by date
+- [ ] Sort by date?
+- [ ] Custom container view for status that puts the most recent one at the top when closed and the edit page at the top when open
 
 ## 2014-03-18 11:15 Tuesday
 
-- [ ] Should status updates be updatable at all? only by their author?
-
-
-## 2014-03-18 11:23 Tuesday
-
+- [ ] Should status updates be updateable at all? Only by their author?
 - [ ] Better text representation of status updates? Include code/date?
-
-## 2014-03-18 11:48 Tuesday
-
-
