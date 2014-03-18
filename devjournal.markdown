@@ -1837,7 +1837,7 @@ Adding status updates
 - [ ] Add status list to page
 - [ ] Sort by date?
 - [ ] Custom container view for status that puts the most recent one at the top when closed and the edit page at the top when open
-- [ ] Put status codes into Aptivate.data
+- [x] Put status codes into Aptivate.data
 - [ ] Remove unneeded status codes in Aptivate.logframe.statuscodes 
 - [ ] Add user (back-end?)
 
