@@ -1843,3 +1843,9 @@ Adding status updates
 
 - [ ] Should status updates be updateable at all? Only by their author?
 - [ ] Better text representation of status updates? Include code/date?
+
+## 2014-03-18 12:39 Tuesday
+
+- [ ] Do we still get unnecessary divs on our list views? I thought that was
+  cleared up now? But I notice Marko renders acctivitiy lines in separate table
+  from the headings for some reason?
