@@ -1860,6 +1860,6 @@ Adding status updates
   - models.js to add the model
   - collections.js to add the collection, which duplicates the url in the model
   - app.js to instantiate the collection
-  - rounter.js to put data into it.
+  - resultpage.js to put data into it.
 
 
