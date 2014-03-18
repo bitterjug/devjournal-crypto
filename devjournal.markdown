@@ -1838,3 +1838,7 @@ Adding status updates
 
 - [ ] Should status updates be updatable at all? only by their author?
 
+
+## 2014-03-18 11:23 Tuesday
+
+- [ ] Better text representation of status updates? Include code/date?
