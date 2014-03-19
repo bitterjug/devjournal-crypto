@@ -1866,6 +1866,8 @@ Adding status updates
   - app.js to instantiate the collection
   - router.js to put data into it.
 
-## 2014-03-18 15:08 Tuesday
+## 2014-03-19 15:17 Wednesday
+
+- [ ] Collapsable toggle for status upates
 
 
