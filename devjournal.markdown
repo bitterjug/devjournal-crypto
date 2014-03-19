@@ -1869,5 +1869,9 @@ Adding status updates
 ## 2014-03-19 15:17 Wednesday
 
 - [ ] Collapsable toggle for status upates
+  display most recent 
+
+- [ ] Fix colours on search bar
+- [ ] Make status date default to today
 
 
