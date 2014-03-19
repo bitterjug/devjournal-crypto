@@ -1873,5 +1873,4 @@ Adding status updates
 
 - [ ] Fix colours on search bar
 - [ ] Make status date default to today
-
-
+- [ ] Zebra stripe tables to make them more readable in wide screen
