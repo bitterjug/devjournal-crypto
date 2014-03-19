@@ -1868,9 +1868,12 @@ Adding status updates
 
 ## 2014-03-19 15:17 Wednesday
 
-- [ ] Collapsable toggle for status upates
-  display most recent 
+- [ ] Collapsable toggle for status updates to display most recent 
+  - [ ] Css it to look active with the finger link
 
 - [ ] Fix colours on search bar
 - [ ] Make status date default to today
 - [ ] Zebra stripe tables to make them more readable in wide screen
+
+
+
