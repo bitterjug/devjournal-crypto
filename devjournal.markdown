@@ -1870,9 +1870,9 @@ Adding status updates
 
 - [ ] Collapsable toggle for status updates to display most recent 
   - [ ] Css it to look active with the finger link
+  - [ ] Make status date default to today so they can't enter an update without a date
 
 - [ ] Fix colours on search bar
-- [ ] Make status date default to today
 - [ ] Zebra stripe tables to make them more readable in wide screen
 
 
