@@ -1840,7 +1840,7 @@ Adding status updates
 - [x] Add user (back-end?)
 - [x] Add description
 - [x] Add date
-- [ ] Sort by date?
+- [-] Sort by date?
 
 ## 2014-03-18 11:15 Tuesday
 
@@ -1878,4 +1878,6 @@ Adding status updates
 
 ## 2014-03-20 09:22 Thursday
 
+- [ ] Fill in today's date by default in status updates
+- [ ] Sorting by date still not working? 
 
