@@ -1884,3 +1884,7 @@ Adding status updates
 
 
 
+
+## 2014-03-20 10:52 Thursday
+
+- [ ] Clearning the search filter criteria after demo left some items greyed out
