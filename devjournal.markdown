@@ -1767,6 +1767,8 @@ They had a generic relation to attach them to resuts?
 
 - [ ] Design the feedback process for, e.g. server errors
 
+- [ ] Print stylesheets?
+
 ## 2014-03-12 15:31 Wednesday
 
 
@@ -1786,14 +1788,14 @@ They had a generic relation to attach them to resuts?
   possibly not if you consider the goal and outcome to be different things.  If
   we were to change the user interface design to resemble the mockups: with the
   single impact and outcome separate from the outputs, then the message we
-  would be sending wuld mean those top level items do NOT match. Since there
+  would be sending would mean those top level items do NOT match. Since there
   are only one of each there is no information in saying they match (by
-  transitivity).  So maybe we should make both these chagnes.
+  transitivity).  So maybe we should make both these changes.
   
 
 ## 2014-03-17 10:41 Monday
 
-- [ ] When following link to accept system invitation I get "Djanog Administration" page,
+- [ ] When following link to accept system invitation I get "Djano Administration" page,
 need to add some branding
 
 ## 2014-03-17 12:25 Monday
@@ -1825,7 +1827,7 @@ Adding status updates
 
 - Add [django-cuser](https://github.com/Alir3z4/django-cuser)-
   
-  Not such a good idea, the ruforum user stuff has switched out the user model and Cuser
+  Not such a good idea, the Ruforum user stuff has switched out the user model and Cuser
   doesn't know how to work with different ones. Marko says `request.user` has current user.
   Maybe just put that into `aptivate.data` and use to fill the field in js?
 
@@ -1891,5 +1893,9 @@ Adding status updates
 
 ## 2014-03-20 11:53 Thursday
 
-if Emeka goest to senior management, and asks for additional iteration
+if Emeka gets to senior management to agree to 5th iteration, and asks for additional iteration
 can we, in 4 and 5th iteration 
+
+## 2014-03-20 11:56 Thursday
+
+- 
