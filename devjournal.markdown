@@ -1834,19 +1834,18 @@ Adding status updates
 - [x] Create model for status updates 
   - With datetime field
 - [x] Add API for status types and status updates
-- [ ] Add status list to page
+- [x] Add status list to page
 - [x] Put status codes into Aptivate.data
 - [x] Remove unneeded status codes in Aptivate.logframe.statuscodes 
-- [ ] Add user (back-end?)
-- [ ] Add description
-- [ ] Add date
-- [ ] Custom container view for status that puts the most recent one at the top when closed and the edit page at the top when open
+- [x] Add user (back-end?)
+- [x] Add description
+- [x] Add date
 - [ ] Sort by date?
 
 ## 2014-03-18 11:15 Tuesday
 
 - [ ] Should status updates be updateable at all? Only by their author?
-- [ ] Better text representation of status updates? Include code/date?
+- [x] Better text representation of status updates? Include code/date?
 
 ## 2014-03-18 12:39 Tuesday
 
@@ -1875,4 +1874,8 @@ Adding status updates
 
 - [ ] Fix colours on search bar
 - [ ] Zebra stripe tables to make them more readable in wide screen
+
+
+## 2014-03-20 09:22 Thursday
+
 
