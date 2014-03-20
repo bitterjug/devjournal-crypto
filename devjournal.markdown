@@ -1888,3 +1888,8 @@ Adding status updates
 ## 2014-03-20 10:52 Thursday
 
 - [ ] Clearning the search filter criteria after demo left some items greyed out
+
+## 2014-03-20 11:53 Thursday
+
+if Emeka goest to senior management, and asks for additional iteration
+can we, in 4 and 5th iteration 
