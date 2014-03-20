@@ -1774,7 +1774,7 @@ They had a generic relation to attach them to resuts?
 
 ## 2014-03-14 10:35 Friday
 
-- [ ] Create new indicator creates two blank subindicator items in the table
+- [x] Create new indicator creates two blank subindicator items in the table
 
 ## 2014-03-14 15:38 Friday
 
