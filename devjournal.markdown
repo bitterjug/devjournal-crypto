@@ -1880,4 +1880,7 @@ Adding status updates
 
 - [ ] Fill in today's date by default in status updates
 - [ ] Sorting by date still not working? 
+- [ ] I'm not seeing link buttons on Pen RTE
+
+
 
