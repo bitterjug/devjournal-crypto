@@ -1896,6 +1896,7 @@ Adding status updates
 if Emeka gets to senior management to agree to 5th iteration, and asks for additional iteration
 can we, in 4 and 5th iteration 
 
-## 2014-03-20 11:56 Thursday
+## 2014-03-24 15:41 Monday
 
-- 
+- [ ] If I hit the clear filter button when some of my outputs or results don't have activities, they get greyed out, this is a false match.
+
