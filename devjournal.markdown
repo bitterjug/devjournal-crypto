@@ -1900,3 +1900,7 @@ can we, in 4 and 5th iteration
 
 - [ ] If I hit the clear filter button when some of my outputs or results don't have activities, they get greyed out, this is a false match.
 
+
+## 2014-03-25 09:57 Tuesday
+
+- [ ] I cam click on the ionput field under a multi line input in result heading if it has mutiple lines, add bug
