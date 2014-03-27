@@ -1904,3 +1904,7 @@ can we, in 4 and 5th iteration
 ## 2014-03-25 09:57 Tuesday
 
 - [ ] I cam click on the ionput field under a multi line input in result heading if it has mutiple lines, add bug
+
+## 2014-03-27 14:28 Thursday
+
+- [ ]total budgets missing in activities
