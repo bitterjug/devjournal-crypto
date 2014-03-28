@@ -1908,3 +1908,10 @@ can we, in 4 and 5th iteration
 ## 2014-03-27 14:28 Thursday
 
 - [ ]total budgets missing in activities
+
+## 2014-03-28 08:58 Friday
+
+To fix the jittery touchpad on my Thinkpad Edge E330:
+```bash
+xinput --set-prop SynPS/2 Synaptics TouchPad Synaptics Noise Cancellation 20 20
+```
