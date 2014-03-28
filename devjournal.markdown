@@ -1931,3 +1931,6 @@ xinput --set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Noise Cancellation" 20
 ## 2014-03-28 16:12 Friday
 
 - [ ] Dashboard url doesn't include logframe id, but probably should
+- [ ] ResultEditor view should use JSON renderer in Django Rest Renderers
+
+
