@@ -1917,4 +1917,9 @@ xinput --set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Noise Cancellation" 20
 ```
 
 
+## 2014-03-28 09:32 Friday
+
+- [ ] Add admin for Column and Actual
+- [ ] Add API for column and Actual
+
 
