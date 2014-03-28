@@ -1913,5 +1913,8 @@ can we, in 4 and 5th iteration
 
 To fix the jittery touchpad on my Thinkpad Edge E330:
 ```bash
-xinput --set-prop SynPS/2 Synaptics TouchPad Synaptics Noise Cancellation 20 20
+xinput --set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Noise Cancellation" 20 20
 ```
+
+
+
