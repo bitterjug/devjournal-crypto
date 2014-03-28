@@ -1927,3 +1927,7 @@ xinput --set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Noise Cancellation" 20
 ## 2014-03-28 12:18 Friday
 
 - [ ] Memory consumption over time, do we really deallocate views?
+
+## 2014-03-28 16:12 Friday
+
+- [ ] Dashboard url doesn't include logframe id, but probably should
