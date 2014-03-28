@@ -1923,3 +1923,7 @@ xinput --set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Noise Cancellation" 20
 - [ ] Add API for column and Actual
 
 
+
+## 2014-03-28 12:18 Friday
+
+- [ ] Memory consumption over time, do we really deallocate views?
