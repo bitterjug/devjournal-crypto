@@ -1970,6 +1970,16 @@ functions to the current view. Should we say something like this?:
     },
   }
 ```
+
+Alternatively, based on something I saw Marko write: simply don't define it in the superclass
+and use it if it exists:
+
+```javascript
+  subviewId = this.getSubviewId ? this.getSubviewId(subview, placeholder) : subview
+```
+
+This is a much lighter
+
   
 
 
@@ -1981,4 +1991,8 @@ functions to the current view. Should we say something like this?:
 
 ## 2014-03-31 12:17 Monday
 
-- [ ] The page shoul ask you if you want to leave only if there is a currently open editor
+- [ ] The page should ask you if you want to leave only if there is a currently open editor
+
+## 2014-03-31 15:35 Monday
+
+
