@@ -1980,10 +1980,6 @@ and use it if it exists:
 
 This is a much lighter
 
-  
-
-
-
 ## 2014-03-31 11:06 Monday
 
 - [ ] We need smarter synchronising data between client and server to avoid
