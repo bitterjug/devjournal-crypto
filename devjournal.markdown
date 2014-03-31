@@ -1973,3 +1973,8 @@ functions to the current view. Should we say something like this?:
   
 
 
+
+## 2014-03-31 11:06 Monday
+
+- [ ] We need smarter synchronising data between client and server to avoid
+  fetching all the data every time we change pages.
