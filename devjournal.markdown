@@ -1962,7 +1962,7 @@ My question: how to add this in such a way that subclasses can override?
 Especially given that subviews defines an `add()` method which adds its 
 functions to the current view. Should we say something like this?:
 
-```javascript
+``` javascript
   Backbone.subviews.add = function(view){
     ...
     view.getSubviewId = view.getSubviewId || function (subviewCreator, $placeholder) {
