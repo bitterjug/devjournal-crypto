@@ -1974,7 +1974,7 @@ functions to the current view. Should we say something like this?:
 Alternatively, based on something I saw Marko write: simply don't define it in the superclass
 and use it if it exists:
 
-```javascript
+``` javascript
   subviewId = this.getSubviewId ? this.getSubviewId(subview, placeholder) : subview
 ```
 
