@@ -1978,3 +1978,7 @@ functions to the current view. Should we say something like this?:
 
 - [ ] We need smarter synchronising data between client and server to avoid
   fetching all the data every time we change pages.
+
+## 2014-03-31 12:17 Monday
+
+- [ ] The page shoul ask you if you want to leave only if there is a currently open editor
