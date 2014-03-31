@@ -1912,6 +1912,7 @@ can we, in 4 and 5th iteration
 ## 2014-03-28 08:58 Friday
 
 To fix the jittery touchpad on my Thinkpad Edge E330:
+
 ```bash
 xinput --set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Noise Cancellation" 20 20
 ```
@@ -1933,8 +1934,42 @@ xinput --set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Noise Cancellation" 20
 - [ ] Dashboard url doesn't include logframe id, but probably should
 - [ ] ResultEditor view should use JSON renderer in Django Rest Renderers
 
+## 2014-03-31 09:15 Monday
 
+Reviewing my pull requests to Backbone.subviews.  The subview-id version is too
+specific. I'd prefer subviews to define a function that returns the key to use
+in the view cache. Then subclasses of subview -- like my list view, can choose
+to redefine that to do something clever like use the model id, or (in the case
+of my tables) the unique row/column combination. 
 
-## 2014-03-28 16:43 Friday
+The default (preserving current subviews behaviour) would be something like:
+
+``` javascript
+    getSubviewId: function (subviewCreator, $placeholder) {
+      return subviewCreator;
+    },
+```
+
+My version would be something like
+
+``` javascript
+    getSubviewId: function (subviewCreator, $placeholder) {
+      return $placeholder.data('subview-id');
+    },
+```
+
+My question: how to add this in such a way that subclasses can override?
+Especially given that subviews defines an `add()` method which adds its 
+functions to the current view. Should we say something like this?:
+
+```javascript
+  Backbone.subviews.add = function(view){
+    ...
+    view.getSubviewId = view.getSubviewId || function (subviewCreator, $placeholder) {
+      return subviewCreator;
+    },
+  }
+```
+  
 
 
