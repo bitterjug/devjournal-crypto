@@ -1995,7 +1995,7 @@ This is a much lighter
 
 ## 2014-03-31 17:30 Monday
 
-- [ ] Next up: use the upcoming milestone as the heading of column 2?
+- [x] Next up: use the upcoming milestone as the heading of column 2?
 
 - [ ] Maybe the functions to get the first and next milestones should be
   external as thy might be used by the view for the table body as well as the
@@ -2010,3 +2010,7 @@ things we would like to do to put on the wiki.
 - taxonomies
 
 - configuration of the number of values at each level of the tree
+
+## 2014-04-01 17:22 Tuesday
+
+- [ ] NExt up, give `monitor-heading` template a subview date-editable for the column date
