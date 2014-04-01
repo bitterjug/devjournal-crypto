@@ -2000,3 +2000,13 @@ This is a much lighter
 - [ ] Maybe the functions to get the first and next milestones should be
   external as thy might be used by the view for the table body as well as the
   header, as we have to know which row content to render
+
+## 2014-04-01 12:08 Tuesday
+
+Collection.find(predicate, context)
+
+things we would like to do to put on the wiki.
+
+- taxonomies
+
+- configuration of the number of values at each level of the tree
