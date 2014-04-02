@@ -2013,4 +2013,10 @@ things we would like to do to put on the wiki.
 
 ## 2014-04-01 17:22 Tuesday
 
-- [ ] NExt up, give `monitor-heading` template a subview date-editable for the column date
+- [x] NExt up, give `monitor-heading` template a subview date-editable for the column date
+
+## 2014-04-02 11:45 Wednesday
+
+- [ ] The subindicators shoudl be available on their indicator
+- [ ] Create a fixed list view for the subindicator rows 
+
