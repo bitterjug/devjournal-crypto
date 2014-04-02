@@ -2026,3 +2026,6 @@ Things we would like to do to put on the wiki.
 - [ ] Display the relevant next milestone value in the input row
 - [ ] Add data entry for Actual in data entry row, if the column is saved (not isNew())
 - [ ] Now for subindicator rows I need a collection of the actuals for the given indicator/subindicator. Who owns that collection?
+
+When there are no actuals, we don't have any blank spaces to enter any either.
+In fact we need one in every column that doesn't already have one.
