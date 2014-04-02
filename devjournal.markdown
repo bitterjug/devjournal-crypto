@@ -2021,3 +2021,6 @@ Things we would like to do to put on the wiki.
 - [ ] The targets should be available on the Indicator too
 - [x] Create a fixed list view for the subindicator rows 
 - [ ] Having trouble when changing page with client routing: the edit and monitor pages dont load poperly.
+- [ ] Display the relevant baseline value in the input row
+- [ ] Display the relevant next milestone value in the input row
+- [ ] Add data entry for Actual in data entry row, if the column is saved (not isNew())
