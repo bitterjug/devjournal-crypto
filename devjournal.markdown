@@ -2020,6 +2020,10 @@ things we would like to do to put on the wiki.
 - [ ] The subindicators shoudl be available on their Indicator
 - [ ] The targets should be available on the Indicator too
 - [ ] Create a fixed list view for the subindicator rows 
+- [ ] Having trouble when changing page with client routing: the edit and monitor pages dont load poperly.
 
+
+
+## 2014-04-02 12:28 Wednesday
 
 
