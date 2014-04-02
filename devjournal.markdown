@@ -2017,6 +2017,9 @@ things we would like to do to put on the wiki.
 
 ## 2014-04-02 11:45 Wednesday
 
-- [ ] The subindicators shoudl be available on their indicator
+- [ ] The subindicators shoudl be available on their Indicator
+- [ ] The targets should be available on the Indicator too
 - [ ] Create a fixed list view for the subindicator rows 
+
+
 
