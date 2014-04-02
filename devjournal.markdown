@@ -2005,7 +2005,7 @@ This is a much lighter
 
 Collection.find(predicate, context)
 
-things we would like to do to put on the wiki.
+Things we would like to do to put on the wiki.
 
 - taxonomies
 
