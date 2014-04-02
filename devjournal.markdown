@@ -2018,8 +2018,8 @@ Things we would like to do to put on the wiki.
 ## 2014-04-02 11:45 Wednesday
 
 - [x] The subindicators should be available on their Indicator
-- [ ] The targets should be available on the Indicator too
 - [x] Create a fixed list view for the subindicator rows 
+- [ ] The targets should be available on the Indicator too
 - [ ] Having trouble when changing page with client routing: the edit and monitor pages dont load poperly.
 - [ ] Display the relevant baseline value in the input row
 - [ ] Display the relevant next milestone value in the input row
