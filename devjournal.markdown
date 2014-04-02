@@ -2029,3 +2029,8 @@ Things we would like to do to put on the wiki.
 
 When there are no actuals, we don't have any blank spaces to enter any either.
 In fact we need one in every column that doesn't already have one.
+
+Tried to populate a local collection inside addAll of `data-entry-row`.  
+
+Shows I actually pass those values in `extend({})`, but it looks like this.actuals isn't getting set.
+
