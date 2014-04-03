@@ -2013,7 +2013,8 @@ Things we would like to do to put on the wiki.
 
 ## 2014-04-01 17:22 Tuesday
 
-- [x] NExt up, give `monitor-heading` template a subview date-editable for the column date
+- [x] NExt up, give `monitor-heading` template a subview date-editable for the
+  column date
 
 ## 2014-04-02 11:45 Wednesday
 
@@ -2021,16 +2022,28 @@ Things we would like to do to put on the wiki.
 - [x] Create a fixed list view for the subindicator rows 
 - [ ] The targets should be available on the Indicator too
 - [x] The actuals should be available on the Indicator too
-- [ ] Having trouble when changing page with client routing: the edit and monitor pages dont load poperly.
+- [ ] Having trouble when changing page with client routing: the edit and
+  monitor pages dont load poperly.
 - [ ] Display the relevant baseline value in the input row
 - [ ] Display the relevant next milestone value in the input row
-- [ ] Add data entry for Actual in data entry row, if the column is saved (not isNew())
-- [ ] Now for subindicator rows I need a collection of the actuals for the given indicator/subindicator. Who owns that collection?
+- [ ] Add data entry for Actual in data entry row, if the column is saved (not
+  isNew())
+- [ ] Now for subindicator rows I need a collection of the actuals for the
+  given indicator/subindicator. Who owns that collection?
 
 When there are no actuals, we don't have any blank spaces to enter any either.
 In fact we need one in every column that doesn't already have one.
 
 Tried to populate a local collection inside addAll of `data-entry-row`.  
 
-Shows I actually pass those values in `extend({})`, but it looks like this.actuals isn't getting set.
+Shows I actually pass those values in `extend({})`, but it looks like
+this.actuals isn't getting set.
 
+
+## 2014-04-03 14:58 Thursday
+
+The list view works because it assumes list items have a unique id (which they
+do only when they are saved) which finds its way into the placeholder via the
+template and is used to set up the item view. This is not the case for data tables
+where we might have many unsaved items. Instead of an ID, each has a unique
+combination of row and column. 
