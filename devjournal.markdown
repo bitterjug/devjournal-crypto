@@ -2047,3 +2047,8 @@ do only when they are saved) which finds its way into the placeholder via the
 template and is used to set up the item view. This is not the case for data tables
 where we might have many unsaved items. Instead of an ID, each has a unique
 combination of row and column. 
+
+## 2014-04-03 15:27 Thursday
+So I'm adding `getSubiewId()`to Backbome.subviews to let me use something other than
+the `subviewId`  to hash subviews.
+
