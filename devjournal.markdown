@@ -2013,7 +2013,7 @@ Things we would like to do to put on the wiki.
 
 ## 2014-04-01 17:22 Tuesday
 
-- [x] NExt up, give `monitor-heading` template a subview date-editable for the
+- [x] Next up, give `monitor-heading` template a subview date-editable for the
   column date
 
 ## 2014-04-02 11:45 Wednesday
