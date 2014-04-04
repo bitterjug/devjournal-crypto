@@ -2042,7 +2042,7 @@ this.actuals isn't getting set.
 
 ## 2014-04-03 14:58 Thursday
 
-The list view works because it assumes list items have a unique id (which they
+The list view works because it assumes list items have a unique `id` (which they
 do only when they are saved) which finds its way into the placeholder via the
 template and is used to set up the item view. This is not the case for data tables
 where we might have many unsaved items. Instead of an ID, each has a unique
