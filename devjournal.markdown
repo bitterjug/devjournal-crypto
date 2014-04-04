@@ -2076,5 +2076,6 @@ the `subviewId` to hash subviews.
 
 ## 2014-04-04 18:03 Friday
 
-- [ ] `getBaseline` and `getMilestone` of `HeaderRow` view should probably be defined as something like
-`public static` methods on the Milestone model, so that `DataEntryRowView` can use them. How do you do that in Javascript??
+- [ ] `getBaseline` and `getMilestone` of `HeaderRow` view should probably be
+  defined as something like `public static` methods on the `Milestone` model,
+  so that `DataEntryRowView` can use them. How do you do that in Javascript??
