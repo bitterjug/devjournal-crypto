@@ -2069,3 +2069,7 @@ the `subviewId` to hash subviews.
 
 - [ ] The list of input columns should be sorted by date
 - [ ] We should only show the most recent _n_ data input columns.
+
+## 2014-04-04 16:58 Friday
+
+- [ ] New activity header colours should also be used for the bg f the rest of the item and the side bar
