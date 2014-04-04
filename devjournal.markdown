@@ -2020,16 +2020,14 @@ Things we would like to do to put on the wiki.
 
 - [x] The subindicators should be available on their Indicator
 - [x] Create a fixed list view for the subindicator rows 
-- [ ] The targets should be available on the Indicator too
+- [x] The targets should be available on the Indicator too
 - [x] The actuals should be available on the Indicator too
-- [ ] Having trouble when changing page with client routing: the edit and
+- [-] Having trouble when changing page with client routing: the edit and
   monitor pages don't load properly.
-- [ ] Display the relevant baseline value in the input row
-- [ ] Display the relevant next milestone value in the input row
-- [ ] Add data entry for Actual in data entry row, if the column is saved (not
+- [-] Display the relevant baseline value in the input row
+- [-] Display the relevant next milestone value in the input row
+- [x] Add data entry for Actual in data entry row, if the column is saved (not
   `isNew()`)
-- [ ] Now for subindicator rows I need a collection of the actuals for the
-  given indicator/subindicator. Who owns that collection?
 
 When there are no actuals, we don't have any blank spaces to enter any either.
 In fact we need one in every column that doesn't already have one.
@@ -2059,3 +2057,7 @@ the `subviewId` to hash subviews.
 - [ ] Adding a new column object should cause the body of the data table to re-render
 to include the new columns
 
+- [ ] Having trouble when changing page with client routing: the edit and
+  monitor pages don't load properly.
+- [ ] Display the relevant baseline value in the input row
+- [ ] Display the relevant next milestone value in the input row
