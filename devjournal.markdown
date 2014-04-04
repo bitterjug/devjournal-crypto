@@ -2051,3 +2051,11 @@ combination of row and column.
 ## 2014-04-03 15:27 Thursday
 So I'm adding `getSubiewId()`to Backbome.subviews to let me use something other than
 the `subviewId` to hash subviews.
+
+## 2014-04-04 16:02 Friday
+- [ ] Re-engineer the indicator milestone table in Edit Result view to use the
+  new approach with template view.
+
+- [ ] Adding a new column object should cause the body of the data table to re-render
+to include the new columns
+
