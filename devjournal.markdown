@@ -2057,17 +2057,18 @@ the `subviewId` to hash subviews.
   new approach with template view.
 - [ ] Having trouble when changing page with client routing: the edit and
   monitor pages don't load properly.
-- [ ] Display the relevant baseline value in the input row
-- [ ] Display the relevant next milestone value in the input row
+- [x] Display the relevant baseline value in the input row
+- [x] Display the relevant next milestone value in the input row
 
-- [ ] Adding a new column object should cause the body of the data table to
+- [x] Adding a new column object should cause the body of the data table to
   re-render to include the new columns
 
   We could listen to events on the indicator's `columns` collection.
 
 ## 2014-04-04 16:17 Friday
 
-- [ ] The list of input columns should be sorted by date
+- [-] The list of input columns should be sorted by date.  We're leaving this
+  as: you have to reload the page to do it for the moment.
 - [ ] We should only show the most recent _n_ data input columns.
 
 ## 2014-04-04 16:58 Friday
@@ -2079,3 +2080,7 @@ the `subviewId` to hash subviews.
 - [ ] `getBaseline` and `getMilestone` of `HeaderRow` view should probably be
   defined as something like `public static` methods on the `Milestone` model,
   so that `DataEntryRowView` can use them. How do you do that in Javascript??
+
+## 2014-04-04 18:13 Friday
+
+
