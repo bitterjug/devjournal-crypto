@@ -2064,3 +2064,8 @@ the `subviewId` to hash subviews.
   re-render to include the new columns
 
   We could listen to events on the indicator's `columns` collection.
+
+## 2014-04-04 16:17 Friday
+
+- [ ] The list of input columns should be sorted by date
+- [ ] We should only show the most recent _n_ data input columns.
