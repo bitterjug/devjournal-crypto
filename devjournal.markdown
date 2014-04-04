@@ -2055,9 +2055,12 @@ the `subviewId` to hash subviews.
 
 - [ ] Re-engineer the indicator milestone table in Edit Result view to use the
   new approach with template view.
-- [ ] Adding a new column object should cause the body of the data table to
-  re-render to include the new columns
 - [ ] Having trouble when changing page with client routing: the edit and
   monitor pages don't load properly.
 - [ ] Display the relevant baseline value in the input row
 - [ ] Display the relevant next milestone value in the input row
+
+- [ ] Adding a new column object should cause the body of the data table to
+  re-render to include the new columns
+
+  We could listen to events on the indicator's `columns` collection.
