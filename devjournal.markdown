@@ -2027,7 +2027,7 @@ Things we would like to do to put on the wiki.
 - [ ] Display the relevant baseline value in the input row
 - [ ] Display the relevant next milestone value in the input row
 - [ ] Add data entry for Actual in data entry row, if the column is saved (not
-  isNew())
+  `isNew()`)
 - [ ] Now for subindicator rows I need a collection of the actuals for the
   given indicator/subindicator. Who owns that collection?
 
