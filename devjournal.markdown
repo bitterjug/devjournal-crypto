@@ -2023,7 +2023,7 @@ Things we would like to do to put on the wiki.
 - [ ] The targets should be available on the Indicator too
 - [x] The actuals should be available on the Indicator too
 - [ ] Having trouble when changing page with client routing: the edit and
-  monitor pages dont load poperly.
+  monitor pages don't load properly.
 - [ ] Display the relevant baseline value in the input row
 - [ ] Display the relevant next milestone value in the input row
 - [ ] Add data entry for Actual in data entry row, if the column is saved (not
@@ -2034,7 +2034,7 @@ Things we would like to do to put on the wiki.
 When there are no actuals, we don't have any blank spaces to enter any either.
 In fact we need one in every column that doesn't already have one.
 
-Tried to populate a local collection inside addAll of `data-entry-row`.  
+Tried to populate a local collection inside `addAll` of `data-entry-row`.  
 
 Shows I actually pass those values in `extend({})`, but it looks like
 this.actuals isn't getting set.
@@ -2050,5 +2050,4 @@ combination of row and column.
 
 ## 2014-04-03 15:27 Thursday
 So I'm adding `getSubiewId()`to Backbome.subviews to let me use something other than
-the `subviewId`  to hash subviews.
-
+the `subviewId` to hash subviews.
