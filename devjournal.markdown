@@ -2084,3 +2084,7 @@ the `subviewId` to hash subviews.
 ## 2014-04-04 18:13 Friday
 
 
+
+## 2014-04-07 10:22 Monday
+
+- [ ] Check that clicking in an Actual and then defucoussing doesnt result in error
