@@ -2079,5 +2079,6 @@ the `subviewId` to hash subviews.
 
 - [ ] Check that clicking in an Actual and then defocussing doesn't result in error
 
+- [ ] Slicing the columns list to limit columns results in no unsaved Actuals being shown
 
 
