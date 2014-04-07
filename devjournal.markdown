@@ -2065,26 +2065,19 @@ the `subviewId` to hash subviews.
 
   We could listen to events on the indicator's `columns` collection.
 
-## 2014-04-04 16:17 Friday
-
 - [-] The list of input columns should be sorted by date.  We're leaving this
   as: you have to reload the page to do it for the moment.
 - [ ] We should only show the most recent _n_ data input columns.
 
-## 2014-04-04 16:58 Friday
-
 - [ ] New activity header colours should also be used for the bg f the rest of the item and the side bar
-
-## 2014-04-04 18:03 Friday
 
 - [ ] `getBaseline` and `getMilestone` of `HeaderRow` view should probably be
   defined as something like `public static` methods on the `Milestone` model,
   so that `DataEntryRowView` can use them. How do you do that in Javascript??
 
-## 2014-04-04 18:13 Friday
-
-
-
 ## 2014-04-07 10:22 Monday
 
-- [ ] Check that clicking in an Actual and then defucoussing doesnt result in error
+- [ ] Check that clicking in an Actual and then defocussing doesn't result in error
+
+
+
