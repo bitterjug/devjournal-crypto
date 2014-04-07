@@ -2067,7 +2067,7 @@ the `subviewId` to hash subviews.
 
 - [-] The list of input columns should be sorted by date.  We're leaving this
   as: you have to reload the page to do it for the moment.
-- [ ] We should only show the most recent _n_ data input columns.
+- [-] We should only show the most recent _n_ data input columns.
 
 - [ ] New activity header colours should also be used for the bg f the rest of the item and the side bar
 
@@ -2077,8 +2077,13 @@ the `subviewId` to hash subviews.
 
 ## 2014-04-07 10:22 Monday
 
+- [ ] We should only show the most recent _n_ data input columns.
+
 - [ ] Check that clicking in an Actual and then defocussing doesn't result in error
 
 - [ ] Slicing the columns list to limit columns results in no unsaved Actuals being shown
+
+- [ ] Use Marko's new site config to set the number of data entry columns shown?
+
 
 
