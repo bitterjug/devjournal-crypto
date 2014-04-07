@@ -2085,5 +2085,5 @@ the `subviewId` to hash subviews.
 
 - [ ] Use Marko's new site config to set the number of data entry columns shown?
 
-
+- [ ] It looks like our page views don't tidy up after themselves by removing subviews
 
