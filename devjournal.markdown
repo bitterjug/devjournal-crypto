@@ -2093,3 +2093,26 @@ the `subviewId` to hash subviews.
 
 When I get time to fix the v4c code, I Want to get rid of the plague of Aptivate global refefences.
 I want 
+
+## 2014-04-08 10:43 Tuesday
+
+Lets fix these zombies
+
+
+``` javascript
+    function AppView(element){
+      
+      this.element = element;
+
+      this.showView = function (view){
+        if (this.currentView){
+          this.currentView.close();
+        }
+
+        this.currentView = view;
+        this.currentView.render();
+
+        $(this.element).html(this.currentView.el);
+      }
+    }
+```
