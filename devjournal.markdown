@@ -2087,3 +2087,9 @@ the `subviewId` to hash subviews.
 
 - [ ] It looks like our page views don't tidy up after themselves by removing subviews
 
+
+## 2014-04-08 10:42 Tuesday
+
+
+When I get time to fix the v4c code, I Want to get rid of the plague of Aptivate global refefences.
+I want 
