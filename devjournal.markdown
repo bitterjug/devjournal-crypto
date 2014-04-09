@@ -2055,7 +2055,7 @@ the `subviewId` to hash subviews.
 
 - [ ] Re-engineer the indicator milestone table in Edit Result view to use the
   new approach with template view.
-- [ ] Having trouble when changing page with client routing: the edit and
+- [x] Having trouble when changing page with client routing: the edit and
   monitor pages don't load properly.
 - [x] Display the relevant baseline value in the input row
 - [x] Display the relevant next milestone value in the input row
@@ -2077,15 +2077,15 @@ the `subviewId` to hash subviews.
 
 ## 2014-04-07 10:22 Monday
 
-- [ ] We should only show the most recent _n_ data input columns.
+- [x] We should only show the most recent _n_ data input columns.
 
 - [ ] Check that clicking in an Actual and then defocussing doesn't result in error
 
-- [ ] Slicing the columns list to limit columns results in no unsaved Actuals being shown
+- [x] Slicing the columns list to limit columns results in no unsaved Actuals being shown
 
 - [ ] Use Marko's new site config to set the number of data entry columns shown?
 
-- [ ] It looks like our page views don't tidy up after themselves by removing subviews
+- [x] It looks like our page views don't tidy up after themselves by removing subviews
 
 
 ## 2014-04-08 10:42 Tuesday
@@ -2123,11 +2123,11 @@ Check out the WIP on zombies branch, trying to fix the target table in result ed
 
 ## 2014-04-09 10:19 Wednesday
 
-- [ ] Move the TA consuitant bands to the database -- please can we have taxonomies?
+- [ ] Move the TA consultant bands to the database -- please can we have taxonomies?
 
 - [ ] Add permission required to monitor and result edit pages to protect 
 
 - [ ] If I make all the text in a description into a link it must not prevent
   me from clicking to edit: maybe we could make the 'edit' label that pops up into  clickable?
 
-- [ ] Deploy to production
+- [ ] Deploy to production tomorrow !!!
