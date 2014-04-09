@@ -2124,3 +2124,7 @@ Check out the WIP on zombies branch, trying to fix the target table in result ed
 ## 2014-04-09 10:19 Wednesday
 
 - [ ] Move the TA consuitant bands to the database -- please can we have taxonomies?
+
+- [ ] Add permission required to monitor and result edit pages to protect 
+
+
