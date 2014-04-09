@@ -2129,3 +2129,5 @@ Check out the WIP on zombies branch, trying to fix the target table in result ed
 
 - [ ] If I make all the text in a description into a link it must not prevent
   me from clicking to edit: maybe we could make the 'edit' label that pops up into  clickable?
+
+- [ ] Deploy to production
