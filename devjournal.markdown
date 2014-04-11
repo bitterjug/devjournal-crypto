@@ -2136,3 +2136,7 @@ Check out the WIP on zombies branch, trying to fix the target table in result ed
 ## 2014-04-11 11:06 Friday
 
 - [ ] Move indicator.targets declaration from milestone-table to models
+
+## 2014-04-11 12:20 Friday
+
+- [ ] v4c MIS should give feedback if you try and leave the page with unsaved data (but its non-trivial)
