@@ -2125,5 +2125,6 @@ Check out the WIP on zombies branch, trying to fix the target table in result ed
 
 - [ ] Re-engineer the indicator milestone table in Edit Result view to use the
   new approach with template view.
+  - [ ]  WIP: needs to not show targets for unsavedsubindicator but show them when ione is added
 
 - [ ] Use Marko's new site config to set the number of data entry columns shown?
