@@ -2132,3 +2132,7 @@ Check out the WIP on zombies branch, trying to fix the target table in result ed
 ## 2014-04-11 08:52 Friday
 
 - [ ] Make the TA and Other lines collapsable
+
+## 2014-04-11 11:06 Friday
+
+- [ ] Move indicator.targets declaration from milestone-table to models
