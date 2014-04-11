@@ -359,7 +359,7 @@ Via `gconf-editor`:
 
 ## 2014-01-17 09:09 Friday
 
-- [ ] Try https://github.com/Shougo/neobundle.vim on vim?  And maybe some other
+- [x] Try https://github.com/Shougo/neobundle.vim on vim?  And maybe some other
   async stuff like the shell?
 
 ## 2014-01-17 15:47 Friday
@@ -375,7 +375,7 @@ a calendar shred by the devs?)
 
 Welcome back!
 
-* [ ] What does this stuff look like on Github?
+* [x] What does this stuff look like on Github?
 * [x] What does this stuff look like on Github?
 
 For some reason I Can't get these to render as checkboxes.
@@ -422,12 +422,12 @@ Can we do:
 
  - when can we estimate cards (what to they need)
 
- - [ ] Marko to get met a sample of good card details/spec to look at from
+ - [x] Marko to get met a sample of good card details/spec to look at from
    3ie
 
  - [x] MCS invite Elly and Marko to UML tool 
- - [ ] Talk Elly and Marko through data model 
- - [ ] SparkleShare for Elly (or Dropbox, ...?)
+ - [x] Talk Elly and Marko through data model 
+ - [x] SparkleShare for Elly (or Dropbox, ...?)
 
 
 ## 2014-01-20 14:53 Monday
@@ -441,8 +441,8 @@ replace/override earlier ones. As opposed to being added together.
 
 Ask George:
 
-- [ ] Is achievement of outputs one of the indicators for outcomes?
-- [ ] There can be only one Goal, ok, but what about more than one outcome?
+- [x] Is achievement of outputs one of the indicators for outcomes?
+- [x] There can be only one Goal, ok, but what about more than one outcome?
 
 
 ## 2014-01-24 15:04 Friday
@@ -620,7 +620,7 @@ to avoid having to escape them with explicitly verbatim django tags?
 
 Javascript developmentin vim:
 
-- [ ] check syntax on save -- syntastic plugin?
+- [x] check syntax on save -- syntastic plugin?
 - [ ] highlighting: highlight function names as headings 
     and method names in objects
 - [ ] Editor tools like [Tern](http://ternjs.net/doc/manual.html)
@@ -831,7 +831,7 @@ with the result.
 * [x] Use that collection as the one that gets rendered on the page.
 
 * `assumotion/list-view` needs :-
-        - [ ] maybe a `render()` to display values already in the collection,
+        - [-] maybe a `render()` to display values already in the collection,
           and to call on `reset` events?
         - [x] some wiring to update its view when values change -- already has
           it
@@ -841,7 +841,7 @@ with the result.
 
 Javascript vim options
  - [x] syntastic checkinng with jshint
- - [ ] better syntax highlighting.
+ - [-] better syntax highlighting.
 
        The `vim-javascript-syntax` plugin tries to highlight the arg list of
        anonymous functions as a function name. @fail @vim @javascript. Maybe
@@ -849,7 +849,7 @@ Javascript vim options
 
  - [x] set number
  - [x] 80 character lines
- - [ ] snippet for define([ ], function{ ... })
+ - [-] snippet for define([ ], function{ ... })
 
        Doesn't work. Maybe UltiSnips isnt getting my tabs any more.
        Since I use it rarely, I could bind it to something harder to type.
@@ -896,11 +896,11 @@ But that's ugly. So I'm preferring:
 
 ## 2014-02-11 12:12 Tuesday
 
-- [ ] Make indicator-list subview which gets installed in the whole
+- [-] Make indicator-list subview which gets installed in the whole
   middle frame under the ribbon.
-- [ ] Attach it to the result.indicators
-- [ ] Add a subview for indicator container
-- [ ] add editabble name and description parts
+- [-] Attach it to the result.indicators
+- [-] Add a subview for indicator container
+- [-] add editabble name and description parts
 
 
 ## 2014-02-11 14:00 Tuesday
@@ -955,7 +955,7 @@ So now my list to do looks like this:
 - [x] I just added a `indicator-name.handlebars` which is _the same_ as
   `result-name.handlebars`. Refactor that shit!
 
-- [ ] Can we have a generic xxxx-container view?
+- [-] Can we have a generic xxxx-container view?
 
 ## 2014-02-12 11:29 Wednesday
 
@@ -1056,10 +1056,10 @@ to the template ccontext.
 
 Next priority is to link the assumptions and indicators to the selected result objectt.
 
- - [ ] Check out if what nested routes in the API do if you post something
+ - [-] Check out if what nested routes in the API do if you post something
  with the wrong key value.
- - [ ] Merge that branch with dev and try build the urls for the sub-models based on their owning ones.
- - [ ] See what happens when you save POST to those urls
+ - [-] Merge that branch with dev and try build the urls for the sub-models based on their owning ones.
+ - [-] See what happens when you save POST to those urls
 
 ## 2014-02-13 09:36 Thursday
 
@@ -1089,7 +1089,7 @@ current solution below:
 
 Looking at the nested routes version of the API:
 
-- [ ] The trailing slash is back: how do we get rid of that?
+- [-] The trailing slash is back: how do we get rid of that?
 - [x] Even worse! `/logframes/1/` and `/logframes/2/` give the same set of
   logframes, so even though the urls are nested, it's not iterpreting the key
   value at all at the moment.
@@ -1170,7 +1170,7 @@ to add filtering options).
 
 ## 2014-02-13 17:10 Thursday
 
-- [ ] We might not want the python api views in @v4c to support get for
+- [-] We might not want the python api views in @v4c to support get for
    individual objects, instead we might jsut support lists and put/post?
 
 - [ ] Error checking for urls of the form: `/logframe/1/result/2/assumptions`
@@ -1188,7 +1188,7 @@ to add filtering options).
 ## 2014-02-13 17:18 Thursday
 
 - [x] Make sure we can post to these urls to create, 
-- [ ] Make object creation on nested routes fill in the owning object's key
+- [-] Make object creation on nested routes fill in the owning object's key
   value from the URL if it is not set. (This isn't currently urgent because
   the client side stores the owning object in list view, but I would like 
   to see if that would go away.)
@@ -1310,7 +1310,7 @@ there is a target value for each one
  - [x] The targets table for unsaved indicators needs to listen to save events
    on its owning indicator and re-render
 
- - [ ] The `<thead>` in my table doesn't have the title row in it.  Forked
+ - [-] The `<thead>` in my table doesn't have the title row in it.  Forked
    backbone-subviews to try and fix the bug where it only works with divs. I
    can make the qUnit tests run in my browser, but they stop if I add one. Not
    sure what to do.
@@ -1378,39 +1378,39 @@ Revised to do list:
  - [x] Fix it so you can't save Targets unless the subindicator in that row is saved,
        and so you can't save subindicators until the indicator is saved, etc.
 
- - [ ] Format numerics with commas
+ - [-] Format numerics with commas
 
- - [ ] Validate numeric inputs for Target values
+ - [-] Validate numeric inputs for Target values
 
- - [ ] Make the Milestone collections sort by their order value.  There isn't,
+ - [-] Make the Milestone collections sort by their order value.  There isn't,
    as yet, any way to edit those order variables, except for hacking it in the
    admin interface. But at least we could set up the right milestones that way,
    with a bit of work.
 
  - [ ] Delete buttons!
 
- - [ ] Click outside the input box should save, not cancel
+ - [-] Click outside the input box should save, not cancel
 
- - [ ] The `<thead>` in my table doesn't have the title row in it.  Forked
+ - [-] The `<thead>` in my table doesn't have the title row in it.  Forked
    backbone-subviews to try and fix the bug where it only works with divs. I
    can make the qUnit tests run in my browser, but they stop if I add one. Not
    sure what to do.
 
- - [ ] NEed the ability to add new results at each level of the hierarchy,
+ - [-] NEed the ability to add new results at each level of the hierarchy,
    where does this go? In the overview page?
 
 
- - [ ] Might need a default contribution weighting too?
+ - [-] Might need a default contribution weighting too?
 
- - [ ] Impact weighting box floats over result description on result page
+ - [-] Impact weighting box floats over result description on result page
 
- - [ ] Add other relevant data to Aptivate.data on page and use to set-up in browser initial data structure
+ - [-] Add other relevant data to Aptivate.data on page and use to set-up in browser initial data structure
 
- - [ ] Protect the logframe content with user permissions, at least login required
+ - [-] Protect the logframe content with user permissions, at least login required
 
- - [ ] Use precompiled handlebars templates
+ - [-] Use precompiled handlebars templates
 
- - [ ] The ugly black tabs are caused by $tabs-background not being in scope somehow in the relevant file
+ - [-] The ugly black tabs are caused by $tabs-background not being in scope somehow in the relevant file
 
  - [x] After vanilla deploy, the server didn't have permssion to access 
 
@@ -1418,7 +1418,7 @@ Revised to do list:
     [Errno 13] Permission denied: '/var/django/v4clogframe/current/django/website/static/.webassets-cache'
 
 
- - [ ] I tried re-using the sub-indicator view for each render of the target row, but this stopped
+ - [-] I tried re-using the sub-indicator view for each render of the target row, but this stopped
        it responding to click events for some reason I can't yet figure out
 
 There's an interesting problem with getting the id of a newly created subindicator to use
@@ -1439,21 +1439,21 @@ Now there is a sumilar probelm with new indicators:
 
 ## 2014-02-21 12:58 Friday
 
- - [ ] Dump logframe from Staging server
+ - [-] Dump logframe from Staging server
 
 ## 2014-02-21 17:00 Friday
 
- - [ ] Entering white space in an input item and saving makes it
+ - [-] Entering white space in an input item and saving makes it
    impossible to click to edit again.
 
- - [ ] Clearing out all the text and pressing enter/tab doesn't send a
+ - [-] Clearing out all the text and pressing enter/tab doesn't send a
    save with empty string back to the server so the old value is
    preserved.
 
- - [ ] White space in long description fields gets collapsed; map line breaks
+ - [-] White space in long description fields gets collapsed; map line breaks
    to `<br>`?
 
- - [ ] While trying to use Jquery to animate adding new items, I found out we
+ - [-] While trying to use Jquery to animate adding new items, I found out we
    do unnecessary re-draws: edit the description of an indicator and it
    re-renders all the target values.  See the following excerpt from
    `static-list.js`
@@ -1661,7 +1661,7 @@ What's the answer to that?
 
 ## 2014-03-05 10:29 Wednesday
 
-- [ ] The list views used int he milestone/target view don't lend themselves
+- [-] The list views used in the milestone/target view don't lend themselves
   easily to the re-written views with templates because there are many (one for
   each milestone/sub-indicator combination) unsaved items. The new view needs
   each of these to have a unique cache value. 
@@ -1689,14 +1689,8 @@ with a solution using `itemViewOptions`.
 
 - [ ] Uniform spelling and punctuation 
 - [ ] modularise the API code in python when we rewrite it
-- [ ] modularise the API code in python when we rewrite it
-
-
 
 ## 2014-03-06 16:58 Thursday
-
-- [ ] Change existing template use to use: single tempalte ??/
-
 
 one reason we get everything wrapped in a div is because of how BaseView works:
 
@@ -1724,9 +1718,9 @@ rendering entails more complex html?
 
 ## 2014-03-07 09:26 Friday
 
-- [ ] I can expand unsaved results and add save activities against them, well I
+- [x] I can expand unsaved results and add save activities against them, well I
   cant' that fails.
-- [ ] We need to guard against saving with the field is empty, the back end
+- [x] We need to guard against saving with the field is empty, the back end
   doesn't like it.
 
 
@@ -1739,40 +1733,40 @@ They had a generic relation to attach them to resuts?
 
 ## 2014-03-07 11:54 Friday
 
-- [ ] Make name fields optional in activities and budgetlines
-- [ ] We currently don't enforce, e.g. the 256 max character length on name fields, etc.
+- [x] Make name fields optional in activities and budgetlines
+- [-] We currently don't enforce, e.g. the 256 max character length on name fields, etc.
 
 
 ## 2014-03-10 09:41 Monday
 
-- [ ] Leave commas in while editing amount fields
+- [-] Leave commas in while editing amount fields
 
 - [ ] Better "information design" for amount totals -- marko doesn't like the
   bigger fonts and right justified totals
 
 - [ ] Discussion about how we tackle Delete
 
-- [ ] Overview page should start with Goal and Outcome expanded, showing outputs, probabl???
-  - [ ] Open the dashboard with top two levels expanded (show outputs)
+- [x] Overview page should start with Goal and Outcome expanded, showing outputs, probabl???
+  - [x] Open the dashboard with top two levels expanded (show outputs)
 
-- [ ] Discuss how we tackle oob updates (someone added something to the tree I have to refresh the page)
+- [-] Discuss how we tackle oob updates (someone added something to the tree I have to refresh the page)
 
-- [ ] Results don't have indicators and shit, remove edit button
+- [-] Results don't have indicators and shit, remove edit button
 
 - [x] Talk to Luke Everett about linking to sharepoint documents
 
-- [ ] v4c login css (From ruforum) needs reworking
+- [-] v4c login css (From ruforum) needs reworking
 
-- [ ] Conditional loading, to reduce page size
+- [-] Conditional loading, to reduce page size
 
-- [ ] Design the feedback process for, e.g. server errors
+- [-] Design the feedback process for, e.g. server errors
 
 - [ ] Print stylesheets?
 
 ## 2014-03-12 15:31 Wednesday
 
 
-- [ ] Can't enter empty amount field for TA. If I clear the field I get `.00` !!
+- [-] Can't enter empty amount field for TA. If I clear the field I get `.00` !!
 
 ## 2014-03-14 10:35 Friday
 
@@ -1782,7 +1776,7 @@ They had a generic relation to attach them to resuts?
 
 ### Filter by lead:
 
-- [ ] Does the Impact really match?  
+- [-] Does the Impact really match?  
 
   yes if you think of this as a computer scientist would: hierarchically but
   possibly not if you consider the goal and outcome to be different things.  If
@@ -1795,12 +1789,12 @@ They had a generic relation to attach them to resuts?
 
 ## 2014-03-17 10:41 Monday
 
-- [ ] When following link to accept system invitation I get "Djano Administration" page,
+- [-] When following link to accept system invitation I get "Djano Administration" page,
 need to add some branding
 
 ## 2014-03-17 12:25 Monday
 
-- [ ] The world "null" appears in indicator descriptions when I try to edit them.
+- [-] The world "null" appears in indicator descriptions when I try to edit them.
 
 ## 2014-03-17 14:40 Monday
 
@@ -1851,17 +1845,17 @@ Adding status updates
 
 ## 2014-03-18 12:39 Tuesday
 
-- [ ] Do we still get unnecessary divs on our list views? I thought that was
+- [-] Do we still get unnecessary divs on our list views? I thought that was
   cleared up now? But I notice Marko renders acctivitiy lines in separate table
   from the headings for some reason?
 
 ## 2014-03-18 14:15 Tuesday
 
-- [ ] In the models file Marko has divided the models according to what page
+- [-] In the models file Marko has divided the models according to what page
   they sit on, I disagree with this way of structuring things around the pages,
   I want things structured around the data model.
 
-- [ ]  Something is wrong with our encapsulation. In order to add a new view, I have to change:
+- [-]  Something is wrong with our encapsulation. In order to add a new view, I have to change:
   - models.js to add the model
   - collections.js to add the collection, which duplicates the url in the model
   - app.js to instantiate the collection
@@ -1869,27 +1863,24 @@ Adding status updates
 
 ## 2014-03-19 15:17 Wednesday
 
-- [ ] Collapsable toggle for status updates to display most recent 
-  - [ ] Css it to look active with the finger link
-  - [ ] Make status date default to today so they can't enter an update without a date
-  - [ ] New status not being added to bottom of list: possibly use auto-allocated dates with timestamps to do ordering?
+- [-] Collapsable toggle for status updates to display most recent 
+  - [-] Css it to look active with the finger link
+  - [-] Make status date default to today so they can't enter an update without a date
+  - [-] New status not being added to bottom of list: possibly use auto-allocated dates with timestamps to do ordering?
 
-- [ ] Fix colours on search bar
-- [ ] Zebra stripe tables to make them more readable in wide screen
+- [-] Fix colours on search bar
+- [-] Zebra stripe tables to make them more readable in wide screen
 
 
 ## 2014-03-20 09:22 Thursday
 
-- [ ] Fill in today's date by default in status updates
-- [ ] Sorting by date still not working? 
-- [ ] I'm not seeing link buttons on Pen RTE
-
-
-
+- [-] Fill in today's date by default in status updates
+- [-] Sorting by date still not working? 
+- [-] I'm not seeing link buttons on Pen RTE
 
 ## 2014-03-20 10:52 Thursday
 
-- [ ] Clearning the search filter criteria after demo left some items greyed out
+- [x] Clearning the search filter criteria after demo left some items greyed out
 
 ## 2014-03-20 11:53 Thursday
 
@@ -1898,16 +1889,16 @@ can we, in 4 and 5th iteration
 
 ## 2014-03-24 15:41 Monday
 
-- [ ] If I hit the clear filter button when some of my outputs or results don't have activities, they get greyed out, this is a false match.
+- [x] If I hit the clear filter button when some of my outputs or results don't have activities, they get greyed out, this is a false match.
 
 
 ## 2014-03-25 09:57 Tuesday
 
-- [ ] I cam click on the ionput field under a multi line input in result heading if it has mutiple lines, add bug
+- [x] I cam click on the ionput field under a multi line input in result heading if it has mutiple lines, add bug
 
 ## 2014-03-27 14:28 Thursday
 
-- [ ]total budgets missing in activities
+- [x]total budgets missing in activities
 
 ## 2014-03-28 08:58 Friday
 
@@ -1920,14 +1911,14 @@ xinput --set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Noise Cancellation" 20
 
 ## 2014-03-28 09:32 Friday
 
-- [ ] Add admin for Column and Actual
-- [ ] Add API for column and Actual
+- [x] Add admin for Column and Actual
+- [x] Add API for column and Actual
 
 
 
 ## 2014-03-28 12:18 Friday
 
-- [ ] Memory consumption over time, do we really deallocate views?
+- [x] Memory consumption over time, do we really deallocate views?
 
 ## 2014-03-28 16:12 Friday
 
@@ -1982,12 +1973,12 @@ This is a much lighter
 
 ## 2014-03-31 11:06 Monday
 
-- [ ] We need smarter synchronising data between client and server to avoid
+- [x] We need smarter synchronising data between client and server to avoid
   fetching all the data every time we change pages.
 
 ## 2014-03-31 12:17 Monday
 
-- [ ] The page should ask you if you want to leave only if there is a currently open editor
+- [x] The page should ask you if you want to leave only if there is a currently open editor
 
 ## 2014-03-31 15:35 Monday
 
@@ -1997,7 +1988,7 @@ This is a much lighter
 
 - [x] Next up: use the upcoming milestone as the heading of column 2?
 
-- [ ] Maybe the functions to get the first and next milestones should be
+- [x] Maybe the functions to get the first and next milestones should be
   external as thy might be used by the view for the table body as well as the
   header, as we have to know which row content to render
 
@@ -2053,7 +2044,7 @@ the `subviewId` to hash subviews.
 
 ## 2014-04-04 16:02 Friday
 
-- [ ] Re-engineer the indicator milestone table in Edit Result view to use the
+- [-] Re-engineer the indicator milestone table in Edit Result view to use the
   new approach with template view.
 - [x] Having trouble when changing page with client routing: the edit and
   monitor pages don't load properly.
@@ -2069,7 +2060,7 @@ the `subviewId` to hash subviews.
   as: you have to reload the page to do it for the moment.
 - [-] We should only show the most recent _n_ data input columns.
 
-- [ ] New activity header colours should also be used for the bg f the rest of the item and the side bar
+- [x] New activity header colours should also be used for the bg f the rest of the item and the side bar
 
 - [ ] `getBaseline` and `getMilestone` of `HeaderRow` view should probably be
   defined as something like `public static` methods on the `Milestone` model,
@@ -2079,11 +2070,11 @@ the `subviewId` to hash subviews.
 
 - [x] We should only show the most recent _n_ data input columns.
 
-- [ ] Check that clicking in an Actual and then defocussing doesn't result in error
+- [x] Check that clicking in an Actual and then defocussing doesn't result in error
 
 - [x] Slicing the columns list to limit columns results in no unsaved Actuals being shown
 
-- [ ] Use Marko's new site config to set the number of data entry columns shown?
+- [-] Use Marko's new site config to set the number of data entry columns shown?
 
 - [x] It looks like our page views don't tidy up after themselves by removing subviews
 
@@ -2125,9 +2116,14 @@ Check out the WIP on zombies branch, trying to fix the target table in result ed
 
 - [ ] Move the TA consultant bands to the database -- please can we have taxonomies?
 
-- [ ] Add permission required to monitor and result edit pages to protect 
+- [-] Add permission required to monitor and result edit pages to protect 
 
 - [ ] If I make all the text in a description into a link it must not prevent
   me from clicking to edit: maybe we could make the 'edit' label that pops up into  clickable?
 
 - [ ] Deploy to production tomorrow !!!
+
+- [ ] Re-engineer the indicator milestone table in Edit Result view to use the
+  new approach with template view.
+
+- [ ] Use Marko's new site config to set the number of data entry columns shown?
