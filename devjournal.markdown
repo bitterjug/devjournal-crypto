@@ -2128,3 +2128,7 @@ Check out the WIP on zombies branch, trying to fix the target table in result ed
   - [ ]  WIP: needs to not show targets for unsavedsubindicator but show them when ione is added
 
 - [ ] Use Marko's new site config to set the number of data entry columns shown?
+
+## 2014-04-11 08:52 Friday
+
+- [ ] Make the TA and Other lines collapsable
