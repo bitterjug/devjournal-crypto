@@ -2141,6 +2141,7 @@ Check out the WIP on zombies branch, trying to fix the target table in result ed
 
 - [ ] v4c MIS should give feedback if you try and leave the page with unsaved data (but its non-trivial)
 
-## 2014-04-11 17:13 Friday
+## 2014-04-14 10:47 Monday
 
+- [ ] When setting up the app with an exmpty database you need a logframe AND top level result (impact) before you can use the interface
 
