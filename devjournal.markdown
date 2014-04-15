@@ -11,3 +11,5 @@
   $ rethinkdb -d ~/Documents/rethinkdb &
 
 - Go to the [web interface](http://localhost:8080/#dataexplorer) to make sure its working.
+
+- Let's [load some csv](http://rethinkdb.com/blog/1.7-release/):
