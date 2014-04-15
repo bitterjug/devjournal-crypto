@@ -12,4 +12,10 @@
 
 - Go to the [web interface](http://localhost:8080/#dataexplorer) to make sure its working.
 
+- Create a database in the web interface:
+
+    r.dbCreate('360giving');
+
 - Let's [load some csv](http://rethinkdb.com/blog/1.7-release/):
+
+
