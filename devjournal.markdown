@@ -25,3 +25,17 @@
 - Let's [load some csv](http://rethinkdb.com/blog/1.7-release/):
 
 
+Crash and burn:
+
+    $ rethinkdb import -f BIGGrantOpenData2004_05.csv --format csv --table 360giving.BigLottery --force
+
+    [===                                     ]   7% 
+    0 rows imported in 1 table
+    'utf8' codec can't decode byte 0xa3 in position 447: invalid start byte
+    'utf8' codec can't decode byte 0xa3 in position 57: invalid start byte
+    'utf8' codec can't decode byte 0xa3 in position 300: invalid start byte
+    'utf8' codec can't decode byte 0xa3 in position 253: invalid start byte
+    'utf8' codec can't decode byte 0xa3 in position 309: invalid start byte
+    Errors occurred during import
+
+Not encouraging
