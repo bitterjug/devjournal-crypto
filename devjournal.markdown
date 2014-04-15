@@ -13,3 +13,4 @@ vim: sw=2 ft=ghmarkdown spell
   $ rethinkdb -d ~/Documents/rethinkdb &
 
 - Go to the [web interface](http://localhost:8080/#dataexplorer) to make sure its working.
+:w
