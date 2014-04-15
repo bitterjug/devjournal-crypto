@@ -38,4 +38,4 @@ Crash and burn:
     'utf8' codec can't decode byte 0xa3 in position 309: invalid start byte
     Errors occurred during import
 
-Not encouraging
+Not encouraging. `0xa3` [might be the £ symbol](http://www.psteiner.com/2010/09/how-to-fix-weird-characters-in-xml.html)
