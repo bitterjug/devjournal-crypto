@@ -40,3 +40,16 @@ Crash and burn:
 
 Not encouraging. `0xa3` [might be the £ symbol][1]
 [1]: http://www.psteiner.com/2010/09/how-to-fix-weird-characters-in-xml.html
+
+## 2014-04-16 10:40 Wednesday
+
+I flanged about with python `codecs` library and rewrote the files from
+ISO-8859-1 (Latin-1) into UTF-8. But in Linux the command line is your friend.
+
+* `file -i`  tells me the current encodings
+* `iconv` converts between encodings;
+
+```bash
+   iconv -f ISO-8859-1 -t UTF-8 BIGGrantOpenData_2005_06.csv -o uBIGGrantOpenData_2005_06.csv
+```
+
