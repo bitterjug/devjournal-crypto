@@ -1,4 +1,6 @@
-<!-- vim: sw=2 ft=ghmarkdown spell -->
+<!-- 
+vim: sw=2 ft=ghmarkdown spell 
+-->
 # Indigo Data
 
 - [ ] Call Tim Davies <tim@practicalparticipation.co.uk> - Practical participation Wednesday 
@@ -52,4 +54,8 @@ ISO-8859-1 (Latin-1) into UTF-8. But in Linux the command line is your friend.
 ```bash
    iconv -f ISO-8859-1 -t UTF-8 BIGGrantOpenData_2005_06.csv -o uBIGGrantOpenData_2005_06.csv
 ```
+
+
+## 2014-04-16 10:57 Wednesday
+
 
