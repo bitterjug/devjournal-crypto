@@ -79,5 +79,5 @@ r.table("BigLottery").indexCreate("FUNDER_NAME")
 * [ ] Now you can find out how much each funder has given overall
 
 ``` javascript
-r.table("BigLottery").group({index: "FUNDER_NAME"})('amount').sum()  Load Remove    
+r.table("BigLottery").group({index: "FUNDER_NAME"})('amount').sum() 
 ```
