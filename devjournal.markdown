@@ -56,6 +56,28 @@ ISO-8859-1 (Latin-1) into UTF-8. But in Linux the command line is your friend.
 ```
 
 
-## 2014-04-16 10:57 Wednesday
+## 2014-04-21 21:17 Monday
 
+Two likely JS libraries on top of d3.js:
+* [nvd3](http://nvd3.org/)
+* [dimple](http://dimplejs.org/)
 
+* [ ] Convert  (coerce) the `CURRENT_AWARD` field to a real number
+
+``` javascript
+     r.table("BigLottery").update({
+        amount: r.row("CURRENT_AWARD").coerceTo("Number")
+     })  
+```
+
+* [ ] Add an index on the `FUNDER NAME`
+
+``` javascript
+r.table("BigLottery").indexCreate("FUNDER_NAME")
+```
+
+* [ ] Now you can find out how much each funder has given overall
+
+``` javascript
+r.table("BigLottery").group({index: "FUNDER_NAME"})('amount').sum()  Load Remove    
+```
