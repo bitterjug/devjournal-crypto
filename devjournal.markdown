@@ -81,3 +81,22 @@ r.table("BigLottery").indexCreate("FUNDER_NAME")
 ``` javascript
 r.table("BigLottery").group({index: "FUNDER_NAME"})('amount').sum() 
 ```
+
+## 2014-04-22 17:16 Tuesday
+
+- [ ]Look into why that last update to add the charity and company numers failed.
+
+
+    r.db('360giving').table('Organization').update(function (org) {
+        return r.do(
+            r.db("360giving").table("BigLottery").getAll(org('id'), {index: '360G-id'}).nth(0),
+            function (lottery) {
+                return {
+                   charityNumber: lottery('CHARITY_NUMBER'),
+                   companyNumber: lottery('COMPANY_NUMBER')
+                };
+            }
+        );
+    }, {
+      nonAtomic: true
+    });
