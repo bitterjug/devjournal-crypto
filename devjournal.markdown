@@ -100,3 +100,10 @@ r.table("BigLottery").group({index: "FUNDER_NAME"})('amount').sum()
     }, {
       nonAtomic: true
     });
+
+## 2014-04-23 16:55 Wednesday
+
+
+- [ ] Register bugs with RethinkDB?
+  - Can't sort more than 100,000 rows (WTF!?)
+  - Inserting dates for each of my 120,000 Big Lottery data rows failed "Have you shut down the server?"
