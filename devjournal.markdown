@@ -104,6 +104,10 @@ r.table("BigLottery").group({index: "FUNDER_NAME"})('amount').sum()
 ## 2014-04-23 16:55 Wednesday
 
 
-- [ ] Register bugs with RethinkDB?
+- [x] Register bugs with RethinkDB?
   - Can't sort more than 100,000 rows (WTF!?)
   - Inserting dates for each of my 120,000 Big Lottery data rows failed "Have you shut down the server?"
+
+## 2014-05-12 14:54 Monday
+
+- [ ] Need to Fix Mutt: I think my default archive action, bound to 'a' should use quasi delete.
