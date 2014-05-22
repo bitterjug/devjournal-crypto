@@ -131,5 +131,8 @@ Bug in v4c.
 
 - This might be coming from the original activity with this id, or from one of the other clones, I guess.
 
+- Did it again and the network tab shows the initiator of the event that caused the update.
+- Tracking the stack for this, I found `postChangeElement` in `editable-text.js` is called as soon as I click to start the edit
+
 
 
