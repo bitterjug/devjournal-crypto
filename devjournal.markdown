@@ -123,7 +123,13 @@ Bug in v4c.
 
 - Replicated DB locally
 - Tried just now on a random activity (4.1.1) and didn't cause replication.
-- They have the problem with the Results and Measure ment Output, so I try tere.
+- They have the problem with the Results and Measure ment Output, so I try
+  tere.  I edited 10.1.2 which formerly  had a different description and it DID
+  change to :
+
+"Inception Meeting with Research Companies (Promundo and TNS) held to discuss expectations and processes "
+
+- This might be coming from the original activity with this id, or from one of the other clones, I guess.
 
 
 
