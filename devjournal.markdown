@@ -140,3 +140,10 @@ But not when I click outside. (on Activity 4.7.1)
 
 
 
+
+## 2014-05-22 15:45 Thursday
+
+Clue!
+
+`$('.savable')` after loading the page gives a non-empty set. it contains the div for the inception meeting text!
+input_view has a handler on `blur` on `.savable` which I does the update. 
