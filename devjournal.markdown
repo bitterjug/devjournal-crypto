@@ -114,6 +114,16 @@ r.table("BigLottery").group({index: "FUNDER_NAME"})('amount').sum()
 
 - [ ] Need to Fix Mutt: I think my default archive action, bound to 'a' should use quasi delete.
 
-## 2014-05-13 12:40 Tuesday
+## 2014-05-22 09:41 Thursday
+
+
+Bug in v4c.
+
+- Editing activity descriptions results in them having the description from one particular activity.
+
+- Replicated DB locally
+- Tried just now on a random activity (4.1.1) and didn't cause replication.
+- They have the problem with the Results and Measure ment Output, so I try tere.
+
 
 
