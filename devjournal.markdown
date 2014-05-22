@@ -135,7 +135,7 @@ Bug in v4c.
 - Tracking the stack for this, I found `postChangeElement` in `editable-text.js` is called as soon as I click to start the edit.
 But not when I click outside. (on Activity 4.7.1)
 - from a breakpoint on `input_view.changeElement` I find that the model recorded for Activity 10.1.1 is Activity #5
-
+- At the `changeElement` stage, we still have the correct object, with the correct description. 
 
 
 
