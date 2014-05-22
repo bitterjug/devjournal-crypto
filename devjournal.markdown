@@ -132,7 +132,10 @@ Bug in v4c.
 - This might be coming from the original activity with this id, or from one of the other clones, I guess.
 
 - Did it again and the network tab shows the initiator of the event that caused the update.
-- Tracking the stack for this, I found `postChangeElement` in `editable-text.js` is called as soon as I click to start the edit
+- Tracking the stack for this, I found `postChangeElement` in `editable-text.js` is called as soon as I click to start the edit.
+But not when I click outside. (on Activity 4.7.1)
+- from a breakpoint on `input_view.changeElement` I find that the model recorded for Activity 10.1.1 is Activity #5
+
 
 
 
