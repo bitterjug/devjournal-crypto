@@ -96,7 +96,7 @@ r.table("BigLottery").group({index: "FUNDER_NAME"})('amount').sum()
                    companyNumber: lottery('COMPANY_NUMBER')
                 };
             }
-        );
+        );Tech retrospective
     }, {
       nonAtomic: true
     });
