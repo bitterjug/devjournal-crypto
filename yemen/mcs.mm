@@ -1,7 +1,8 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1400681028638" ID="ID_1891630374" MODIFIED="1400681057383" TEXT="mcs">
+<node COLOR="#990000" CREATED="1400681028638" ID="ID_1891630374" MODIFIED="1401197142369" TEXT="mcs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="male2"/>
 <node CREATED="1400681598771" ID="ID_1380001750" MODIFIED="1400756075819" POSITION="right" TEXT="notes"/>
 <node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1400681604356" POSITION="right" TEXT="Tasks">
 <node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1401186524111" TEXT="v4c:">
@@ -28,8 +29,12 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
+<node CREATED="1401196796724" ID="ID_1621174340" MODIFIED="1401196816004" TEXT="Need to be able to export planning reports to &quot;snapshot&quot;"/>
+<node CREATED="1401187281063" ID="ID_194296368" MODIFIED="1401187284599" TEXT="FIXING:">
+<node CREATED="1401187291415" ID="ID_313784850" MODIFIED="1401187293025" TEXT="how soon?"/>
 </node>
-<node CREATED="1400686687910" FOLDED="true" ID="ID_1634585377" MODIFIED="1401186511527" TEXT="youwin">
+</node>
+<node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1401197038008" TEXT="youwin">
 <node CREATED="1400686700685" ID="ID_1821307632" LINK="https://projects.aptivate.org/issues/5682" MODIFIED="1400756008927" TEXT="set up QA snapshots">
 <hook NAME="plugins/TimeManagementReminder.xml">
 <Parameters REMINDUSERAT="1401723480340"/>
@@ -39,7 +44,9 @@
 <node CREATED="1400837439011" ID="ID_1635038498" MODIFIED="1400837451350" TEXT="anthea&apos;s email about future iterations -- what is the contrac sitiation?">
 <icon BUILTIN="help"/>
 </node>
+<node CREATED="1401197052146" ID="ID_37459345" MODIFIED="1401197057786" TEXT="Wale wants more work in the future"/>
 </node>
+<node CREATED="1401197061474" ID="ID_354296444" MODIFIED="1401197063643" TEXT="Yemen "/>
 </node>
 </node>
 </map>
