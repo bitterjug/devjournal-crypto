@@ -94,22 +94,12 @@
 </node>
 </node>
 <node CREATED="1402494765640" ID="ID_1428695887" MODIFIED="1402502345433" TEXT="iteration 6">
-<node CREATED="1402493975782" FOLDED="true" ID="ID_1422508769" MODIFIED="1402499068224" TEXT="Management meeting to clarify requirements didnt happen.">
-<node CREATED="1402494018198" ID="ID_341218091" MODIFIED="1402494774538" TEXT="Caroine out of the office since morning"/>
-<node CREATED="1402494028614" ID="ID_1843184470" MODIFIED="1402494774535" TEXT="Need meeting with Caroline to confirm issue about annual view"/>
-</node>
-<node CREATED="1402494605761" FOLDED="true" ID="ID_886649607" MODIFIED="1402499068224" TEXT="what is the domain name">
+<node CREATED="1402494605761" FOLDED="true" ID="ID_886649607" MODIFIED="1402502927999" TEXT="what is the domain name">
 <icon BUILTIN="button_ok"/>
+<icon BUILTIN="help"/>
 <node CREATED="1402494676569" ID="ID_1862607677" MODIFIED="1402494682666" TEXT="check cost of ssl certificates"/>
 </node>
-<node CREATED="1402494980015" ID="ID_726841631" MODIFIED="1402494995505" TEXT="Mark start conversation with emeka about the export spreadsheet format"/>
 <node CREATED="1402495245677" ID="ID_70581972" MODIFIED="1402495265692" TEXT="Button to improve the experience of someone downloading QPR"/>
-<node CREATED="1402496042335" FOLDED="true" ID="ID_1684531722" MODIFIED="1402499068224" TEXT="Can we get Emeka to test as soon as paged view is available.">
-<icon BUILTIN="button_ok"/>
-<node CREATED="1402496731427" ID="ID_210531545" MODIFIED="1402496747679" TEXT="in team meeting 18-20th"/>
-<node CREATED="1402496753554" ID="ID_1332066758" MODIFIED="1402496757401" TEXT="an hour on Wednesday"/>
-<node CREATED="1402496765930" ID="ID_1325996154" MODIFIED="1402496770530" TEXT="emeka to confirm"/>
-</node>
 </node>
 </node>
 </node>
