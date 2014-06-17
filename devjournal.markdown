@@ -147,3 +147,10 @@ Clue!
 
 `$('.savable')` after loading the page gives a non-empty set. it contains the div for the inception meeting text!
 input_view has a handler on `blur` on `.savable` which I does the update. 
+
+## 2014-06-17 12:38 Tuesday
+
+-  [ ] v4c: select Indicator descriptions: without editing them, drag up from
+   the end of the text and keep the mouse button down and go outside the
+   widget, it unselects the text and selectts the table instead. Weird.
+
