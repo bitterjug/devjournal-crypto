@@ -4,13 +4,14 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="male2"/>
 <node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1402499070333" POSITION="right" TEXT="Tasks">
-<node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1402499069613" TEXT="Yemen ">
+<node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1403102656732" TEXT="Yemen ">
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
 <node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1403085777599" TEXT="v4c:">
 <node CREATED="1403085791682" ID="ID_1124681285" MODIFIED="1403085802253" TEXT="chase carolone to confirm payment for half iteration"/>
 <node CREATED="1403085802448" ID="ID_456241892" MODIFIED="1403085807567" TEXT="invoice for half iteration"/>
 <node CREATED="1403085807757" ID="ID_493306632" MODIFIED="1403085813909" TEXT="deploy speedup to live"/>
+<node CREATED="1403102659129" ID="ID_489093402" MODIFIED="1403102665434" TEXT="Check schedule availability"/>
 </node>
 <node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1403085828013" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI"/>
