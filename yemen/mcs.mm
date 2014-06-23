@@ -42,7 +42,12 @@
 <node CREATED="1403523022057" ID="ID_266035190" MODIFIED="1403523025164" TEXT="putting up shelves"/>
 <node CREATED="1403523025363" ID="ID_144342433" MODIFIED="1403523028591" TEXT="taking out partitiono walls"/>
 </node>
-<node CREATED="1403526719607" ID="ID_139436732" MODIFIED="1403526744518" TEXT="we&apos;d liek to move the start date back to 21st"/>
+<node CREATED="1403559610804" ID="ID_705266911" MODIFIED="1403559616241" TEXT="4.3">
+<node CREATED="1403559620342" ID="ID_1924481518" MODIFIED="1403559643883" TEXT="schedule of condition to whjich we return the premeeis?"/>
+<node CREATED="1403559644777" ID="ID_1592304576" MODIFIED="1403559651588" TEXT="would this conflict with removing the partition?"/>
+<node CREATED="1403559651801" ID="ID_660828927" MODIFIED="1403559662302" TEXT="Since its in good nic now, is this not a problem?"/>
+</node>
+<node CREATED="1403559732905" ID="ID_515663489" MODIFIED="1403559739122" TEXT="each party pay own legal costs"/>
 </node>
 </node>
 <node CREATED="1400681598771" FOLDED="true" ID="ID_1380001750" MODIFIED="1403085775818" POSITION="right" TEXT="notes">
