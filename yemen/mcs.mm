@@ -24,6 +24,8 @@
 <node CREATED="1403559228317" ID="ID_1852489098" MODIFIED="1403559240508" TEXT="i.e. is Q4&apos;s target the same as the annual one?"/>
 <node CREATED="1403559240894" ID="ID_942261186" MODIFIED="1403559254226" TEXT="Do you want to report separately against Q4 and the annual target?"/>
 </node>
+<node CREATED="1403559272895" ID="ID_1605705187" MODIFIED="1403559285378" TEXT="Can we make status updates (on activities) and rag updates the same thing?"/>
+<node CREATED="1403559305510" ID="ID_829215044" MODIFIED="1403559320711" TEXT="Are status codes similar to RAG ratings? (we think not)"/>
 </node>
 <node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1403559140621" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI"/>
