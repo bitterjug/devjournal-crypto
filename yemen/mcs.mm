@@ -4,19 +4,28 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="male2"/>
 <node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1402499070333" POSITION="right" TEXT="Tasks">
-<node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1403102656732" TEXT="Yemen ">
+<node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1403559146885" TEXT="Yemen ">
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
-<node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1403085777599" TEXT="v4c:">
+<node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1403559142898" TEXT="v4c:">
 <node CREATED="1403085802448" ID="ID_456241892" MODIFIED="1403526043301" TEXT="invoice for half iteration">
 <icon BUILTIN="help"/>
+<node CREATED="1403559148810" ID="ID_693924478" MODIFIED="1403559150515" TEXT="shoudl be ok"/>
 </node>
 <node CREATED="1403085807757" ID="ID_493306632" MODIFIED="1403526047175" TEXT="deploy speedup to live">
 <icon BUILTIN="help"/>
+<node CREATED="1403559155309" ID="ID_1791443406" MODIFIED="1403559160965" TEXT="has this been done"/>
 </node>
 <node CREATED="1403526054349" ID="ID_195876592" MODIFIED="1403526068261" TEXT="Are RAG updatesd makde each time data is entered or separatelhy?"/>
+<node CREATED="1403559195291" ID="ID_713701208" MODIFIED="1403559200993" TEXT="Activity/Result relationship">
+<node CREATED="1403559177051" ID="ID_761226253" MODIFIED="1403559201724" TEXT="Do some activities relate to more than one indicator or even result?"/>
 </node>
-<node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1403085828013" TEXT="youwin">
+<node CREATED="1403559214501" ID="ID_1133324440" MODIFIED="1403559227721" TEXT="Would having quarterly targets meet the need for separate annual and quaterly ones?">
+<node CREATED="1403559228317" ID="ID_1852489098" MODIFIED="1403559240508" TEXT="i.e. is Q4&apos;s target the same as the annual one?"/>
+<node CREATED="1403559240894" ID="ID_942261186" MODIFIED="1403559254226" TEXT="Do you want to report separately against Q4 and the annual target?"/>
+</node>
+</node>
+<node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1403559140621" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI"/>
 <node CREATED="1403085830151" ID="ID_368291725" MODIFIED="1403085839286" TEXT="Change number of winners selected by script"/>
 <node CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1401962419696" TEXT="Check time-scale for marking/selecting winners"/>
@@ -26,7 +35,7 @@
 <node CREATED="1402324201337" ID="ID_340737605" MODIFIED="1402324213562" TEXT="Automating future competitions"/>
 </node>
 </node>
-<node CREATED="1402308943540" ID="ID_758581092" MODIFIED="1403523013860" TEXT="office">
+<node CREATED="1402308943540" ID="ID_758581092" MODIFIED="1403559135212" TEXT="office">
 <node CREATED="1402323490871" ID="ID_472891960" MODIFIED="1403523021670" TEXT="ask john about alterations">
 <node CREATED="1403523022057" ID="ID_266035190" MODIFIED="1403523025164" TEXT="putting up shelves"/>
 <node CREATED="1403523025363" ID="ID_144342433" MODIFIED="1403523028591" TEXT="taking out partitiono walls"/>
