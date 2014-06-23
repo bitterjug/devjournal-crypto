@@ -8,10 +8,13 @@
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
 <node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1403085777599" TEXT="v4c:">
-<node CREATED="1403085791682" ID="ID_1124681285" MODIFIED="1403085802253" TEXT="chase carolone to confirm payment for half iteration"/>
-<node CREATED="1403085802448" ID="ID_456241892" MODIFIED="1403085807567" TEXT="invoice for half iteration"/>
-<node CREATED="1403085807757" ID="ID_493306632" MODIFIED="1403085813909" TEXT="deploy speedup to live"/>
-<node CREATED="1403102659129" ID="ID_489093402" MODIFIED="1403102665434" TEXT="Check schedule availability"/>
+<node CREATED="1403085802448" ID="ID_456241892" MODIFIED="1403526043301" TEXT="invoice for half iteration">
+<icon BUILTIN="help"/>
+</node>
+<node CREATED="1403085807757" ID="ID_493306632" MODIFIED="1403526047175" TEXT="deploy speedup to live">
+<icon BUILTIN="help"/>
+</node>
+<node CREATED="1403526054349" ID="ID_195876592" MODIFIED="1403526068261" TEXT="Are RAG updatesd makde each time data is entered or separatelhy?"/>
 </node>
 <node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1403085828013" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI"/>
@@ -28,6 +31,7 @@
 <node CREATED="1403523022057" ID="ID_266035190" MODIFIED="1403523025164" TEXT="putting up shelves"/>
 <node CREATED="1403523025363" ID="ID_144342433" MODIFIED="1403523028591" TEXT="taking out partitiono walls"/>
 </node>
+<node CREATED="1403526719607" ID="ID_139436732" MODIFIED="1403526744518" TEXT="we&apos;d liek to move the start date back to 21st"/>
 </node>
 </node>
 <node CREATED="1400681598771" FOLDED="true" ID="ID_1380001750" MODIFIED="1403085775818" POSITION="right" TEXT="notes">
