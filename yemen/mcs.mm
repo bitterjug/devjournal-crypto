@@ -44,7 +44,10 @@
 <node CREATED="1403605632898" ID="ID_52373557" MODIFIED="1403605639868" TEXT="explain what GREEN means for an activity"/>
 <node CREATED="1403605640058" ID="ID_1607903277" MODIFIED="1403605676042" TEXT="rather than another satatus code, encourage users to say in ther narrative why they have chosen the colour they have"/>
 </node>
-<node CREATED="1403607573748" ID="ID_721013575" MODIFIED="1403607583908" TEXT="populate targets at the start of the quarter"/>
+<node CREATED="1403607573748" ID="ID_721013575" MODIFIED="1403607583908" TEXT="populate targets at the start of the quarter">
+<node CREATED="1403607636324" ID="ID_179014518" MODIFIED="1403607639872" TEXT="as part of planning process"/>
+<node CREATED="1403607643508" ID="ID_494687761" MODIFIED="1403607652747" TEXT="set during quarterly plannung"/>
+</node>
 </node>
 <node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1403559140621" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI"/>
