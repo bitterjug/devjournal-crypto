@@ -7,7 +7,7 @@
 <node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1403559146885" TEXT="Yemen ">
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
-<node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1403559142898" TEXT="v4c:">
+<node CREATED="1400682501712" HGAP="383" ID="ID_119942923" MODIFIED="1403604903721" TEXT="v4c:" VSHIFT="-37">
 <node CREATED="1403085802448" ID="ID_456241892" MODIFIED="1403526043301" TEXT="invoice for half iteration">
 <icon BUILTIN="help"/>
 <node CREATED="1403559148810" ID="ID_693924478" MODIFIED="1403559150515" TEXT="shoudl be ok"/>
@@ -26,6 +26,25 @@
 </node>
 <node CREATED="1403559272895" ID="ID_1605705187" MODIFIED="1403559285378" TEXT="Can we make status updates (on activities) and rag updates the same thing?"/>
 <node CREATED="1403559305510" ID="ID_829215044" MODIFIED="1403559320711" TEXT="Are status codes similar to RAG ratings? (we think not)"/>
+<node CREATED="1403604700137" ID="ID_1354561926" MODIFIED="1403604708535" TEXT="Emeka share rag rating from the project"/>
+<node CREATED="1403604784968" ID="ID_977087333" MODIFIED="1403604793929" TEXT="By the last quarter, annual and quarterly result are in line"/>
+<node CREATED="1403604887424" ID="ID_399871428" MODIFIED="1403604898567" TEXT="Interested in progress towards each quarter&apos;s results"/>
+<node CREATED="1403604907672" ID="ID_452377641" MODIFIED="1403604912826" TEXT="going to set quarterly milestones"/>
+<node CREATED="1403605573275" FOLDED="true" ID="ID_526882279" MODIFIED="1403607573119" TEXT="unify RAG rating and status update">
+<node CREATED="1403605188957" FOLDED="true" ID="ID_850765019" MODIFIED="1403605567525" TEXT="last week, as a team, line manager">
+<node CREATED="1403605196229" ID="ID_1533260779" MODIFIED="1403605203040" TEXT="rapid update">
+<node CREATED="1403605264109" ID="ID_1982595911" MODIFIED="1403605270717" TEXT="wuld lik eto see RAG rating on activities"/>
+</node>
+<node CREATED="1403605203829" ID="ID_1116797664" MODIFIED="1403605211287" TEXT="status update/rag rating confusing"/>
+<node CREATED="1403605211629" ID="ID_1885446507" MODIFIED="1403605223366" TEXT="status update for activity should say the same as RAG rating"/>
+<node CREATED="1403605223701" ID="ID_1006098146" MODIFIED="1403605230367" TEXT="Behind Schedule"/>
+<node CREATED="1403605413612" ID="ID_1124667210" MODIFIED="1403605415619" TEXT="On schedule"/>
+</node>
+<node CREATED="1403605605955" ID="ID_1383967351" MODIFIED="1403605632442" TEXT="use different descriptions for updates in activity RAG ratings"/>
+<node CREATED="1403605632898" ID="ID_52373557" MODIFIED="1403605639868" TEXT="explain what GREEN means for an activity"/>
+<node CREATED="1403605640058" ID="ID_1607903277" MODIFIED="1403605676042" TEXT="rather than another satatus code, encourage users to say in ther narrative why they have chosen the colour they have"/>
+</node>
+<node CREATED="1403607573748" ID="ID_721013575" MODIFIED="1403607583908" TEXT="populate targets at the start of the quarter"/>
 </node>
 <node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1403559140621" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI"/>
@@ -150,7 +169,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1403603408066" ID="ID_636467679" MODIFIED="1403603409571" POSITION="left" TEXT="archive">
+<node CREATED="1403603408066" FOLDED="true" ID="ID_636467679" MODIFIED="1403604650294" POSITION="left" TEXT="archive">
 <node CREATED="1402308943540" ID="ID_758581092" MODIFIED="1403559135212" TEXT="office">
 <node CREATED="1402323490871" ID="ID_472891960" MODIFIED="1403523021670" TEXT="ask john about alterations">
 <node CREATED="1403523022057" ID="ID_266035190" MODIFIED="1403523025164" TEXT="putting up shelves"/>
