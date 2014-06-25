@@ -193,3 +193,47 @@ I'm thinking of something like:
   * Be the platform by which study results are published to DFID and project partners
 
 Hmm. Perhaps not. 
+
+## 2014-06-25 09:45 Wednesday
+
+Based on the initial design overview:
+
+ - upload interface
+ - GIS
+ - reporting/querying
+
+We explored a number of options while seeking clarification on the principal
+workflows that the database will be required to support. Important questions 
+guide the design process include:
+
+- What point in the programme's data related work-flow will those data be
+  stored in the database? Alternatives might include:
+
+  ** The database will be the canonical repository for sharing data from
+  studies during the programme. Raw data will be uploaded as soon as possible
+  after they are captured in the field; the database will be the source and
+  destination for any subsequent data-based operations such as off-line
+  analysis, augmentation (such as coding qualitative datasets), reporting. In
+  this case we might imagine the database needs to support modifying or
+  updating workflows as well as the initial upload.
+
+  ** The database will be used primarily to publish results to stakeholders. In
+  this case we imagine datasets need be uploaded once only but queried many
+  times.
+
+- What are the principal units of data that users will want to deal with.
+
+  ** Complete datasets (e.g. the results of a single study)
+
+  ** Individual survey results (e.g. rows of data each derived from on
+  respondent)
+
+  ** Arbitrary subsets and/or unions of rows from different surveys.
+
+
+We understand that in order to meet security requirements, the data in the DB
+may not specify location to more than the level of Governorates. This calls
+into question the value of presenting results on a map. We need to 
+
+
+The initial proposal makes indicative suggestions 
