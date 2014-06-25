@@ -145,8 +145,9 @@ But not when I click outside. (on Activity 4.7.1)
 
 Clue!
 
-`$('.savable')` after loading the page gives a non-empty set. it contains the div for the inception meeting text!
-input_view has a handler on `blur` on `.savable` which I does the update. 
+`$('.savable')` after loading the page gives a non-empty set. it contains the
+div for the inception meeting text!  input_view has a handler on `blur` on
+`.savable` which I does the update. 
 
 ## 2014-06-17 12:38 Tuesday
 
@@ -154,3 +155,41 @@ input_view has a handler on `blur` on `.savable` which I does the update.
    the end of the text and keep the mouse button down and go outside the
    widget, it unselects the text and selectts the table instead. Weird.
 
+
+## 2014-06-19 16:41 Thursday
+
+
+Notes for v4c
+
+The hierarchical approach to dates that you propose has some interesting consequences:
+
+- if you expand quarterly "Results" within 
+
+
+## 2014-06-25 09:33 Wednesday
+
+The Dfid Yemen component C proposal contains the following statement of Goals:
+
+  The goals of the proposed database system are as follows:
+
+  1. Store qualitative and quantitative datasets from surveys and interviews, and geo-referenced photographs
+  2. Searchable by project
+  3. Present data on maps
+  4. Produce simple reports
+  5. Accessible to DFID and project partners
+
+In the context of that programme, this has become a central part of the implied "specification"
+of the system. 
+
+I have a problem with this in that it does not in itself provide a sufficiently
+guiding vision statement.  I think the problem for me is that it is written in
+solution terms and not in business terms. It says what the database will do,
+but does not refer to the context in which it will do it, or the business needs
+it will be serving. I wonder if we would be in a better place if this were the case. 
+I'm thinking of something like:
+
+  * Serve as the canonical storage place for study data for all partners during the programme.
+  * Enable DFID and project partners to access study data 
+  * Be the platform by which study results are published to DFID and project partners
+
+Hmm. Perhaps not. 
