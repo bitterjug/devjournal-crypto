@@ -61,6 +61,11 @@
 <node CREATED="1403794092170" ID="ID_1027192534" MODIFIED="1403794096489" TEXT="questions from Tom and Marko">
 <node CREATED="1403794096867" ID="ID_1991311453" MODIFIED="1403794113683" TEXT="how do you set the target for a subindicator for a period"/>
 <node CREATED="1403794166452" ID="ID_426917057" MODIFIED="1403794194516" TEXT="how do you enter/show status updates on indicators and results (you can&apos;t see the details or hstory fo them anywhere)"/>
+<node CREATED="1403794634070" ID="ID_846110064" MODIFIED="1403794663622" TEXT="Do v4c ever enter activities against indicators for outcome/impact (because the tool will allow it)?"/>
+<node CREATED="1403794982549" ID="ID_883996736" MODIFIED="1403795013787" TEXT="To check with george: are we building only for DFID or a more general logframe /change tool?. I./e. is it safe to remove the hierarchy from the interface"/>
+<node CREATED="1403796813616" ID="ID_1461331255" MODIFIED="1403796833530" TEXT="Add existing value column to the data input mockup so that you can add the current delta to that to get the new cumulative value"/>
+<node CREATED="1403797905328" ID="ID_1797104405" MODIFIED="1403797922463" TEXT="Do we copy old rag ratings or leve them blank saying they need to be updated? Do we leave a flag showing it needs to be updated?"/>
+<node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1403798005928" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)"/>
 </node>
 </node>
 <node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1403559140621" TEXT="youwin">
