@@ -4,6 +4,9 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="male2"/>
 <node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1402499070333" POSITION="right" TEXT="Tasks">
+<node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1403772476911" TEXT="today">
+<node CREATED="1403772478888" ID="ID_1612561966" MODIFIED="1403772526720" TEXT="Coordinate output wg meeting"/>
+</node>
 <node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1403559146885" TEXT="Yemen ">
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
@@ -22,11 +25,16 @@
 </node>
 <node CREATED="1403559214501" ID="ID_1133324440" MODIFIED="1403559227721" TEXT="Would having quarterly targets meet the need for separate annual and quaterly ones?">
 <node CREATED="1403559228317" ID="ID_1852489098" MODIFIED="1403559240508" TEXT="i.e. is Q4&apos;s target the same as the annual one?"/>
+<node CREATED="1403608681509" ID="ID_353581753" MODIFIED="1403608684222" TEXT="yes"/>
 <node CREATED="1403559240894" ID="ID_942261186" MODIFIED="1403559254226" TEXT="Do you want to report separately against Q4 and the annual target?"/>
 </node>
 <node CREATED="1403559272895" ID="ID_1605705187" MODIFIED="1403559285378" TEXT="Can we make status updates (on activities) and rag updates the same thing?"/>
-<node CREATED="1403559305510" ID="ID_829215044" MODIFIED="1403559320711" TEXT="Are status codes similar to RAG ratings? (we think not)"/>
-<node CREATED="1403604700137" ID="ID_1354561926" MODIFIED="1403604708535" TEXT="Emeka share rag rating from the project"/>
+<node CREATED="1403559305510" ID="ID_829215044" MODIFIED="1403559320711" TEXT="Are status codes similar to RAG ratings? (we think not)">
+<node CREATED="1403608723700" ID="ID_1205906666" MODIFIED="1403608727468" TEXT="drop status codes"/>
+</node>
+<node CREATED="1403604700137" ID="ID_1354561926" MODIFIED="1403608712733" TEXT="Emeka share rag rating from the project">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 <node CREATED="1403604784968" ID="ID_977087333" MODIFIED="1403604793929" TEXT="By the last quarter, annual and quarterly result are in line"/>
 <node CREATED="1403604887424" ID="ID_399871428" MODIFIED="1403604898567" TEXT="Interested in progress towards each quarter&apos;s results"/>
 <node CREATED="1403604907672" ID="ID_452377641" MODIFIED="1403604912826" TEXT="going to set quarterly milestones"/>
@@ -49,6 +57,11 @@
 <node CREATED="1403607643508" ID="ID_494687761" MODIFIED="1403607652747" TEXT="set during quarterly plannung"/>
 </node>
 <node CREATED="1403607988098" ID="ID_826618489" MODIFIED="1403608006608" TEXT="add hover over on traffic lights so you can tell when they last changed"/>
+<node CREATED="1403608632157" ID="ID_1877500343" MODIFIED="1403608647903" TEXT="they want to be specific about what an activity is intended to delivery -- which indicator"/>
+<node CREATED="1403794092170" ID="ID_1027192534" MODIFIED="1403794096489" TEXT="questions from Tom and Marko">
+<node CREATED="1403794096867" ID="ID_1991311453" MODIFIED="1403794113683" TEXT="how do you set the target for a subindicator for a period"/>
+<node CREATED="1403794166452" ID="ID_426917057" MODIFIED="1403794194516" TEXT="how do you enter/show status updates on indicators and results (you can&apos;t see the details or hstory fo them anywhere)"/>
+</node>
 </node>
 <node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1403559140621" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI"/>
