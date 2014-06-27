@@ -70,6 +70,7 @@
 </node>
 <node CREATED="1403878043222" ID="ID_1865172773" MODIFIED="1403878053400" TEXT="Questions from Marko 28 june">
 <node CREATED="1403878053933" ID="ID_1435924028" MODIFIED="1403878083578" TEXT="A conf option to hide the EDit and Monitor"/>
+<node CREATED="1403878632444" ID="ID_339036091" MODIFIED="1403878640767" TEXT="What periods can we select when viewing the monitor page?"/>
 </node>
 <node CREATED="1403867600225" ID="ID_998136478" MODIFIED="1403867603385" TEXT="Questions for Emeka">
 <node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1403867931959" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)">
@@ -78,6 +79,7 @@
 <node CREATED="1403604700137" ID="ID_1354561926" MODIFIED="1403867932655" TEXT="Emeka share rag rating from the project">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1403879153751" ID="ID_1094674321" MODIFIED="1403879186119" TEXT="What use do ou have for monthly view? Will it be needed once we have export quarterly and monthly plans to excel?"/>
 <node CREATED="1403867809784" FOLDED="true" ID="ID_657499901" MODIFIED="1403867887487" TEXT="Could they migrate their First uear/quarter activities to a Indicator based structure?">
 <node CREATED="1403867844591" ID="ID_1135751954" MODIFIED="1403867849518" TEXT="We could ad an admin interface f rthis"/>
 <node CREATED="1403867850079" ID="ID_1502551968" MODIFIED="1403867883098" TEXT="those old activities might be invisible in the main interface unil they move them to in dicators via the admin interface"/>
