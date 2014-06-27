@@ -59,7 +59,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1403794092170" HGAP="53" ID="ID_1027192534" MODIFIED="1403867613011" TEXT="questions from Tom and Marko" VSHIFT="9">
+<node CREATED="1403794092170" HGAP="53" ID="ID_1027192534" MODIFIED="1403868167578" TEXT="questions from Tom and Marko 26 June" VSHIFT="9">
 <node CREATED="1403794096867" ID="ID_1991311453" MODIFIED="1403794113683" TEXT="how do you set the target for a subindicator for a period"/>
 <node CREATED="1403794166452" ID="ID_426917057" MODIFIED="1403794194516" TEXT="how do you enter/show status updates on indicators and results (you can&apos;t see the details or hstory fo them anywhere)"/>
 <node CREATED="1403794634070" ID="ID_846110064" MODIFIED="1403794663622" TEXT="Do v4c ever enter activities against indicators for outcome/impact (because the tool will allow it)?"/>
@@ -68,16 +68,23 @@
 <node CREATED="1403867513388" ID="ID_946116529" MODIFIED="1403867536627" TEXT="Suggest we leave new ones blank to indicate that new RAGs need to be determined. The previous ones are visible whemn the drop down is opened"/>
 </node>
 </node>
-<node CREATED="1403867600225" ID="ID_998136478" MODIFIED="1403867603385" TEXT="Questions for Emeka">
-<node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1403867605991" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1403878043222" ID="ID_1865172773" MODIFIED="1403878053400" TEXT="Questions from Marko 28 june">
+<node CREATED="1403878053933" ID="ID_1435924028" MODIFIED="1403878083578" TEXT="A conf option to hide the EDit and Monitor"/>
 </node>
-<node CREATED="1403604700137" ID="ID_1354561926" MODIFIED="1403867618327" TEXT="Emeka share rag rating from the project">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1403867600225" ID="ID_998136478" MODIFIED="1403867603385" TEXT="Questions for Emeka">
+<node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1403867931959" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1403604700137" ID="ID_1354561926" MODIFIED="1403867932655" TEXT="Emeka share rag rating from the project">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1403867809784" FOLDED="true" ID="ID_657499901" MODIFIED="1403867887487" TEXT="Could they migrate their First uear/quarter activities to a Indicator based structure?">
 <node CREATED="1403867844591" ID="ID_1135751954" MODIFIED="1403867849518" TEXT="We could ad an admin interface f rthis"/>
 <node CREATED="1403867850079" ID="ID_1502551968" MODIFIED="1403867883098" TEXT="those old activities might be invisible in the main interface unil they move them to in dicators via the admin interface"/>
+</node>
+<node CREATED="1403867978198" ID="ID_1730872120" MODIFIED="1403867994645" TEXT="How should we support setting quarterly milestone targets?">
+<node CREATED="1403868003878" ID="ID_156896058" MODIFIED="1403868013221" TEXT="Is it ok to use the existing Edit interface?"/>
+<node CREATED="1403868013526" ID="ID_1993161805" MODIFIED="1403868035270" TEXT="Are they going to update them once they set them? (do we need to store history?)"/>
 </node>
 </node>
 </node>
