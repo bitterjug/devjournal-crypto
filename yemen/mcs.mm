@@ -20,25 +20,19 @@
 <node CREATED="1403559155309" ID="ID_1791443406" MODIFIED="1403559160965" TEXT="has this been done"/>
 </node>
 <node CREATED="1403526054349" ID="ID_195876592" MODIFIED="1403526068261" TEXT="Are RAG updatesd makde each time data is entered or separatelhy?"/>
-<node CREATED="1403559195291" ID="ID_713701208" MODIFIED="1403559200993" TEXT="Activity/Result relationship">
-<node CREATED="1403559177051" ID="ID_761226253" MODIFIED="1403559201724" TEXT="Do some activities relate to more than one indicator or even result?"/>
-</node>
 <node CREATED="1403559214501" ID="ID_1133324440" MODIFIED="1403559227721" TEXT="Would having quarterly targets meet the need for separate annual and quaterly ones?">
 <node CREATED="1403559228317" ID="ID_1852489098" MODIFIED="1403559240508" TEXT="i.e. is Q4&apos;s target the same as the annual one?"/>
 <node CREATED="1403608681509" ID="ID_353581753" MODIFIED="1403608684222" TEXT="yes"/>
 <node CREATED="1403559240894" ID="ID_942261186" MODIFIED="1403559254226" TEXT="Do you want to report separately against Q4 and the annual target?"/>
+<node CREATED="1403604784968" ID="ID_977087333" MODIFIED="1403867768063" TEXT="By the last quarter, annual and quarterly result are in line"/>
 </node>
-<node CREATED="1403559272895" ID="ID_1605705187" MODIFIED="1403559285378" TEXT="Can we make status updates (on activities) and rag updates the same thing?"/>
 <node CREATED="1403559305510" ID="ID_829215044" MODIFIED="1403559320711" TEXT="Are status codes similar to RAG ratings? (we think not)">
 <node CREATED="1403608723700" ID="ID_1205906666" MODIFIED="1403608727468" TEXT="drop status codes"/>
 </node>
-<node CREATED="1403604700137" ID="ID_1354561926" MODIFIED="1403608712733" TEXT="Emeka share rag rating from the project">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1403604784968" ID="ID_977087333" MODIFIED="1403604793929" TEXT="By the last quarter, annual and quarterly result are in line"/>
-<node CREATED="1403604887424" ID="ID_399871428" MODIFIED="1403604898567" TEXT="Interested in progress towards each quarter&apos;s results"/>
+<node COLOR="#ff0000" CREATED="1403604887424" ID="ID_399871428" MODIFIED="1403867658089" TEXT="Interested in progress towards each quarter&apos;s results"/>
 <node CREATED="1403604907672" ID="ID_452377641" MODIFIED="1403604912826" TEXT="going to set quarterly milestones"/>
-<node CREATED="1403605573275" FOLDED="true" ID="ID_526882279" MODIFIED="1403607573119" TEXT="unify RAG rating and status update">
+<node CREATED="1403867676153" ID="ID_856737715" MODIFIED="1403867689246" TEXT="call 25 June">
+<node CREATED="1403605573275" ID="ID_526882279" MODIFIED="1403867670346" TEXT="unify RAG rating and status update">
 <node CREATED="1403605188957" FOLDED="true" ID="ID_850765019" MODIFIED="1403605567525" TEXT="last week, as a team, line manager">
 <node CREATED="1403605196229" ID="ID_1533260779" MODIFIED="1403605203040" TEXT="rapid update">
 <node CREATED="1403605264109" ID="ID_1982595911" MODIFIED="1403605270717" TEXT="wuld lik eto see RAG rating on activities"/>
@@ -51,22 +45,40 @@
 <node CREATED="1403605605955" ID="ID_1383967351" MODIFIED="1403605632442" TEXT="use different descriptions for updates in activity RAG ratings"/>
 <node CREATED="1403605632898" ID="ID_52373557" MODIFIED="1403605639868" TEXT="explain what GREEN means for an activity"/>
 <node CREATED="1403605640058" ID="ID_1607903277" MODIFIED="1403605676042" TEXT="rather than another satatus code, encourage users to say in ther narrative why they have chosen the colour they have"/>
+<node CREATED="1403559272895" ID="ID_1605705187" MODIFIED="1403867750779" TEXT="Can we make status updates (on activities) and rag updates the same thing?"/>
 </node>
-<node CREATED="1403607573748" FOLDED="true" ID="ID_721013575" MODIFIED="1403607987772" TEXT="populate targets at the start of the quarter">
+<node CREATED="1403607573748" ID="ID_721013575" MODIFIED="1403867699822" TEXT="populate targets at the start of the quarter">
 <node CREATED="1403607636324" ID="ID_179014518" MODIFIED="1403607639872" TEXT="as part of planning process"/>
 <node CREATED="1403607643508" ID="ID_494687761" MODIFIED="1403607652747" TEXT="set during quarterly plannung"/>
 </node>
 <node CREATED="1403607988098" ID="ID_826618489" MODIFIED="1403608006608" TEXT="add hover over on traffic lights so you can tell when they last changed"/>
-<node CREATED="1403608632157" ID="ID_1877500343" MODIFIED="1403608647903" TEXT="they want to be specific about what an activity is intended to delivery -- which indicator"/>
-<node CREATED="1403794092170" HGAP="189" ID="ID_1027192534" MODIFIED="1403863870349" TEXT="questions from Tom and Marko" VSHIFT="124">
+<node CREATED="1403559195291" FOLDED="true" ID="ID_713701208" MODIFIED="1403867739872" TEXT="Activity/Result relationship">
+<node CREATED="1403559177051" ID="ID_761226253" MODIFIED="1403559201724" TEXT="Do some activities relate to more than one indicator or even result?"/>
+<node CREATED="1403608632157" ID="ID_1877500343" MODIFIED="1403867739024" TEXT="they want to be specific about what an activity is intended to delivery -- which indicator">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1403794092170" HGAP="53" ID="ID_1027192534" MODIFIED="1403867613011" TEXT="questions from Tom and Marko" VSHIFT="9">
 <node CREATED="1403794096867" ID="ID_1991311453" MODIFIED="1403794113683" TEXT="how do you set the target for a subindicator for a period"/>
 <node CREATED="1403794166452" ID="ID_426917057" MODIFIED="1403794194516" TEXT="how do you enter/show status updates on indicators and results (you can&apos;t see the details or hstory fo them anywhere)"/>
 <node CREATED="1403794634070" ID="ID_846110064" MODIFIED="1403794663622" TEXT="Do v4c ever enter activities against indicators for outcome/impact (because the tool will allow it)?"/>
 <node CREATED="1403794982549" ID="ID_883996736" MODIFIED="1403795013787" TEXT="To check with george: are we building only for DFID or a more general logframe /change tool?. I./e. is it safe to remove the hierarchy from the interface"/>
-<node CREATED="1403797905328" ID="ID_1797104405" MODIFIED="1403797922463" TEXT="Do we copy old rag ratings or leve them blank saying they need to be updated? Do we leave a flag showing it needs to be updated?">
+<node CREATED="1403797905328" ID="ID_1797104405" MODIFIED="1403867594991" TEXT="Do we copy old rag ratings or leve them blank saying they need to be updated? Do we leave a flag showing it needs to be updated?">
 <node CREATED="1403867513388" ID="ID_946116529" MODIFIED="1403867536627" TEXT="Suggest we leave new ones blank to indicate that new RAGs need to be determined. The previous ones are visible whemn the drop down is opened"/>
 </node>
-<node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1403798005928" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)"/>
+</node>
+<node CREATED="1403867600225" ID="ID_998136478" MODIFIED="1403867603385" TEXT="Questions for Emeka">
+<node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1403867605991" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1403604700137" ID="ID_1354561926" MODIFIED="1403867618327" TEXT="Emeka share rag rating from the project">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1403867809784" FOLDED="true" ID="ID_657499901" MODIFIED="1403867887487" TEXT="Could they migrate their First uear/quarter activities to a Indicator based structure?">
+<node CREATED="1403867844591" ID="ID_1135751954" MODIFIED="1403867849518" TEXT="We could ad an admin interface f rthis"/>
+<node CREATED="1403867850079" ID="ID_1502551968" MODIFIED="1403867883098" TEXT="those old activities might be invisible in the main interface unil they move them to in dicators via the admin interface"/>
+</node>
 </node>
 </node>
 <node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1403559140621" TEXT="youwin">
