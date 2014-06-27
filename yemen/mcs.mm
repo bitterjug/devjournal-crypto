@@ -80,7 +80,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1403879153751" ID="ID_1094674321" MODIFIED="1403879186119" TEXT="What use do ou have for monthly view? Will it be needed once we have export quarterly and monthly plans to excel?"/>
-<node CREATED="1403867809784" FOLDED="true" ID="ID_657499901" MODIFIED="1403867887487" TEXT="Could they migrate their First uear/quarter activities to a Indicator based structure?">
+<node CREATED="1403867809784" ID="ID_657499901" MODIFIED="1403879705972" TEXT="Could they migrate their First year/quarter activities to a Indicator based structure?">
 <node CREATED="1403867844591" ID="ID_1135751954" MODIFIED="1403867849518" TEXT="We could ad an admin interface f rthis"/>
 <node CREATED="1403867850079" ID="ID_1502551968" MODIFIED="1403867883098" TEXT="those old activities might be invisible in the main interface unil they move them to in dicators via the admin interface"/>
 </node>
