@@ -11,6 +11,23 @@
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
 <node CREATED="1400682501712" HGAP="383" ID="ID_119942923" MODIFIED="1403604903721" TEXT="v4c:" VSHIFT="-37">
+<node CREATED="1403867600225" FOLDED="true" ID="ID_998136478" MODIFIED="1403993861554" TEXT="Questions for Emeka">
+<node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1403867931959" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1403604700137" ID="ID_1354561926" MODIFIED="1403867932655" TEXT="Emeka share rag rating from the project">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1403879153751" ID="ID_1094674321" MODIFIED="1403879186119" TEXT="What use do ou have for monthly view? Will it be needed once we have export quarterly and monthly plans to excel?"/>
+<node CREATED="1403867809784" ID="ID_657499901" MODIFIED="1403879705972" TEXT="Could they migrate their First year/quarter activities to a Indicator based structure?">
+<node CREATED="1403867844591" ID="ID_1135751954" MODIFIED="1403867849518" TEXT="We could ad an admin interface f rthis"/>
+<node CREATED="1403867850079" ID="ID_1502551968" MODIFIED="1403867883098" TEXT="those old activities might be invisible in the main interface unil they move them to in dicators via the admin interface"/>
+</node>
+<node CREATED="1403867978198" ID="ID_1730872120" MODIFIED="1403867994645" TEXT="How should we support setting quarterly milestone targets?">
+<node CREATED="1403868003878" ID="ID_156896058" MODIFIED="1403868013221" TEXT="Is it ok to use the existing Edit interface?"/>
+<node CREATED="1403868013526" ID="ID_1993161805" MODIFIED="1403868035270" TEXT="Are they going to update them once they set them? (do we need to store history?)"/>
+</node>
+</node>
 <node CREATED="1403085802448" ID="ID_456241892" MODIFIED="1403526043301" TEXT="invoice for half iteration">
 <icon BUILTIN="help"/>
 <node CREATED="1403559148810" ID="ID_693924478" MODIFIED="1403559150515" TEXT="shoudl be ok"/>
@@ -18,6 +35,7 @@
 <node CREATED="1403085807757" ID="ID_493306632" MODIFIED="1403526047175" TEXT="deploy speedup to live">
 <icon BUILTIN="help"/>
 <node CREATED="1403559155309" ID="ID_1791443406" MODIFIED="1403559160965" TEXT="has this been done"/>
+<node CREATED="1403993871000" ID="ID_560187647" MODIFIED="1403993884141" TEXT="dojt think so, we were waiting for payment for half iteration"/>
 </node>
 <node CREATED="1403526054349" ID="ID_195876592" MODIFIED="1403526068261" TEXT="Are RAG updatesd makde each time data is entered or separatelhy?"/>
 <node CREATED="1403559214501" ID="ID_1133324440" MODIFIED="1403559227721" TEXT="Would having quarterly targets meet the need for separate annual and quaterly ones?">
@@ -59,7 +77,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1403794092170" HGAP="53" ID="ID_1027192534" MODIFIED="1403868167578" TEXT="questions from Tom and Marko 26 June" VSHIFT="9">
+<node CREATED="1403794092170" FOLDED="true" HGAP="53" ID="ID_1027192534" MODIFIED="1403993852494" TEXT="questions from Tom and Marko 26 June" VSHIFT="9">
 <node CREATED="1403794096867" ID="ID_1991311453" MODIFIED="1403794113683" TEXT="how do you set the target for a subindicator for a period"/>
 <node CREATED="1403794166452" ID="ID_426917057" MODIFIED="1403794194516" TEXT="how do you enter/show status updates on indicators and results (you can&apos;t see the details or hstory fo them anywhere)"/>
 <node CREATED="1403794634070" ID="ID_846110064" MODIFIED="1403794663622" TEXT="Do v4c ever enter activities against indicators for outcome/impact (because the tool will allow it)?"/>
@@ -68,26 +86,9 @@
 <node CREATED="1403867513388" ID="ID_946116529" MODIFIED="1403867536627" TEXT="Suggest we leave new ones blank to indicate that new RAGs need to be determined. The previous ones are visible whemn the drop down is opened"/>
 </node>
 </node>
-<node CREATED="1403878043222" ID="ID_1865172773" MODIFIED="1403878053400" TEXT="Questions from Marko 28 june">
+<node CREATED="1403878043222" FOLDED="true" ID="ID_1865172773" MODIFIED="1403993853653" TEXT="Questions from Marko 28 june">
 <node CREATED="1403878053933" ID="ID_1435924028" MODIFIED="1403878083578" TEXT="A conf option to hide the EDit and Monitor"/>
 <node CREATED="1403878632444" ID="ID_339036091" MODIFIED="1403878640767" TEXT="What periods can we select when viewing the monitor page?"/>
-</node>
-<node CREATED="1403867600225" ID="ID_998136478" MODIFIED="1403867603385" TEXT="Questions for Emeka">
-<node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1403867931959" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1403604700137" ID="ID_1354561926" MODIFIED="1403867932655" TEXT="Emeka share rag rating from the project">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1403879153751" ID="ID_1094674321" MODIFIED="1403879186119" TEXT="What use do ou have for monthly view? Will it be needed once we have export quarterly and monthly plans to excel?"/>
-<node CREATED="1403867809784" ID="ID_657499901" MODIFIED="1403879705972" TEXT="Could they migrate their First year/quarter activities to a Indicator based structure?">
-<node CREATED="1403867844591" ID="ID_1135751954" MODIFIED="1403867849518" TEXT="We could ad an admin interface f rthis"/>
-<node CREATED="1403867850079" ID="ID_1502551968" MODIFIED="1403867883098" TEXT="those old activities might be invisible in the main interface unil they move them to in dicators via the admin interface"/>
-</node>
-<node CREATED="1403867978198" ID="ID_1730872120" MODIFIED="1403867994645" TEXT="How should we support setting quarterly milestone targets?">
-<node CREATED="1403868003878" ID="ID_156896058" MODIFIED="1403868013221" TEXT="Is it ok to use the existing Edit interface?"/>
-<node CREATED="1403868013526" ID="ID_1993161805" MODIFIED="1403868035270" TEXT="Are they going to update them once they set them? (do we need to store history?)"/>
-</node>
 </node>
 </node>
 <node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1403559140621" TEXT="youwin">
