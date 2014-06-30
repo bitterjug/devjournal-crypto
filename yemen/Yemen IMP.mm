@@ -161,10 +161,18 @@
 <node CREATED="1404131055916" ID="ID_1816890444" MODIFIED="1404141965295" TEXT="analysis">
 <node CREATED="1404131050012" ID="ID_1190186525" MODIFIED="1404131053855" TEXT="frequency tables"/>
 <node CREATED="1404131059871" ID="ID_705122780" MODIFIED="1404131061761" TEXT="coding"/>
-<node CREATED="1404130399477" ID="ID_1782945689" MODIFIED="1404142052864" TEXT="fiona&apos;s example from governance">
+<node CREATED="1404130399477" FOLDED="true" ID="ID_1782945689" MODIFIED="1404142406801" TEXT="fiona&apos;s example from governance">
 <node CREATED="1404130415845" ID="ID_674526316" MODIFIED="1404130424295" TEXT="they know what kind of questions they want to ask"/>
 <node CREATED="1404142054754" ID="ID_851770527" MODIFIED="1404142070344" TEXT="They have done some work making changes at polling stations"/>
-<node CREATED="1404142070600" ID="ID_311596279" MODIFIED="1404142095148" TEXT="They have a survey about how safe people feel at polling stations"/>
+<node CREATED="1404142070600" ID="ID_311596279" MODIFIED="1404142132478" TEXT="They separate have a survey about how safe people feel at polling stations"/>
+<node CREATED="1404142117262" FOLDED="true" ID="ID_523329221" MODIFIED="1404142405230" TEXT="Want to tie these together">
+<node CREATED="1404142317276" ID="ID_104169206" MODIFIED="1404142324836" TEXT="to see if the interventions are working"/>
+<node CREATED="1404142325154" ID="ID_1951336038" MODIFIED="1404142342282" TEXT="Entails relating the interventions to the user surveys">
+<node CREATED="1404142342653" ID="ID_713525889" MODIFIED="1404142346284" TEXT="E.g. by location"/>
+<node CREATED="1404142353452" ID="ID_902949068" MODIFIED="1404142366320" TEXT="or by encoding the stations in a consistent way"/>
+<node CREATED="1404142366606" ID="ID_1634466359" MODIFIED="1404142402498" TEXT="But if yoy forgot to add this dtail, trying to fix it up by geographica matching is a more complex problem than &quot;simple reports&quot;"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1404130548768" FOLDED="true" ID="ID_206014505" MODIFIED="1404142044789" TEXT="analysis and finding it useful">
