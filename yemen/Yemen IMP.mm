@@ -119,10 +119,6 @@
 <node CREATED="1404130042312" ID="ID_696111936" MODIFIED="1404130054245" TEXT="dfid analysis per pillar">
 <node CREATED="1404130054887" ID="ID_1908903039" MODIFIED="1404130065326" TEXT="depends on what the IMP programme has decided to monitor"/>
 </node>
-<node CREATED="1404130399477" ID="ID_1782945689" MODIFIED="1404130415524" TEXT="fiona&apos;s example from governance">
-<node CREATED="1404130415845" ID="ID_674526316" MODIFIED="1404130424295" TEXT="they know what kind of questions they want to ask"/>
-</node>
-<node CREATED="1404130548768" ID="ID_206014505" MODIFIED="1404130554250" TEXT="analysis and finding it useful"/>
 <node CREATED="1404141553722" ID="ID_379985530" MODIFIED="1404141557683" TEXT="other requirements">
 <node CREATED="1404132635751" FOLDED="true" ID="ID_1821855453" MODIFIED="1404141567031" TEXT="technical assistance">
 <node CREATED="1404132639474" ID="ID_140646500" MODIFIED="1404132648064" TEXT="who can they come to with technical queestions"/>
@@ -130,7 +126,7 @@
 <node CREATED="1404132654423" ID="ID_1197762563" MODIFIED="1404132663483" TEXT="is there a budget for technical assistance ?"/>
 <node CREATED="1404132688427" ID="ID_1137656075" MODIFIED="1404132696577" TEXT="train one user who becomes team superuser?"/>
 </node>
-<node CREATED="1404132750762" FOLDED="true" ID="ID_1326335569" MODIFIED="1404141566586" TEXT="georgraphical security">
+<node CREATED="1404132750762" FOLDED="true" ID="ID_1326335569" MODIFIED="1404142002759" TEXT="georgraphical security">
 <node CREATED="1404132765977" ID="ID_86775526" MODIFIED="1404132797372" TEXT="could precise geo data be int he db but available only to authorised users?"/>
 <node CREATED="1404132799601" ID="ID_943411500" MODIFIED="1404132810872" TEXT="I want to see points on a map for individual interventions"/>
 <node CREATED="1404132811142" ID="ID_1649581979" MODIFIED="1404132820500" TEXT="Need to see the individual projects">
@@ -141,7 +137,7 @@
 <node CREATED="1404132903371" ID="ID_363120114" MODIFIED="1404132916571" TEXT="partners will want to see that enumerators were going where they were  meant to be going"/>
 <node CREATED="1404132917915" ID="ID_824337076" MODIFIED="1404132925730" TEXT="so partners will need access to geodata as well"/>
 </node>
-<node CREATED="1404132586772" ID="ID_298834750" MODIFIED="1404141634143" TEXT="component B">
+<node CREATED="1404132586772" FOLDED="true" ID="ID_298834750" MODIFIED="1404141998250" TEXT="component B">
 <node CREATED="1404132591918" ID="ID_174522722" MODIFIED="1404132598567" TEXT="bibliography with links">
 <node CREATED="1404132598799" ID="ID_1478547223" MODIFIED="1404132600988" TEXT="links should work"/>
 <node CREATED="1404132603685" ID="ID_528341017" MODIFIED="1404132611437" TEXT="links should be tested"/>
@@ -157,7 +153,7 @@
 <node CREATED="1404132821203" ID="ID_1272385842" MODIFIED="1404141643458" TEXT="photographica information">
 <icon BUILTIN="help"/>
 </node>
-<node CREATED="1404141975350" ID="ID_1683791555" MODIFIED="1404141976643" TEXT="language">
+<node CREATED="1404141975350" FOLDED="true" ID="ID_1683791555" MODIFIED="1404141991888" TEXT="language">
 <node CREATED="1404132568140" ID="ID_131463965" MODIFIED="1404141972104" TEXT="the user interface can be in english"/>
 <node CREATED="1404132575275" ID="ID_683799252" MODIFIED="1404132578372" TEXT="and were  not translating"/>
 <node CREATED="1404141980493" ID="ID_45119025" MODIFIED="1404141990502" TEXT="need to support arabic content"/>
@@ -165,6 +161,14 @@
 <node CREATED="1404131055916" ID="ID_1816890444" MODIFIED="1404141965295" TEXT="analysis">
 <node CREATED="1404131050012" ID="ID_1190186525" MODIFIED="1404131053855" TEXT="frequency tables"/>
 <node CREATED="1404131059871" ID="ID_705122780" MODIFIED="1404131061761" TEXT="coding"/>
+<node CREATED="1404130399477" ID="ID_1782945689" MODIFIED="1404142052864" TEXT="fiona&apos;s example from governance">
+<node CREATED="1404130415845" ID="ID_674526316" MODIFIED="1404130424295" TEXT="they know what kind of questions they want to ask"/>
+<node CREATED="1404142054754" ID="ID_851770527" MODIFIED="1404142070344" TEXT="They have done some work making changes at polling stations"/>
+<node CREATED="1404142070600" ID="ID_311596279" MODIFIED="1404142095148" TEXT="They have a survey about how safe people feel at polling stations"/>
+</node>
+</node>
+<node CREATED="1404130548768" FOLDED="true" ID="ID_206014505" MODIFIED="1404142044789" TEXT="analysis and finding it useful">
+<node CREATED="1404142017190" ID="ID_706588665" MODIFIED="1404142042939" TEXT="Gill wants the tool to be accessible to someone without the ability to use Excel to analyse data"/>
 </node>
 </node>
 </node>
