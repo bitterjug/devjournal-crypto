@@ -93,6 +93,7 @@
 <node CREATED="1404130399477" ID="ID_1782945689" MODIFIED="1404130415524" TEXT="fiona&apos;s example from governance">
 <node CREATED="1404130415845" ID="ID_674526316" MODIFIED="1404130424295" TEXT="they know what kind of questions they want to ask"/>
 </node>
+<node CREATED="1404130548768" ID="ID_206014505" MODIFIED="1404130554250" TEXT="analysis and finding it useful"/>
 </node>
 </node>
 <node CREATED="1404128116521" FOLDED="true" ID="ID_239924125" MODIFIED="1404128735813" POSITION="left" TEXT="questions">
