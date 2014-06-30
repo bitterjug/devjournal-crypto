@@ -142,7 +142,7 @@
 <node CREATED="1404132654423" ID="ID_1197762563" MODIFIED="1404132663483" TEXT="is there a budget for technical assistance ?"/>
 <node CREATED="1404132688427" ID="ID_1137656075" MODIFIED="1404132696577" TEXT="train one user who becomes team superuser?"/>
 </node>
-<node CREATED="1404132750762" ID="ID_1326335569" MODIFIED="1404132758534" TEXT="georgraphical security">
+<node CREATED="1404132750762" FOLDED="true" ID="ID_1326335569" MODIFIED="1404132968185" TEXT="georgraphical security">
 <node CREATED="1404132765977" ID="ID_86775526" MODIFIED="1404132797372" TEXT="could precise geo data be int he db but available only to authorised users?"/>
 <node CREATED="1404132799601" ID="ID_943411500" MODIFIED="1404132810872" TEXT="I want to see points on a map for individual interventions"/>
 <node CREATED="1404132811142" ID="ID_1649581979" MODIFIED="1404132820500" TEXT="Need to see the individual projects">
@@ -153,7 +153,10 @@
 <node CREATED="1404132903371" ID="ID_363120114" MODIFIED="1404132916571" TEXT="partners will want to see that enumerators were going where they were  meant to be going"/>
 <node CREATED="1404132917915" ID="ID_824337076" MODIFIED="1404132925730" TEXT="so partners will need access to geodata as well"/>
 </node>
-<node CREATED="1404132821203" ID="ID_1272385842" MODIFIED="1404132824432" TEXT="photographica information"/>
+<node CREATED="1404133119715" ID="ID_462884031" MODIFIED="1404133125588" TEXT="20 or 30 questions per study?"/>
+<node CREATED="1404132821203" ID="ID_1272385842" MODIFIED="1404132824432" TEXT="photographica information">
+<node CREATED="1404133071205" ID="ID_902541291" MODIFIED="1404133071205" TEXT=""/>
+</node>
 </node>
 </node>
 <node CREATED="1404128116521" FOLDED="true" ID="ID_239924125" MODIFIED="1404128735813" POSITION="left" TEXT="questions">
