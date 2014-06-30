@@ -34,6 +34,10 @@
 <node CREATED="1404128758514" ID="ID_1866406208" MODIFIED="1404128764460" TEXT="might not be an essential requirement"/>
 </node>
 </node>
+<node CREATED="1404128879600" ID="ID_1432173434" MODIFIED="1404128891565" TEXT="export to exccel to analuze ">
+<node CREATED="1404128891788" ID="ID_1223331297" MODIFIED="1404128897005" TEXT="mapping is the thing you can&apos;t do in excel"/>
+<node CREATED="1404128897212" ID="ID_1158336662" MODIFIED="1404128912021" TEXT="some users ddont have the xpertise to use excel themselves"/>
+</node>
 </node>
 </node>
 <node CREATED="1404128116521" FOLDED="true" ID="ID_239924125" MODIFIED="1404128735813" POSITION="left" TEXT="questions">
