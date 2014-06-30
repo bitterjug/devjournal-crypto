@@ -136,6 +136,11 @@
 <node CREATED="1404132603685" ID="ID_528341017" MODIFIED="1404132611437" TEXT="links should be tested"/>
 </node>
 </node>
+<node CREATED="1404132635751" ID="ID_1821855453" MODIFIED="1404132639278" TEXT="technical assistance">
+<node CREATED="1404132639474" ID="ID_140646500" MODIFIED="1404132648064" TEXT="who can they come to with technical queestions"/>
+<node CREATED="1404132648283" ID="ID_584707759" MODIFIED="1404132653190" TEXT="can the come to us for hel;p"/>
+<node CREATED="1404132654423" ID="ID_1197762563" MODIFIED="1404132663483" TEXT="is there a budget for technical assistance ?"/>
+</node>
 </node>
 </node>
 <node CREATED="1404128116521" FOLDED="true" ID="ID_239924125" MODIFIED="1404128735813" POSITION="left" TEXT="questions">
