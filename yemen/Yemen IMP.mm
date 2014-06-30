@@ -31,7 +31,13 @@
 <node CREATED="1404131845453" ID="ID_437137156" MODIFIED="1404131847665" TEXT="governorate"/>
 <node CREATED="1404131847901" ID="ID_900291487" MODIFIED="1404131853518" TEXT="programme/compoent"/>
 </node>
-<node CREATED="1404131978631" ID="ID_1326627115" MODIFIED="1404131993170" TEXT="have we delivered what we said we would for a programme"/>
+<node CREATED="1404131978631" ID="ID_1326627115" MODIFIED="1404131993170" TEXT="have we delivered what we said we would for a programme">
+<node CREATED="1404132041729" ID="ID_30645429" MODIFIED="1404132049013" TEXT="how many schools were built "/>
+<node CREATED="1404132049243" ID="ID_94949850" MODIFIED="1404132055350" TEXT="per governorate"/>
+<node CREATED="1404132071729" ID="ID_752016096" MODIFIED="1404132081498" TEXT="comparing who has been able to reach areas and deliver results">
+<node CREATED="1404132081759" ID="ID_1362604336" MODIFIED="1404132090914" TEXT="accross implementting partners"/>
+</node>
+</node>
 </node>
 <node CREATED="1404128676191" FOLDED="true" ID="ID_220607335" MODIFIED="1404130020788" TEXT="access to the datbase">
 <node CREATED="1404128685725" ID="ID_309256046" MODIFIED="1404128696791" TEXT="imp partners should have access omnly to the datar relevant to them"/>
