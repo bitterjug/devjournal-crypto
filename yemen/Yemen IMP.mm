@@ -46,6 +46,18 @@
 <node CREATED="1404128974908" ID="ID_189425906" MODIFIED="1404128979518" TEXT="how  many people"/>
 </node>
 </node>
+<node CREATED="1404129214676" ID="ID_331608780" MODIFIED="1404129216707" TEXT="stud"/>
+<node CREATED="1404129220376" ID="ID_247462035" MODIFIED="1404129223243" TEXT="gregges example">
+<node CREATED="1404129224491" ID="ID_1828009592" MODIFIED="1404129238543" TEXT="how many women in gov X agree that the government is doing something on water"/>
+<node CREATED="1404129349396" ID="ID_773531658" MODIFIED="1404129355884" TEXT="can we tag all questions about water"/>
+<node CREATED="1404129356169" ID="ID_1381163054" MODIFIED="1404129369359" TEXT="can we select all data that shows what we are doing about water"/>
+<node CREATED="1404129376642" ID="ID_1067977320" MODIFIED="1404129404909" TEXT="e.g. telling stories about what we are doing "/>
+<node CREATED="1404129405856" ID="ID_1571359315" MODIFIED="1404129415271" TEXT="more than one project will contribute to results">
+<node CREATED="1404129415570" ID="ID_1133275253" MODIFIED="1404129419210" TEXT="e.g food assistance"/>
+<node CREATED="1404129419530" ID="ID_525301186" MODIFIED="1404129421597" TEXT="many projects"/>
+<node CREATED="1404129421838" ID="ID_762372899" MODIFIED="1404129429459" TEXT="want to bring out all the data"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1404128116521" FOLDED="true" ID="ID_239924125" MODIFIED="1404128735813" POSITION="left" TEXT="questions">
