@@ -61,6 +61,7 @@
 <node CREATED="1404129900638" ID="ID_1070276500" MODIFIED="1404129906227" TEXT="interested in data not in the log frame">
 <node CREATED="1404129906579" ID="ID_1264955642" MODIFIED="1404129912166" TEXT="e.g. how many officers have been trained"/>
 <node CREATED="1404129912382" ID="ID_439960631" MODIFIED="1404129923372" TEXT="because in the logframe they are interestred in what that training has achieved"/>
+<node CREATED="1404129928000" ID="ID_1975286024" MODIFIED="1404129944141" TEXT="can we get raw data from partners?"/>
 </node>
 </node>
 <node CREATED="1404129481573" ID="ID_342310182" MODIFIED="1404129493333" TEXT="we have things we&apos;d like the">
