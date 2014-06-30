@@ -149,6 +149,9 @@
 <node CREATED="1404132864766" ID="ID_1460686869" MODIFIED="1404132870258" TEXT="and their data"/>
 </node>
 <node CREATED="1404132875168" ID="ID_1013222113" MODIFIED="1404132885812" TEXT="or to show it except wher there is a security issue"/>
+<node CREATED="1404132891941" ID="ID_663835666" MODIFIED="1404132901756" TEXT="geo tagging the source data was a seeling point of the bid"/>
+<node CREATED="1404132903371" ID="ID_363120114" MODIFIED="1404132916571" TEXT="partners will want to see that enumerators were going where they were  meant to be going"/>
+<node CREATED="1404132917915" ID="ID_824337076" MODIFIED="1404132925730" TEXT="so partners will need access to geodata as well"/>
 </node>
 <node CREATED="1404132821203" ID="ID_1272385842" MODIFIED="1404132824432" TEXT="photographica information"/>
 </node>
