@@ -145,7 +145,10 @@
 <node CREATED="1404132750762" ID="ID_1326335569" MODIFIED="1404132758534" TEXT="georgraphical security">
 <node CREATED="1404132765977" ID="ID_86775526" MODIFIED="1404132797372" TEXT="could precise geo data be int he db but available only to authorised users?"/>
 <node CREATED="1404132799601" ID="ID_943411500" MODIFIED="1404132810872" TEXT="I want to see points on a map for individual interventions"/>
-<node CREATED="1404132811142" ID="ID_1649581979" MODIFIED="1404132820500" TEXT="Need to see the individual projects"/>
+<node CREATED="1404132811142" ID="ID_1649581979" MODIFIED="1404132820500" TEXT="Need to see the individual projects">
+<node CREATED="1404132864766" ID="ID_1460686869" MODIFIED="1404132870258" TEXT="and their data"/>
+</node>
+<node CREATED="1404132875168" ID="ID_1013222113" MODIFIED="1404132885812" TEXT="or to show it except wher there is a security issue"/>
 </node>
 <node CREATED="1404132821203" ID="ID_1272385842" MODIFIED="1404132824432" TEXT="photographica information"/>
 </node>
