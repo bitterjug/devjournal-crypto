@@ -58,6 +58,18 @@
 <node CREATED="1404129421838" ID="ID_762372899" MODIFIED="1404129429459" TEXT="want to bring out all the data"/>
 </node>
 </node>
+<node CREATED="1404129481573" ID="ID_342310182" MODIFIED="1404129493333" TEXT="we have things we&apos;d like the">
+<node CREATED="1404129499200" ID="ID_1043591571" MODIFIED="1404129502734" TEXT="filter and search"/>
+<node CREATED="1404129502923" ID="ID_1122942686" MODIFIED="1404129507764" TEXT="what&apos;s high and whats low"/>
+<node CREATED="1404129507977" ID="ID_274658644" MODIFIED="1404129510012" TEXT="work out averages"/>
+<node CREATED="1404129510546" ID="ID_793709310" MODIFIED="1404129518098" TEXT="compare between governorates"/>
+<node CREATED="1404129522249" ID="ID_616844287" MODIFIED="1404129559125" TEXT="want to map external data on, e.g. election violence"/>
+<node CREATED="1404129563418" ID="ID_415167753" MODIFIED="1404129566923" TEXT="from different survey">
+<node CREATED="1404129585097" ID="ID_486055906" MODIFIED="1404129590946" TEXT="might be in a different format"/>
+<node CREATED="1404129591335" ID="ID_985158114" MODIFIED="1404129600757" TEXT="what will the geo data from that othe survey be like?"/>
+</node>
+<node CREATED="1404129567666" ID="ID_205839884" MODIFIED="1404129582492" TEXT="to see if the election meausreas are helping people feel safe at the polling stations"/>
+</node>
 </node>
 </node>
 <node CREATED="1404128116521" FOLDED="true" ID="ID_239924125" MODIFIED="1404128735813" POSITION="left" TEXT="questions">
