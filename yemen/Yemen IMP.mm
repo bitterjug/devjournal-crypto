@@ -57,6 +57,17 @@
 <node CREATED="1404128485762" ID="ID_1440383968" MODIFIED="1404128490154" TEXT="use to pull data off"/>
 </node>
 <node CREATED="1404128508638" ID="ID_1647612765" MODIFIED="1404128523913" TEXT="help them to understand what the reports and studies are saying"/>
+<node CREATED="1404128535394" ID="ID_725668570" MODIFIED="1404128539673" TEXT="tool to answer questions">
+<node CREATED="1404128541243" ID="ID_907952531" MODIFIED="1404128544472" TEXT="where are partners operating">
+<node CREATED="1404128546691" ID="ID_1752557308" MODIFIED="1404128553344" TEXT="are they in the areas that have greatest need"/>
+</node>
+</node>
+<node CREATED="1404128554466" ID="ID_626587663" MODIFIED="1404128560209" TEXT="what to add other information into it,">
+<node CREATED="1404128560515" ID="ID_1442535179" MODIFIED="1404128562978" TEXT="other studies ">
+<node CREATED="1404128565596" ID="ID_1748858644" MODIFIED="1404128567467" TEXT="from other partners"/>
+</node>
+<node CREATED="1404128581869" ID="ID_1036404195" MODIFIED="1404128588080" TEXT="that help add light to their studies"/>
+</node>
 </node>
 </node>
 </node>
