@@ -29,6 +29,11 @@
 <node CREATED="1404128685725" ID="ID_309256046" MODIFIED="1404128696791" TEXT="imp partners should have access omnly to the datar relevant to them"/>
 <node CREATED="1404128697584" ID="ID_934913219" MODIFIED="1404128711673" TEXT="imp partners are consuimers too, but their access is limited"/>
 </node>
+<node CREATED="1404128740475" ID="ID_1050209259" MODIFIED="1404128746896" TEXT="want to combine accross different projects">
+<node CREATED="1404128750546" ID="ID_425457664" MODIFIED="1404128758163" TEXT="and across data sets from other sources">
+<node CREATED="1404128758514" ID="ID_1866406208" MODIFIED="1404128764460" TEXT="might not be an essential requirement"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1404128116521" FOLDED="true" ID="ID_239924125" MODIFIED="1404128735813" POSITION="left" TEXT="questions">
