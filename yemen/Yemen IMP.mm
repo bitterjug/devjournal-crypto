@@ -64,6 +64,10 @@
 <node CREATED="1404129928000" ID="ID_1975286024" MODIFIED="1404129944141" TEXT="can we get raw data from partners?"/>
 </node>
 </node>
+<node CREATED="1404129979485" ID="ID_215996025" MODIFIED="1404129985708" TEXT="dfid want to generate a report ">
+<node CREATED="1404129986219" ID="ID_1682258233" MODIFIED="1404129989288" TEXT="showing converns"/>
+<node CREATED="1404129989743" ID="ID_1798920665" MODIFIED="1404129999653" TEXT="large variations between partner data and BC data"/>
+</node>
 <node CREATED="1404129481573" ID="ID_342310182" MODIFIED="1404129493333" TEXT="we have things we&apos;d like the">
 <node CREATED="1404129499200" ID="ID_1043591571" MODIFIED="1404129502734" TEXT="filter and search"/>
 <node CREATED="1404129502923" ID="ID_1122942686" MODIFIED="1404129507764" TEXT="what&apos;s high and whats low"/>
