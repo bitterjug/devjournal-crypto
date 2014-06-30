@@ -3,12 +3,12 @@
 <node CREATED="1400500282000" ID="ID_1290774678" MODIFIED="1400500324249" TEXT="Yemen IMP">
 <node CREATED="1404128214161" ID="ID_44722257" MODIFIED="1404128217971" POSITION="right" TEXT="BC meeting">
 <node CREATED="1404128256260" ID="ID_655645450" MODIFIED="1404128259424" TEXT="DB purpose">
-<node CREATED="1404128455478" FOLDED="true" ID="ID_1789207244" MODIFIED="1404141577948" TEXT="why db?">
+<node CREATED="1404128455478" ID="ID_1789207244" MODIFIED="1404142466685" TEXT="why db?">
 <node CREATED="1404128478131" ID="ID_441100234" MODIFIED="1404128482810" TEXT="interactive">
 <node CREATED="1404128484164" ID="ID_1275031335" MODIFIED="1404128485402" TEXT="search"/>
 <node CREATED="1404128485762" ID="ID_1440383968" MODIFIED="1404128490154" TEXT="use to pull data off"/>
 </node>
-<node CREATED="1404128535394" FOLDED="true" ID="ID_725668570" MODIFIED="1404141514352" TEXT="tool to answer questions">
+<node CREATED="1404128535394" ID="ID_725668570" MODIFIED="1404142469187" TEXT="tool to answer questions">
 <node CREATED="1404128541243" FOLDED="true" ID="ID_907952531" MODIFIED="1404141507783" TEXT="where are partners operating">
 <node CREATED="1404128546691" ID="ID_1752557308" MODIFIED="1404128553344" TEXT="are they in the areas that have greatest need"/>
 </node>
@@ -51,16 +51,20 @@
 <node CREATED="1404128259654" ID="ID_338851800" MODIFIED="1404141332633" TEXT="to store the 15 + 8 studies?">
 <node CREATED="1404133119715" ID="ID_462884031" MODIFIED="1404141573356" TEXT="20 or 30 questions per study?"/>
 </node>
+<node CREATED="1404128897212" ID="ID_1158336662" MODIFIED="1404142547147" TEXT="some users ddont have the xpertise to use excel themselves">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1404142549619" ID="ID_1037586848" MODIFIED="1404142571278" TEXT="the tool is supposed to bridge this gap providing them easy ways to answer these questions"/>
+<node CREATED="1404142571801" ID="ID_1026933210" MODIFIED="1404142583415" TEXT="My feeling is tha this is a hard problem and there is no easy work-round"/>
 </node>
-<node CREATED="1404128676191" FOLDED="true" ID="ID_220607335" MODIFIED="1404141427182" TEXT="access to the datbase">
+</node>
+<node CREATED="1404128879600" ID="ID_1432173434" MODIFIED="1404142530612" TEXT="export to exccel to analuze ">
+<node CREATED="1404128891788" ID="ID_1223331297" MODIFIED="1404128897005" TEXT="mapping is the thing you can&apos;t do in excel"/>
+</node>
+<node CREATED="1404128676191" FOLDED="true" ID="ID_220607335" MODIFIED="1404142542994" TEXT="access to the datbase">
 <node CREATED="1404128685725" ID="ID_309256046" MODIFIED="1404128696791" TEXT="imp partners should have access omnly to the datar relevant to them"/>
 <node CREATED="1404128697584" ID="ID_934913219" MODIFIED="1404128711673" TEXT="imp partners are consuimers too, but their access is limited"/>
 <node CREATED="1404128472410" ID="ID_657101743" MODIFIED="1404141412014" TEXT="the partners can access sleected parts"/>
 <node CREATED="1404128468028" ID="ID_1498977045" MODIFIED="1404141421998" TEXT="dfid can access all the data"/>
-</node>
-<node CREATED="1404128879600" FOLDED="true" ID="ID_1432173434" MODIFIED="1404130022204" TEXT="export to exccel to analuze ">
-<node CREATED="1404128891788" ID="ID_1223331297" MODIFIED="1404128897005" TEXT="mapping is the thing you can&apos;t do in excel"/>
-<node CREATED="1404128897212" ID="ID_1158336662" MODIFIED="1404128912021" TEXT="some users ddont have the xpertise to use excel themselves"/>
 </node>
 <node CREATED="1404129835052" FOLDED="true" ID="ID_20008327" MODIFIED="1404132268939" TEXT="examples">
 <node CREATED="1404128941832" FOLDED="true" ID="ID_452012799" MODIFIED="1404129844601" TEXT="dfid example">
@@ -94,7 +98,7 @@
 </node>
 </node>
 <node CREATED="1404129979485" ID="ID_215996025" MODIFIED="1404131184695" TEXT="dfid want to generate a report ">
-<node CREATED="1404129986219" ID="ID_1682258233" MODIFIED="1404129989288" TEXT="showing converns"/>
+<node CREATED="1404129986219" ID="ID_1682258233" MODIFIED="1404142457530" TEXT="showing concerns"/>
 <node CREATED="1404129989743" ID="ID_1798920665" MODIFIED="1404129999653" TEXT="large variations between partner data and BC data"/>
 </node>
 <node CREATED="1404129481573" FOLDED="true" ID="ID_342310182" MODIFIED="1404130032344" TEXT="we have things we&apos;d like the">
@@ -109,15 +113,9 @@
 </node>
 <node CREATED="1404129567666" ID="ID_205839884" MODIFIED="1404129582492" TEXT="to see if the election meausreas are helping people feel safe at the polling stations"/>
 </node>
-<node CREATED="1404129857937" FOLDED="true" ID="ID_839516214" MODIFIED="1404141309474" TEXT="HUDDLE?">
-<node CREATED="1404130396210" ID="ID_655021715" MODIFIED="1404130397827" TEXT="whats that?"/>
-<node CREATED="1404141300383" ID="ID_1167598095" MODIFIED="1404141304997" TEXT="logframes and other docs "/>
-<node CREATED="1404141305241" ID="ID_756296666" MODIFIED="1404141308646" TEXT="getting access">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
 <node CREATED="1404130042312" ID="ID_696111936" MODIFIED="1404130054245" TEXT="dfid analysis per pillar">
 <node CREATED="1404130054887" ID="ID_1908903039" MODIFIED="1404130065326" TEXT="depends on what the IMP programme has decided to monitor"/>
+</node>
 </node>
 <node CREATED="1404141553722" ID="ID_379985530" MODIFIED="1404141557683" TEXT="other requirements">
 <node CREATED="1404132635751" FOLDED="true" ID="ID_1821855453" MODIFIED="1404141567031" TEXT="technical assistance">
@@ -178,6 +176,12 @@
 <node CREATED="1404130548768" FOLDED="true" ID="ID_206014505" MODIFIED="1404142044789" TEXT="analysis and finding it useful">
 <node CREATED="1404142017190" ID="ID_706588665" MODIFIED="1404142042939" TEXT="Gill wants the tool to be accessible to someone without the ability to use Excel to analyse data"/>
 </node>
+</node>
+<node CREATED="1404129857937" FOLDED="true" ID="ID_839516214" MODIFIED="1404141309474" TEXT="HUDDLE?">
+<node CREATED="1404130396210" ID="ID_655021715" MODIFIED="1404130397827" TEXT="whats that?"/>
+<node CREATED="1404141300383" ID="ID_1167598095" MODIFIED="1404141304997" TEXT="logframes and other docs "/>
+<node CREATED="1404141305241" ID="ID_756296666" MODIFIED="1404141308646" TEXT="getting access">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
