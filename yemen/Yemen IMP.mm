@@ -69,6 +69,10 @@
 <node CREATED="1404128581869" ID="ID_1036404195" MODIFIED="1404128588080" TEXT="that help add light to their studies"/>
 </node>
 </node>
+<node CREATED="1404128676191" ID="ID_220607335" MODIFIED="1404128680997" TEXT="access to the datbase">
+<node CREATED="1404128685725" ID="ID_309256046" MODIFIED="1404128696791" TEXT="imp partners should have access omnly to the datar relevant to them"/>
+<node CREATED="1404128697584" ID="ID_934913219" MODIFIED="1404128711673" TEXT="imp partners are consuimers too, but their access is limited"/>
+</node>
 </node>
 </node>
 <node CREATED="1400598273304" ID="ID_1297310079" MODIFIED="1400598274943" POSITION="left" TEXT="metadata">
