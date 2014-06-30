@@ -219,7 +219,7 @@ guide the design process include:
 
   ** The database will be used primarily to publish results to stakeholders. In
   this case we imagine datasets need be uploaded once only but queried many
-  times.
+  times.me
 
 - What are the principal units of data that users will want to deal with.
 
@@ -237,3 +237,48 @@ into question the value of presenting results on a map. We need to
 
 
 The initial proposal makes indicative suggestions 
+
+## 2014-06-30 16:39 Monday
+
+DFID Yemen
+
+The spreadsheet problem:
+
+I notice a tendency for our clients to refer to an implicit "simple" and "general"
+tool. 
+
+I infer:
+- They assume that a general tool is easier to  make than one tailored to their
+  specific requirements
+- They believe that they can cut cost by "falling back" on the general tool, by
+  saving us the trouble of customizing it.
+I compare this mindset with Excel sheets:
+- Excel is a general tool
+- People have to do some work to define custom sheets to  meet specific purposes
+- IF they fall short, you still have excel, but you have to do much of the work yourself
+
+I believe
+- These people often find it hard to engage with spreadsheets themselves,
+  beyond what they see on the screen
+- They don't understand the abstract concepts of formulae (beyond, perhaps, sum)
+
+Furthermore
+- They transfer this mindset to our projects
+- They almost certainly have no prior experience of bespoke software
+  development
+- They are disappointed whenever it becomes clear that if we stop work, there
+  is no general solution to fall back on.
+- They expect us to be able to conjure a general solution into existence to act
+  as  their security blanket
+
+
+Questions for us:
+- Is there an equivalent general system we could use as the starting point for
+  their projects? Google docs and script, for example?
+
+- Could we build "the python shell" into all our work to provide this opener?
+
+- What if a web-app existed where every cell could contain formulae?
+- You could egg prefix with a @ and then write an expression that refers to other stuff that exists in some namespace
+- The name space could for example be the rest of the web at that moment in time, via http
+- Or certain parts of our domain model accessible behind the scenes via api
