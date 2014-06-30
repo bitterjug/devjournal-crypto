@@ -58,6 +58,10 @@
 <node CREATED="1404129421838" ID="ID_762372899" MODIFIED="1404129429459" TEXT="want to bring out all the data"/>
 </node>
 </node>
+<node CREATED="1404129900638" ID="ID_1070276500" MODIFIED="1404129906227" TEXT="interested in data not in the log frame">
+<node CREATED="1404129906579" ID="ID_1264955642" MODIFIED="1404129912166" TEXT="e.g. how many officers have been trained"/>
+<node CREATED="1404129912382" ID="ID_439960631" MODIFIED="1404129923372" TEXT="because in the logframe they are interestred in what that training has achieved"/>
+</node>
 </node>
 <node CREATED="1404129481573" ID="ID_342310182" MODIFIED="1404129493333" TEXT="we have things we&apos;d like the">
 <node CREATED="1404129499200" ID="ID_1043591571" MODIFIED="1404129502734" TEXT="filter and search"/>
@@ -75,6 +79,7 @@
 <node CREATED="1404129659344" ID="ID_1975643191" MODIFIED="1404129662567" TEXT="partners give their results"/>
 <node CREATED="1404129663014" ID="ID_893468627" MODIFIED="1404129693584" TEXT="our data from iMP in the db"/>
 </node>
+<node CREATED="1404129857937" ID="ID_839516214" MODIFIED="1404129862091" TEXT="HUDDLE?"/>
 </node>
 </node>
 <node CREATED="1404128116521" FOLDED="true" ID="ID_239924125" MODIFIED="1404128735813" POSITION="left" TEXT="questions">
