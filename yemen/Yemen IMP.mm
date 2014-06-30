@@ -3,35 +3,22 @@
 <node CREATED="1400500282000" ID="ID_1290774678" MODIFIED="1400500324249" TEXT="Yemen IMP">
 <node CREATED="1404128214161" ID="ID_44722257" MODIFIED="1404128217971" POSITION="right" TEXT="BC meeting">
 <node CREATED="1404128256260" ID="ID_655645450" MODIFIED="1404128259424" TEXT="DB purpose">
-<node CREATED="1404128259654" ID="ID_338851800" MODIFIED="1404128266501" TEXT="to store the 15 + 8 studies?"/>
-<node CREATED="1404128268204" ID="ID_1277430859" MODIFIED="1404128271055" TEXT="what do you want to get out of it?"/>
-<node CREATED="1404128455478" FOLDED="true" ID="ID_1789207244" MODIFIED="1404132267143" TEXT="why db?">
-<node CREATED="1404128468028" ID="ID_1498977045" MODIFIED="1404128472167" TEXT="dfid can access all the data"/>
-<node CREATED="1404128472410" ID="ID_657101743" MODIFIED="1404128477892" TEXT="the partners can access sleected parts"/>
+<node CREATED="1404128455478" FOLDED="true" ID="ID_1789207244" MODIFIED="1404141577948" TEXT="why db?">
 <node CREATED="1404128478131" ID="ID_441100234" MODIFIED="1404128482810" TEXT="interactive">
 <node CREATED="1404128484164" ID="ID_1275031335" MODIFIED="1404128485402" TEXT="search"/>
 <node CREATED="1404128485762" ID="ID_1440383968" MODIFIED="1404128490154" TEXT="use to pull data off"/>
 </node>
-<node CREATED="1404128508638" ID="ID_1647612765" MODIFIED="1404128523913" TEXT="help them to understand what the reports and studies are saying"/>
-<node CREATED="1404128535394" ID="ID_725668570" MODIFIED="1404128539673" TEXT="tool to answer questions">
-<node CREATED="1404128541243" ID="ID_907952531" MODIFIED="1404128544472" TEXT="where are partners operating">
+<node CREATED="1404128535394" FOLDED="true" ID="ID_725668570" MODIFIED="1404141514352" TEXT="tool to answer questions">
+<node CREATED="1404128541243" FOLDED="true" ID="ID_907952531" MODIFIED="1404141507783" TEXT="where are partners operating">
 <node CREATED="1404128546691" ID="ID_1752557308" MODIFIED="1404128553344" TEXT="are they in the areas that have greatest need"/>
 </node>
-</node>
-<node CREATED="1404128554466" ID="ID_626587663" MODIFIED="1404128560209" TEXT="what to add other information into it,">
-<node CREATED="1404128560515" ID="ID_1442535179" MODIFIED="1404128562978" TEXT="other studies ">
-<node CREATED="1404128565596" ID="ID_1748858644" MODIFIED="1404128567467" TEXT="from other partners"/>
-</node>
-<node CREATED="1404128581869" ID="ID_1036404195" MODIFIED="1404128588080" TEXT="that help add light to their studies"/>
-</node>
-<node CREATED="1404131635654" ID="ID_943244964" MODIFIED="1404131647198" TEXT="the georgrphical presentation is important because you cant get it from Exccel"/>
-<node CREATED="1404131837351" ID="ID_1235491084" MODIFIED="1404131842596" TEXT="key breakdowns">
+<node CREATED="1404131837351" FOLDED="true" ID="ID_1235491084" MODIFIED="1404141507783" TEXT="key breakdowns">
 <node CREATED="1404131833511" ID="ID_963683836" MODIFIED="1404131836145" TEXT="age"/>
 <node CREATED="1404131843966" ID="ID_675199219" MODIFIED="1404131845176" TEXT="gender"/>
 <node CREATED="1404131845453" ID="ID_437137156" MODIFIED="1404131847665" TEXT="governorate"/>
 <node CREATED="1404131847901" ID="ID_900291487" MODIFIED="1404131853518" TEXT="programme/compoent"/>
 </node>
-<node CREATED="1404131978631" ID="ID_1326627115" MODIFIED="1404132195818" TEXT="have we delivered what we said we would for a programme">
+<node CREATED="1404131978631" FOLDED="true" ID="ID_1326627115" MODIFIED="1404141507784" TEXT="have we delivered what we said we would for a programme">
 <node CREATED="1404132041729" ID="ID_30645429" MODIFIED="1404132049013" TEXT="how many schools were built "/>
 <node CREATED="1404132049243" ID="ID_94949850" MODIFIED="1404132055350" TEXT="per governorate"/>
 <node CREATED="1404132071729" ID="ID_752016096" MODIFIED="1404132081498" TEXT="comparing who has been able to reach areas and deliver results">
@@ -41,15 +28,35 @@
 <node CREATED="1404132207886" ID="ID_208683524" MODIFIED="1404132219292" TEXT="how do we decide what factors to put on a graph"/>
 <node CREATED="1404132220423" ID="ID_755032936" MODIFIED="1404132258648" TEXT="how would number of male and female respondents per governorate be presented?"/>
 </node>
-</node>
-<node CREATED="1404128676191" ID="ID_220607335" MODIFIED="1404132206118" TEXT="access to the datbase">
-<node CREATED="1404128685725" ID="ID_309256046" MODIFIED="1404128696791" TEXT="imp partners should have access omnly to the datar relevant to them"/>
-<node CREATED="1404128697584" ID="ID_934913219" MODIFIED="1404128711673" TEXT="imp partners are consuimers too, but their access is limited"/>
-</node>
-<node CREATED="1404128740475" FOLDED="true" ID="ID_1050209259" MODIFIED="1404130021606" TEXT="want to combine accross different projects">
+<node CREATED="1404128740475" FOLDED="true" ID="ID_1050209259" MODIFIED="1404141507784" TEXT="want to combine data accross different projects">
 <node CREATED="1404128750546" ID="ID_425457664" MODIFIED="1404128758163" TEXT="and across data sets from other sources">
 <node CREATED="1404128758514" ID="ID_1866406208" MODIFIED="1404128764460" TEXT="might not be an essential requirement"/>
 </node>
+</node>
+<node CREATED="1404129645527" FOLDED="true" ID="ID_80239898" MODIFIED="1404141507784" TEXT="which programmes have been verified">
+<node CREATED="1404129659344" ID="ID_1975643191" MODIFIED="1404129662567" TEXT="partners give their results"/>
+<node CREATED="1404129663014" ID="ID_893468627" MODIFIED="1404129693584" TEXT="our data from iMP in the db"/>
+</node>
+</node>
+<node CREATED="1404128508638" ID="ID_1647612765" MODIFIED="1404141403620" TEXT="help them to understand what the reports and studies are saying"/>
+<node CREATED="1404128554466" ID="ID_626587663" MODIFIED="1404141389419" TEXT="want to add other information into it,">
+<node CREATED="1404128560515" FOLDED="true" ID="ID_1442535179" MODIFIED="1404141510544" TEXT="other studies ">
+<node CREATED="1404128565596" ID="ID_1748858644" MODIFIED="1404128567467" TEXT="from other partners"/>
+</node>
+<node CREATED="1404128581869" ID="ID_1036404195" MODIFIED="1404128588080" TEXT="that help add light to their studies"/>
+</node>
+<node CREATED="1404141346948" ID="ID_1605881366" MODIFIED="1404141350946" TEXT="mapping">
+<node CREATED="1404131635654" ID="ID_943244964" MODIFIED="1404141352139" TEXT="the georgrphical presentation is important because you cant get it from Exccel"/>
+</node>
+<node CREATED="1404128259654" ID="ID_338851800" MODIFIED="1404141332633" TEXT="to store the 15 + 8 studies?">
+<node CREATED="1404133119715" ID="ID_462884031" MODIFIED="1404141573356" TEXT="20 or 30 questions per study?"/>
+</node>
+</node>
+<node CREATED="1404128676191" FOLDED="true" ID="ID_220607335" MODIFIED="1404141427182" TEXT="access to the datbase">
+<node CREATED="1404128685725" ID="ID_309256046" MODIFIED="1404128696791" TEXT="imp partners should have access omnly to the datar relevant to them"/>
+<node CREATED="1404128697584" ID="ID_934913219" MODIFIED="1404128711673" TEXT="imp partners are consuimers too, but their access is limited"/>
+<node CREATED="1404128472410" ID="ID_657101743" MODIFIED="1404141412014" TEXT="the partners can access sleected parts"/>
+<node CREATED="1404128468028" ID="ID_1498977045" MODIFIED="1404141421998" TEXT="dfid can access all the data"/>
 </node>
 <node CREATED="1404128879600" FOLDED="true" ID="ID_1432173434" MODIFIED="1404130022204" TEXT="export to exccel to analuze ">
 <node CREATED="1404128891788" ID="ID_1223331297" MODIFIED="1404128897005" TEXT="mapping is the thing you can&apos;t do in excel"/>
@@ -102,12 +109,12 @@
 </node>
 <node CREATED="1404129567666" ID="ID_205839884" MODIFIED="1404129582492" TEXT="to see if the election meausreas are helping people feel safe at the polling stations"/>
 </node>
-<node CREATED="1404129645527" ID="ID_80239898" MODIFIED="1404129655506" TEXT="which programmes have been verified">
-<node CREATED="1404129659344" ID="ID_1975643191" MODIFIED="1404129662567" TEXT="partners give their results"/>
-<node CREATED="1404129663014" ID="ID_893468627" MODIFIED="1404129693584" TEXT="our data from iMP in the db"/>
-</node>
-<node CREATED="1404129857937" ID="ID_839516214" MODIFIED="1404129862091" TEXT="HUDDLE?">
+<node CREATED="1404129857937" FOLDED="true" ID="ID_839516214" MODIFIED="1404141309474" TEXT="HUDDLE?">
 <node CREATED="1404130396210" ID="ID_655021715" MODIFIED="1404130397827" TEXT="whats that?"/>
+<node CREATED="1404141300383" ID="ID_1167598095" MODIFIED="1404141304997" TEXT="logframes and other docs "/>
+<node CREATED="1404141305241" ID="ID_756296666" MODIFIED="1404141308646" TEXT="getting access">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node CREATED="1404130042312" ID="ID_696111936" MODIFIED="1404130054245" TEXT="dfid analysis per pillar">
 <node CREATED="1404130054887" ID="ID_1908903039" MODIFIED="1404130065326" TEXT="depends on what the IMP programme has decided to monitor"/>
@@ -120,29 +127,17 @@
 <node CREATED="1404131050012" ID="ID_1190186525" MODIFIED="1404131053855" TEXT="frequency tables"/>
 <node CREATED="1404131059871" ID="ID_705122780" MODIFIED="1404131061761" TEXT="coding"/>
 </node>
-<node CREATED="1404132270664" FOLDED="true" ID="ID_786143419" MODIFIED="1404132761087" TEXT="qualitative data">
-<node CREATED="1404132276074" ID="ID_346541266" MODIFIED="1404132283592" TEXT="map to quantitave form"/>
-<node CREATED="1404132286913" ID="ID_1721901150" MODIFIED="1404132290486" TEXT="some ananlysi is required"/>
-<node CREATED="1404132292013" ID="ID_564415052" MODIFIED="1404132300766" TEXT="original transcripts available">
-<node CREATED="1404132302414" ID="ID_484421303" MODIFIED="1404132304941" TEXT="what language?"/>
-</node>
-</node>
 <node CREATED="1404132568140" ID="ID_131463965" MODIFIED="1404132572957" TEXT="the user interface can be in english">
 <node CREATED="1404132575275" ID="ID_683799252" MODIFIED="1404132578372" TEXT="and were  not translating"/>
 </node>
-<node CREATED="1404132586772" ID="ID_298834750" MODIFIED="1404132591592" TEXT="component B">
-<node CREATED="1404132591918" ID="ID_174522722" MODIFIED="1404132598567" TEXT="bibliography with links">
-<node CREATED="1404132598799" ID="ID_1478547223" MODIFIED="1404132600988" TEXT="links should work"/>
-<node CREATED="1404132603685" ID="ID_528341017" MODIFIED="1404132611437" TEXT="links should be tested"/>
-</node>
-</node>
-<node CREATED="1404132635751" FOLDED="true" ID="ID_1821855453" MODIFIED="1404132760192" TEXT="technical assistance">
+<node CREATED="1404141553722" ID="ID_379985530" MODIFIED="1404141557683" TEXT="other requirements">
+<node CREATED="1404132635751" FOLDED="true" ID="ID_1821855453" MODIFIED="1404141567031" TEXT="technical assistance">
 <node CREATED="1404132639474" ID="ID_140646500" MODIFIED="1404132648064" TEXT="who can they come to with technical queestions"/>
 <node CREATED="1404132648283" ID="ID_584707759" MODIFIED="1404132653190" TEXT="can the come to us for hel;p"/>
 <node CREATED="1404132654423" ID="ID_1197762563" MODIFIED="1404132663483" TEXT="is there a budget for technical assistance ?"/>
 <node CREATED="1404132688427" ID="ID_1137656075" MODIFIED="1404132696577" TEXT="train one user who becomes team superuser?"/>
 </node>
-<node CREATED="1404132750762" FOLDED="true" ID="ID_1326335569" MODIFIED="1404132968185" TEXT="georgraphical security">
+<node CREATED="1404132750762" FOLDED="true" ID="ID_1326335569" MODIFIED="1404141566586" TEXT="georgraphical security">
 <node CREATED="1404132765977" ID="ID_86775526" MODIFIED="1404132797372" TEXT="could precise geo data be int he db but available only to authorised users?"/>
 <node CREATED="1404132799601" ID="ID_943411500" MODIFIED="1404132810872" TEXT="I want to see points on a map for individual interventions"/>
 <node CREATED="1404132811142" ID="ID_1649581979" MODIFIED="1404132820500" TEXT="Need to see the individual projects">
@@ -153,9 +148,22 @@
 <node CREATED="1404132903371" ID="ID_363120114" MODIFIED="1404132916571" TEXT="partners will want to see that enumerators were going where they were  meant to be going"/>
 <node CREATED="1404132917915" ID="ID_824337076" MODIFIED="1404132925730" TEXT="so partners will need access to geodata as well"/>
 </node>
-<node CREATED="1404133119715" ID="ID_462884031" MODIFIED="1404133125588" TEXT="20 or 30 questions per study?"/>
-<node CREATED="1404132821203" ID="ID_1272385842" MODIFIED="1404132824432" TEXT="photographica information">
-<node CREATED="1404133071205" ID="ID_902541291" MODIFIED="1404133071205" TEXT=""/>
+<node CREATED="1404132586772" ID="ID_298834750" MODIFIED="1404141634143" TEXT="component B">
+<node CREATED="1404132591918" ID="ID_174522722" MODIFIED="1404132598567" TEXT="bibliography with links">
+<node CREATED="1404132598799" ID="ID_1478547223" MODIFIED="1404132600988" TEXT="links should work"/>
+<node CREATED="1404132603685" ID="ID_528341017" MODIFIED="1404132611437" TEXT="links should be tested"/>
+</node>
+<node CREATED="1404132270664" FOLDED="true" ID="ID_786143419" MODIFIED="1404141630998" TEXT="qualitative data">
+<node CREATED="1404132276074" ID="ID_346541266" MODIFIED="1404132283592" TEXT="map to quantitave form"/>
+<node CREATED="1404132286913" ID="ID_1721901150" MODIFIED="1404132290486" TEXT="some ananlysi is required"/>
+<node CREATED="1404132292013" ID="ID_564415052" MODIFIED="1404132300766" TEXT="original transcripts available">
+<node CREATED="1404132302414" ID="ID_484421303" MODIFIED="1404132304941" TEXT="what language?"/>
+</node>
+</node>
+</node>
+<node CREATED="1404132821203" ID="ID_1272385842" MODIFIED="1404141643458" TEXT="photographica information">
+<icon BUILTIN="help"/>
+</node>
 </node>
 </node>
 </node>
