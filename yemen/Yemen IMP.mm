@@ -3,7 +3,7 @@
 <node CREATED="1400500282000" ID="ID_1290774678" MODIFIED="1400500324249" TEXT="Yemen IMP">
 <node CREATED="1404128214161" ID="ID_44722257" MODIFIED="1404128217971" POSITION="right" TEXT="BC meeting">
 <node CREATED="1404128256260" ID="ID_655645450" MODIFIED="1404128259424" TEXT="DB purpose">
-<node CREATED="1404128455478" ID="ID_1789207244" MODIFIED="1404142466685" TEXT="why db?">
+<node CREATED="1404128455478" FOLDED="true" ID="ID_1789207244" MODIFIED="1404142719640" TEXT="why db?">
 <node CREATED="1404128478131" ID="ID_441100234" MODIFIED="1404128482810" TEXT="interactive">
 <node CREATED="1404128484164" ID="ID_1275031335" MODIFIED="1404128485402" TEXT="search"/>
 <node CREATED="1404128485762" ID="ID_1440383968" MODIFIED="1404128490154" TEXT="use to pull data off"/>
@@ -45,20 +45,24 @@
 </node>
 <node CREATED="1404128581869" ID="ID_1036404195" MODIFIED="1404128588080" TEXT="that help add light to their studies"/>
 </node>
-<node CREATED="1404141346948" ID="ID_1605881366" MODIFIED="1404141350946" TEXT="mapping">
-<node CREATED="1404131635654" ID="ID_943244964" MODIFIED="1404141352139" TEXT="the georgrphical presentation is important because you cant get it from Exccel"/>
-</node>
 <node CREATED="1404128259654" ID="ID_338851800" MODIFIED="1404141332633" TEXT="to store the 15 + 8 studies?">
 <node CREATED="1404133119715" ID="ID_462884031" MODIFIED="1404141573356" TEXT="20 or 30 questions per study?"/>
 </node>
-<node CREATED="1404128897212" ID="ID_1158336662" MODIFIED="1404142547147" TEXT="some users ddont have the xpertise to use excel themselves">
+</node>
+<node CREATED="1404142626324" FOLDED="true" ID="ID_1678900217" MODIFIED="1404142721930" TEXT="what value does a db offer over excel?">
+<node CREATED="1404128897212" ID="ID_1158336662" MODIFIED="1404142648055" TEXT="some users ddont have the xpertise to use excel themselves">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1404142549619" ID="ID_1037586848" MODIFIED="1404142571278" TEXT="the tool is supposed to bridge this gap providing them easy ways to answer these questions"/>
 <node CREATED="1404142571801" ID="ID_1026933210" MODIFIED="1404142583415" TEXT="My feeling is tha this is a hard problem and there is no easy work-round"/>
 </node>
+<node CREATED="1404141346948" ID="ID_1605881366" MODIFIED="1404142656153" TEXT="mapping">
+<node CREATED="1404131635654" ID="ID_943244964" MODIFIED="1404141352139" TEXT="the georgrphical presentation is important because you cant get it from Exccel"/>
+<node CREATED="1404128891788" ID="ID_1223331297" MODIFIED="1404142614612" TEXT="mapping is the thing you can&apos;t do in excel"/>
 </node>
-<node CREATED="1404128879600" ID="ID_1432173434" MODIFIED="1404142530612" TEXT="export to exccel to analuze ">
-<node CREATED="1404128891788" ID="ID_1223331297" MODIFIED="1404128897005" TEXT="mapping is the thing you can&apos;t do in excel"/>
+<node CREATED="1404142670184" ID="ID_182860217" MODIFIED="1404142674851" TEXT="mcs:">
+<node CREATED="1404142675308" ID="ID_180755313" MODIFIED="1404142698145" TEXT="wherever this tool knows or understands their custom metadata we win over exccel"/>
+</node>
+<node CREATED="1404128879600" ID="ID_1432173434" MODIFIED="1404142713914" TEXT="Sometimes they will export to exccel to analuze "/>
 </node>
 <node CREATED="1404128676191" FOLDED="true" ID="ID_220607335" MODIFIED="1404142542994" TEXT="access to the datbase">
 <node CREATED="1404128685725" ID="ID_309256046" MODIFIED="1404128696791" TEXT="imp partners should have access omnly to the datar relevant to them"/>
@@ -66,7 +70,7 @@
 <node CREATED="1404128472410" ID="ID_657101743" MODIFIED="1404141412014" TEXT="the partners can access sleected parts"/>
 <node CREATED="1404128468028" ID="ID_1498977045" MODIFIED="1404141421998" TEXT="dfid can access all the data"/>
 </node>
-<node CREATED="1404129835052" FOLDED="true" ID="ID_20008327" MODIFIED="1404132268939" TEXT="examples">
+<node CREATED="1404129835052" FOLDED="true" ID="ID_20008327" MODIFIED="1404142762014" TEXT="examples">
 <node CREATED="1404128941832" FOLDED="true" ID="ID_452012799" MODIFIED="1404129844601" TEXT="dfid example">
 <node CREATED="1404128945404" ID="ID_432303887" MODIFIED="1404128958096" TEXT="many programmes have data relevant to WASH"/>
 <node CREATED="1404128958872" ID="ID_607821132" MODIFIED="1404128961744" TEXT="filter and list"/>
@@ -96,28 +100,16 @@
 <node CREATED="1404131202031" ID="ID_1059828927" MODIFIED="1404131210698" TEXT="in a map"/>
 <node CREATED="1404131204512" ID="ID_617945110" MODIFIED="1404131207608" TEXT="in a graph"/>
 </node>
-</node>
 <node CREATED="1404129979485" ID="ID_215996025" MODIFIED="1404131184695" TEXT="dfid want to generate a report ">
 <node CREATED="1404129986219" ID="ID_1682258233" MODIFIED="1404142457530" TEXT="showing concerns"/>
 <node CREATED="1404129989743" ID="ID_1798920665" MODIFIED="1404129999653" TEXT="large variations between partner data and BC data"/>
 </node>
-<node CREATED="1404129481573" FOLDED="true" ID="ID_342310182" MODIFIED="1404130032344" TEXT="we have things we&apos;d like the">
-<node CREATED="1404129499200" ID="ID_1043591571" MODIFIED="1404129502734" TEXT="filter and search"/>
-<node CREATED="1404129502923" ID="ID_1122942686" MODIFIED="1404129507764" TEXT="what&apos;s high and whats low"/>
-<node CREATED="1404129507977" ID="ID_274658644" MODIFIED="1404129510012" TEXT="work out averages"/>
-<node CREATED="1404129510546" ID="ID_793709310" MODIFIED="1404129518098" TEXT="compare between governorates"/>
-<node CREATED="1404129522249" ID="ID_616844287" MODIFIED="1404129559125" TEXT="want to map external data on, e.g. election violence"/>
-<node CREATED="1404129563418" ID="ID_415167753" MODIFIED="1404129566923" TEXT="from different survey">
-<node CREATED="1404129585097" ID="ID_486055906" MODIFIED="1404129590946" TEXT="might be in a different format"/>
-<node CREATED="1404129591335" ID="ID_985158114" MODIFIED="1404129600757" TEXT="what will the geo data from that othe survey be like?"/>
-</node>
-<node CREATED="1404129567666" ID="ID_205839884" MODIFIED="1404129582492" TEXT="to see if the election meausreas are helping people feel safe at the polling stations"/>
 </node>
 <node CREATED="1404130042312" ID="ID_696111936" MODIFIED="1404130054245" TEXT="dfid analysis per pillar">
 <node CREATED="1404130054887" ID="ID_1908903039" MODIFIED="1404130065326" TEXT="depends on what the IMP programme has decided to monitor"/>
 </node>
 </node>
-<node CREATED="1404141553722" ID="ID_379985530" MODIFIED="1404141557683" TEXT="other requirements">
+<node CREATED="1404141553722" ID="ID_379985530" MODIFIED="1404142756201" TEXT="other requirements">
 <node CREATED="1404132635751" FOLDED="true" ID="ID_1821855453" MODIFIED="1404141567031" TEXT="technical assistance">
 <node CREATED="1404132639474" ID="ID_140646500" MODIFIED="1404132648064" TEXT="who can they come to with technical queestions"/>
 <node CREATED="1404132648283" ID="ID_584707759" MODIFIED="1404132653190" TEXT="can the come to us for hel;p"/>
@@ -156,7 +148,7 @@
 <node CREATED="1404132575275" ID="ID_683799252" MODIFIED="1404132578372" TEXT="and were  not translating"/>
 <node CREATED="1404141980493" ID="ID_45119025" MODIFIED="1404141990502" TEXT="need to support arabic content"/>
 </node>
-<node CREATED="1404131055916" ID="ID_1816890444" MODIFIED="1404141965295" TEXT="analysis">
+<node CREATED="1404131055916" FOLDED="true" ID="ID_1816890444" MODIFIED="1404142769784" TEXT="analysis">
 <node CREATED="1404131050012" ID="ID_1190186525" MODIFIED="1404131053855" TEXT="frequency tables"/>
 <node CREATED="1404131059871" ID="ID_705122780" MODIFIED="1404131061761" TEXT="coding"/>
 <node CREATED="1404130399477" FOLDED="true" ID="ID_1782945689" MODIFIED="1404142406801" TEXT="fiona&apos;s example from governance">
@@ -171,6 +163,18 @@
 <node CREATED="1404142366606" ID="ID_1634466359" MODIFIED="1404142402498" TEXT="But if yoy forgot to add this dtail, trying to fix it up by geographica matching is a more complex problem than &quot;simple reports&quot;"/>
 </node>
 </node>
+</node>
+<node CREATED="1404129481573" ID="ID_342310182" MODIFIED="1404142735972" TEXT="we have things we&apos;d like the">
+<node CREATED="1404129499200" ID="ID_1043591571" MODIFIED="1404129502734" TEXT="filter and search"/>
+<node CREATED="1404129502923" ID="ID_1122942686" MODIFIED="1404129507764" TEXT="what&apos;s high and whats low"/>
+<node CREATED="1404129507977" ID="ID_274658644" MODIFIED="1404129510012" TEXT="work out averages"/>
+<node CREATED="1404129510546" ID="ID_793709310" MODIFIED="1404129518098" TEXT="compare between governorates"/>
+<node CREATED="1404129522249" ID="ID_616844287" MODIFIED="1404129559125" TEXT="want to map external data on, e.g. election violence"/>
+<node CREATED="1404129563418" ID="ID_415167753" MODIFIED="1404129566923" TEXT="from different survey">
+<node CREATED="1404129585097" ID="ID_486055906" MODIFIED="1404129590946" TEXT="might be in a different format"/>
+<node CREATED="1404129591335" ID="ID_985158114" MODIFIED="1404129600757" TEXT="what will the geo data from that othe survey be like?"/>
+</node>
+<node CREATED="1404129567666" ID="ID_205839884" MODIFIED="1404129582492" TEXT="to see if the election meausreas are helping people feel safe at the polling stations"/>
 </node>
 </node>
 <node CREATED="1404130548768" FOLDED="true" ID="ID_206014505" MODIFIED="1404142044789" TEXT="analysis and finding it useful">
