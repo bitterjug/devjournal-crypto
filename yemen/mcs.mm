@@ -25,10 +25,8 @@
 <node CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404208670484" TEXT="Why do the quarterly plans have different number of Result levels?"/>
 <node CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404208691727" TEXT="what are the notes in square brackets relating to indicators?"/>
 </node>
-<node COLOR="#4b7f26" CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404215831590" TEXT="What are the hidden columns about? Do you want us to create them?">
-<icon BUILTIN="help"/>
-</node>
-<node COLOR="#4b7f26" CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404215836998" TEXT="Which levels do you want exported? Impact? Outcome?">
+<node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404216110021" TEXT="What are the hidden columns about? Do you want us to create them?"/>
+<node COLOR="#4b7f26" CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404216111320" TEXT="Which levels do you want exported? Impact? Outcome?j">
 <icon BUILTIN="help"/>
 </node>
 <node COLOR="#4b7f26" CREATED="1404210382516" ID="ID_537610208" MODIFIED="1404215827510" TEXT="Do the different plans have to be in tabs of the same sheet or separate documents?">
@@ -54,7 +52,7 @@
 <node COLOR="#4b7f26" CREATED="1404209076637" ID="ID_1951112176" MODIFIED="1404215931894" TEXT="Do you want deliverables as well as name ?">
 <icon BUILTIN="help"/>
 </node>
-<node COLOR="#4b7f26" CREATED="1404208933375" ID="ID_1574644058" MODIFIED="1404215932654" TEXT="Are the activities in any order?">
+<node COLOR="#4b7f26" CREATED="1404208933375" FOLDED="true" ID="ID_1574644058" MODIFIED="1404216141178" TEXT="Are the activities in any order?">
 <icon BUILTIN="help"/>
 <node CREATED="1404208951598" ID="ID_156258981" MODIFIED="1404208956192" TEXT="ordered by start date?"/>
 </node>
