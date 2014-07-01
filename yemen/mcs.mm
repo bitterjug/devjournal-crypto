@@ -30,13 +30,16 @@
 <node CREATED="1404208521322" ID="ID_652139508" MODIFIED="1404208673324" TEXT="Would exprt to PDF work">
 <node CREATED="1404223214819" ID="ID_1974545234" MODIFIED="1404223220505" TEXT="on one page or two to make it easy to view"/>
 </node>
-<node CREATED="1404208660152" FOLDED="true" ID="ID_40188084" MODIFIED="1404222355257" TEXT="Quarterly plan">
+<node CREATED="1404208660152" ID="ID_40188084" MODIFIED="1404223224638" TEXT="Quarterly plan">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#999999" CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404217135294" TEXT="Why do the quarterly plans have different number of Result levels?">
 <font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1404223253524" ID="ID_1814315941" MODIFIED="1404223258938" TEXT="should be the same"/>
 </node>
 <node COLOR="#999999" CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404217202773" TEXT="what are the notes in square brackets relating to indicators?">
 <font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1404223296378" ID="ID_1869851567" MODIFIED="1404223300852" TEXT="no significance"/>
+<node CREATED="1404223303042" ID="ID_1339355985" MODIFIED="1404223305556" TEXT="cross cutting work"/>
 </node>
 </node>
 <node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404222355256" TEXT="What are the hidden columns about? Do you want us to create them?">
