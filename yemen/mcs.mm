@@ -233,6 +233,9 @@
 <node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404209696896" TEXT="What are the hidden columns about? Do you want us to create them?"/>
 <node CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404210312503" TEXT="Which levels do you want exported? Impact? Outcome?"/>
 <node CREATED="1404210382516" ID="ID_537610208" MODIFIED="1404210436791" TEXT="Do the different plans have to be in tabs of the same sheet or separate documents?"/>
+<node CREATED="1404210611043" ID="ID_492090335" MODIFIED="1404210640803" TEXT="The annual plan has a year and then one more quarter">
+<node CREATED="1404210641082" ID="ID_125011498" MODIFIED="1404210643463" TEXT="is this normal?"/>
+</node>
 <node CREATED="1404208799079" FOLDED="true" ID="ID_1965087937" MODIFIED="1404209075732" TEXT="What do we do if activities don&apos;t have dates">
 <node CREATED="1404208810328" ID="ID_1386229665" MODIFIED="1404208812846" TEXT="always appear?"/>
 <node CREATED="1404208813175" ID="ID_461255628" MODIFIED="1404208819224" TEXT="don&apos;t appear"/>
