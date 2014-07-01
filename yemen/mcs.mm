@@ -26,34 +26,23 @@
 <node CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404208691727" TEXT="what are the notes in square brackets relating to indicators?"/>
 </node>
 <node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404216110021" TEXT="What are the hidden columns about? Do you want us to create them?"/>
-<node COLOR="#4b7f26" CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404216111320" TEXT="Which levels do you want exported? Impact? Outcome?j">
-<icon BUILTIN="help"/>
-</node>
-<node COLOR="#4b7f26" CREATED="1404210382516" ID="ID_537610208" MODIFIED="1404215827510" TEXT="Do the different plans have to be in tabs of the same sheet or separate documents?">
-<icon BUILTIN="help"/>
-</node>
+<node CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404216171757" TEXT="Which levels do you want exported? Impact? Outcome?j"/>
+<node CREATED="1404210382516" ID="ID_537610208" MODIFIED="1404216172557" TEXT="Do the different plans have to be in tabs of the same sheet or separate documents?"/>
 <node CREATED="1404210611043" ID="ID_492090335" MODIFIED="1404215934674" TEXT="The annual plan has a year and then one more quarter">
-<node COLOR="#4b7f26" CREATED="1404210641082" ID="ID_125011498" MODIFIED="1404215937678" TEXT="is this normal?">
-<icon BUILTIN="help"/>
+<node CREATED="1404210641082" ID="ID_125011498" MODIFIED="1404216176550" TEXT="is this normal?"/>
 </node>
-</node>
-<node COLOR="#4b7f26" CREATED="1404210767425" FOLDED="true" ID="ID_849553277" MODIFIED="1404215927765" TEXT="What abotu othe ways to present?">
-<icon BUILTIN="help"/>
+<node CREATED="1404210767425" FOLDED="true" ID="ID_849553277" MODIFIED="1404216173309" TEXT="What abotu othe ways to present?">
 <node CREATED="1404210774313" ID="ID_1613720546" MODIFIED="1404210778011" TEXT="could we leave the colouring off"/>
 <node CREATED="1404210778674" ID="ID_1137192590" MODIFIED="1404210785601" TEXT="could we avoid merging cells?"/>
 <node CREATED="1404210786025" ID="ID_270779894" MODIFIED="1404210795480" TEXT="can we use fixed column widths like the other export"/>
 </node>
-<node COLOR="#4b7f26" CREATED="1404208799079" FOLDED="true" ID="ID_1965087937" MODIFIED="1404215930590" TEXT="What do we do if activities don&apos;t have dates">
-<icon BUILTIN="help"/>
+<node CREATED="1404208799079" FOLDED="true" ID="ID_1965087937" MODIFIED="1404216173725" TEXT="What do we do if activities don&apos;t have dates">
 <node CREATED="1404208810328" ID="ID_1386229665" MODIFIED="1404208812846" TEXT="always appear?"/>
 <node CREATED="1404208813175" ID="ID_461255628" MODIFIED="1404208819224" TEXT="don&apos;t appear"/>
 <node CREATED="1404208819511" ID="ID_488654017" MODIFIED="1404208823668" TEXT="list undates ones undreneath?"/>
 </node>
-<node COLOR="#4b7f26" CREATED="1404209076637" ID="ID_1951112176" MODIFIED="1404215931894" TEXT="Do you want deliverables as well as name ?">
-<icon BUILTIN="help"/>
-</node>
-<node COLOR="#4b7f26" CREATED="1404208933375" FOLDED="true" ID="ID_1574644058" MODIFIED="1404216141178" TEXT="Are the activities in any order?">
-<icon BUILTIN="help"/>
+<node CREATED="1404209076637" ID="ID_1951112176" MODIFIED="1404216174117" TEXT="Do you want deliverables as well as name ?"/>
+<node CREATED="1404208933375" FOLDED="true" ID="ID_1574644058" MODIFIED="1404216174509" TEXT="Are the activities in any order?">
 <node CREATED="1404208951598" ID="ID_156258981" MODIFIED="1404208956192" TEXT="ordered by start date?"/>
 </node>
 </node>
