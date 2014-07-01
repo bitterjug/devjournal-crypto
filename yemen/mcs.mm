@@ -11,21 +11,27 @@
 <node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1404214894666" TEXT="v4c:">
 <node CREATED="1403867600225" ID="ID_998136478" MODIFIED="1404112607351" TEXT="Questions for Emeka">
 <node CREATED="1404208551010" ID="ID_4356528" MODIFIED="1404222307573" TEXT="Export plans">
-<node COLOR="#999999" CREATED="1404208652129" FOLDED="true" ID="ID_1057986326" MODIFIED="1404222303198" TEXT="Annual plan">
-<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1404208652129" ID="ID_1057986326" MODIFIED="1404222494653" TEXT="Annual plan">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#999999" CREATED="1404208567033" ID="ID_1647043211" MODIFIED="1404217019086" TEXT="how come some activities have multiple bars in the chart?">
 <font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1404222619935" ID="ID_819577836" MODIFIED="1404222619935" TEXT=""/>
 </node>
 <node COLOR="#999999" CREATED="1404208583897" ID="ID_1845119690" MODIFIED="1404216901584" TEXT="What are the levels in the hierarchy?">
 <font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1404222500738" ID="ID_860445694" MODIFIED="1404222508734" TEXT="extra level for indicator result, on top of what we have "/>
 </node>
 </node>
-<node COLOR="#999999" CREATED="1404208559330" ID="ID_1600556395" MODIFIED="1404217071805" TEXT="What do the colours mean?">
-<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1404208559330" ID="ID_1600556395" MODIFIED="1404222355259" TEXT="What do the colours mean?">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1404222962908" ID="ID_1084714067" MODIFIED="1404222966213" TEXT="there is a code/key"/>
+<node CREATED="1404223131818" ID="ID_102323825" MODIFIED="1404223142722" TEXT="we don&apos;t need to treat them seprately "/>
 </node>
-<node CREATED="1404208521322" ID="ID_652139508" MODIFIED="1404208673324" TEXT="Would exprt to PDF work"/>
-<node COLOR="#999999" CREATED="1404208660152" FOLDED="true" ID="ID_40188084" MODIFIED="1404217204781" TEXT="Quarterly plan">
-<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1404208521322" ID="ID_652139508" MODIFIED="1404208673324" TEXT="Would exprt to PDF work">
+<node CREATED="1404223214819" ID="ID_1974545234" MODIFIED="1404223220505" TEXT="on one page or two to make it easy to view"/>
+</node>
+<node CREATED="1404208660152" FOLDED="true" ID="ID_40188084" MODIFIED="1404222355257" TEXT="Quarterly plan">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#999999" CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404217135294" TEXT="Why do the quarterly plans have different number of Result levels?">
 <font NAME="SansSerif" SIZE="10"/>
 </node>
@@ -33,8 +39,8 @@
 <font NAME="SansSerif" SIZE="10"/>
 </node>
 </node>
-<node COLOR="#999999" CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404217241445" TEXT="What are the hidden columns about? Do you want us to create them?">
-<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404222355256" TEXT="What are the hidden columns about? Do you want us to create them?">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404216171757" TEXT="Which levels do you want exported? Impact? Outcome?j"/>
 <node CREATED="1404210382516" ID="ID_537610208" MODIFIED="1404216172557" TEXT="Do the different plans have to be in tabs of the same sheet or separate documents?"/>
