@@ -230,10 +230,14 @@
 <node CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404208670484" TEXT="Why do the quarterly plans have different number of Result levels?"/>
 <node CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404208691727" TEXT="what are the notes in square brackets relating to indicators?"/>
 </node>
-<node CREATED="1404208799079" ID="ID_1965087937" MODIFIED="1404208810065" TEXT="What do we do if activities don&apos;t have dates">
+<node CREATED="1404208799079" FOLDED="true" ID="ID_1965087937" MODIFIED="1404209075732" TEXT="What do we do if activities don&apos;t have dates">
 <node CREATED="1404208810328" ID="ID_1386229665" MODIFIED="1404208812846" TEXT="always appear?"/>
 <node CREATED="1404208813175" ID="ID_461255628" MODIFIED="1404208819224" TEXT="don&apos;t appear"/>
 <node CREATED="1404208819511" ID="ID_488654017" MODIFIED="1404208823668" TEXT="list undates ones undreneath?"/>
+</node>
+<node CREATED="1404209076637" ID="ID_1951112176" MODIFIED="1404209093028" TEXT="Do you want deliverables as well as name ?"/>
+<node CREATED="1404208933375" ID="ID_1574644058" MODIFIED="1404208940925" TEXT="Are the activities in any order?">
+<node CREATED="1404208951598" ID="ID_156258981" MODIFIED="1404208956192" TEXT="ordered by start date?"/>
 </node>
 </node>
 </node>
