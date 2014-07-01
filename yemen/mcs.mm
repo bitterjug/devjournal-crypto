@@ -10,15 +10,21 @@
 <node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1403559146885" TEXT="Yemen ">
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
-<node CREATED="1400682501712" HGAP="383" ID="ID_119942923" MODIFIED="1403604903721" TEXT="v4c:" VSHIFT="-37">
-<node CREATED="1403867600225" FOLDED="true" ID="ID_998136478" MODIFIED="1403993861554" TEXT="Questions for Emeka">
+<node CREATED="1400682501712" HGAP="546" ID="ID_119942923" MODIFIED="1404112596549" TEXT="v4c:" VSHIFT="30">
+<node CREATED="1403867600225" ID="ID_998136478" MODIFIED="1404112607351" TEXT="Questions for Emeka">
+<node CREATED="1404114105377" ID="ID_444479583" MODIFIED="1404114118791" TEXT="Entering quarterly targets">
+<node CREATED="1404114650022" ID="ID_1475946278" MODIFIED="1404114657544" TEXT="use exiting mechanism"/>
+</node>
 <node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1403867931959" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)">
 <font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1404114121046" ID="ID_1385763164" MODIFIED="1404114139902" TEXT="Monthly reviews of quarterly plans so it is possible"/>
 </node>
 <node CREATED="1403604700137" ID="ID_1354561926" MODIFIED="1403867932655" TEXT="Emeka share rag rating from the project">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1403879153751" ID="ID_1094674321" MODIFIED="1403879186119" TEXT="What use do ou have for monthly view? Will it be needed once we have export quarterly and monthly plans to excel?"/>
+<node CREATED="1403879153751" ID="ID_1094674321" MODIFIED="1403879186119" TEXT="What use do ou have for monthly view? Will it be needed once we have export quarterly and monthly plans to excel?">
+<node CREATED="1404114709315" ID="ID_494322925" MODIFIED="1404114713477" TEXT="no need for monthly view"/>
+</node>
 <node CREATED="1403867809784" ID="ID_657499901" MODIFIED="1403879705972" TEXT="Could they migrate their First year/quarter activities to a Indicator based structure?">
 <node CREATED="1403867844591" ID="ID_1135751954" MODIFIED="1403867849518" TEXT="We could ad an admin interface f rthis"/>
 <node CREATED="1403867850079" ID="ID_1502551968" MODIFIED="1403867883098" TEXT="those old activities might be invisible in the main interface unil they move them to in dicators via the admin interface"/>
@@ -38,7 +44,7 @@
 <node CREATED="1403993871000" ID="ID_560187647" MODIFIED="1403993884141" TEXT="dojt think so, we were waiting for payment for half iteration"/>
 </node>
 <node CREATED="1403526054349" ID="ID_195876592" MODIFIED="1403526068261" TEXT="Are RAG updatesd makde each time data is entered or separatelhy?"/>
-<node CREATED="1403559214501" ID="ID_1133324440" MODIFIED="1403559227721" TEXT="Would having quarterly targets meet the need for separate annual and quaterly ones?">
+<node CREATED="1403559214501" ID="ID_1133324440" MODIFIED="1404114124637" TEXT="">
 <node CREATED="1403559228317" ID="ID_1852489098" MODIFIED="1403559240508" TEXT="i.e. is Q4&apos;s target the same as the annual one?"/>
 <node CREATED="1403608681509" ID="ID_353581753" MODIFIED="1403608684222" TEXT="yes"/>
 <node CREATED="1403559240894" ID="ID_942261186" MODIFIED="1403559254226" TEXT="Do you want to report separately against Q4 and the annual target?"/>
