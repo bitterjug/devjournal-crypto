@@ -10,11 +10,11 @@
 </node>
 <node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1404214894666" TEXT="v4c:">
 <node CREATED="1403867600225" ID="ID_998136478" MODIFIED="1404112607351" TEXT="Questions for Emeka">
-<node CREATED="1404114105377" FOLDED="true" ID="ID_444479583" MODIFIED="1404214851990" TEXT="Entering quarterly targets">
+<node CREATED="1404114105377" ID="ID_444479583" MODIFIED="1404215562925" TEXT="Entering quarterly targets">
 <node CREATED="1404114650022" ID="ID_1475946278" MODIFIED="1404214697079" TEXT="use exiting mechanism?"/>
 <node CREATED="1404214697414" ID="ID_1855930381" MODIFIED="1404214712230" TEXT="What about the extra levels in your sample annual plan export?"/>
 </node>
-<node CREATED="1404208551010" FOLDED="true" ID="ID_4356528" MODIFIED="1404214852789" TEXT="Export plans">
+<node CREATED="1404208551010" ID="ID_4356528" MODIFIED="1404215561761" TEXT="Export plans">
 <node CREATED="1404208652129" ID="ID_1057986326" MODIFIED="1404208657880" TEXT="Annual plan">
 <node CREATED="1404208521322" ID="ID_652139508" MODIFIED="1404208673324" TEXT="Would exprt to PDF work"/>
 <node CREATED="1404208559330" ID="ID_1600556395" MODIFIED="1404208673319" TEXT="What do the colours mean?"/>
@@ -25,33 +25,46 @@
 <node CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404208670484" TEXT="Why do the quarterly plans have different number of Result levels?"/>
 <node CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404208691727" TEXT="what are the notes in square brackets relating to indicators?"/>
 </node>
-<node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404209696896" TEXT="What are the hidden columns about? Do you want us to create them?"/>
-<node CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404210312503" TEXT="Which levels do you want exported? Impact? Outcome?"/>
-<node CREATED="1404210382516" ID="ID_537610208" MODIFIED="1404210436791" TEXT="Do the different plans have to be in tabs of the same sheet or separate documents?"/>
-<node CREATED="1404210611043" ID="ID_492090335" MODIFIED="1404210640803" TEXT="The annual plan has a year and then one more quarter">
-<node CREATED="1404210641082" ID="ID_125011498" MODIFIED="1404210643463" TEXT="is this normal?"/>
+<node COLOR="#4b7f26" CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404215831590" TEXT="What are the hidden columns about? Do you want us to create them?">
+<icon BUILTIN="help"/>
 </node>
-<node CREATED="1404210767425" ID="ID_849553277" MODIFIED="1404210773970" TEXT="What abotu othe ways to present?">
+<node COLOR="#4b7f26" CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404215836998" TEXT="Which levels do you want exported? Impact? Outcome?">
+<icon BUILTIN="help"/>
+</node>
+<node COLOR="#4b7f26" CREATED="1404210382516" ID="ID_537610208" MODIFIED="1404215827510" TEXT="Do the different plans have to be in tabs of the same sheet or separate documents?">
+<icon BUILTIN="help"/>
+</node>
+<node CREATED="1404210611043" ID="ID_492090335" MODIFIED="1404215934674" TEXT="The annual plan has a year and then one more quarter">
+<node COLOR="#4b7f26" CREATED="1404210641082" ID="ID_125011498" MODIFIED="1404215937678" TEXT="is this normal?">
+<icon BUILTIN="help"/>
+</node>
+</node>
+<node COLOR="#4b7f26" CREATED="1404210767425" FOLDED="true" ID="ID_849553277" MODIFIED="1404215927765" TEXT="What abotu othe ways to present?">
+<icon BUILTIN="help"/>
 <node CREATED="1404210774313" ID="ID_1613720546" MODIFIED="1404210778011" TEXT="could we leave the colouring off"/>
 <node CREATED="1404210778674" ID="ID_1137192590" MODIFIED="1404210785601" TEXT="could we avoid merging cells?"/>
 <node CREATED="1404210786025" ID="ID_270779894" MODIFIED="1404210795480" TEXT="can we use fixed column widths like the other export"/>
 </node>
-<node CREATED="1404208799079" FOLDED="true" ID="ID_1965087937" MODIFIED="1404209075732" TEXT="What do we do if activities don&apos;t have dates">
+<node COLOR="#4b7f26" CREATED="1404208799079" FOLDED="true" ID="ID_1965087937" MODIFIED="1404215930590" TEXT="What do we do if activities don&apos;t have dates">
+<icon BUILTIN="help"/>
 <node CREATED="1404208810328" ID="ID_1386229665" MODIFIED="1404208812846" TEXT="always appear?"/>
 <node CREATED="1404208813175" ID="ID_461255628" MODIFIED="1404208819224" TEXT="don&apos;t appear"/>
 <node CREATED="1404208819511" ID="ID_488654017" MODIFIED="1404208823668" TEXT="list undates ones undreneath?"/>
 </node>
-<node CREATED="1404209076637" ID="ID_1951112176" MODIFIED="1404209093028" TEXT="Do you want deliverables as well as name ?"/>
-<node CREATED="1404208933375" ID="ID_1574644058" MODIFIED="1404208940925" TEXT="Are the activities in any order?">
+<node COLOR="#4b7f26" CREATED="1404209076637" ID="ID_1951112176" MODIFIED="1404215931894" TEXT="Do you want deliverables as well as name ?">
+<icon BUILTIN="help"/>
+</node>
+<node COLOR="#4b7f26" CREATED="1404208933375" ID="ID_1574644058" MODIFIED="1404215932654" TEXT="Are the activities in any order?">
+<icon BUILTIN="help"/>
 <node CREATED="1404208951598" ID="ID_156258981" MODIFIED="1404208956192" TEXT="ordered by start date?"/>
 </node>
 </node>
 </node>
-<node CREATED="1403878043222" ID="ID_1865172773" MODIFIED="1404214848974" TEXT="Questions from Marko 28 june">
+<node CREATED="1403878043222" FOLDED="true" ID="ID_1865172773" MODIFIED="1404215556689" TEXT="Questions from Marko 28 june">
 <node CREATED="1403878053933" ID="ID_1435924028" MODIFIED="1403878083578" TEXT="A conf option to hide the EDit and Monitor"/>
 <node CREATED="1403878632444" ID="ID_339036091" MODIFIED="1403878640767" TEXT="What periods can we select when viewing the monitor page?"/>
 </node>
-<node CREATED="1404214822501" ID="ID_376490852" MODIFIED="1404214823274" TEXT="old">
+<node CREATED="1404214822501" FOLDED="true" ID="ID_376490852" MODIFIED="1404215557617" TEXT="old">
 <node CREATED="1404214717030" FOLDED="true" ID="ID_1223691959" MODIFIED="1404214825070" TEXT="june">
 <node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1404214718334" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)">
 <font NAME="SansSerif" SIZE="12"/>
@@ -123,7 +136,7 @@
 <node CREATED="1403867513388" ID="ID_946116529" MODIFIED="1403867536627" TEXT="Suggest we leave new ones blank to indicate that new RAGs need to be determined. The previous ones are visible whemn the drop down is opened"/>
 </node>
 </node>
-<node CREATED="1402493973536" ID="ID_904894959" MODIFIED="1402502342687" TEXT="v4c">
+<node CREATED="1402493973536" FOLDED="true" ID="ID_904894959" MODIFIED="1404215559872" TEXT="v4c">
 <node CREATED="1402494746680" FOLDED="true" ID="ID_1737969744" MODIFIED="1404208512827" TEXT="people">
 <node CREATED="1402494749721" ID="ID_78812227" MODIFIED="1402502352744" TEXT="kathy">
 <icon BUILTIN="female1"/>
@@ -190,7 +203,7 @@
 </node>
 </node>
 <node CREATED="1403603421907" ID="ID_447792512" MODIFIED="1403603428769" TEXT="office move">
-<node CREATED="1404214918388" ID="ID_1507098718" MODIFIED="1404214925867" TEXT="ORder furniture">
+<node CREATED="1404214918388" ID="ID_1507098718" MODIFIED="1404214938517" TEXT="Order furniture">
 <node CREATED="1404214926356" ID="ID_526057239" MODIFIED="1404214928226" TEXT="dining table"/>
 <node CREATED="1404214928468" ID="ID_125286892" MODIFIED="1404214929532" TEXT="chairs"/>
 <node CREATED="1404214929924" ID="ID_1513644710" MODIFIED="1404214933823" TEXT="120cm deskjs"/>
