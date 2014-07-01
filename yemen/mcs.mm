@@ -226,10 +226,11 @@
 <node CREATED="1404208567033" ID="ID_1647043211" MODIFIED="1404208673317" TEXT="how come some activities have multiple bars in the chart?"/>
 <node CREATED="1404208583897" ID="ID_1845119690" MODIFIED="1404208673315" TEXT="What are the levels in the hierarchy?"/>
 </node>
-<node CREATED="1404208660152" ID="ID_40188084" MODIFIED="1404208662768" TEXT="Quarterly plan">
+<node CREATED="1404208660152" FOLDED="true" ID="ID_40188084" MODIFIED="1404209685175" TEXT="Quarterly plan">
 <node CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404208670484" TEXT="Why do the quarterly plans have different number of Result levels?"/>
 <node CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404208691727" TEXT="what are the notes in square brackets relating to indicators?"/>
 </node>
+<node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404209696896" TEXT="What are the hidden columns about? Do you want us to create them?"/>
 <node CREATED="1404208799079" FOLDED="true" ID="ID_1965087937" MODIFIED="1404209075732" TEXT="What do we do if activities don&apos;t have dates">
 <node CREATED="1404208810328" ID="ID_1386229665" MODIFIED="1404208812846" TEXT="always appear?"/>
 <node CREATED="1404208813175" ID="ID_461255628" MODIFIED="1404208819224" TEXT="don&apos;t appear"/>
