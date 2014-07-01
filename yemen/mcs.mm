@@ -231,6 +231,7 @@
 <node CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404208691727" TEXT="what are the notes in square brackets relating to indicators?"/>
 </node>
 <node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404209696896" TEXT="What are the hidden columns about? Do you want us to create them?"/>
+<node CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404210312503" TEXT="Which levels do you want exported? Impact? Outcome?"/>
 <node CREATED="1404208799079" FOLDED="true" ID="ID_1965087937" MODIFIED="1404209075732" TEXT="What do we do if activities don&apos;t have dates">
 <node CREATED="1404208810328" ID="ID_1386229665" MODIFIED="1404208812846" TEXT="always appear?"/>
 <node CREATED="1404208813175" ID="ID_461255628" MODIFIED="1404208819224" TEXT="don&apos;t appear"/>
