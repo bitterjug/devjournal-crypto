@@ -3,19 +3,57 @@
 <node COLOR="#990000" CREATED="1400681028638" ID="ID_1891630374" MODIFIED="1403097989393" TEXT="mcs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="male2"/>
-<node CREATED="1400681063027" FOLDED="true" ID="ID_1461444615" MODIFIED="1404208503870" POSITION="right" TEXT="Tasks">
-<node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1403772476911" TEXT="today">
-<node CREATED="1403772478888" ID="ID_1612561966" MODIFIED="1403772526720" TEXT="Coordinate output wg meeting"/>
-</node>
-<node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1403559146885" TEXT="Yemen ">
+<node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1404214654589" POSITION="right" TEXT="Tasks">
+<node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1403772476911" TEXT="today"/>
+<node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1404214910532" TEXT="Yemen ">
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
-<node CREATED="1400682501712" HGAP="546" ID="ID_119942923" MODIFIED="1404112596549" TEXT="v4c:" VSHIFT="30">
+<node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1404214894666" TEXT="v4c:">
 <node CREATED="1403867600225" ID="ID_998136478" MODIFIED="1404112607351" TEXT="Questions for Emeka">
-<node CREATED="1404114105377" ID="ID_444479583" MODIFIED="1404114118791" TEXT="Entering quarterly targets">
-<node CREATED="1404114650022" ID="ID_1475946278" MODIFIED="1404114657544" TEXT="use exiting mechanism"/>
+<node CREATED="1404114105377" FOLDED="true" ID="ID_444479583" MODIFIED="1404214851990" TEXT="Entering quarterly targets">
+<node CREATED="1404114650022" ID="ID_1475946278" MODIFIED="1404214697079" TEXT="use exiting mechanism?"/>
+<node CREATED="1404214697414" ID="ID_1855930381" MODIFIED="1404214712230" TEXT="What about the extra levels in your sample annual plan export?"/>
 </node>
-<node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1403867931959" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)">
+<node CREATED="1404208551010" FOLDED="true" ID="ID_4356528" MODIFIED="1404214852789" TEXT="Export plans">
+<node CREATED="1404208652129" ID="ID_1057986326" MODIFIED="1404208657880" TEXT="Annual plan">
+<node CREATED="1404208521322" ID="ID_652139508" MODIFIED="1404208673324" TEXT="Would exprt to PDF work"/>
+<node CREATED="1404208559330" ID="ID_1600556395" MODIFIED="1404208673319" TEXT="What do the colours mean?"/>
+<node CREATED="1404208567033" ID="ID_1647043211" MODIFIED="1404208673317" TEXT="how come some activities have multiple bars in the chart?"/>
+<node CREATED="1404208583897" ID="ID_1845119690" MODIFIED="1404208673315" TEXT="What are the levels in the hierarchy?"/>
+</node>
+<node CREATED="1404208660152" FOLDED="true" ID="ID_40188084" MODIFIED="1404209685175" TEXT="Quarterly plan">
+<node CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404208670484" TEXT="Why do the quarterly plans have different number of Result levels?"/>
+<node CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404208691727" TEXT="what are the notes in square brackets relating to indicators?"/>
+</node>
+<node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404209696896" TEXT="What are the hidden columns about? Do you want us to create them?"/>
+<node CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404210312503" TEXT="Which levels do you want exported? Impact? Outcome?"/>
+<node CREATED="1404210382516" ID="ID_537610208" MODIFIED="1404210436791" TEXT="Do the different plans have to be in tabs of the same sheet or separate documents?"/>
+<node CREATED="1404210611043" ID="ID_492090335" MODIFIED="1404210640803" TEXT="The annual plan has a year and then one more quarter">
+<node CREATED="1404210641082" ID="ID_125011498" MODIFIED="1404210643463" TEXT="is this normal?"/>
+</node>
+<node CREATED="1404210767425" ID="ID_849553277" MODIFIED="1404210773970" TEXT="What abotu othe ways to present?">
+<node CREATED="1404210774313" ID="ID_1613720546" MODIFIED="1404210778011" TEXT="could we leave the colouring off"/>
+<node CREATED="1404210778674" ID="ID_1137192590" MODIFIED="1404210785601" TEXT="could we avoid merging cells?"/>
+<node CREATED="1404210786025" ID="ID_270779894" MODIFIED="1404210795480" TEXT="can we use fixed column widths like the other export"/>
+</node>
+<node CREATED="1404208799079" FOLDED="true" ID="ID_1965087937" MODIFIED="1404209075732" TEXT="What do we do if activities don&apos;t have dates">
+<node CREATED="1404208810328" ID="ID_1386229665" MODIFIED="1404208812846" TEXT="always appear?"/>
+<node CREATED="1404208813175" ID="ID_461255628" MODIFIED="1404208819224" TEXT="don&apos;t appear"/>
+<node CREATED="1404208819511" ID="ID_488654017" MODIFIED="1404208823668" TEXT="list undates ones undreneath?"/>
+</node>
+<node CREATED="1404209076637" ID="ID_1951112176" MODIFIED="1404209093028" TEXT="Do you want deliverables as well as name ?"/>
+<node CREATED="1404208933375" ID="ID_1574644058" MODIFIED="1404208940925" TEXT="Are the activities in any order?">
+<node CREATED="1404208951598" ID="ID_156258981" MODIFIED="1404208956192" TEXT="ordered by start date?"/>
+</node>
+</node>
+</node>
+<node CREATED="1403878043222" ID="ID_1865172773" MODIFIED="1404214848974" TEXT="Questions from Marko 28 june">
+<node CREATED="1403878053933" ID="ID_1435924028" MODIFIED="1403878083578" TEXT="A conf option to hide the EDit and Monitor"/>
+<node CREATED="1403878632444" ID="ID_339036091" MODIFIED="1403878640767" TEXT="What periods can we select when viewing the monitor page?"/>
+</node>
+<node CREATED="1404214822501" ID="ID_376490852" MODIFIED="1404214823274" TEXT="old">
+<node CREATED="1404214717030" FOLDED="true" ID="ID_1223691959" MODIFIED="1404214825070" TEXT="june">
+<node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1404214718334" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1404114121046" ID="ID_1385763164" MODIFIED="1404114139902" TEXT="Monthly reviews of quarterly plans so it is possible"/>
 </node>
@@ -33,17 +71,10 @@
 <node CREATED="1403868003878" ID="ID_156896058" MODIFIED="1403868013221" TEXT="Is it ok to use the existing Edit interface?"/>
 <node CREATED="1403868013526" ID="ID_1993161805" MODIFIED="1403868035270" TEXT="Are they going to update them once they set them? (do we need to store history?)"/>
 </node>
-</node>
 <node CREATED="1403085802448" ID="ID_456241892" MODIFIED="1403526043301" TEXT="invoice for half iteration">
 <icon BUILTIN="help"/>
 <node CREATED="1403559148810" ID="ID_693924478" MODIFIED="1403559150515" TEXT="shoudl be ok"/>
 </node>
-<node CREATED="1403085807757" ID="ID_493306632" MODIFIED="1403526047175" TEXT="deploy speedup to live">
-<icon BUILTIN="help"/>
-<node CREATED="1403559155309" ID="ID_1791443406" MODIFIED="1403559160965" TEXT="has this been done"/>
-<node CREATED="1403993871000" ID="ID_560187647" MODIFIED="1403993884141" TEXT="dojt think so, we were waiting for payment for half iteration"/>
-</node>
-<node CREATED="1403526054349" ID="ID_195876592" MODIFIED="1403526068261" TEXT="Are RAG updatesd makde each time data is entered or separatelhy?"/>
 <node CREATED="1403559214501" ID="ID_1133324440" MODIFIED="1404114124637" TEXT="">
 <node CREATED="1403559228317" ID="ID_1852489098" MODIFIED="1403559240508" TEXT="i.e. is Q4&apos;s target the same as the annual one?"/>
 <node CREATED="1403608681509" ID="ID_353581753" MODIFIED="1403608684222" TEXT="yes"/>
@@ -53,9 +84,8 @@
 <node CREATED="1403559305510" ID="ID_829215044" MODIFIED="1403559320711" TEXT="Are status codes similar to RAG ratings? (we think not)">
 <node CREATED="1403608723700" ID="ID_1205906666" MODIFIED="1403608727468" TEXT="drop status codes"/>
 </node>
-<node COLOR="#ff0000" CREATED="1403604887424" ID="ID_399871428" MODIFIED="1403867658089" TEXT="Interested in progress towards each quarter&apos;s results"/>
-<node CREATED="1403604907672" ID="ID_452377641" MODIFIED="1403604912826" TEXT="going to set quarterly milestones"/>
-<node CREATED="1403867676153" ID="ID_856737715" MODIFIED="1403867689246" TEXT="call 25 June">
+</node>
+<node CREATED="1403867676153" FOLDED="true" ID="ID_856737715" MODIFIED="1404214828757" TEXT="call 25 June">
 <node CREATED="1403605573275" ID="ID_526882279" MODIFIED="1403867670346" TEXT="unify RAG rating and status update">
 <node CREATED="1403605188957" FOLDED="true" ID="ID_850765019" MODIFIED="1403605567525" TEXT="last week, as a team, line manager">
 <node CREATED="1403605196229" ID="ID_1533260779" MODIFIED="1403605203040" TEXT="rapid update">
@@ -83,7 +113,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1403794092170" FOLDED="true" HGAP="53" ID="ID_1027192534" MODIFIED="1403993852494" TEXT="questions from Tom and Marko 26 June" VSHIFT="9">
+</node>
+<node CREATED="1403794092170" FOLDED="true" ID="ID_1027192534" MODIFIED="1404214890709" TEXT="questions from Tom and Marko 26 June">
 <node CREATED="1403794096867" ID="ID_1991311453" MODIFIED="1403794113683" TEXT="how do you set the target for a subindicator for a period"/>
 <node CREATED="1403794166452" ID="ID_426917057" MODIFIED="1403794194516" TEXT="how do you enter/show status updates on indicators and results (you can&apos;t see the details or hstory fo them anywhere)"/>
 <node CREATED="1403794634070" ID="ID_846110064" MODIFIED="1403794663622" TEXT="Do v4c ever enter activities against indicators for outcome/impact (because the tool will allow it)?"/>
@@ -92,12 +123,63 @@
 <node CREATED="1403867513388" ID="ID_946116529" MODIFIED="1403867536627" TEXT="Suggest we leave new ones blank to indicate that new RAGs need to be determined. The previous ones are visible whemn the drop down is opened"/>
 </node>
 </node>
-<node CREATED="1403878043222" FOLDED="true" ID="ID_1865172773" MODIFIED="1403993853653" TEXT="Questions from Marko 28 june">
-<node CREATED="1403878053933" ID="ID_1435924028" MODIFIED="1403878083578" TEXT="A conf option to hide the EDit and Monitor"/>
-<node CREATED="1403878632444" ID="ID_339036091" MODIFIED="1403878640767" TEXT="What periods can we select when viewing the monitor page?"/>
+<node CREATED="1402493973536" ID="ID_904894959" MODIFIED="1402502342687" TEXT="v4c">
+<node CREATED="1402494746680" FOLDED="true" ID="ID_1737969744" MODIFIED="1404208512827" TEXT="people">
+<node CREATED="1402494749721" ID="ID_78812227" MODIFIED="1402502352744" TEXT="kathy">
+<icon BUILTIN="female1"/>
+<node CREATED="1402589966395" ID="ID_336078075" MODIFIED="1402589970232" TEXT="technical director"/>
+</node>
+<node CREATED="1402494753311" ID="ID_1665980700" MODIFIED="1402502367668" TEXT="caroline">
+<icon BUILTIN="female1"/>
+</node>
+<node CREATED="1402494755544" ID="ID_1491864842" MODIFIED="1402502376538" TEXT="munerat">
+<icon BUILTIN="female1"/>
+</node>
+<node CREATED="1402494760345" ID="ID_360260019" MODIFIED="1402502373653" TEXT="emeka">
+<icon BUILTIN="male2"/>
 </node>
 </node>
-<node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1403559140621" TEXT="youwin">
+<node CREATED="1402494765640" FOLDED="true" ID="ID_1428695887" MODIFIED="1404214871893" TEXT="iteration 6">
+<node CREATED="1402495245677" ID="ID_70581972" MODIFIED="1402495265692" TEXT="Button to improve the experience of someone downloading QPR">
+<node CREATED="1402494605761" FOLDED="true" ID="ID_886649607" MODIFIED="1402502927999" TEXT="what is the domain name">
+<icon BUILTIN="button_ok"/>
+<icon BUILTIN="help"/>
+<node CREATED="1402494676569" ID="ID_1862607677" MODIFIED="1402494682666" TEXT="check cost of ssl certificates"/>
+</node>
+</node>
+<node CREATED="1402586983128" ID="ID_1433705287" MODIFIED="1402586991168" TEXT="check=in 12 June">
+<node CREATED="1402586993400" ID="ID_1154561269" MODIFIED="1402587001846" TEXT="Admin interface mostly done. "/>
+<node CREATED="1402587002049" ID="ID_1405650726" MODIFIED="1402587011223" TEXT="Implementing front end UI"/>
+<node CREATED="1402587112206" ID="ID_720661404" MODIFIED="1402587115919" TEXT="deploy to staging "/>
+<node CREATED="1402587122855" ID="ID_1532783021" MODIFIED="1402587166683" TEXT="Emeka">
+<node CREATED="1402587171654" FOLDED="true" ID="ID_1547491366" MODIFIED="1402589958805" TEXT="Disaggregation of plans in quarters">
+<node CREATED="1402587189566" ID="ID_1904861102" MODIFIED="1402587195885" TEXT="What does that mean?"/>
+<node CREATED="1402587196334" ID="ID_22095059" MODIFIED="1402587199108" TEXT="What does that look like?"/>
+</node>
+<node CREATED="1402587237198" ID="ID_1798806086" MODIFIED="1402587247971" TEXT="Could Aptivate do something other than planning ?"/>
+<node CREATED="1402587290374" ID="ID_628055597" MODIFIED="1402587293015" TEXT="Landing page">
+<node CREATED="1402587293325" ID="ID_513663251" MODIFIED="1402587295638" TEXT="Outome">
+<node CREATED="1402587296357" ID="ID_1303474243" MODIFIED="1402587297596" TEXT="Outputs">
+<node CREATED="1402587297918" FOLDED="true" ID="ID_38641915" MODIFIED="1402589957269" TEXT="Click output 1">
+<node CREATED="1402587304774" ID="ID_1901521788" MODIFIED="1402587313970" TEXT="Open annual results (not quarterly)">
+<node CREATED="1402587314686" ID="ID_233200369" MODIFIED="1402587324876" TEXT="Clkick on annual results shows quarterly results">
+<node CREATED="1402587325187" ID="ID_1089894986" MODIFIED="1402587330787" TEXT="Open qiuarterly results gives activities"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1402587342261" ID="ID_130719896" MODIFIED="1402587349716" TEXT="Alternatively, show different views for each quarter">
+<node CREATED="1402587359678" ID="ID_1011758652" MODIFIED="1402587364604" TEXT="Aggregates to annual view"/>
+</node>
+</node>
+</node>
+<node CREATED="1402587017064" ID="ID_665961230" MODIFIED="1402587020614" TEXT="Mark&apos;s away until Tuesday"/>
+</node>
+</node>
+</node>
+<node CREATED="1400686687910" FOLDED="true" ID="ID_1634585377" MODIFIED="1404214911941" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI"/>
 <node CREATED="1403085830151" ID="ID_368291725" MODIFIED="1403085839286" TEXT="Change number of winners selected by script"/>
 <node CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1401962419696" TEXT="Check time-scale for marking/selecting winners"/>
@@ -108,8 +190,11 @@
 </node>
 </node>
 <node CREATED="1403603421907" ID="ID_447792512" MODIFIED="1403603428769" TEXT="office move">
-<node CREATED="1403603436826" ID="ID_1106275732" MODIFIED="1403603444172" TEXT="Confirm about insurance "/>
-<node CREATED="1403603429090" ID="ID_173293592" MODIFIED="1403603436504" TEXT="Get Chris to sign contract"/>
+<node CREATED="1404214918388" ID="ID_1507098718" MODIFIED="1404214925867" TEXT="ORder furniture">
+<node CREATED="1404214926356" ID="ID_526057239" MODIFIED="1404214928226" TEXT="dining table"/>
+<node CREATED="1404214928468" ID="ID_125286892" MODIFIED="1404214929532" TEXT="chairs"/>
+<node CREATED="1404214929924" ID="ID_1513644710" MODIFIED="1404214933823" TEXT="120cm deskjs"/>
+</node>
 </node>
 </node>
 <node CREATED="1400681598771" ID="ID_1380001750" MODIFIED="1404208506327" POSITION="right" TEXT="notes">
@@ -163,95 +248,6 @@
 <node CREATED="1401982579652" ID="ID_1137462074" MODIFIED="1401982903364" TEXT="the original contract is a mistake"/>
 <node CREATED="1401982903906" ID="ID_1385190148" MODIFIED="1401982913983" TEXT="we&apos;re expecting to turn off 3 of the servers"/>
 <node CREATED="1401982915202" ID="ID_1054395746" MODIFIED="1401982947584" TEXT="if not, we need to charge complex for the competition + simple for M&amp;E = 7k"/>
-</node>
-<node CREATED="1402493973536" ID="ID_904894959" MODIFIED="1402502342687" TEXT="v4c">
-<node CREATED="1402494746680" FOLDED="true" ID="ID_1737969744" MODIFIED="1404208512827" TEXT="people">
-<node CREATED="1402494749721" ID="ID_78812227" MODIFIED="1402502352744" TEXT="kathy">
-<icon BUILTIN="female1"/>
-<node CREATED="1402589966395" ID="ID_336078075" MODIFIED="1402589970232" TEXT="technical director"/>
-</node>
-<node CREATED="1402494753311" ID="ID_1665980700" MODIFIED="1402502367668" TEXT="caroline">
-<icon BUILTIN="female1"/>
-</node>
-<node CREATED="1402494755544" ID="ID_1491864842" MODIFIED="1402502376538" TEXT="munerat">
-<icon BUILTIN="female1"/>
-</node>
-<node CREATED="1402494760345" ID="ID_360260019" MODIFIED="1402502373653" TEXT="emeka">
-<icon BUILTIN="male2"/>
-</node>
-</node>
-<node CREATED="1402494765640" FOLDED="true" ID="ID_1428695887" MODIFIED="1404208513771" TEXT="iteration 6">
-<node CREATED="1402495245677" ID="ID_70581972" MODIFIED="1402495265692" TEXT="Button to improve the experience of someone downloading QPR">
-<node CREATED="1402494605761" FOLDED="true" ID="ID_886649607" MODIFIED="1402502927999" TEXT="what is the domain name">
-<icon BUILTIN="button_ok"/>
-<icon BUILTIN="help"/>
-<node CREATED="1402494676569" ID="ID_1862607677" MODIFIED="1402494682666" TEXT="check cost of ssl certificates"/>
-</node>
-</node>
-<node CREATED="1402586983128" ID="ID_1433705287" MODIFIED="1402586991168" TEXT="check=in 12 June">
-<node CREATED="1402586993400" ID="ID_1154561269" MODIFIED="1402587001846" TEXT="Admin interface mostly done. "/>
-<node CREATED="1402587002049" ID="ID_1405650726" MODIFIED="1402587011223" TEXT="Implementing front end UI"/>
-<node CREATED="1402587112206" ID="ID_720661404" MODIFIED="1402587115919" TEXT="deploy to staging "/>
-<node CREATED="1402587122855" ID="ID_1532783021" MODIFIED="1402587166683" TEXT="Emeka">
-<node CREATED="1402587171654" FOLDED="true" ID="ID_1547491366" MODIFIED="1402589958805" TEXT="Disaggregation of plans in quarters">
-<node CREATED="1402587189566" ID="ID_1904861102" MODIFIED="1402587195885" TEXT="What does that mean?"/>
-<node CREATED="1402587196334" ID="ID_22095059" MODIFIED="1402587199108" TEXT="What does that look like?"/>
-</node>
-<node CREATED="1402587237198" ID="ID_1798806086" MODIFIED="1402587247971" TEXT="Could Aptivate do something other than planning ?"/>
-<node CREATED="1402587290374" ID="ID_628055597" MODIFIED="1402587293015" TEXT="Landing page">
-<node CREATED="1402587293325" ID="ID_513663251" MODIFIED="1402587295638" TEXT="Outome">
-<node CREATED="1402587296357" ID="ID_1303474243" MODIFIED="1402587297596" TEXT="Outputs">
-<node CREATED="1402587297918" FOLDED="true" ID="ID_38641915" MODIFIED="1402589957269" TEXT="Click output 1">
-<node CREATED="1402587304774" ID="ID_1901521788" MODIFIED="1402587313970" TEXT="Open annual results (not quarterly)">
-<node CREATED="1402587314686" ID="ID_233200369" MODIFIED="1402587324876" TEXT="Clkick on annual results shows quarterly results">
-<node CREATED="1402587325187" ID="ID_1089894986" MODIFIED="1402587330787" TEXT="Open qiuarterly results gives activities"/>
-</node>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1402587342261" ID="ID_130719896" MODIFIED="1402587349716" TEXT="Alternatively, show different views for each quarter">
-<node CREATED="1402587359678" ID="ID_1011758652" MODIFIED="1402587364604" TEXT="Aggregates to annual view"/>
-</node>
-</node>
-</node>
-<node CREATED="1402587017064" ID="ID_665961230" MODIFIED="1402587020614" TEXT="Mark&apos;s away until Tuesday"/>
-</node>
-<node CREATED="1404208514532" ID="ID_1269471249" MODIFIED="1404208519328" TEXT="Questions for Emeka">
-<node CREATED="1404208551010" ID="ID_4356528" MODIFIED="1404208556252" TEXT="Export plans">
-<node CREATED="1404208652129" ID="ID_1057986326" MODIFIED="1404208657880" TEXT="Annual plan">
-<node CREATED="1404208521322" ID="ID_652139508" MODIFIED="1404208673324" TEXT="Would exprt to PDF work"/>
-<node CREATED="1404208559330" ID="ID_1600556395" MODIFIED="1404208673319" TEXT="What do the colours mean?"/>
-<node CREATED="1404208567033" ID="ID_1647043211" MODIFIED="1404208673317" TEXT="how come some activities have multiple bars in the chart?"/>
-<node CREATED="1404208583897" ID="ID_1845119690" MODIFIED="1404208673315" TEXT="What are the levels in the hierarchy?"/>
-</node>
-<node CREATED="1404208660152" FOLDED="true" ID="ID_40188084" MODIFIED="1404209685175" TEXT="Quarterly plan">
-<node CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404208670484" TEXT="Why do the quarterly plans have different number of Result levels?"/>
-<node CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404208691727" TEXT="what are the notes in square brackets relating to indicators?"/>
-</node>
-<node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404209696896" TEXT="What are the hidden columns about? Do you want us to create them?"/>
-<node CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404210312503" TEXT="Which levels do you want exported? Impact? Outcome?"/>
-<node CREATED="1404210382516" ID="ID_537610208" MODIFIED="1404210436791" TEXT="Do the different plans have to be in tabs of the same sheet or separate documents?"/>
-<node CREATED="1404210611043" ID="ID_492090335" MODIFIED="1404210640803" TEXT="The annual plan has a year and then one more quarter">
-<node CREATED="1404210641082" ID="ID_125011498" MODIFIED="1404210643463" TEXT="is this normal?"/>
-</node>
-<node CREATED="1404210767425" ID="ID_849553277" MODIFIED="1404210773970" TEXT="What abotu othe ways to present?">
-<node CREATED="1404210774313" ID="ID_1613720546" MODIFIED="1404210778011" TEXT="could we leave the colouring off"/>
-<node CREATED="1404210778674" ID="ID_1137192590" MODIFIED="1404210785601" TEXT="could we avoid merging cells?"/>
-<node CREATED="1404210786025" ID="ID_270779894" MODIFIED="1404210795480" TEXT="can we use fixed column widths like the other export"/>
-</node>
-<node CREATED="1404208799079" FOLDED="true" ID="ID_1965087937" MODIFIED="1404209075732" TEXT="What do we do if activities don&apos;t have dates">
-<node CREATED="1404208810328" ID="ID_1386229665" MODIFIED="1404208812846" TEXT="always appear?"/>
-<node CREATED="1404208813175" ID="ID_461255628" MODIFIED="1404208819224" TEXT="don&apos;t appear"/>
-<node CREATED="1404208819511" ID="ID_488654017" MODIFIED="1404208823668" TEXT="list undates ones undreneath?"/>
-</node>
-<node CREATED="1404209076637" ID="ID_1951112176" MODIFIED="1404209093028" TEXT="Do you want deliverables as well as name ?"/>
-<node CREATED="1404208933375" ID="ID_1574644058" MODIFIED="1404208940925" TEXT="Are the activities in any order?">
-<node CREATED="1404208951598" ID="ID_156258981" MODIFIED="1404208956192" TEXT="ordered by start date?"/>
-</node>
-</node>
-</node>
 </node>
 </node>
 <node CREATED="1403603408066" FOLDED="true" ID="ID_636467679" MODIFIED="1403604650294" POSITION="left" TEXT="archive">
