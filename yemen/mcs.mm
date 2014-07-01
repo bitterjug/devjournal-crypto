@@ -5,34 +5,48 @@
 <icon BUILTIN="male2"/>
 <node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1404214654589" POSITION="right" TEXT="Tasks">
 <node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1403772476911" TEXT="today"/>
-<node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1404214910532" TEXT="Yemen ">
+<node CREATED="1401197061474" ID="ID_354296444" MODIFIED="1404217015496" TEXT="Yemen ">
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
 <node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1404214894666" TEXT="v4c:">
 <node CREATED="1403867600225" ID="ID_998136478" MODIFIED="1404112607351" TEXT="Questions for Emeka">
-<node CREATED="1404208551010" ID="ID_4356528" MODIFIED="1404216185663" TEXT="Export plans">
-<node CREATED="1404208652129" ID="ID_1057986326" MODIFIED="1404216205050" TEXT="Annual plan">
-<node CREATED="1404208567033" ID="ID_1647043211" MODIFIED="1404208673317" TEXT="how come some activities have multiple bars in the chart?"/>
-<node CREATED="1404208583897" ID="ID_1845119690" MODIFIED="1404208673315" TEXT="What are the levels in the hierarchy?"/>
+<node CREATED="1404208551010" ID="ID_4356528" MODIFIED="1404222307573" TEXT="Export plans">
+<node COLOR="#999999" CREATED="1404208652129" FOLDED="true" ID="ID_1057986326" MODIFIED="1404222303198" TEXT="Annual plan">
+<font NAME="SansSerif" SIZE="10"/>
+<node COLOR="#999999" CREATED="1404208567033" ID="ID_1647043211" MODIFIED="1404217019086" TEXT="how come some activities have multiple bars in the chart?">
+<font NAME="SansSerif" SIZE="10"/>
 </node>
-<node CREATED="1404208559330" ID="ID_1600556395" MODIFIED="1404208673319" TEXT="What do the colours mean?"/>
+<node COLOR="#999999" CREATED="1404208583897" ID="ID_1845119690" MODIFIED="1404216901584" TEXT="What are the levels in the hierarchy?">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+</node>
+<node COLOR="#999999" CREATED="1404208559330" ID="ID_1600556395" MODIFIED="1404217071805" TEXT="What do the colours mean?">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
 <node CREATED="1404208521322" ID="ID_652139508" MODIFIED="1404208673324" TEXT="Would exprt to PDF work"/>
-<node CREATED="1404208660152" ID="ID_40188084" MODIFIED="1404216182994" TEXT="Quarterly plan">
-<node CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404208670484" TEXT="Why do the quarterly plans have different number of Result levels?"/>
-<node CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404208691727" TEXT="what are the notes in square brackets relating to indicators?"/>
+<node COLOR="#999999" CREATED="1404208660152" FOLDED="true" ID="ID_40188084" MODIFIED="1404217204781" TEXT="Quarterly plan">
+<font NAME="SansSerif" SIZE="10"/>
+<node COLOR="#999999" CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404217135294" TEXT="Why do the quarterly plans have different number of Result levels?">
+<font NAME="SansSerif" SIZE="10"/>
 </node>
-<node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404216110021" TEXT="What are the hidden columns about? Do you want us to create them?"/>
+<node COLOR="#999999" CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404217202773" TEXT="what are the notes in square brackets relating to indicators?">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+</node>
+<node COLOR="#999999" CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404217241445" TEXT="What are the hidden columns about? Do you want us to create them?">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
 <node CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404216171757" TEXT="Which levels do you want exported? Impact? Outcome?j"/>
 <node CREATED="1404210382516" ID="ID_537610208" MODIFIED="1404216172557" TEXT="Do the different plans have to be in tabs of the same sheet or separate documents?"/>
 <node CREATED="1404210611043" ID="ID_492090335" MODIFIED="1404215934674" TEXT="The annual plan has a year and then one more quarter">
 <node CREATED="1404210641082" ID="ID_125011498" MODIFIED="1404216176550" TEXT="is this normal?"/>
 </node>
-<node CREATED="1404210767425" FOLDED="true" ID="ID_849553277" MODIFIED="1404216173309" TEXT="What abotu othe ways to present?">
+<node CREATED="1404210767425" FOLDED="true" ID="ID_849553277" MODIFIED="1404217450832" TEXT="What abotu othe ways to present?">
 <node CREATED="1404210774313" ID="ID_1613720546" MODIFIED="1404210778011" TEXT="could we leave the colouring off"/>
 <node CREATED="1404210778674" ID="ID_1137192590" MODIFIED="1404210785601" TEXT="could we avoid merging cells?"/>
 <node CREATED="1404210786025" ID="ID_270779894" MODIFIED="1404210795480" TEXT="can we use fixed column widths like the other export"/>
 </node>
-<node CREATED="1404208799079" FOLDED="true" ID="ID_1965087937" MODIFIED="1404216173725" TEXT="What do we do if activities don&apos;t have dates">
+<node CREATED="1404208799079" ID="ID_1965087937" MODIFIED="1404217456834" TEXT="What do we do if activities don&apos;t have dates">
 <node CREATED="1404208810328" ID="ID_1386229665" MODIFIED="1404208812846" TEXT="always appear?"/>
 <node CREATED="1404208813175" ID="ID_461255628" MODIFIED="1404208819224" TEXT="don&apos;t appear"/>
 <node CREATED="1404208819511" ID="ID_488654017" MODIFIED="1404208823668" TEXT="list undates ones undreneath?"/>
@@ -258,7 +272,7 @@
 <node CREATED="1404216496817" ID="ID_766626655" MODIFIED="1404216496817" TEXT=" Produce 234 episodes of radio drama"/>
 <node CREATED="1404216496816" ID="ID_382940382" MODIFIED="1404216496817" TEXT=" Broadcast 156 episodes of radio drama"/>
 </node>
-<node CREATED="1404216409728" ID="ID_153354116" MODIFIED="1404216474145" TEXT=" Radio producers and presenters in 12 radio stations with improved skills to anchor GEWE related programmes"/>
+<node CREATED="1404216409728" ID="ID_153354116" MODIFIED="1404216517469" TEXT=" Radio producers and presenters in 12 radio stations with improved skills to anchor GEWE related programmes"/>
 <node CREATED="1404216409724" ID="ID_739410667" MODIFIED="1404216474158" TEXT=" 1176 promotional messages/spots aired"/>
 </node>
 </node>
