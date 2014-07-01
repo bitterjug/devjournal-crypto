@@ -220,10 +220,16 @@
 </node>
 <node CREATED="1404208514532" ID="ID_1269471249" MODIFIED="1404208519328" TEXT="Questions for Emeka">
 <node CREATED="1404208551010" ID="ID_4356528" MODIFIED="1404208556252" TEXT="Export plans">
-<node CREATED="1404208521322" ID="ID_652139508" MODIFIED="1404208548956" TEXT="Would exprt to PDF work"/>
-<node CREATED="1404208559330" ID="ID_1600556395" MODIFIED="1404208566536" TEXT="What do the colours mean?"/>
-<node CREATED="1404208567033" ID="ID_1647043211" MODIFIED="1404208583288" TEXT="how come some activities have multiple bars in the chart?"/>
-<node CREATED="1404208583897" ID="ID_1845119690" MODIFIED="1404208594129" TEXT="What are the levels in the hierarchy?"/>
+<node CREATED="1404208652129" ID="ID_1057986326" MODIFIED="1404208657880" TEXT="Annual plan">
+<node CREATED="1404208521322" ID="ID_652139508" MODIFIED="1404208673324" TEXT="Would exprt to PDF work"/>
+<node CREATED="1404208559330" ID="ID_1600556395" MODIFIED="1404208673319" TEXT="What do the colours mean?"/>
+<node CREATED="1404208567033" ID="ID_1647043211" MODIFIED="1404208673317" TEXT="how come some activities have multiple bars in the chart?"/>
+<node CREATED="1404208583897" ID="ID_1845119690" MODIFIED="1404208673315" TEXT="What are the levels in the hierarchy?"/>
+</node>
+<node CREATED="1404208660152" ID="ID_40188084" MODIFIED="1404208662768" TEXT="Quarterly plan">
+<node CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404208670484" TEXT="Why do the quarterly plans have different number of Result levels?"/>
+<node CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404208691727" TEXT="what are the notes in square brackets relating to indicators?"/>
+</node>
 </node>
 </node>
 </node>
