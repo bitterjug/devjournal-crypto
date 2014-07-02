@@ -5,76 +5,21 @@
 <icon BUILTIN="male2"/>
 <node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1404214654589" POSITION="right" TEXT="Tasks">
 <node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1403772476911" TEXT="today"/>
-<node CREATED="1401197061474" ID="ID_354296444" MODIFIED="1404217015496" TEXT="Yemen ">
+<node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1404293923759" TEXT="Yemen ">
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
-<node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1404214894666" TEXT="v4c:">
+<node CREATED="1400682501712" FOLDED="true" ID="ID_119942923" MODIFIED="1404293922704" TEXT="v4c:">
 <node CREATED="1403867600225" ID="ID_998136478" MODIFIED="1404112607351" TEXT="Questions for Emeka">
-<node CREATED="1404208551010" ID="ID_4356528" MODIFIED="1404222307573" TEXT="Export plans">
-<node CREATED="1404208652129" ID="ID_1057986326" MODIFIED="1404222494653" TEXT="Annual plan">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#999999" CREATED="1404208567033" ID="ID_1647043211" MODIFIED="1404217019086" TEXT="how come some activities have multiple bars in the chart?">
-<font NAME="SansSerif" SIZE="10"/>
-<node CREATED="1404222619935" ID="ID_819577836" MODIFIED="1404222619935" TEXT=""/>
-</node>
-<node COLOR="#999999" CREATED="1404208583897" ID="ID_1845119690" MODIFIED="1404216901584" TEXT="What are the levels in the hierarchy?">
-<font NAME="SansSerif" SIZE="10"/>
-<node CREATED="1404222500738" ID="ID_860445694" MODIFIED="1404222508734" TEXT="extra level for indicator result, on top of what we have "/>
-</node>
-</node>
-<node CREATED="1404208559330" ID="ID_1600556395" MODIFIED="1404222355259" TEXT="What do the colours mean?">
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1404222962908" ID="ID_1084714067" MODIFIED="1404222966213" TEXT="there is a code/key"/>
-<node CREATED="1404223131818" ID="ID_102323825" MODIFIED="1404223142722" TEXT="we don&apos;t need to treat them seprately "/>
-</node>
-<node CREATED="1404208521322" ID="ID_652139508" MODIFIED="1404208673324" TEXT="Would exprt to PDF work">
-<node CREATED="1404223214819" ID="ID_1974545234" MODIFIED="1404223220505" TEXT="on one page or two to make it easy to view"/>
-</node>
-<node CREATED="1404208660152" ID="ID_40188084" MODIFIED="1404223224638" TEXT="Quarterly plan">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#999999" CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404217135294" TEXT="Why do the quarterly plans have different number of Result levels?">
-<font NAME="SansSerif" SIZE="10"/>
-<node CREATED="1404223253524" ID="ID_1814315941" MODIFIED="1404223258938" TEXT="should be the same"/>
-</node>
-<node COLOR="#999999" CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404217202773" TEXT="what are the notes in square brackets relating to indicators?">
-<font NAME="SansSerif" SIZE="10"/>
-<node CREATED="1404223296378" ID="ID_1869851567" MODIFIED="1404223300852" TEXT="no significance"/>
-<node CREATED="1404223303042" ID="ID_1339355985" MODIFIED="1404223305556" TEXT="cross cutting work"/>
-</node>
-</node>
-<node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404222355256" TEXT="What are the hidden columns about? Do you want us to create them?">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404216171757" TEXT="Which levels do you want exported? Impact? Outcome?j"/>
-<node CREATED="1404210382516" ID="ID_537610208" MODIFIED="1404216172557" TEXT="Do the different plans have to be in tabs of the same sheet or separate documents?"/>
-<node CREATED="1404210611043" ID="ID_492090335" MODIFIED="1404215934674" TEXT="The annual plan has a year and then one more quarter">
-<node CREATED="1404210641082" ID="ID_125011498" MODIFIED="1404216176550" TEXT="is this normal?"/>
-</node>
-<node CREATED="1404210767425" FOLDED="true" ID="ID_849553277" MODIFIED="1404217450832" TEXT="What abotu othe ways to present?">
-<node CREATED="1404210774313" ID="ID_1613720546" MODIFIED="1404210778011" TEXT="could we leave the colouring off"/>
-<node CREATED="1404210778674" ID="ID_1137192590" MODIFIED="1404210785601" TEXT="could we avoid merging cells?"/>
-<node CREATED="1404210786025" ID="ID_270779894" MODIFIED="1404210795480" TEXT="can we use fixed column widths like the other export"/>
-</node>
-<node CREATED="1404208799079" ID="ID_1965087937" MODIFIED="1404217456834" TEXT="What do we do if activities don&apos;t have dates">
-<node CREATED="1404208810328" ID="ID_1386229665" MODIFIED="1404208812846" TEXT="always appear?"/>
-<node CREATED="1404208813175" ID="ID_461255628" MODIFIED="1404208819224" TEXT="don&apos;t appear"/>
-<node CREATED="1404208819511" ID="ID_488654017" MODIFIED="1404208823668" TEXT="list undates ones undreneath?"/>
-</node>
-<node CREATED="1404209076637" ID="ID_1951112176" MODIFIED="1404216174117" TEXT="Do you want deliverables as well as name ?"/>
-<node CREATED="1404208933375" FOLDED="true" ID="ID_1574644058" MODIFIED="1404216174509" TEXT="Are the activities in any order?">
-<node CREATED="1404208951598" ID="ID_156258981" MODIFIED="1404208956192" TEXT="ordered by start date?"/>
-</node>
-</node>
 <node CREATED="1404114105377" ID="ID_444479583" MODIFIED="1404215562925" TEXT="Entering quarterly targets">
 <node CREATED="1404114650022" ID="ID_1475946278" MODIFIED="1404214697079" TEXT="use exiting mechanism?"/>
 <node CREATED="1404214697414" ID="ID_1855930381" MODIFIED="1404214712230" TEXT="What about the extra levels in your sample annual plan export?"/>
 </node>
 </node>
-<node CREATED="1403878043222" FOLDED="true" ID="ID_1865172773" MODIFIED="1404215556689" TEXT="Questions from Marko 28 june">
+<node CREATED="1403878043222" ID="ID_1865172773" MODIFIED="1404228833143" TEXT="Questions from Marko 28 june">
 <node CREATED="1403878053933" ID="ID_1435924028" MODIFIED="1403878083578" TEXT="A conf option to hide the EDit and Monitor"/>
 <node CREATED="1403878632444" ID="ID_339036091" MODIFIED="1403878640767" TEXT="What periods can we select when viewing the monitor page?"/>
 </node>
-<node CREATED="1404214822501" FOLDED="true" ID="ID_376490852" MODIFIED="1404215557617" TEXT="old">
+<node CREATED="1404214822501" FOLDED="true" ID="ID_376490852" MODIFIED="1404228832524" TEXT="old">
 <node CREATED="1404214717030" FOLDED="true" ID="ID_1223691959" MODIFIED="1404214825070" TEXT="june">
 <node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1404214718334" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)">
 <font NAME="SansSerif" SIZE="12"/>
@@ -136,6 +81,77 @@
 </node>
 </node>
 </node>
+<node CREATED="1404208551010" FOLDED="true" ID="ID_4356528" MODIFIED="1404228830526" TEXT="Export plans">
+<node CREATED="1404208652129" ID="ID_1057986326" MODIFIED="1404222494653" TEXT="Annual plan">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#999999" CREATED="1404208567033" ID="ID_1647043211" MODIFIED="1404217019086" TEXT="how come some activities have multiple bars in the chart?">
+<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1404222619935" ID="ID_819577836" MODIFIED="1404222619935" TEXT=""/>
+</node>
+<node COLOR="#999999" CREATED="1404208583897" ID="ID_1845119690" MODIFIED="1404216901584" TEXT="What are the levels in the hierarchy?">
+<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1404222500738" ID="ID_860445694" MODIFIED="1404222508734" TEXT="extra level for indicator result, on top of what we have "/>
+</node>
+</node>
+<node CREATED="1404208559330" ID="ID_1600556395" MODIFIED="1404222355259" TEXT="What do the colours mean?">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1404222962908" ID="ID_1084714067" MODIFIED="1404222966213" TEXT="there is a code/key"/>
+<node CREATED="1404223131818" ID="ID_102323825" MODIFIED="1404223142722" TEXT="we don&apos;t need to treat them seprately "/>
+</node>
+<node CREATED="1404208521322" ID="ID_652139508" MODIFIED="1404208673324" TEXT="Would exprt to PDF work">
+<node CREATED="1404223214819" ID="ID_1974545234" MODIFIED="1404223220505" TEXT="on one page or two to make it easy to view"/>
+</node>
+<node CREATED="1404208660152" ID="ID_40188084" MODIFIED="1404223224638" TEXT="Quarterly plan">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#999999" CREATED="1404208612617" ID="ID_982990800" MODIFIED="1404217135294" TEXT="Why do the quarterly plans have different number of Result levels?">
+<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1404223253524" ID="ID_1814315941" MODIFIED="1404223258938" TEXT="should be the same"/>
+</node>
+<node COLOR="#999999" CREATED="1404208676505" ID="ID_433919078" MODIFIED="1404217202773" TEXT="what are the notes in square brackets relating to indicators?">
+<font NAME="SansSerif" SIZE="10"/>
+<node CREATED="1404223296378" ID="ID_1869851567" MODIFIED="1404223300852" TEXT="no significance"/>
+<node CREATED="1404223303042" ID="ID_1339355985" MODIFIED="1404223305556" TEXT="cross cutting work"/>
+</node>
+</node>
+<node CREATED="1404209685985" ID="ID_378934197" MODIFIED="1404222355256" TEXT="What are the hidden columns about? Do you want us to create them?">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1404223360735" ID="ID_1937588535" MODIFIED="1404223366814" TEXT="we dont need to create them"/>
+</node>
+<node CREATED="1404210286877" ID="ID_676320819" MODIFIED="1404216171757" TEXT="Which levels do you want exported? Impact? Outcome?j">
+<node CREATED="1404223395153" ID="ID_846891274" MODIFIED="1404223401762" TEXT="output and outcome">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1404210382516" ID="ID_537610208" MODIFIED="1404216172557" TEXT="Do the different plans have to be in tabs of the same sheet or separate documents?">
+<node CREATED="1404223425457" ID="ID_1442037005" MODIFIED="1404223427210" TEXT="thats ok"/>
+</node>
+<node CREATED="1404210611043" ID="ID_492090335" MODIFIED="1404223805479" TEXT="The annual plan has a year and then one more quarter">
+<node CREATED="1404210641082" ID="ID_125011498" MODIFIED="1404216176550" TEXT="is this normal?"/>
+<node CREATED="1404223482089" ID="ID_434690703" MODIFIED="1404223488552" TEXT="their year starts october"/>
+<node CREATED="1404223502705" ID="ID_419821029" MODIFIED="1404223508687" TEXT="year end is sept"/>
+<node CREATED="1404223529463" ID="ID_1255502264" MODIFIED="1404223536482" TEXT="expect to start new year october this year"/>
+<node CREATED="1404223537031" ID="ID_1585502776" MODIFIED="1404223556414" TEXT="Q4 for year 1 is the extra quarter"/>
+<node CREATED="1404223632656" ID="ID_978960117" MODIFIED="1404223649540" TEXT="Q3 is for 14"/>
+<node CREATED="1404223652087" ID="ID_1569078833" MODIFIED="1404223661103" TEXT="then a full year starting from oct 15"/>
+<node CREATED="1404223689335" ID="ID_1609815112" MODIFIED="1404223698056" TEXT="we should exprt one whole year starting from october"/>
+</node>
+<node CREATED="1404210767425" ID="ID_849553277" MODIFIED="1404223682541" TEXT="What abotu othe ways to present?">
+<node CREATED="1404210774313" ID="ID_1613720546" MODIFIED="1404210778011" TEXT="could we leave the colouring off"/>
+<node CREATED="1404210778674" ID="ID_1137192590" MODIFIED="1404210785601" TEXT="could we avoid merging cells?"/>
+<node CREATED="1404210786025" ID="ID_270779894" MODIFIED="1404210795480" TEXT="can we use fixed column widths like the other export"/>
+</node>
+<node CREATED="1404208799079" ID="ID_1965087937" MODIFIED="1404217456834" TEXT="What do we do if activities don&apos;t have dates">
+<node CREATED="1404208810328" ID="ID_1386229665" MODIFIED="1404208812846" TEXT="always appear?"/>
+<node CREATED="1404208813175" ID="ID_461255628" MODIFIED="1404208819224" TEXT="don&apos;t appear"/>
+<node CREATED="1404208819511" ID="ID_488654017" MODIFIED="1404208823668" TEXT="list undates ones undreneath?"/>
+</node>
+<node CREATED="1404209076637" ID="ID_1951112176" MODIFIED="1404216174117" TEXT="Do you want deliverables as well as name ?">
+<node CREATED="1404223850558" ID="ID_1075959816" MODIFIED="1404223862932" TEXT="don&apos;t include the deliverables"/>
+</node>
+<node CREATED="1404208933375" FOLDED="true" ID="ID_1574644058" MODIFIED="1404216174509" TEXT="Are the activities in any order?">
+<node CREATED="1404208951598" ID="ID_156258981" MODIFIED="1404208956192" TEXT="ordered by start date?"/>
+</node>
+</node>
 </node>
 <node CREATED="1403794092170" FOLDED="true" ID="ID_1027192534" MODIFIED="1404214890709" TEXT="questions from Tom and Marko 26 June">
 <node CREATED="1403794096867" ID="ID_1991311453" MODIFIED="1403794113683" TEXT="how do you set the target for a subindicator for a period"/>
@@ -146,7 +162,7 @@
 <node CREATED="1403867513388" ID="ID_946116529" MODIFIED="1403867536627" TEXT="Suggest we leave new ones blank to indicate that new RAGs need to be determined. The previous ones are visible whemn the drop down is opened"/>
 </node>
 </node>
-<node CREATED="1402493973536" FOLDED="true" ID="ID_904894959" MODIFIED="1404215559872" TEXT="v4c">
+<node CREATED="1402493973536" ID="ID_904894959" MODIFIED="1404288176260" TEXT="v4c">
 <node CREATED="1402494746680" FOLDED="true" ID="ID_1737969744" MODIFIED="1404208512827" TEXT="people">
 <node CREATED="1402494749721" ID="ID_78812227" MODIFIED="1402502352744" TEXT="kathy">
 <icon BUILTIN="female1"/>
@@ -162,7 +178,7 @@
 <icon BUILTIN="male2"/>
 </node>
 </node>
-<node CREATED="1402494765640" FOLDED="true" ID="ID_1428695887" MODIFIED="1404214871893" TEXT="iteration 6">
+<node CREATED="1402494765640" FOLDED="true" ID="ID_1428695887" MODIFIED="1404288179153" TEXT="iteration 6">
 <node CREATED="1402495245677" ID="ID_70581972" MODIFIED="1402495265692" TEXT="Button to improve the experience of someone downloading QPR">
 <node CREATED="1402494605761" FOLDED="true" ID="ID_886649607" MODIFIED="1402502927999" TEXT="what is the domain name">
 <icon BUILTIN="button_ok"/>
@@ -202,10 +218,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1400686687910" FOLDED="true" ID="ID_1634585377" MODIFIED="1404214911941" TEXT="youwin">
+<node CREATED="1400686687910" FOLDED="true" ID="ID_1634585377" MODIFIED="1404293922008" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI"/>
 <node CREATED="1403085830151" ID="ID_368291725" MODIFIED="1403085839286" TEXT="Change number of winners selected by script"/>
-<node CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1401962419696" TEXT="Check time-scale for marking/selecting winners"/>
+<node CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1401962419696" TEXT="Check time-scale for marking/selecting winners">
+<node COLOR="#ff0000" CREATED="1404289187976" ID="ID_1106742339" MODIFIED="1404289321336" TEXT=""/>
+</node>
 <node CREATED="1402324157530" FOLDED="true" HGAP="25" ID="ID_1620424893" MODIFIED="1403097987161" TEXT="POST-DFID work" VSHIFT="13">
 <node CREATED="1402324183194" ID="ID_388312104" MODIFIED="1402324192766" TEXT="Enhancements to M&amp;E"/>
 <node CREATED="1402324193186" ID="ID_758207692" MODIFIED="1402324200985" TEXT="Running YouWiN 4+"/>
@@ -218,6 +236,8 @@
 <node CREATED="1404214928468" ID="ID_125286892" MODIFIED="1404214929532" TEXT="chairs"/>
 <node CREATED="1404214929924" ID="ID_1513644710" MODIFIED="1404214933823" TEXT="120cm deskjs"/>
 </node>
+<node CREATED="1404293928031" ID="ID_419455317" MODIFIED="1404293932364" TEXT="Sign declaration"/>
+<node CREATED="1404293932590" ID="ID_225846994" MODIFIED="1404293937062" TEXT="Get declaration to John"/>
 </node>
 </node>
 <node CREATED="1400681598771" ID="ID_1380001750" MODIFIED="1404208506327" POSITION="right" TEXT="notes">
