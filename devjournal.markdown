@@ -279,6 +279,37 @@ Questions for us:
 - Could we build "the python shell" into all our work to provide this opener?
 
 - What if a web-app existed where every cell could contain formulae?
-- You could egg prefix with a @ and then write an expression that refers to other stuff that exists in some namespace
-- The name space could for example be the rest of the web at that moment in time, via http
+- You could egg prefix with a @ and then write an expression that refers to
+  other stuff that exists in some namespace
+- The name space could for example be the rest of the web at that moment in
+  time, via http
 - Or certain parts of our domain model accessible behind the scenes via api
+
+## 2014-07-01 14:53 Tuesday
+
+#output 
+#outies
+
+### Frustrations with the requirements process.
+
+Talking to Emeka on v4c.  He sent a spreadsheet to guide us on how to make the
+export to Excel.  But its just a copy and paste from the plans people have been
+making by hand.  My problem is that he is treating it as general guidance on
+what to do.  He finds it frustrating that I don't find it sufficient to proceed
+with work. I'm trying to extract and verify all the details withing it and need
+to spend time asking him about every detail.
+
+Yemen is worse because there's no one to have those detailed conversations with.
+Choosing how to proceed with software development is a process of understanding
+details: how systems should respond in their edge cases as well as the general
+case. Sometimes we can make informed guesses based on a guiding principle, if
+we feel confident that
+ - We understand that principle
+ - That the client understands it and agrees to it
+ - That making such choices represents the best value to the client (the client
+   wouldn't rather be consulted)
+
+But there must be a source of answers to detailed questions for software
+development to proceed.  And someone willing to make choices on behalf of the
+client about when the answers to those questions must come from the client and
+when/weather its okay for us to make them.
