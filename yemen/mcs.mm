@@ -7,6 +7,7 @@
 <node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1403772476911" TEXT="today">
 <node CREATED="1404317371243" ID="ID_1275558938" MODIFIED="1404317455987" TEXT="Ask Wale/Muyi if they want to continue with data task given current progress"/>
 <node CREATED="1404317469866" ID="ID_1416109851" MODIFIED="1404317504257" TEXT="V4C -- free support for a month? other compromise? Talk to George"/>
+<node CREATED="1404379920436" ID="ID_1549064477" MODIFIED="1404379925648" TEXT="Expenses"/>
 </node>
 <node CREATED="1401197061474" ID="ID_354296444" MODIFIED="1404294216637" TEXT="Yemen ">
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
