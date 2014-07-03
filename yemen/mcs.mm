@@ -10,8 +10,12 @@
 <node CREATED="1404379920436" ID="ID_1549064477" MODIFIED="1404380222586" TEXT="Expenses"/>
 <node CREATED="1404380076163" ID="ID_170941533" MODIFIED="1404380296840" TEXT="v4c check-in">
 <node CREATED="1404380079395" ID="ID_1924550380" MODIFIED="1404380103948" TEXT="Tell Emeka how to clean up log frame description text"/>
+<node CREATED="1404380759087" ID="ID_424123093" MODIFIED="1404380771044" TEXT="annual/quarterly plan">
+<node CREATED="1404380771246" ID="ID_654484033" MODIFIED="1404380783260" TEXT="do you want one per year or separate quarterly plan download?"/>
+<node CREATED="1404380854150" ID="ID_1358465588" MODIFIED="1404380866477" TEXT="what do you call your years? (giventhey start in 0ct?)"/>
 </node>
-<node CREATED="1404380298779" ID="ID_122635027" MODIFIED="1404380311795" TEXT="v4c &apos;paginate_quarterly&apos; branch testing">
+</node>
+<node CREATED="1404380298779" FOLDED="true" ID="ID_122635027" MODIFIED="1404380757476" TEXT="v4c &apos;paginate_quarterly&apos; branch testing">
 <node CREATED="1404380313426" ID="ID_130046404" MODIFIED="1404380314735" TEXT="migration"/>
 </node>
 </node>
