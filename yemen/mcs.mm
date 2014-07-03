@@ -315,6 +315,7 @@
 <node CREATED="1404383694554" ID="ID_596562599" MODIFIED="1404383702464" TEXT="to give a starting point for varying from"/>
 <node CREATED="1404383702674" ID="ID_1833342995" MODIFIED="1404383710528" TEXT="so we dont just drop things because they weren&apos;t part of our habbit"/>
 </node>
+<node CREATED="1404383714930" ID="ID_808573425" MODIFIED="1404383722367" TEXT="hey we like to work this way by default"/>
 </node>
 </node>
 </node>
