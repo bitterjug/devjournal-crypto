@@ -237,6 +237,7 @@
 <node CREATED="1404467462417" ID="ID_1118243534" LINK="https://projects.aptivate.org/issues/5714" MODIFIED="1404467462417" TEXT="https://projects.aptivate.org/issues/5714"/>
 <node CREATED="1404467465945" ID="ID_1635967898" MODIFIED="1404467470608" TEXT="talk to Marko about issues"/>
 </node>
+<node CREATED="1404469085182" ID="ID_456128756" MODIFIED="1404469101436" TEXT="When do YouWiN run out of contract/budget?"/>
 </node>
 <node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1404403022834" TEXT="Yemen ">
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
