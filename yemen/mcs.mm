@@ -222,27 +222,27 @@
 </node>
 <node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1404389043120" POSITION="right" TEXT="Tasks">
 <node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1403772476911" TEXT="today">
-<node CREATED="1404395323328" ID="ID_1239216608" LINK="https://projects.aptivate.org/issues/5796" MODIFIED="1404399119047" TEXT="Invoice for v4c iteration 6?"/>
+<node CREATED="1404395323328" ID="ID_1239216608" LINK="https://projects.aptivate.org/issues/5796" MODIFIED="1404474561870" TEXT="Tom L: Invoice for v4c iteration 6?"/>
 <node CREATED="1404401929669" ID="ID_1628327529" LINK="http://lopad.org/Sond2BKcrp" MODIFIED="1404403001956" TEXT="Talk to alan about Output wg process document"/>
-<node CREATED="1404389045260" ID="ID_1743313350" MODIFIED="1404389052469" TEXT="Call Tom Rees about CKAN and other options"/>
-<node CREATED="1404380076163" FOLDED="true" ID="ID_170941533" MODIFIED="1404403011155" TEXT="v4c check-in">
+<node CREATED="1404317469866" ID="ID_1416109851" MODIFIED="1404402572141" TEXT="V4C -- free support for a month? other compromise? Talk to George"/>
+<node CREATED="1404380298779" ID="ID_122635027" MODIFIED="1404467456357" TEXT="v4c &apos;paginate_quarterly&apos; branch testing">
+<node CREATED="1404467462417" ID="ID_1118243534" LINK="https://projects.aptivate.org/issues/5714" MODIFIED="1404467462417" TEXT="https://projects.aptivate.org/issues/5714"/>
+<node CREATED="1404467465945" ID="ID_1635967898" MODIFIED="1404467470608" TEXT="talk to Marko about issues"/>
+</node>
+<node CREATED="1404469085182" ID="ID_456128756" MODIFIED="1404473712384" TEXT="Asl TomL When do YouWiN run out of contract/budget?"/>
+<node CREATED="1404389045260" ID="ID_1743313350" MODIFIED="1404474287504" TEXT="Call Tom Rees about CKAN and other options"/>
+<node CREATED="1404380076163" FOLDED="true" ID="ID_170941533" MODIFIED="1404474541935" TEXT="v4c check-in">
 <node CREATED="1404380079395" ID="ID_1924550380" MODIFIED="1404380103948" TEXT="Tell Emeka how to clean up log frame description text"/>
 <node CREATED="1404380759087" ID="ID_424123093" MODIFIED="1404380771044" TEXT="annual/quarterly plan">
 <node CREATED="1404380771246" ID="ID_654484033" MODIFIED="1404380783260" TEXT="do you want one per year or separate quarterly plan download?"/>
 <node CREATED="1404380854150" ID="ID_1358465588" MODIFIED="1404380866477" TEXT="what do you call your years? (giventhey start in 0ct?)"/>
 </node>
 </node>
-<node CREATED="1404317469866" ID="ID_1416109851" MODIFIED="1404402572141" TEXT="V4C -- free support for a month? other compromise? Talk to George"/>
-<node CREATED="1404380298779" ID="ID_122635027" MODIFIED="1404467456357" TEXT="v4c &apos;paginate_quarterly&apos; branch testing">
-<node CREATED="1404467462417" ID="ID_1118243534" LINK="https://projects.aptivate.org/issues/5714" MODIFIED="1404467462417" TEXT="https://projects.aptivate.org/issues/5714"/>
-<node CREATED="1404467465945" ID="ID_1635967898" MODIFIED="1404467470608" TEXT="talk to Marko about issues"/>
-</node>
-<node CREATED="1404469085182" ID="ID_456128756" MODIFIED="1404469101436" TEXT="When do YouWiN run out of contract/budget?"/>
 </node>
 <node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1404403022834" TEXT="Yemen ">
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
-<node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1404403023269" TEXT="v4c:">
+<node CREATED="1400682501712" FOLDED="true" ID="ID_119942923" MODIFIED="1404473715718" TEXT="v4c:">
 <node CREATED="1403878043222" ID="ID_1865172773" MODIFIED="1404228833143" TEXT="Questions from Marko 28 june">
 <node CREATED="1403878053933" ID="ID_1435924028" MODIFIED="1403878083578" TEXT="A conf option to hide the EDit and Monitor"/>
 <node CREATED="1403878632444" ID="ID_339036091" MODIFIED="1403878640767" TEXT="What periods can we select when viewing the monitor page?"/>
@@ -303,7 +303,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1404403082722" TEXT="youwin">
+<node CREATED="1400686687910" FOLDED="true" ID="ID_1634585377" MODIFIED="1404473716293" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI"/>
 <node CREATED="1403085830151" ID="ID_368291725" MODIFIED="1403085839286" TEXT="Change number of winners selected by script"/>
 <node CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1401962419696" TEXT="Check time-scale for marking/selecting winners">
