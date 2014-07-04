@@ -225,6 +225,10 @@
 <node CREATED="1404395323328" ID="ID_1239216608" LINK="https://projects.aptivate.org/issues/5796" MODIFIED="1404474561870" TEXT="Tom L: Invoice for v4c iteration 6?"/>
 <node CREATED="1404401929669" ID="ID_1628327529" LINK="http://lopad.org/Sond2BKcrp" MODIFIED="1404403001956" TEXT="Talk to alan about Output wg process document"/>
 <node CREATED="1404317469866" ID="ID_1416109851" MODIFIED="1404402572141" TEXT="V4C -- free support for a month? other compromise? Talk to George"/>
+<node CREATED="1404482846684" FOLDED="true" ID="ID_1312483785" MODIFIED="1404491361218" TEXT="V4C design for year/q selectors ">
+<node CREATED="1404489532181" ID="ID_700415548" MODIFIED="1404489534388" TEXT="ask jay"/>
+</node>
+<node CREATED="1404491362690" ID="ID_884738167" MODIFIED="1404491377961" TEXT="Talk to George about Yemen email from Gregge"/>
 <node CREATED="1404380298779" ID="ID_122635027" MODIFIED="1404467456357" TEXT="v4c &apos;paginate_quarterly&apos; branch testing">
 <node CREATED="1404467462417" ID="ID_1118243534" LINK="https://projects.aptivate.org/issues/5714" MODIFIED="1404467462417" TEXT="https://projects.aptivate.org/issues/5714"/>
 <node CREATED="1404467465945" ID="ID_1635967898" MODIFIED="1404467470608" TEXT="talk to Marko about issues"/>
