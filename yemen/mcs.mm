@@ -3,8 +3,8 @@
 <node COLOR="#990000" CREATED="1400681028638" ID="ID_1891630374" MODIFIED="1403097989393" TEXT="mcs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="male2"/>
-<node CREATED="1403603408066" FOLDED="true" ID="ID_636467679" MODIFIED="1404317538066" POSITION="left" TEXT="archive">
-<node CREATED="1402308943540" ID="ID_758581092" MODIFIED="1403559135212" TEXT="office">
+<node CREATED="1403603408066" FOLDED="true" ID="ID_636467679" MODIFIED="1404403080666" POSITION="left" TEXT="archive">
+<node CREATED="1402308943540" FOLDED="true" ID="ID_758581092" MODIFIED="1404403080050" TEXT="office">
 <node CREATED="1402323490871" ID="ID_472891960" MODIFIED="1403523021670" TEXT="ask john about alterations">
 <node CREATED="1403523022057" ID="ID_266035190" MODIFIED="1403523025164" TEXT="putting up shelves"/>
 <node CREATED="1403523025363" ID="ID_144342433" MODIFIED="1403523028591" TEXT="taking out partitiono walls"/>
@@ -18,7 +18,7 @@
 <node CREATED="1403603394890" ID="ID_304271750" MODIFIED="1403603397844" TEXT="not relevant"/>
 </node>
 </node>
-<node CREATED="1404214822501" ID="ID_376490852" MODIFIED="1404316778539" TEXT="old">
+<node CREATED="1404214822501" FOLDED="true" ID="ID_376490852" MODIFIED="1404403076866" TEXT="old">
 <node CREATED="1404214717030" FOLDED="true" ID="ID_1223691959" MODIFIED="1404214825070" TEXT="june">
 <node CREATED="1403797978575" ID="ID_1029701688" MODIFIED="1404214718334" TEXT="Will they want to update/change their quarterly targets (if so we need to store the history of targets)">
 <font NAME="SansSerif" SIZE="12"/>
@@ -151,6 +151,15 @@
 <node CREATED="1404208951598" ID="ID_156258981" MODIFIED="1404208956192" TEXT="ordered by start date?"/>
 </node>
 </node>
+<node CREATED="1403794092170" ID="ID_1027192534" MODIFIED="1404403048788" TEXT="questions from Tom and Marko 26 June">
+<node CREATED="1403794096867" ID="ID_1991311453" MODIFIED="1403794113683" TEXT="how do you set the target for a subindicator for a period"/>
+<node CREATED="1403794166452" ID="ID_426917057" MODIFIED="1403794194516" TEXT="how do you enter/show status updates on indicators and results (you can&apos;t see the details or hstory fo them anywhere)"/>
+<node CREATED="1403794634070" ID="ID_846110064" MODIFIED="1403794663622" TEXT="Do v4c ever enter activities against indicators for outcome/impact (because the tool will allow it)?"/>
+<node CREATED="1403794982549" ID="ID_883996736" MODIFIED="1403795013787" TEXT="To check with george: are we building only for DFID or a more general logframe /change tool?. I./e. is it safe to remove the hierarchy from the interface"/>
+<node CREATED="1403797905328" ID="ID_1797104405" MODIFIED="1403867594991" TEXT="Do we copy old rag ratings or leve them blank saying they need to be updated? Do we leave a flag showing it needs to be updated?">
+<node CREATED="1403867513388" ID="ID_946116529" MODIFIED="1403867536627" TEXT="Suggest we leave new ones blank to indicate that new RAGs need to be determined. The previous ones are visible whemn the drop down is opened"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1400681598771" FOLDED="true" ID="ID_1380001750" MODIFIED="1404401832244" POSITION="right" TEXT="notes">
@@ -213,13 +222,10 @@
 </node>
 <node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1404389043120" POSITION="right" TEXT="Tasks">
 <node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1403772476911" TEXT="today">
-<node CREATED="1404399838935" ID="ID_630316839" MODIFIED="1404399845144" TEXT="outcomes from Output workgin group meeting">
-<node CREATED="1404399887734" ID="ID_573366859" MODIFIED="1404399887734" TEXT=""/>
-</node>
 <node CREATED="1404395323328" ID="ID_1239216608" LINK="https://projects.aptivate.org/issues/5796" MODIFIED="1404399119047" TEXT="Invoice for v4c iteration 6?"/>
 <node CREATED="1404401929669" ID="ID_1628327529" LINK="http://lopad.org/Sond2BKcrp" MODIFIED="1404403001956" TEXT="Talk to alan about Output wg process document"/>
 <node CREATED="1404389045260" ID="ID_1743313350" MODIFIED="1404389052469" TEXT="Call Tom Rees about CKAN and other options"/>
-<node CREATED="1404380076163" ID="ID_170941533" MODIFIED="1404380296840" TEXT="v4c check-in">
+<node CREATED="1404380076163" FOLDED="true" ID="ID_170941533" MODIFIED="1404403011155" TEXT="v4c check-in">
 <node CREATED="1404380079395" ID="ID_1924550380" MODIFIED="1404380103948" TEXT="Tell Emeka how to clean up log frame description text"/>
 <node CREATED="1404380759087" ID="ID_424123093" MODIFIED="1404380771044" TEXT="annual/quarterly plan">
 <node CREATED="1404380771246" ID="ID_654484033" MODIFIED="1404380783260" TEXT="do you want one per year or separate quarterly plan download?"/>
@@ -227,32 +233,18 @@
 </node>
 </node>
 <node CREATED="1404317469866" ID="ID_1416109851" MODIFIED="1404402572141" TEXT="V4C -- free support for a month? other compromise? Talk to George"/>
-<node CREATED="1404380298779" ID="ID_122635027" MODIFIED="1404402559580" TEXT="v4c &apos;paginate_quarterly&apos; branch testing">
-<node CREATED="1404380313426" ID="ID_130046404" MODIFIED="1404380314735" TEXT="migration"/>
+<node CREATED="1404380298779" ID="ID_122635027" MODIFIED="1404467456357" TEXT="v4c &apos;paginate_quarterly&apos; branch testing">
+<node CREATED="1404467462417" ID="ID_1118243534" LINK="https://projects.aptivate.org/issues/5714" MODIFIED="1404467462417" TEXT="https://projects.aptivate.org/issues/5714"/>
+<node CREATED="1404467465945" ID="ID_1635967898" MODIFIED="1404467470608" TEXT="talk to Marko about issues"/>
 </node>
 </node>
-<node CREATED="1401197061474" ID="ID_354296444" MODIFIED="1404294216637" TEXT="Yemen ">
+<node CREATED="1401197061474" FOLDED="true" ID="ID_354296444" MODIFIED="1404403022834" TEXT="Yemen ">
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
-<node CREATED="1400682501712" FOLDED="true" ID="ID_119942923" MODIFIED="1404377259447" TEXT="v4c:">
-<node CREATED="1403867600225" ID="ID_998136478" MODIFIED="1404112607351" TEXT="Questions for Emeka">
-<node CREATED="1404114105377" ID="ID_444479583" MODIFIED="1404215562925" TEXT="Entering quarterly targets">
-<node CREATED="1404114650022" ID="ID_1475946278" MODIFIED="1404214697079" TEXT="use exiting mechanism?"/>
-<node CREATED="1404214697414" ID="ID_1855930381" MODIFIED="1404214712230" TEXT="What about the extra levels in your sample annual plan export?"/>
-</node>
-</node>
+<node CREATED="1400682501712" ID="ID_119942923" MODIFIED="1404403023269" TEXT="v4c:">
 <node CREATED="1403878043222" ID="ID_1865172773" MODIFIED="1404228833143" TEXT="Questions from Marko 28 june">
 <node CREATED="1403878053933" ID="ID_1435924028" MODIFIED="1403878083578" TEXT="A conf option to hide the EDit and Monitor"/>
 <node CREATED="1403878632444" ID="ID_339036091" MODIFIED="1403878640767" TEXT="What periods can we select when viewing the monitor page?"/>
-</node>
-<node CREATED="1403794092170" FOLDED="true" ID="ID_1027192534" MODIFIED="1404214890709" TEXT="questions from Tom and Marko 26 June">
-<node CREATED="1403794096867" ID="ID_1991311453" MODIFIED="1403794113683" TEXT="how do you set the target for a subindicator for a period"/>
-<node CREATED="1403794166452" ID="ID_426917057" MODIFIED="1403794194516" TEXT="how do you enter/show status updates on indicators and results (you can&apos;t see the details or hstory fo them anywhere)"/>
-<node CREATED="1403794634070" ID="ID_846110064" MODIFIED="1403794663622" TEXT="Do v4c ever enter activities against indicators for outcome/impact (because the tool will allow it)?"/>
-<node CREATED="1403794982549" ID="ID_883996736" MODIFIED="1403795013787" TEXT="To check with george: are we building only for DFID or a more general logframe /change tool?. I./e. is it safe to remove the hierarchy from the interface"/>
-<node CREATED="1403797905328" ID="ID_1797104405" MODIFIED="1403867594991" TEXT="Do we copy old rag ratings or leve them blank saying they need to be updated? Do we leave a flag showing it needs to be updated?">
-<node CREATED="1403867513388" ID="ID_946116529" MODIFIED="1403867536627" TEXT="Suggest we leave new ones blank to indicate that new RAGs need to be determined. The previous ones are visible whemn the drop down is opened"/>
-</node>
 </node>
 <node CREATED="1402493973536" ID="ID_904894959" MODIFIED="1404288176260" TEXT="v4c">
 <node CREATED="1402494746680" FOLDED="true" ID="ID_1737969744" MODIFIED="1404208512827" TEXT="people">
@@ -310,7 +302,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1400686687910" FOLDED="true" ID="ID_1634585377" MODIFIED="1404317509946" TEXT="youwin">
+<node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1404403082722" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI"/>
 <node CREATED="1403085830151" ID="ID_368291725" MODIFIED="1403085839286" TEXT="Change number of winners selected by script"/>
 <node CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1401962419696" TEXT="Check time-scale for marking/selecting winners">
