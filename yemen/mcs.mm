@@ -194,8 +194,11 @@
 <node CREATED="1405090945387" ID="ID_1704544059" MODIFIED="1405090958936" TEXT="HTML entities appear in result titles">
 <icon BUILTIN="closed"/>
 </node>
-<node CREATED="1405072069056" ID="ID_233519863" MODIFIED="1405072075679" TEXT="fix filter by lead">
+<node CREATED="1405072069056" FOLDED="true" ID="ID_233519863" MODIFIED="1405091335525" TEXT="fix filter by lead">
 <node CREATED="1405087375316" ID="ID_1021413336" MODIFIED="1405087377444" TEXT="still broken"/>
+</node>
+<node CREATED="1405091336705" ID="ID_1368644479" MODIFIED="1405091353980" TEXT="how does data entry work if we add only the next upcoming quarters, not all 4 eper year?">
+<icon BUILTIN="help"/>
 </node>
 </node>
 <node CREATED="1405070644233" ID="ID_954302342" MODIFIED="1405087527156" TEXT="Is he testing all this stuff? We really need him to verify that stuff works for him"/>
