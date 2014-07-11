@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#990000" CREATED="1400681028638" ID="ID_1891630374" MODIFIED="1403097989393" TEXT="mcs">
+<node COLOR="#990000" CREATED="1400681028638" ID="ID_1891630374" MODIFIED="1405086053865" TEXT="mcs">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="male2"/>
 <node CREATED="1403603408066" FOLDED="true" ID="ID_636467679" MODIFIED="1405070554715" POSITION="left" TEXT="archive">
@@ -189,6 +189,10 @@
 <node CREATED="1405070644233" ID="ID_954302342" MODIFIED="1405070656880" TEXT="Is he testing all this stuff? We really need him to verify that stuff works for him"/>
 </node>
 <node CREATED="1405072069056" ID="ID_233519863" MODIFIED="1405072075679" TEXT="fix filter by lead"/>
+<node CREATED="1405086061614" ID="ID_96245959" MODIFIED="1405086114500" TEXT="marko&apos;s time is split "/>
+<node CREATED="1405086114773" ID="ID_207380463" MODIFIED="1405086118926" TEXT="3 months fixing"/>
+<node CREATED="1405086119413" ID="ID_871443967" MODIFIED="1405086124725" TEXT="training -- call us"/>
+<node CREATED="1405086125317" ID="ID_511684896" MODIFIED="1405086135124" TEXT="we can&apos;t have an open commitment to do work for free"/>
 <node CREATED="1404482846684" FOLDED="true" ID="ID_1312483785" MODIFIED="1404491361218" TEXT="V4C design for year/q selectors ">
 <node CREATED="1404489532181" ID="ID_700415548" MODIFIED="1404489534388" TEXT="ask jay"/>
 </node>
