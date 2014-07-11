@@ -202,10 +202,10 @@
 </node>
 </node>
 <node CREATED="1405070644233" ID="ID_954302342" MODIFIED="1405087527156" TEXT="Is he testing all this stuff? We really need him to verify that stuff works for him"/>
-<node CREATED="1405086061614" ID="ID_96245959" MODIFIED="1405086114500" TEXT="marko&apos;s time is split ">
+<node CREATED="1405086061614" ID="ID_96245959" MODIFIED="1405096417543" TEXT="marko&apos;s time is split ">
+<icon BUILTIN="yes"/>
 <node CREATED="1405086179493" ID="ID_1598744521" MODIFIED="1405086186063" TEXT="august 11th"/>
 </node>
-<node CREATED="1405087531675" ID="ID_1433315995" MODIFIED="1405087534251" TEXT="prioritisation"/>
 <node CREATED="1404380759087" ID="ID_424123093" MODIFIED="1405087468368" TEXT="annual/quarterly plan">
 <node CREATED="1404380771246" ID="ID_654484033" MODIFIED="1404380783260" TEXT="do you want one per year or separate quarterly plan download?"/>
 <node CREATED="1404380854150" ID="ID_1358465588" MODIFIED="1404380866477" TEXT="what do you call your years? (giventhey start in 0ct?)"/>
