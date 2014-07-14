@@ -216,11 +216,17 @@
 <node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1404752375922" POSITION="right" TEXT="Tasks">
 <node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1405338021377" TEXT="today">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1404491445825" ID="ID_1983110028" MODIFIED="1405337974209" TEXT="Tom Lord">
+<node CREATED="1404491445825" FOLDED="true" ID="ID_1983110028" MODIFIED="1405348108863" TEXT="Tom Lord">
 <node CREATED="1404469085182" ID="ID_456128756" MODIFIED="1404491452401" TEXT="Asl TomL When do YouWiN run out of contract/budget?"/>
 </node>
-<node CREATED="1404735106926" ID="ID_3359736" MODIFIED="1404735111484" TEXT="Read the Yemen emails"/>
-<node CREATED="1404491475849" ID="ID_1061724248" MODIFIED="1404491477206" TEXT="v4c">
+<node CREATED="1405348103712" ID="ID_670289819" MODIFIED="1405348108019" TEXT="YouWiN Contracts">
+<node CREATED="1405348302588" ID="ID_1277061665" MODIFIED="1405348327891" TEXT="Hi Wale and Mark, &#xa;&#xa; I met Supo and Wale on Tuesday and then spoke to Richard at DFID  I got the impression Wale (correct me if I am wrong) that you are no longer expecting system development work and I know that DFID are not keen to fund such work. On the other hand, while Wale confirmed to Supo that they felt able to take over the system for the remainder of YouWin!3, DFID prefer to keep Aptivate involvement to the end of YouWiN!3 which is currently expected to be December 2014. &#xa;&#xa;The support will be for ad-hoc requests to allow the competition, post-award support and M&amp;E to move ahead as smoothly as possible.  Due to budget cuts we have fewer funds than expected to support YouWiN!3. Our present budget for IT support is for two iterations and the annual maintenance fee and it will be difficult for us to extend over that. I would therefore urge Wale, and through him the Secretariat to try to keep requests to a minimum so that this budget is not exceeded. &#xa;&#xa; Mark: CA4 covered 11 iterations (19-29 only) so a further 2 will take us to 30 and 31. We can get this organised for you before the end of the month.  &#xa;&#xa;  Best  Anthea "/>
+<node CREATED="1405348388075" ID="ID_1792453556" MODIFIED="1405348453069" TEXT="CA4:">
+<node CREATED="1405348442005" ID="ID_1112090748" MODIFIED="1405348445475" TEXT="Iteration 29"/>
+</node>
+<node CREATED="1405348426685" ID="ID_812495665" MODIFIED="1405348429616" TEXT="CA5:"/>
+</node>
+<node CREATED="1404491475849" FOLDED="true" ID="ID_1061724248" MODIFIED="1405348135339" TEXT="v4c">
 <node CREATED="1405087388076" FOLDED="true" ID="ID_1925298893" MODIFIED="1405337994472" TEXT="call">
 <node CREATED="1405070581866" ID="ID_152692545" MODIFIED="1405087393390" TEXT="demo">
 <node CREATED="1405070608442" ID="ID_434353249" MODIFIED="1405070616526" TEXT="Free support question -=- what exactly?"/>
@@ -259,14 +265,17 @@
 <node CREATED="1405337753522" ID="ID_1792007760" MODIFIED="1405338004400" TEXT="Check in 14 July"/>
 </node>
 </node>
-<node CREATED="1405337962778" ID="ID_200319496" MODIFIED="1405337965228" TEXT="Wednesday">
+<node CREATED="1405337962778" FOLDED="true" ID="ID_200319496" MODIFIED="1405348132805" TEXT="Wednesday">
 <node CREATED="1404491456633" ID="ID_1725395983" MODIFIED="1405337961057" TEXT="Alan">
 <node CREATED="1404401929669" ID="ID_1628327529" LINK="http://lopad.org/Sond2BKcrp" MODIFIED="1404491462627" TEXT="Talk to alan about Output wg process document"/>
 <node CREATED="1405337946104" ID="ID_696394941" MODIFIED="1405337951327" TEXT="YouWin post DFID"/>
 <node CREATED="1405337951707" ID="ID_1711611632" MODIFIED="1405337954120" TEXT="Yemen"/>
 </node>
+<node CREATED="1405348122483" ID="ID_79953722" MODIFIED="1405348126271" TEXT="Yemen">
+<node CREATED="1404735106926" ID="ID_3359736" MODIFIED="1405348124898" TEXT="Read the Yemen emails"/>
 </node>
-<node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1405098752188" TEXT="youwin">
+</node>
+<node CREATED="1400686687910" FOLDED="true" ID="ID_1634585377" MODIFIED="1405348133455" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI">
 <node CREATED="1405098756708" ID="ID_1688884132" MODIFIED="1405098760918" TEXT="outstanding new request"/>
 </node>
