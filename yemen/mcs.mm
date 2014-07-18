@@ -322,6 +322,11 @@
 <node CREATED="1405694270662" ID="ID_1730935759" MODIFIED="1405694274249" TEXT="stealth holder"/>
 </node>
 <node COLOR="#338800" CREATED="1405691491635" ID="ID_1865884723" MODIFIED="1405691592851" TEXT="changing Product Owner"/>
+<node CREATED="1405694343694" ID="ID_1273123698" MODIFIED="1405694347511" TEXT="Exercising power">
+<node CREATED="1405694347955" ID="ID_1338438980" MODIFIED="1405694354347" TEXT="can we put an x here, and make this line blue">
+<node CREATED="1405694354869" ID="ID_179701137" MODIFIED="1405694364220" TEXT="just to impose your power"/>
+</node>
+</node>
 </node>
 </node>
 </node>
