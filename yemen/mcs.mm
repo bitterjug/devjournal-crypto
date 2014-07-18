@@ -224,7 +224,7 @@
 <node COLOR="#338800" CREATED="1405691491625" ID="ID_1973908504" MODIFIED="1405691584296" TEXT="Data vs Code - code can be merged, data can&apos;t. So data must have a canonical home and only be edited there."/>
 </node>
 <node COLOR="#338800" CREATED="1405691491627" ID="ID_284427403" MODIFIED="1405691597422" TEXT="Things to do">
-<node COLOR="#338800" CREATED="1405691491627" ID="ID_170088677" MODIFIED="1405691589416" TEXT="Prioritisation of user stories and key tasks">
+<node COLOR="#338800" CREATED="1405691491627" ID="ID_170088677" MODIFIED="1405692259270" TEXT="Prioritisation of user stories and key tasks">
 <node CREATED="1405691507135" ID="ID_1443505031" MODIFIED="1405691550475" TEXT="start thinking about priorities before iteration starts"/>
 <node CREATED="1405691561213" ID="ID_1157562431" MODIFIED="1405691566229" TEXT="moving cards to iteration candidates column"/>
 <node CREATED="1405691613168" ID="ID_629923250" MODIFIED="1405691616872" TEXT="design in advance"/>
@@ -235,10 +235,13 @@
 <node COLOR="#338800" CREATED="1405691491628" ID="ID_265554846" MODIFIED="1405691589423" TEXT="Marshal feedback from user testing or project requirements"/>
 <node COLOR="#338800" CREATED="1405691491628" ID="ID_1378899375" MODIFIED="1405691589423" TEXT="Marshal access to users who may be subject matter experts in areas relevant to the project"/>
 <node COLOR="#338800" CREATED="1405691491629" ID="ID_1513890564" MODIFIED="1405691589418" TEXT="Decide who are the key persons who should be present at demos and set expectations internally of what is being demo-ed"/>
-<node COLOR="#338800" CREATED="1405691491631" ID="ID_293552444" MODIFIED="1405691589417" TEXT="Engage with the &#x201c;kanban&#x201d;"/>
+<node COLOR="#338800" CREATED="1405691491631" ID="ID_293552444" MODIFIED="1405691589417" TEXT="Engage with the &#x201c;kanban&#x201d;">
+<node CREATED="1405692287317" ID="ID_1950968343" MODIFIED="1405692290052" TEXT="review content"/>
+<node CREATED="1405692290267" ID="ID_1346074130" MODIFIED="1405692308458" TEXT="groom the backlog"/>
+</node>
 <node COLOR="#338800" CREATED="1405691491632" ID="ID_1646953086" MODIFIED="1405691589417" TEXT="Attending regular project meetings (remotely)"/>
 <node COLOR="#338800" CREATED="1405691491632" ID="ID_1984260195" MODIFIED="1405691589417" TEXT="Bother the &#x201c;outie&#x201d; about anything (outie = project manager)"/>
-<node CREATED="1405691896222" ID="ID_172934900" MODIFIED="1405691899621" TEXT="check-ins">
+<node CREATED="1405691896222" FOLDED="true" ID="ID_172934900" MODIFIED="1405692249215" TEXT="check-ins">
 <node CREATED="1405691900149" ID="ID_1256893747" MODIFIED="1405691903231" TEXT="clarifying understanding"/>
 <node CREATED="1405691944083" ID="ID_227488340" MODIFIED="1405691968720" TEXT="at minimum 10 mins, but be prepared for clarification"/>
 <node CREATED="1405691968923" ID="ID_1512045179" MODIFIED="1405691976706" TEXT="what were you working on yesterady"/>
