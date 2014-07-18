@@ -272,6 +272,7 @@
 <node CREATED="1405693376839" ID="ID_33304371" MODIFIED="1405693401209" TEXT="someone has to sign off on stuff ">
 <node CREATED="1405693401563" ID="ID_1302657406" MODIFIED="1405693408083" TEXT="moving stuff to done"/>
 </node>
+<node CREATED="1405693414809" ID="ID_288266470" MODIFIED="1405693429367" TEXT="if this requires feedback from real end users, PO has to coordinate this"/>
 </node>
 <node COLOR="#338800" CREATED="1405691491628" ID="ID_265554846" MODIFIED="1405691589423" TEXT="Marshal feedback from user testing or project requirements"/>
 <node COLOR="#338800" CREATED="1405691491628" ID="ID_1378899375" MODIFIED="1405691589423" TEXT="Marshal access to users who may be subject matter experts in areas relevant to the project"/>
