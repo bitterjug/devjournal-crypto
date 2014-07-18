@@ -218,10 +218,38 @@
 <node CREATED="1405691449442" ID="ID_911530782" MODIFIED="1405691451664" TEXT="WWF">
 <node CREATED="1405691452137" ID="ID_808953666" MODIFIED="1405691456577" TEXT="PO training">
 <node CREATED="1405692886369" ID="ID_1298816527" MODIFIED="1405692971584" TEXT="discovery workshop">
-<node CREATED="1405692962598" ID="ID_341265476" MODIFIED="1405692993262" TEXT="high level goals"/>
+<node CREATED="1405692962598" ID="ID_341265476" MODIFIED="1405693109649" TEXT="Establish high level goals">
+<node CREATED="1405693111183" ID="ID_1913192667" MODIFIED="1405693116278" TEXT="what do you want to achieve ?"/>
+<node CREATED="1405693116533" ID="ID_512946547" MODIFIED="1405693134434" TEXT="e.g. what non-tech workflows will the tool be used to help?"/>
+</node>
 <node CREATED="1405692851048" ID="ID_1223711860" MODIFIED="1405692855107" TEXT="MVP and relase planning"/>
-<node CREATED="1405692973181" ID="ID_1923258886" MODIFIED="1405692975905" TEXT="user stories"/>
-<node CREATED="1405692976584" ID="ID_1084256019" MODIFIED="1405692983322" TEXT="bottom-up, how do these relate to the goals"/>
+<node CREATED="1405692976584" ID="ID_1084256019" MODIFIED="1405693210647">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      bottom-up test
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1405692973181" ID="ID_1923258886" MODIFIED="1405693189325" TEXT="user stories"/>
+<node CREATED="1405693173223" ID="ID_1963552831" MODIFIED="1405693199459">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      how do these relate to the goals
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node COLOR="#338800" CREATED="1405691491622" ID="ID_1478227997" MODIFIED="1405691597422" TEXT="Responsibilities">
 <node COLOR="#338800" CREATED="1405691491624" ID="ID_919922898" MODIFIED="1405691584296" TEXT="The shape of an iteration"/>
