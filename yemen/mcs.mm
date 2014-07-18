@@ -235,11 +235,11 @@
 <node COLOR="#338800" CREATED="1405691491628" ID="ID_265554846" MODIFIED="1405691589423" TEXT="Marshal feedback from user testing or project requirements"/>
 <node COLOR="#338800" CREATED="1405691491628" ID="ID_1378899375" MODIFIED="1405691589423" TEXT="Marshal access to users who may be subject matter experts in areas relevant to the project"/>
 <node COLOR="#338800" CREATED="1405691491629" ID="ID_1513890564" MODIFIED="1405691589418" TEXT="Decide who are the key persons who should be present at demos and set expectations internally of what is being demo-ed"/>
-<node COLOR="#338800" CREATED="1405691491631" ID="ID_293552444" MODIFIED="1405691589417" TEXT="Engage with the &#x201c;kanban&#x201d;">
+<node COLOR="#338800" CREATED="1405691491631" FOLDED="true" ID="ID_293552444" MODIFIED="1405692394190" TEXT="Engage with the &#x201c;kanban&#x201d;">
 <node CREATED="1405692287317" ID="ID_1950968343" MODIFIED="1405692290052" TEXT="review content"/>
 <node CREATED="1405692290267" ID="ID_1346074130" MODIFIED="1405692308458" TEXT="groom the backlog"/>
 </node>
-<node COLOR="#338800" CREATED="1405691491632" ID="ID_1646953086" MODIFIED="1405691589417" TEXT="Attending regular project meetings (remotely)">
+<node COLOR="#338800" CREATED="1405691491632" FOLDED="true" ID="ID_1646953086" MODIFIED="1405692393323" TEXT="Attending regular project meetings (remotely)">
 <node CREATED="1405692329399" ID="ID_343966048" MODIFIED="1405692332535" TEXT="daily check-ins"/>
 <node CREATED="1405692332756" ID="ID_826245421" MODIFIED="1405692345286" TEXT="iteration demos"/>
 <node CREATED="1405692334861" ID="ID_280546904" MODIFIED="1405692349104" TEXT="iteration planning"/>
