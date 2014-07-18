@@ -217,7 +217,7 @@
 <node CREATED="1405691447052" ID="ID_365340205" MODIFIED="1405691448895" TEXT="Monday">
 <node CREATED="1405691449442" ID="ID_911530782" MODIFIED="1405691451664" TEXT="WWF">
 <node CREATED="1405691452137" ID="ID_808953666" MODIFIED="1405691456577" TEXT="PO training">
-<node CREATED="1405692886369" ID="ID_1298816527" MODIFIED="1405692971584" TEXT="discovery workshop">
+<node CREATED="1405692886369" FOLDED="true" ID="ID_1298816527" MODIFIED="1405693283662" TEXT="discovery workshop">
 <node CREATED="1405692962598" ID="ID_341265476" MODIFIED="1405693109649" TEXT="Establish high level goals">
 <node CREATED="1405693111183" ID="ID_1913192667" MODIFIED="1405693116278" TEXT="what do you want to achieve ?"/>
 <node CREATED="1405693116533" ID="ID_512946547" MODIFIED="1405693134434" TEXT="e.g. what non-tech workflows will the tool be used to help?"/>
@@ -257,14 +257,17 @@
 <node COLOR="#338800" CREATED="1405691491624" ID="ID_1481199056" MODIFIED="1405691584300" TEXT="Feedback loops have to be really good"/>
 <node COLOR="#338800" CREATED="1405691491625" ID="ID_1973908504" MODIFIED="1405691584296" TEXT="Data vs Code - code can be merged, data can&apos;t. So data must have a canonical home and only be edited there."/>
 </node>
-<node COLOR="#338800" CREATED="1405691491627" ID="ID_284427403" MODIFIED="1405691597422" TEXT="Things to do">
+<node COLOR="#338800" CREATED="1405691491627" ID="ID_284427403" MODIFIED="1405693325287" TEXT="Things to do">
 <node COLOR="#338800" CREATED="1405691491627" ID="ID_170088677" MODIFIED="1405692259270" TEXT="Prioritisation of user stories and key tasks">
 <node CREATED="1405691507135" ID="ID_1443505031" MODIFIED="1405691550475" TEXT="start thinking about priorities before iteration starts"/>
 <node CREATED="1405691561213" ID="ID_1157562431" MODIFIED="1405691566229" TEXT="moving cards to iteration candidates column"/>
 <node CREATED="1405691613168" ID="ID_629923250" MODIFIED="1405691616872" TEXT="design in advance"/>
 <node CREATED="1405691617082" ID="ID_1677343829" MODIFIED="1405691625704" TEXT="design the priorities for the upcoming iteration"/>
 </node>
-<node COLOR="#338800" CREATED="1405691491628" ID="ID_1862729607" MODIFIED="1405691589423" TEXT="Communication within client organisation"/>
+<node COLOR="#338800" CREATED="1405691491628" ID="ID_1862729607" MODIFIED="1405691589423" TEXT="Communication within client organisation">
+<node CREATED="1405693319665" ID="ID_831588449" MODIFIED="1405693351539" TEXT="we have to trust them to do this"/>
+<node CREATED="1405693352197" ID="ID_1474711726" MODIFIED="1405693359223" TEXT="we can&apos;t check in on them"/>
+</node>
 <node COLOR="#338800" CREATED="1405691491628" ID="ID_565806624" MODIFIED="1405691589423" TEXT="Coordinate user testing"/>
 <node COLOR="#338800" CREATED="1405691491628" ID="ID_265554846" MODIFIED="1405691589423" TEXT="Marshal feedback from user testing or project requirements"/>
 <node COLOR="#338800" CREATED="1405691491628" ID="ID_1378899375" MODIFIED="1405691589423" TEXT="Marshal access to users who may be subject matter experts in areas relevant to the project"/>
