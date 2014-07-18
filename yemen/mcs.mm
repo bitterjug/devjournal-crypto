@@ -249,13 +249,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1405691491622" FOLDED="true" ID="ID_1478227997" MODIFIED="1405694449895" TEXT="Responsibilities">
+<node COLOR="#338800" CREATED="1405691491622" FOLDED="true" ID="ID_1478227997" MODIFIED="1405694452944" TEXT="Responsibilities">
 <node COLOR="#338800" CREATED="1405691491624" ID="ID_919922898" MODIFIED="1405691584296" TEXT="The shape of an iteration"/>
 <node COLOR="#338800" CREATED="1405691491624" ID="ID_23979461" MODIFIED="1405691584300" TEXT="We can only make what we understand from you"/>
 <node COLOR="#338800" CREATED="1405691491624" ID="ID_1481199056" MODIFIED="1405691584300" TEXT="Feedback loops have to be really good"/>
 <node COLOR="#338800" CREATED="1405691491625" ID="ID_1973908504" MODIFIED="1405691584296" TEXT="Data vs Code - code can be merged, data can&apos;t. So data must have a canonical home and only be edited there."/>
 </node>
-<node COLOR="#338800" CREATED="1405691491627" FOLDED="true" ID="ID_284427403" MODIFIED="1405694448592" TEXT="Things to do">
+<node COLOR="#338800" CREATED="1405691491627" ID="ID_284427403" MODIFIED="1405694469519" TEXT="Things to do">
 <node COLOR="#338800" CREATED="1405691491627" FOLDED="true" ID="ID_170088677" MODIFIED="1405693368480" TEXT="Prioritisation of user stories and key tasks">
 <node CREATED="1405691507135" ID="ID_1443505031" MODIFIED="1405691550475" TEXT="start thinking about priorities before iteration starts"/>
 <node CREATED="1405691561213" ID="ID_1157562431" MODIFIED="1405691566229" TEXT="moving cards to iteration candidates column"/>
@@ -280,16 +280,16 @@
 <node COLOR="#338800" CREATED="1405691491628" FOLDED="true" ID="ID_1378899375" MODIFIED="1405693629356" TEXT="Marshal access to users who may be subject matter experts in areas relevant to the project">
 <node CREATED="1405693612061" ID="ID_411437004" MODIFIED="1405693615768" TEXT="like Growbridge"/>
 </node>
-<node COLOR="#338800" CREATED="1405691491629" ID="ID_1513890564" MODIFIED="1405691589418" TEXT="Decide who are the key persons who should be present at demos and set expectations internally of what is being demo-ed">
+<node COLOR="#338800" CREATED="1405691491629" FOLDED="true" ID="ID_1513890564" MODIFIED="1405694457944" TEXT="Decide who are the key persons who should be present at demos and set expectations internally of what is being demo-ed">
 <node CREATED="1405693631762" ID="ID_1784675700" MODIFIED="1405693636882" TEXT="when the demo is not just to the PO"/>
 </node>
-<node COLOR="#338800" CREATED="1405691491631" ID="ID_293552444" MODIFIED="1405693663690" TEXT="Engage with the &#x201c;kanban&#x201d;">
+<node COLOR="#338800" CREATED="1405691491631" FOLDED="true" ID="ID_293552444" MODIFIED="1405694455265" TEXT="Engage with the &#x201c;kanban&#x201d;">
 <node CREATED="1405692287317" ID="ID_1950968343" MODIFIED="1405692290052" TEXT="review content"/>
 <node CREATED="1405692290267" ID="ID_1346074130" MODIFIED="1405692308458" TEXT="groom the backlog"/>
 <node CREATED="1405693676729" ID="ID_133527577" MODIFIED="1405693677381" TEXT="test"/>
 <node CREATED="1405693669476" ID="ID_483066592" MODIFIED="1405693671909" TEXT="move stuff to done"/>
 </node>
-<node COLOR="#338800" CREATED="1405691491632" ID="ID_1646953086" MODIFIED="1405693781629" TEXT="Attending regular project meetings (remotely)">
+<node COLOR="#338800" CREATED="1405691491632" ID="ID_1646953086" MODIFIED="1405694473613" TEXT="Attending regular project meetings (remotely)">
 <node CREATED="1405692329399" ID="ID_343966048" MODIFIED="1405692332535" TEXT="daily check-ins">
 <node CREATED="1405691896222" ID="ID_172934900" MODIFIED="1405692413852" TEXT="check-ins">
 <node CREATED="1405691900149" ID="ID_1256893747" MODIFIED="1405691903231" TEXT="clarifying understanding"/>
@@ -301,10 +301,11 @@
 </node>
 <node CREATED="1405692332756" ID="ID_826245421" MODIFIED="1405692345286" TEXT="iteration demos"/>
 <node CREATED="1405692334861" ID="ID_280546904" MODIFIED="1405692349104" TEXT="iteration planning"/>
+<node CREATED="1405694475158" ID="ID_1788566730" MODIFIED="1405694480435" TEXT="retrospectives"/>
 </node>
 <node COLOR="#338800" CREATED="1405691491632" ID="ID_1984260195" MODIFIED="1405691589417" TEXT="Bother the &#x201c;outie&#x201d; about anything (outie = project manager)"/>
 </node>
-<node COLOR="#338800" CREATED="1405691491632" FOLDED="true" ID="ID_182128188" MODIFIED="1405694449102" TEXT="Things not to do">
+<node COLOR="#338800" CREATED="1405691491632" FOLDED="true" ID="ID_182128188" MODIFIED="1405694461840" TEXT="Things not to do">
 <node COLOR="#338800" CREATED="1405691491633" ID="ID_1351486825" MODIFIED="1405691592850" TEXT="ownership of vision">
 <node CREATED="1405693938140" ID="ID_1341170196" MODIFIED="1405693963466" TEXT="don&apos;t prevent participation from other"/>
 <node CREATED="1405693967331" ID="ID_1118692577" MODIFIED="1405694000568" TEXT="dont block other stakeholders fromm forming vision and participating"/>
