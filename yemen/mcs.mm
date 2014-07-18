@@ -233,8 +233,7 @@
       bottom-up test
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1405692973181" ID="ID_1923258886" MODIFIED="1405693189325" TEXT="user stories"/>
 <node CREATED="1405693173223" ID="ID_1963552831" MODIFIED="1405693199459">
 <richcontent TYPE="NODE"><html>
@@ -246,8 +245,7 @@
       how do these relate to the goals
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -257,7 +255,7 @@
 <node COLOR="#338800" CREATED="1405691491624" ID="ID_1481199056" MODIFIED="1405691584300" TEXT="Feedback loops have to be really good"/>
 <node COLOR="#338800" CREATED="1405691491625" ID="ID_1973908504" MODIFIED="1405691584296" TEXT="Data vs Code - code can be merged, data can&apos;t. So data must have a canonical home and only be edited there."/>
 </node>
-<node COLOR="#338800" CREATED="1405691491627" FOLDED="true" ID="ID_284427403" MODIFIED="1405693825523" TEXT="Things to do">
+<node COLOR="#338800" CREATED="1405691491627" FOLDED="true" ID="ID_284427403" MODIFIED="1405693859623" TEXT="Things to do">
 <node COLOR="#338800" CREATED="1405691491627" FOLDED="true" ID="ID_170088677" MODIFIED="1405693368480" TEXT="Prioritisation of user stories and key tasks">
 <node CREATED="1405691507135" ID="ID_1443505031" MODIFIED="1405691550475" TEXT="start thinking about priorities before iteration starts"/>
 <node CREATED="1405691561213" ID="ID_1157562431" MODIFIED="1405691566229" TEXT="moving cards to iteration candidates column"/>
@@ -307,7 +305,11 @@
 <node COLOR="#338800" CREATED="1405691491632" ID="ID_1984260195" MODIFIED="1405691589417" TEXT="Bother the &#x201c;outie&#x201d; about anything (outie = project manager)"/>
 </node>
 <node COLOR="#338800" CREATED="1405691491632" ID="ID_182128188" MODIFIED="1405691597421" TEXT="Things not to do">
-<node COLOR="#338800" CREATED="1405691491633" ID="ID_1351486825" MODIFIED="1405691592850" TEXT="ownership of vision"/>
+<node COLOR="#338800" CREATED="1405691491633" ID="ID_1351486825" MODIFIED="1405691592850" TEXT="ownership of vision">
+<node CREATED="1405693938140" ID="ID_1341170196" MODIFIED="1405693963466" TEXT="don&apos;t prevent participation from other"/>
+<node CREATED="1405693967331" ID="ID_1118692577" MODIFIED="1405694000568" TEXT="dont block other stakeholders fromm forming vision and participating"/>
+<node CREATED="1405694001297" ID="ID_1242521295" MODIFIED="1405694011233" TEXT="don&apos;t BTWT"/>
+</node>
 <node COLOR="#338800" CREATED="1405691491633" ID="ID_591892211" MODIFIED="1405691592851" TEXT="lack of availability"/>
 <node COLOR="#338800" CREATED="1405691491633" ID="ID_1697045101" MODIFIED="1405691592851" TEXT="bad comms"/>
 <node COLOR="#338800" CREATED="1405691491633" ID="ID_801370139" MODIFIED="1405691592851" TEXT="testing and sign-off"/>
