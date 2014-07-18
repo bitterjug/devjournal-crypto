@@ -258,13 +258,13 @@
 <node COLOR="#338800" CREATED="1405691491625" ID="ID_1973908504" MODIFIED="1405691584296" TEXT="Data vs Code - code can be merged, data can&apos;t. So data must have a canonical home and only be edited there."/>
 </node>
 <node COLOR="#338800" CREATED="1405691491627" ID="ID_284427403" MODIFIED="1405693325287" TEXT="Things to do">
-<node COLOR="#338800" CREATED="1405691491627" ID="ID_170088677" MODIFIED="1405692259270" TEXT="Prioritisation of user stories and key tasks">
+<node COLOR="#338800" CREATED="1405691491627" FOLDED="true" ID="ID_170088677" MODIFIED="1405693368480" TEXT="Prioritisation of user stories and key tasks">
 <node CREATED="1405691507135" ID="ID_1443505031" MODIFIED="1405691550475" TEXT="start thinking about priorities before iteration starts"/>
 <node CREATED="1405691561213" ID="ID_1157562431" MODIFIED="1405691566229" TEXT="moving cards to iteration candidates column"/>
 <node CREATED="1405691613168" ID="ID_629923250" MODIFIED="1405691616872" TEXT="design in advance"/>
 <node CREATED="1405691617082" ID="ID_1677343829" MODIFIED="1405691625704" TEXT="design the priorities for the upcoming iteration"/>
 </node>
-<node COLOR="#338800" CREATED="1405691491628" ID="ID_1862729607" MODIFIED="1405691589423" TEXT="Communication within client organisation">
+<node COLOR="#338800" CREATED="1405691491628" FOLDED="true" ID="ID_1862729607" MODIFIED="1405693369154" TEXT="Communication within client organisation">
 <node CREATED="1405693319665" ID="ID_831588449" MODIFIED="1405693351539" TEXT="we have to trust them to do this"/>
 <node CREATED="1405693352197" ID="ID_1474711726" MODIFIED="1405693359223" TEXT="we can&apos;t check in on them"/>
 </node>
