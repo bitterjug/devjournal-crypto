@@ -216,10 +216,10 @@
 <node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1404752375922" POSITION="right" TEXT="Tasks">
 <node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1405338021377" TEXT="today">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1404491445825" FOLDED="true" ID="ID_1983110028" MODIFIED="1405348108863" TEXT="Tom Lord">
+<node CREATED="1404491445825" FOLDED="true" ID="ID_1983110028" MODIFIED="1405679976459" TEXT="Tom Lord">
 <node CREATED="1404469085182" ID="ID_456128756" MODIFIED="1404491452401" TEXT="Asl TomL When do YouWiN run out of contract/budget?"/>
 </node>
-<node CREATED="1405348103712" ID="ID_670289819" MODIFIED="1405348108019" TEXT="YouWiN Contracts">
+<node CREATED="1405348103712" FOLDED="true" ID="ID_670289819" MODIFIED="1405679973381" TEXT="YouWiN Contracts">
 <node CREATED="1405348302588" ID="ID_1277061665" MODIFIED="1405348327891" TEXT="Hi Wale and Mark, &#xa;&#xa; I met Supo and Wale on Tuesday and then spoke to Richard at DFID  I got the impression Wale (correct me if I am wrong) that you are no longer expecting system development work and I know that DFID are not keen to fund such work. On the other hand, while Wale confirmed to Supo that they felt able to take over the system for the remainder of YouWin!3, DFID prefer to keep Aptivate involvement to the end of YouWiN!3 which is currently expected to be December 2014. &#xa;&#xa;The support will be for ad-hoc requests to allow the competition, post-award support and M&amp;E to move ahead as smoothly as possible.  Due to budget cuts we have fewer funds than expected to support YouWiN!3. Our present budget for IT support is for two iterations and the annual maintenance fee and it will be difficult for us to extend over that. I would therefore urge Wale, and through him the Secretariat to try to keep requests to a minimum so that this budget is not exceeded. &#xa;&#xa; Mark: CA4 covered 11 iterations (19-29 only) so a further 2 will take us to 30 and 31. We can get this organised for you before the end of the month.  &#xa;&#xa;  Best  Anthea "/>
 <node CREATED="1405348388075" ID="ID_1792453556" MODIFIED="1405348453069" TEXT="CA4:">
 <node CREATED="1405348442005" ID="ID_1112090748" MODIFIED="1405348445475" TEXT="Iteration 29"/>
@@ -243,16 +243,14 @@
 </node>
 </node>
 <node CREATED="1404491475849" ID="ID_1061724248" MODIFIED="1405351197638" TEXT="v4c">
-<node CREATED="1405087388076" FOLDED="true" ID="ID_1925298893" MODIFIED="1405337994472" TEXT="call">
+<node CREATED="1405087388076" ID="ID_1925298893" MODIFIED="1405682137749" TEXT="call">
 <node CREATED="1405070581866" ID="ID_152692545" MODIFIED="1405087393390" TEXT="demo">
 <node CREATED="1405070608442" ID="ID_434353249" MODIFIED="1405070616526" TEXT="Free support question -=- what exactly?"/>
-<node CREATED="1405070585058" ID="ID_135295079" MODIFIED="1405070600819" TEXT="Emeka can&apos;t download spreadsheets ">
-<icon BUILTIN="messagebox_warning"/>
-</node>
+<node CREATED="1405070585058" ID="ID_135295079" MODIFIED="1405682157683" TEXT="Emeka can&apos;t download spreadsheets "/>
 <node CREATED="1405090945387" ID="ID_1704544059" MODIFIED="1405090958936" TEXT="HTML entities appear in result titles">
 <icon BUILTIN="closed"/>
 </node>
-<node CREATED="1405072069056" FOLDED="true" ID="ID_233519863" MODIFIED="1405091335525" TEXT="fix filter by lead">
+<node CREATED="1405072069056" ID="ID_233519863" MODIFIED="1405682215668" TEXT="fix filter by lead">
 <node CREATED="1405087375316" ID="ID_1021413336" MODIFIED="1405087377444" TEXT="still broken"/>
 </node>
 <node CREATED="1405091336705" ID="ID_1368644479" MODIFIED="1405091353980" TEXT="how does data entry work if we add only the next upcoming quarters, not all 4 eper year?">
@@ -279,6 +277,15 @@
 </node>
 </node>
 <node CREATED="1405337753522" ID="ID_1792007760" MODIFIED="1405338004400" TEXT="Check in 14 July"/>
+</node>
+<node CREATED="1405680850106" ID="ID_66243121" MODIFIED="1405680851734" TEXT="wwf">
+<node CREATED="1405680845890" ID="ID_1466452773" MODIFIED="1405680849113" TEXT="how we work document"/>
+<node CREATED="1405680854606" ID="ID_984589509" MODIFIED="1405680867138" TEXT="product owner training"/>
+<node CREATED="1405681103346" ID="ID_70659408" MODIFIED="1405681106101" TEXT="contract discussion">
+<node CREATED="1405681096814" ID="ID_1732022813" MODIFIED="1405681102593" TEXT="neil gunn"/>
+<node CREATED="1405681111531" ID="ID_622134100" MODIFIED="1405681117885" TEXT="we&apos;ll discuss on monday"/>
+<node CREATED="1405681118214" ID="ID_1819641155" MODIFIED="1405681124063" TEXT="don&apos;t agree feature list up front"/>
+</node>
 </node>
 </node>
 <node CREATED="1405337962778" ID="ID_200319496" MODIFIED="1405350155763" TEXT="Wednesday">
