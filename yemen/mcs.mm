@@ -268,7 +268,11 @@
 <node CREATED="1405693319665" ID="ID_831588449" MODIFIED="1405693351539" TEXT="we have to trust them to do this"/>
 <node CREATED="1405693352197" ID="ID_1474711726" MODIFIED="1405693359223" TEXT="we can&apos;t check in on them"/>
 </node>
-<node COLOR="#338800" CREATED="1405691491628" ID="ID_565806624" MODIFIED="1405691589423" TEXT="Coordinate user testing"/>
+<node COLOR="#338800" CREATED="1405691491628" ID="ID_565806624" MODIFIED="1405691589423" TEXT="Coordinate user testing">
+<node CREATED="1405693376839" ID="ID_33304371" MODIFIED="1405693401209" TEXT="someone has to sign off on stuff ">
+<node CREATED="1405693401563" ID="ID_1302657406" MODIFIED="1405693408083" TEXT="moving stuff to done"/>
+</node>
+</node>
 <node COLOR="#338800" CREATED="1405691491628" ID="ID_265554846" MODIFIED="1405691589423" TEXT="Marshal feedback from user testing or project requirements"/>
 <node COLOR="#338800" CREATED="1405691491628" ID="ID_1378899375" MODIFIED="1405691589423" TEXT="Marshal access to users who may be subject matter experts in areas relevant to the project"/>
 <node COLOR="#338800" CREATED="1405691491629" ID="ID_1513890564" MODIFIED="1405691589418" TEXT="Decide who are the key persons who should be present at demos and set expectations internally of what is being demo-ed"/>
