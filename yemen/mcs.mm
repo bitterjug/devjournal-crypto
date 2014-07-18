@@ -255,7 +255,7 @@
 <node COLOR="#338800" CREATED="1405691491624" ID="ID_1481199056" MODIFIED="1405691584300" TEXT="Feedback loops have to be really good"/>
 <node COLOR="#338800" CREATED="1405691491625" ID="ID_1973908504" MODIFIED="1405691584296" TEXT="Data vs Code - code can be merged, data can&apos;t. So data must have a canonical home and only be edited there."/>
 </node>
-<node COLOR="#338800" CREATED="1405691491627" ID="ID_284427403" MODIFIED="1405694469519" TEXT="Things to do">
+<node COLOR="#338800" CREATED="1405691491627" ID="ID_284427403" MODIFIED="1405694573055" TEXT="Things to do">
 <node COLOR="#338800" CREATED="1405691491627" FOLDED="true" ID="ID_170088677" MODIFIED="1405693368480" TEXT="Prioritisation of user stories and key tasks">
 <node CREATED="1405691507135" ID="ID_1443505031" MODIFIED="1405691550475" TEXT="start thinking about priorities before iteration starts"/>
 <node CREATED="1405691561213" ID="ID_1157562431" MODIFIED="1405691566229" TEXT="moving cards to iteration candidates column"/>
@@ -283,7 +283,7 @@
 <node COLOR="#338800" CREATED="1405691491629" FOLDED="true" ID="ID_1513890564" MODIFIED="1405694457944" TEXT="Decide who are the key persons who should be present at demos and set expectations internally of what is being demo-ed">
 <node CREATED="1405693631762" ID="ID_1784675700" MODIFIED="1405693636882" TEXT="when the demo is not just to the PO"/>
 </node>
-<node COLOR="#338800" CREATED="1405691491631" FOLDED="true" ID="ID_293552444" MODIFIED="1405694455265" TEXT="Engage with the &#x201c;kanban&#x201d;">
+<node COLOR="#338800" CREATED="1405691491631" ID="ID_293552444" MODIFIED="1405694574606" TEXT="Engage with the &#x201c;kanban&#x201d;">
 <node CREATED="1405692287317" ID="ID_1950968343" MODIFIED="1405692290052" TEXT="review content"/>
 <node CREATED="1405692290267" ID="ID_1346074130" MODIFIED="1405692308458" TEXT="groom the backlog"/>
 <node CREATED="1405693676729" ID="ID_133527577" MODIFIED="1405693677381" TEXT="test"/>
@@ -299,9 +299,10 @@
 <node CREATED="1405691980940" ID="ID_345422147" MODIFIED="1405691985560" TEXT="are you blocked by anything"/>
 </node>
 </node>
-<node CREATED="1405692332756" ID="ID_826245421" MODIFIED="1405692345286" TEXT="iteration demos"/>
+<node CREATED="1405692332756" ID="ID_826245421" MODIFIED="1405692345286" TEXT="iteration demos">
+<node CREATED="1405694475158" ID="ID_1788566730" MODIFIED="1405694583714" TEXT="retrospectives"/>
+</node>
 <node CREATED="1405692334861" ID="ID_280546904" MODIFIED="1405692349104" TEXT="iteration planning"/>
-<node CREATED="1405694475158" ID="ID_1788566730" MODIFIED="1405694480435" TEXT="retrospectives"/>
 </node>
 <node COLOR="#338800" CREATED="1405691491632" ID="ID_1984260195" MODIFIED="1405691589417" TEXT="Bother the &#x201c;outie&#x201d; about anything (outie = project manager)"/>
 </node>
