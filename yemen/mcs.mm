@@ -249,13 +249,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1405691491622" ID="ID_1478227997" MODIFIED="1405691597422" TEXT="Responsibilities">
+<node COLOR="#338800" CREATED="1405691491622" FOLDED="true" ID="ID_1478227997" MODIFIED="1405694449895" TEXT="Responsibilities">
 <node COLOR="#338800" CREATED="1405691491624" ID="ID_919922898" MODIFIED="1405691584296" TEXT="The shape of an iteration"/>
 <node COLOR="#338800" CREATED="1405691491624" ID="ID_23979461" MODIFIED="1405691584300" TEXT="We can only make what we understand from you"/>
 <node COLOR="#338800" CREATED="1405691491624" ID="ID_1481199056" MODIFIED="1405691584300" TEXT="Feedback loops have to be really good"/>
 <node COLOR="#338800" CREATED="1405691491625" ID="ID_1973908504" MODIFIED="1405691584296" TEXT="Data vs Code - code can be merged, data can&apos;t. So data must have a canonical home and only be edited there."/>
 </node>
-<node COLOR="#338800" CREATED="1405691491627" FOLDED="true" ID="ID_284427403" MODIFIED="1405693859623" TEXT="Things to do">
+<node COLOR="#338800" CREATED="1405691491627" FOLDED="true" ID="ID_284427403" MODIFIED="1405694448592" TEXT="Things to do">
 <node COLOR="#338800" CREATED="1405691491627" FOLDED="true" ID="ID_170088677" MODIFIED="1405693368480" TEXT="Prioritisation of user stories and key tasks">
 <node CREATED="1405691507135" ID="ID_1443505031" MODIFIED="1405691550475" TEXT="start thinking about priorities before iteration starts"/>
 <node CREATED="1405691561213" ID="ID_1157562431" MODIFIED="1405691566229" TEXT="moving cards to iteration candidates column"/>
@@ -304,7 +304,7 @@
 </node>
 <node COLOR="#338800" CREATED="1405691491632" ID="ID_1984260195" MODIFIED="1405691589417" TEXT="Bother the &#x201c;outie&#x201d; about anything (outie = project manager)"/>
 </node>
-<node COLOR="#338800" CREATED="1405691491632" ID="ID_182128188" MODIFIED="1405691597421" TEXT="Things not to do">
+<node COLOR="#338800" CREATED="1405691491632" FOLDED="true" ID="ID_182128188" MODIFIED="1405694449102" TEXT="Things not to do">
 <node COLOR="#338800" CREATED="1405691491633" ID="ID_1351486825" MODIFIED="1405691592850" TEXT="ownership of vision">
 <node CREATED="1405693938140" ID="ID_1341170196" MODIFIED="1405693963466" TEXT="don&apos;t prevent participation from other"/>
 <node CREATED="1405693967331" ID="ID_1118692577" MODIFIED="1405694000568" TEXT="dont block other stakeholders fromm forming vision and participating"/>
