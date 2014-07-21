@@ -710,6 +710,11 @@
 <node CREATED="1405943919908" ID="ID_1001431139" MODIFIED="1405943922157" TEXT="watch them do it"/>
 <node CREATED="1405943906725" ID="ID_1769462060" MODIFIED="1405943909128" TEXT="make notes"/>
 <node CREATED="1405943909331" ID="ID_1565576625" MODIFIED="1405943912368" TEXT="then tell them about it"/>
+<node CREATED="1405943980792" ID="ID_1009343992" MODIFIED="1405943991909" TEXT="set it up so they dont feel like they own the problems">
+<node CREATED="1405943992228" ID="ID_878744269" MODIFIED="1405943996109" TEXT="this software is under dev"/>
+<node CREATED="1405943996317" ID="ID_524745053" MODIFIED="1405944000432" TEXT="make sure they say what goes wrong"/>
+<node CREATED="1405944000730" ID="ID_1353176062" MODIFIED="1405944007921" TEXT="because thats what we want to hear about"/>
+</node>
 </node>
 </node>
 </node>
