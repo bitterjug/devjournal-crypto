@@ -533,6 +533,10 @@
 <node CREATED="1405941201450" ID="ID_1777945827" MODIFIED="1405941205284" TEXT="hard to interpret"/>
 <node CREATED="1405941205820" ID="ID_928724692" MODIFIED="1405941211572" TEXT="he&apos;ll just go back to what he was doing before"/>
 </node>
+<node CREATED="1405941235060" ID="ID_1925002274" MODIFIED="1405941239770" TEXT="does it work with my data"/>
+<node CREATED="1405941243315" ID="ID_294929904" MODIFIED="1405941251476" TEXT="does it work when Im off line">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
