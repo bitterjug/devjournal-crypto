@@ -729,7 +729,7 @@
 <node CREATED="1405949425596" ID="ID_915270035" MODIFIED="1405949542317" TEXT="process">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1405949427134" ID="ID_1825708938" MODIFIED="1405949468647" TEXT="what IS the process?">
+<node CREATED="1405949427134" FOLDED="true" ID="ID_1825708938" MODIFIED="1405949545762" TEXT="what IS the process?">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1405949431063" ID="ID_1895710731" MODIFIED="1405949448510" TEXT="are we brainstorming options to select the vertical sclice from"/>
 <node CREATED="1405949448691" ID="ID_1475434613" MODIFIED="1405949454555" TEXT="or just defining the essentials?"/>
