@@ -743,6 +743,7 @@
 <node CREATED="1405949142620" ID="ID_1485745608" MODIFIED="1405949148470" TEXT="do we want click so they stay on?"/>
 <node CREATED="1405949149684" ID="ID_184656037" MODIFIED="1405949155647" TEXT="do you want to drag thoset too?"/>
 </node>
+<node CREATED="1405949171021" ID="ID_970915092" MODIFIED="1405949184644" TEXT="desccribe filtering options in plain text so the story of the vis is obvious"/>
 </node>
 </node>
 <node CREATED="1405938346399" ID="ID_375230220" MODIFIED="1405938351369" TEXT="3.30">
