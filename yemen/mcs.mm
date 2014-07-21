@@ -537,6 +537,7 @@
 <node CREATED="1405941243315" ID="ID_294929904" MODIFIED="1405941251476" TEXT="does it work when Im off line">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1405941254136" ID="ID_1689418762" MODIFIED="1405941261901" TEXT="needs to worrk with basic laptop"/>
 </node>
 </node>
 </node>
