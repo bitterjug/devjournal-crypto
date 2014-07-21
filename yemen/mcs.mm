@@ -345,7 +345,13 @@
 <node CREATED="1405939740124" ID="ID_1935576907" MODIFIED="1405939752851" TEXT="you clould see it if you could step through the time line"/>
 </node>
 </node>
-<node CREATED="1405939398866" ID="ID_1743997664" MODIFIED="1405939569081" TEXT="this dev stage will be good astep towards exrnal communication">
+<node CREATED="1405939776091" ID="ID_1889607466" MODIFIED="1405939776840" TEXT="focus">
+<node CREATED="1405939777100" ID="ID_628784032" MODIFIED="1405939780114" TEXT="different species"/>
+<node CREATED="1405939780434" ID="ID_849786048" MODIFIED="1405939784864" TEXT="diffferent countries"/>
+<node CREATED="1405939785603" ID="ID_1141825459" MODIFIED="1405939792969" TEXT="take advantage of the fact it is complicated"/>
+<node CREATED="1405939793595" ID="ID_406070410" MODIFIED="1405939799797" TEXT="tool enable you to focus on your interest"/>
+</node>
+<node CREATED="1405939398866" FOLDED="true" ID="ID_1743997664" MODIFIED="1405939758800" TEXT="this dev stage will be good astep towards exrnal communication">
 <node CREATED="1405939493562" ID="ID_1120269271" MODIFIED="1405939504822" TEXT="to help COMMS"/>
 <node CREATED="1405939509498" ID="ID_904045773" MODIFIED="1405939512844" TEXT="internal ">
 <node CREATED="1405939429329" ID="ID_1487547766" MODIFIED="1405939507782" TEXT="currently written reports">
