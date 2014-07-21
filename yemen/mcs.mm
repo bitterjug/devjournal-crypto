@@ -295,6 +295,8 @@
 </node>
 </node>
 </node>
+<node CREATED="1405939146348" ID="ID_985843568" MODIFIED="1405939153001" TEXT="people have their own spreadsheet they work with"/>
+<node CREATED="1405939153682" ID="ID_390192531" MODIFIED="1405939161513" TEXT="we&apos;re helping to make peple release/share their data"/>
 </node>
 <node CREATED="1405939074372" ID="ID_1705208224" MODIFIED="1405939076745" TEXT="owners">
 <node CREATED="1405939026568" ID="ID_290375724" MODIFIED="1405939086737" TEXT="CITES"/>
