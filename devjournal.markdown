@@ -313,3 +313,12 @@ But there must be a source of answers to detailed questions for software
 development to proceed.  And someone willing to make choices on behalf of the
 client about when the answers to those questions must come from the client and
 when/weather its okay for us to make them.
+
+## 2014-07-21 21:58 Monday
+
+Xmonad and freemind: 
+
+  sudo apt-get install suckless-tools
+  wmname LG3D
+  freemind
+
