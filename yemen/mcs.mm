@@ -225,7 +225,10 @@
 <node CREATED="1405937643043" ID="ID_1691952762" MODIFIED="1405937648681" TEXT="following budget and value"/>
 <node CREATED="1405937648932" ID="ID_804527311" MODIFIED="1405937655269" TEXT="open sourcing and using community contrinbution"/>
 <node CREATED="1405937660066" ID="ID_1861334621" MODIFIED="1405937666395" TEXT="link to wwf digital innovation">
-<node CREATED="1405937667247" ID="ID_400859472" MODIFIED="1405937675221" TEXT="5-6 innovative tech projects"/>
+<node CREATED="1405937667247" ID="ID_400859472" MODIFIED="1405937680034" TEXT="5-6 innovative tech projects">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1405937698309" ID="ID_1593136034" MODIFIED="1405937710140" TEXT="link to Apticon point about tech in interventions"/>
 </node>
 </node>
 </node>
