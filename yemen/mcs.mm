@@ -480,6 +480,15 @@
 <node CREATED="1405940826794" ID="ID_1365178429" MODIFIED="1405940833598" TEXT="prefer assistant to handle it"/>
 </node>
 </node>
+<node CREATED="1405940852111" ID="ID_798696139" MODIFIED="1405940854455" TEXT="Tasks">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1405940854682" ID="ID_255338656" MODIFIED="1405940864840" TEXT="Leads strategy on Elephant and Rhino"/>
+<node CREATED="1405940865524" ID="ID_1943284830" MODIFIED="1405940867505" TEXT="Report writing">
+<node CREATED="1405940868062" ID="ID_1678072182" MODIFIED="1405940875093" TEXT="whats happened in last 5 years on ivory,..."/>
+<node CREATED="1405940875424" ID="ID_1084030515" MODIFIED="1405940889953" TEXT="lead author on reportts WWF/Traffic produce"/>
+<node CREATED="1405940890253" ID="ID_576873366" MODIFIED="1405940898264" TEXT="his name adds gravitas to published reports"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1405936138214" ID="ID_939699269" MODIFIED="1405936252075" TEXT="Hack-day developer"/>
