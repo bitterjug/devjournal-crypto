@@ -230,7 +230,7 @@
 </node>
 <node CREATED="1405937698309" ID="ID_1593136034" MODIFIED="1405937710140" TEXT="link to Apticon point about tech in interventions"/>
 </node>
-<node CREATED="1405938547954" ID="ID_1866132727" MODIFIED="1405938560260" TEXT="wwf explore opensourcing and engaging with community">
+<node CREATED="1405938547954" FOLDED="true" ID="ID_1866132727" MODIFIED="1405938583800" TEXT="wwf explore opensourcing and engaging with community">
 <node CREATED="1405938561668" ID="ID_1011648026" MODIFIED="1405938566402" TEXT="this is exemplar"/>
 <node CREATED="1405938567024" ID="ID_1062269013" MODIFIED="1405938574605" TEXT="this is a source of value fo the client"/>
 <node CREATED="1405938575484" ID="ID_1134392790" MODIFIED="1405938579968" TEXT="how do we meet this?"/>
