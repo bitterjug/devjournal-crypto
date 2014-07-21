@@ -216,7 +216,118 @@
 <node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1405932864188" POSITION="right" TEXT="today">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1405691449442" ID="ID_911530782" MODIFIED="1405932865910" TEXT="WWF">
-<node CREATED="1405691452137" FOLDED="true" ID="ID_808953666" MODIFIED="1405932629324" TEXT="PO training">
+<node CREATED="1405695455843" ID="ID_171783512" MODIFIED="1405695457571" TEXT="discovery">
+<node CREATED="1405936138203" ID="ID_920770356" MODIFIED="1405936138203" TEXT="Agenda for wwf trade mapper meeting on monday 21st July, Brighton"/>
+<node CREATED="1405936138210" ID="ID_43104683" MODIFIED="1405936138210" TEXT="11am    Introductions &amp; Agenda">
+<node CREATED="1405937622884" ID="ID_1512398156" MODIFIED="1405937633968" TEXT="Neil Gunn">
+<icon BUILTIN="male2"/>
+<node CREATED="1405937635854" ID="ID_1670657720" MODIFIED="1405937642201" TEXT="project management for wwf"/>
+<node CREATED="1405937643043" ID="ID_1691952762" MODIFIED="1405937648681" TEXT="following budget and value"/>
+<node CREATED="1405937648932" ID="ID_804527311" MODIFIED="1405937655269" TEXT="open sourcing and using community contrinbution"/>
+<node CREATED="1405937660066" ID="ID_1861334621" MODIFIED="1405937666395" TEXT="link to wwf digital innovation">
+<node CREATED="1405937667247" ID="ID_400859472" MODIFIED="1405937675221" TEXT="5-6 innovative tech projects"/>
+</node>
+</node>
+</node>
+<node CREATED="1405936138211" ID="ID_1824958352" MODIFIED="1405937211606">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      11:15
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1405936330346" ID="ID_213584426" MODIFIED="1405936330348">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Biggest needs and challenges
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1405936138211" ID="ID_653270799" MODIFIED="1405937606254">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      11:30
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1405936239001" ID="ID_291317101" MODIFIED="1405936270816">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Personas
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1405936138213" ID="ID_1597448998" MODIFIED="1405936138213" TEXT="End user"/>
+<node CREATED="1405936138214" ID="ID_939699269" MODIFIED="1405936252075" TEXT="Hack-day developer"/>
+</node>
+</node>
+<node CREATED="1405936138214" ID="ID_1012578325" MODIFIED="1405937605766">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      12:30
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1405937192473" ID="ID_841049096" MODIFIED="1405937202154">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Exploring concerns and expectations
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1405936138215" ID="ID_1167427887" MODIFIED="1405936138215" TEXT="vis. styles, export etc.. discus pros and cons"/>
+<node CREATED="1405936138216" ID="ID_1953765283" MODIFIED="1405936138216" TEXT="User testing issues"/>
+</node>
+</node>
+<node CREATED="1405936138216" ID="ID_1337089772" MODIFIED="1405936138216" TEXT="1:00      Lunch"/>
+<node CREATED="1405936138217" ID="ID_1692850646" MODIFIED="1405936138217" TEXT="2:00      User Journeys &amp; Stories">
+<node CREATED="1405936138217" MODIFIED="1405936138217" TEXT="Thin Slicing - how should we ensure mvp?"/>
+<node CREATED="1405936138218" MODIFIED="1405936138218" TEXT="One goal"/>
+<node CREATED="1405936138218" MODIFIED="1405936138218" TEXT="One user"/>
+<node CREATED="1405936138219" MODIFIED="1405936138219" TEXT="One data format"/>
+<node CREATED="1405936138219" MODIFIED="1405936138219" TEXT="One visualisation"/>
+<node CREATED="1405936138220" MODIFIED="1405936138220" TEXT="Restrict options"/>
+<node CREATED="1405936138220" MODIFIED="1405936138220" TEXT="Restrict interactions"/>
+<node CREATED="1405936138221" MODIFIED="1405936138221" TEXT="One export format"/>
+<node CREATED="1405936138221" MODIFIED="1405936138221" TEXT="One share channel"/>
+</node>
+<node CREATED="1405936138222" ID="ID_1474547878" MODIFIED="1405936138222" TEXT="3.30    Hack day  (20 mins)"/>
+<node CREATED="1405936138222" ID="ID_996654564" MODIFIED="1405936138222" TEXT="3:50    Review and evaluation (10 mins)"/>
+<node CREATED="1405936138222" ID="ID_1977689864" MODIFIED="1405936138222" TEXT="4pm    End"/>
+</node>
+<node CREATED="1405691452137" FOLDED="true" ID="ID_808953666" MODIFIED="1405937617593" TEXT="PO training">
 <node CREATED="1405692886369" FOLDED="true" ID="ID_1298816527" MODIFIED="1405695453628" TEXT="discovery workshop">
 <node CREATED="1405692962598" ID="ID_341265476" MODIFIED="1405693109649" TEXT="Establish high level goals">
 <node CREATED="1405693111183" ID="ID_1913192667" MODIFIED="1405693116278" TEXT="what do you want to achieve ?"/>
@@ -336,7 +447,6 @@
 </node>
 </node>
 </node>
-<node CREATED="1405695455843" ID="ID_171783512" MODIFIED="1405695457571" TEXT="discovery"/>
 <node CREATED="1405932436416" FOLDED="true" ID="ID_1201547129" MODIFIED="1405935910670" TEXT="user workflow">
 <node CREATED="1405932451539" ID="ID_969162479" MODIFIED="1405932454760" TEXT="cleaning data">
 <node CREATED="1405932455021" ID="ID_879943841" MODIFIED="1405932456584" TEXT="converting">
