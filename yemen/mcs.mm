@@ -617,7 +617,7 @@
 <node CREATED="1405942432239" ID="ID_1172135736" MODIFIED="1405942437320" TEXT="has some experience of Git"/>
 <node CREATED="1405942438626" ID="ID_1932547239" MODIFIED="1405942448236" TEXT="frustrated with her company&apos;s rules about IP and ownership"/>
 </node>
-<node CREATED="1405943016946" ID="ID_551657250" MODIFIED="1405943019276" TEXT="Tasks">
+<node CREATED="1405943016946" FOLDED="true" ID="ID_551657250" MODIFIED="1405943149165" TEXT="Tasks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1405943019551" ID="ID_116939535" MODIFIED="1405943022653" TEXT="html/css"/>
 <node CREATED="1405943022885" ID="ID_499830401" MODIFIED="1405943028885" TEXT="setup dev env"/>
@@ -628,6 +628,12 @@
 <node CREATED="1405943051148" ID="ID_972167592" MODIFIED="1405943054128" TEXT="Limited client contact"/>
 <node CREATED="1405943054352" ID="ID_1195973032" MODIFIED="1405943058886" TEXT="needs clear guidance"/>
 <node CREATED="1405943059109" ID="ID_731053538" MODIFIED="1405943063210" TEXT="familiar with kanban"/>
+</node>
+<node CREATED="1405943151282" ID="ID_1675065867" MODIFIED="1405943154325" TEXT="Expectations">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1405943154601" ID="ID_1003080522" MODIFIED="1405943159072" TEXT="learn something new"/>
+<node CREATED="1405943159304" ID="ID_1457410512" MODIFIED="1405943168684" TEXT="see how techie skills can be applied to something REAL"/>
+<node CREATED="1405943169526" ID="ID_1608934145" MODIFIED="1405943185408" TEXT="like using it becaus it takes their uni learning from theoretical to real practical application in the world"/>
 </node>
 </node>
 </node>
