@@ -283,8 +283,7 @@
       11:15
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1405936330346" ID="ID_213584426" MODIFIED="1405944077226">
 <richcontent TYPE="NODE"><html>
@@ -438,8 +437,7 @@
       11:30
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1405936239001" FOLDED="true" ID="ID_291317101" MODIFIED="1405943728377">
 <richcontent TYPE="NODE"><html>
@@ -691,8 +689,7 @@
       12:30
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1405937192473" ID="ID_841049096" MODIFIED="1405943737906">
 <richcontent TYPE="NODE"><html>
@@ -742,7 +739,10 @@
 <node CREATED="1405949089164" ID="ID_143587642" MODIFIED="1405949091448" TEXT="labeling">
 <node CREATED="1405949093262" ID="ID_1264529152" MODIFIED="1405949095697" TEXT="&quot;ivory&quot;"/>
 </node>
-<node CREATED="1405949100140" ID="ID_806553339" MODIFIED="1405949103671" TEXT="hover popups"/>
+<node CREATED="1405949100140" ID="ID_806553339" MODIFIED="1405949103671" TEXT="hover popups">
+<node CREATED="1405949142620" ID="ID_1485745608" MODIFIED="1405949148470" TEXT="do we want click so they stay on?"/>
+<node CREATED="1405949149684" ID="ID_184656037" MODIFIED="1405949155647" TEXT="do you want to drag thoset too?"/>
+</node>
 </node>
 </node>
 <node CREATED="1405938346399" ID="ID_375230220" MODIFIED="1405938351369" TEXT="3.30">
