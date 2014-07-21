@@ -475,6 +475,10 @@
 <node CREATED="1405940743951" ID="ID_240147330" MODIFIED="1405940753896" TEXT="Normally has Broadband">
 <node CREATED="1405940754152" ID="ID_601614126" MODIFIED="1405940758027" TEXT="sometimes power is off"/>
 </node>
+<node CREATED="1405940802056" ID="ID_1966561530" MODIFIED="1405940805945" TEXT="emails and texts from phone"/>
+<node CREATED="1405940819869" ID="ID_1888582466" MODIFIED="1405940824948" TEXT="some concerns with sensitive data">
+<node CREATED="1405940826794" ID="ID_1365178429" MODIFIED="1405940833598" TEXT="prefer assistant to handle it"/>
+</node>
 </node>
 </node>
 </node>
