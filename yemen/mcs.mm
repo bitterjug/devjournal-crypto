@@ -744,6 +744,7 @@
 <node CREATED="1405949149684" ID="ID_184656037" MODIFIED="1405949155647" TEXT="do you want to drag thoset too?"/>
 </node>
 <node CREATED="1405949171021" ID="ID_970915092" MODIFIED="1405949184644" TEXT="desccribe filtering options in plain text so the story of the vis is obvious"/>
+<node CREATED="1405949193307" ID="ID_1614554135" MODIFIED="1405949199116" TEXT="describe the source, e.g. CITES"/>
 </node>
 </node>
 <node CREATED="1405938346399" ID="ID_375230220" MODIFIED="1405938351369" TEXT="3.30">
