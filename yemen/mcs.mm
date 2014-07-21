@@ -338,17 +338,30 @@
 </node>
 <node CREATED="1405695455843" ID="ID_171783512" MODIFIED="1405695457571" TEXT="discovery"/>
 <node CREATED="1405697764122" ID="ID_349975673" MODIFIED="1405697768220" TEXT="hadk day -- ">
-<node CREATED="1405697768788" ID="ID_772618774" MODIFIED="1405697770964" TEXT="participate"/>
-<node CREATED="1405697771186" ID="ID_751527247" MODIFIED="1405697773138" TEXT="organize?"/>
+<node CREATED="1405697768788" ID="ID_772618774" MODIFIED="1405697770964" TEXT="participate">
+<node CREATED="1405932306335" ID="ID_1171829816" MODIFIED="1405932318722" TEXT="identify disccrete piecces of work.."/>
+<node CREATED="1405932319653" ID="ID_1183187105" MODIFIED="1405932329860" TEXT="attend">
+<node CREATED="1405932330335" ID="ID_1415479043" MODIFIED="1405932336291" TEXT="participant"/>
+<node CREATED="1405932336524" ID="ID_1942488761" MODIFIED="1405932340328" TEXT="code base expert"/>
+</node>
+</node>
+<node CREATED="1405697771186" ID="ID_751527247" MODIFIED="1405697773138" TEXT="organize?">
+<node CREATED="1405932299771" ID="ID_1732326839" MODIFIED="1405932303083" TEXT="promote"/>
+<node CREATED="1405932303295" ID="ID_123546109" MODIFIED="1405932304675" TEXT="plan?"/>
+</node>
+<node CREATED="1405932293483" ID="ID_1545567880" MODIFIED="1405932297762" TEXT="what level of involkvement"/>
+</node>
+<node CREATED="1405697776802" ID="ID_302055687" MODIFIED="1405697778216" TEXT="contract">
+<node CREATED="1405697778937" ID="ID_465200320" MODIFIED="1405697799453" TEXT="best not to have fixed contract"/>
 </node>
 </node>
 </node>
-<node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1405697111295" TEXT="today">
+<node CREATED="1403772475552" FOLDED="true" ID="ID_371724963" MODIFIED="1405700581855" TEXT="today">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1404491445825" ID="ID_1983110028" MODIFIED="1405689646895" TEXT="Tom Lord">
 <node CREATED="1404469085182" ID="ID_456128756" MODIFIED="1404491452401" TEXT="Asl TomL When do YouWiN run out of contract/budget?"/>
 </node>
-<node CREATED="1405348103712" FOLDED="true" ID="ID_670289819" MODIFIED="1405689842739" TEXT="YouWiN Contracts">
+<node CREATED="1405348103712" ID="ID_670289819" MODIFIED="1405700316506" TEXT="YouWiN Contracts">
 <node CREATED="1405348302588" ID="ID_1277061665" MODIFIED="1405348327891" TEXT="Hi Wale and Mark, &#xa;&#xa; I met Supo and Wale on Tuesday and then spoke to Richard at DFID  I got the impression Wale (correct me if I am wrong) that you are no longer expecting system development work and I know that DFID are not keen to fund such work. On the other hand, while Wale confirmed to Supo that they felt able to take over the system for the remainder of YouWin!3, DFID prefer to keep Aptivate involvement to the end of YouWiN!3 which is currently expected to be December 2014. &#xa;&#xa;The support will be for ad-hoc requests to allow the competition, post-award support and M&amp;E to move ahead as smoothly as possible.  Due to budget cuts we have fewer funds than expected to support YouWiN!3. Our present budget for IT support is for two iterations and the annual maintenance fee and it will be difficult for us to extend over that. I would therefore urge Wale, and through him the Secretariat to try to keep requests to a minimum so that this budget is not exceeded. &#xa;&#xa; Mark: CA4 covered 11 iterations (19-29 only) so a further 2 will take us to 30 and 31. We can get this organised for you before the end of the month.  &#xa;&#xa;  Best  Anthea "/>
 <node CREATED="1405348388075" ID="ID_1792453556" MODIFIED="1405348453069" TEXT="CA4:">
 <node CREATED="1405348442005" ID="ID_1112090748" MODIFIED="1405348445475" TEXT="Iteration 29"/>
@@ -368,7 +381,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1404491475849" FOLDED="true" ID="ID_1061724248" MODIFIED="1405697117313" TEXT="v4c">
+<node CREATED="1404491475849" FOLDED="true" ID="ID_1061724248" MODIFIED="1405700312708" TEXT="v4c">
 <node CREATED="1405087388076" ID="ID_1925298893" MODIFIED="1405682137749" TEXT="call">
 <node CREATED="1405682379692" ID="ID_322912984" MODIFIED="1405682380439" TEXT="old">
 <node CREATED="1405070581866" ID="ID_152692545" MODIFIED="1405682384950" TEXT="demo">
