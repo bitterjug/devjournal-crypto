@@ -603,6 +603,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1405942315730" ID="ID_1316423006" MODIFIED="1405942319196" TEXT="stickers on her mac"/>
 <node CREATED="1405942338750" ID="ID_1300177515" MODIFIED="1405942342670" TEXT="confident with terminal"/>
+<node CREATED="1405942373406" ID="ID_562551551" MODIFIED="1405942378997" TEXT="likes the idea of playing with data"/>
+<node CREATED="1405942379341" ID="ID_53054405" MODIFIED="1405942384445" TEXT="doesn&apos;t get as much time as would like"/>
+<node CREATED="1405942384642" ID="ID_1650396855" MODIFIED="1405942390154" TEXT="front-end web developer"/>
+<node CREATED="1405942390479" ID="ID_1527825380" MODIFIED="1405942394140" TEXT="not a data/db expert"/>
+<node CREATED="1405942394346" ID="ID_928881107" MODIFIED="1405942401335" TEXT="digs the idea of doing data viz"/>
 </node>
 </node>
 </node>
