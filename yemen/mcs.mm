@@ -404,6 +404,14 @@
 </node>
 </node>
 </node>
+<node CREATED="1405940370004" ID="ID_957330738" MODIFIED="1405940380498" TEXT="Willow downloads 10 data sets per day">
+<node CREATED="1405940380877" ID="ID_128394700" MODIFIED="1405940394918" TEXT="e.g. what do you know about Chimp Trade in China?"/>
+<node CREATED="1405940397670" ID="ID_1937535754" MODIFIED="1405940404792" TEXT="download CITES"/>
+<node CREATED="1405940406082" ID="ID_875510848" MODIFIED="1405940411988" TEXT="what are they declaring legally"/>
+<node CREATED="1405940412208" ID="ID_1699341487" MODIFIED="1405940416772" TEXT="what are they doing illegally"/>
+<node CREATED="1405940424217" ID="ID_1698779904" MODIFIED="1405940432138" TEXT="is this why CITES data would be most useful?"/>
+<node CREATED="1405940433101" ID="ID_885556120" MODIFIED="1405940449428" TEXT="if multiple data sets are central, how do we tackle the problem?"/>
+</node>
 <node CREATED="1405936138211" ID="ID_653270799" MODIFIED="1405937606254">
 <richcontent TYPE="NODE"><html>
   <head>
