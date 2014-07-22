@@ -213,10 +213,146 @@
 </node>
 </node>
 </node>
-<node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1405932864188" POSITION="right" TEXT="today">
+<node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1406019473589" POSITION="right" TEXT="Tasks">
+<node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1406019492788" TEXT="today">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1405691449442" ID="ID_911530782" MODIFIED="1405932865910" TEXT="WWF">
-<node CREATED="1405695455843" FOLDED="true" ID="ID_171783512" MODIFIED="1405958911246" TEXT="discovery">
+<node CREATED="1406019548012" ID="ID_1749496624" MODIFIED="1406019558060" TEXT="Set up sparklshare for wwf">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1405348103712" FOLDED="true" ID="ID_670289819" MODIFIED="1406019537813" TEXT="YouWiN Contracts">
+<node CREATED="1405348302588" ID="ID_1277061665" MODIFIED="1405348327891" TEXT="Hi Wale and Mark, &#xa;&#xa; I met Supo and Wale on Tuesday and then spoke to Richard at DFID  I got the impression Wale (correct me if I am wrong) that you are no longer expecting system development work and I know that DFID are not keen to fund such work. On the other hand, while Wale confirmed to Supo that they felt able to take over the system for the remainder of YouWin!3, DFID prefer to keep Aptivate involvement to the end of YouWiN!3 which is currently expected to be December 2014. &#xa;&#xa;The support will be for ad-hoc requests to allow the competition, post-award support and M&amp;E to move ahead as smoothly as possible.  Due to budget cuts we have fewer funds than expected to support YouWiN!3. Our present budget for IT support is for two iterations and the annual maintenance fee and it will be difficult for us to extend over that. I would therefore urge Wale, and through him the Secretariat to try to keep requests to a minimum so that this budget is not exceeded. &#xa;&#xa; Mark: CA4 covered 11 iterations (19-29 only) so a further 2 will take us to 30 and 31. We can get this organised for you before the end of the month.  &#xa;&#xa;  Best  Anthea "/>
+<node CREATED="1405348388075" ID="ID_1792453556" MODIFIED="1405348453069" TEXT="CA4:">
+<node CREATED="1405348442005" ID="ID_1112090748" MODIFIED="1405348445475" TEXT="Iteration 29"/>
+</node>
+<node CREATED="1405348707402" ID="ID_145760095" MODIFIED="1405348708657" TEXT="Kanban">
+<node CREATED="1405348709153" ID="ID_503083363" MODIFIED="1405689646915" TEXT="Iteration 28-29:">
+<node CREATED="1405348716909" ID="ID_1695876230" MODIFIED="1405348720688" TEXT="4 points remaining"/>
+<node CREATED="1405353713999" ID="ID_947611819" MODIFIED="1405353718043" TEXT="taken by June work!"/>
+</node>
+</node>
+<node CREATED="1405348426685" ID="ID_812495665" MODIFIED="1405689829794" TEXT="CA5:">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1405353691713" ID="ID_1514183336" MODIFIED="1405353701654" TEXT="does not yett exist"/>
+<node CREATED="1405353701897" ID="ID_1060804348" MODIFIED="1405353708009" TEXT="Iteration 30, 31"/>
+</node>
+<node CREATED="1405351248428" ID="ID_844601026" MODIFIED="1405689825471" TEXT="finish the July report">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1406019529949" ID="ID_482695439" MODIFIED="1406019537061" TEXT="Anthea wants more detail">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1404491475849" FOLDED="true" ID="ID_1061724248" MODIFIED="1406019539854" TEXT="v4c">
+<node CREATED="1405087388076" ID="ID_1925298893" MODIFIED="1405682137749" TEXT="call">
+<node CREATED="1405682379692" ID="ID_322912984" MODIFIED="1405682380439" TEXT="old">
+<node CREATED="1405070581866" ID="ID_152692545" MODIFIED="1405682384950" TEXT="demo">
+<node CREATED="1405090945387" ID="ID_1704544059" MODIFIED="1405090958936" TEXT="HTML entities appear in result titles">
+<icon BUILTIN="closed"/>
+</node>
+<node CREATED="1405091336705" ID="ID_1368644479" MODIFIED="1405091353980" TEXT="how does data entry work if we add only the next upcoming quarters, not all 4 eper year?">
+<icon BUILTIN="help"/>
+</node>
+</node>
+<node CREATED="1404380759087" ID="ID_424123093" MODIFIED="1405689646916" TEXT="annual/quarterly plan">
+<node CREATED="1404380771246" ID="ID_654484033" MODIFIED="1404380783260" TEXT="do you want one per year or separate quarterly plan download?"/>
+<node CREATED="1404380854150" ID="ID_1358465588" MODIFIED="1404380866477" TEXT="what do you call your years? (giventhey start in 0ct?)">
+<node CREATED="1405333670832" ID="ID_1341352551" MODIFIED="1405333688549" TEXT="year 1 = 2013, year 2 = 2014, etc"/>
+<node CREATED="1405333688851" ID="ID_709918709" MODIFIED="1405333702422" TEXT="then Q1, 2 3 etc "/>
+<node CREATED="1405333702672" ID="ID_352263674" MODIFIED="1405333706008" TEXT="Q1 starts in Oct"/>
+</node>
+</node>
+<node CREATED="1405087400540" ID="ID_757238106" MODIFIED="1405689646917" TEXT="free stuff?">
+<node CREATED="1405086114773" ID="ID_207380463" MODIFIED="1405087385435" TEXT="3 months fixing?"/>
+<node CREATED="1405086119413" ID="ID_871443967" MODIFIED="1405087395984" TEXT="training -- call us"/>
+<node CREATED="1405086125317" ID="ID_511684896" MODIFIED="1405086135124" TEXT="we can&apos;t have an open commitment to do work for free"/>
+</node>
+</node>
+<node CREATED="1405682433522" ID="ID_659010126" MODIFIED="1405682437448" TEXT="work done"/>
+<node CREATED="1405682437813" ID="ID_196961882" MODIFIED="1405682441736" TEXT="deploy to production?"/>
+<node CREATED="1405682328093" ID="ID_1654583418" MODIFIED="1405682454788" TEXT="iteration 8 resumes">
+<node CREATED="1405086179493" ID="ID_1598744521" MODIFIED="1405682331899" TEXT="week of august 11th"/>
+<node CREATED="1405682333987" ID="ID_1892537700" MODIFIED="1405682342114" TEXT="ko meeting">
+<icon BUILTIN="help"/>
+</node>
+</node>
+</node>
+<node CREATED="1405684288420" ID="ID_813495586" MODIFIED="1405684294271" TEXT="activity for outcome leveles"/>
+</node>
+</node>
+<node CREATED="1405337962778" ID="ID_200319496" MODIFIED="1405350155763" TEXT="Wednesday">
+<node CREATED="1404491456633" ID="ID_1725395983" MODIFIED="1405337961057" TEXT="Alan">
+<node CREATED="1404401929669" ID="ID_1628327529" LINK="http://lopad.org/Sond2BKcrp" MODIFIED="1404491462627" TEXT="Talk to alan about Output wg process document"/>
+<node CREATED="1405337946104" ID="ID_696394941" MODIFIED="1405337951327" TEXT="YouWin post DFID"/>
+<node CREATED="1405337951707" ID="ID_1711611632" MODIFIED="1405337954120" TEXT="Yemen"/>
+</node>
+</node>
+<node CREATED="1400686687910" FOLDED="true" ID="ID_1634585377" MODIFIED="1406019496589" TEXT="youwin">
+<node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI">
+<node CREATED="1405098756708" ID="ID_1688884132" MODIFIED="1405098760918" TEXT="outstanding new request"/>
+</node>
+<node CREATED="1405098771212" ID="ID_964904087" MODIFIED="1405098793907" TEXT="re-produce spreadsheet of applicants to include missing one">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1401962419696" TEXT="Check time-scale for marking/selecting winners"/>
+<node CREATED="1405354246483" ID="ID_1805840549" MODIFIED="1405354253169" TEXT="complete and send report for July">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1402324157530" HGAP="25" ID="ID_1620424893" MODIFIED="1405689646918" TEXT="POST-DFID work" VSHIFT="13">
+<node CREATED="1402324183194" ID="ID_388312104" MODIFIED="1402324192766" TEXT="Enhancements to M&amp;E"/>
+<node CREATED="1402324193186" ID="ID_758207692" MODIFIED="1402324200985" TEXT="Running YouWiN 4+"/>
+<node CREATED="1402324201337" ID="ID_340737605" MODIFIED="1402324213562" TEXT="Automating future competitions"/>
+</node>
+</node>
+</node>
+<node CREATED="1400681598771" ID="ID_1380001750" MODIFIED="1406019464653" POSITION="left" TEXT="notes">
+<node CREATED="1401352479410" FOLDED="true" ID="ID_330107255" MODIFIED="1405938515763" TEXT="Yemen">
+<node CREATED="1401352830377" ID="ID_1925615670" MODIFIED="1405689646924" TEXT="workflows">
+<node CREATED="1401352498324" ID="ID_189021974" MODIFIED="1405689646928" TEXT="augment">
+<node CREATED="1401352798546" ID="ID_1919699167" MODIFIED="1401352817629" TEXT="search/filter"/>
+<node CREATED="1401352513566" ID="ID_160754124" MODIFIED="1401352786993" TEXT="download"/>
+<node CREATED="1401809388929" ID="ID_1095943664" MODIFIED="1401809392489" TEXT="modify offline"/>
+<node CREATED="1401809393224" ID="ID_377473978" MODIFIED="1401809394996" TEXT="upload again"/>
+</node>
+<node CREATED="1401809377304" ID="ID_885586952" MODIFIED="1405689646930" TEXT="modify">
+<node CREATED="1401809398613" ID="ID_1028750926" MODIFIED="1401809424386" TEXT="different from augment because the structure stays the same (no new columns) but the contents might change"/>
+</node>
+<node CREATED="1401352481728" ID="ID_1964642517" MODIFIED="1405689646930" TEXT="upload ">
+<node CREATED="1401352798546" ID="ID_835677571" MODIFIED="1401352810270" TEXT="search/filter"/>
+</node>
+<node CREATED="1401352500930" ID="ID_1461664678" MODIFIED="1405689646931" TEXT="consume">
+<node CREATED="1401352798546" ID="ID_54997324" MODIFIED="1401352820500" TEXT="search/filter"/>
+<node CREATED="1401352508474" ID="ID_767357108" MODIFIED="1401352509443" TEXT="compare"/>
+<node CREATED="1401352509723" ID="ID_529491266" MODIFIED="1401352786993" TEXT="download">
+<arrowlink DESTINATION="ID_160754124" ENDARROW="Default" ENDINCLINATION="46;0;" ID="Arrow_ID_759270008" STARTARROW="None" STARTINCLINATION="46;0;"/>
+</node>
+</node>
+</node>
+<node CREATED="1401352884148" ID="ID_1182842141" MODIFIED="1404377265380" TEXT="stories">
+<node CREATED="1401352893552" ID="ID_1772422744" MODIFIED="1401352931657" TEXT="search/filter"/>
+<node CREATED="1401352932070" ID="ID_642023993" MODIFIED="1401352954328" TEXT="upload update/replace"/>
+<node CREATED="1401352959354" ID="ID_845381512" MODIFIED="1401352972527" TEXT="compare/analyse"/>
+<node CREATED="1401352954928" ID="ID_268461099" MODIFIED="1401352958405" TEXT="upload new"/>
+<node CREATED="1401352940467" ID="ID_962278148" MODIFIED="1401352945252" TEXT="download"/>
+<node CREATED="1401352973824" ID="ID_590069156" MODIFIED="1401352979981" TEXT="edit metadata"/>
+</node>
+<node CREATED="1401720257470" ID="ID_269589932" MODIFIED="1405689646931" TEXT="events">
+<node CREATED="1401720273179" ID="ID_1096014247" MODIFIED="1405689646932" TEXT="upload">
+<node CREATED="1401720329106" ID="ID_1918529333" MODIFIED="1401720332174" TEXT="add new rows"/>
+</node>
+<node CREATED="1401720333499" ID="ID_768071445" MODIFIED="1405689646932" TEXT="modify">
+<node CREATED="1401720335378" ID="ID_1703236706" MODIFIED="1401720342403" TEXT="replace existing rows"/>
+<node CREATED="1401720342658" ID="ID_856218832" MODIFIED="1401720362196" TEXT="leave all columns in existing rows but add columns"/>
+</node>
+<node CREATED="1401720293618" ID="ID_48438846" MODIFIED="1405689646932" TEXT="delete">
+<node CREATED="1401720298020" ID="ID_498113169" MODIFIED="1401720304169" TEXT="do we keep what has been deleted?"/>
+</node>
+</node>
+<node CREATED="1401197061474" ID="ID_354296444" MODIFIED="1405337722469" TEXT="Actions">
+<node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
+</node>
+</node>
+<node CREATED="1405337638430" ID="ID_481576609" MODIFIED="1405337642691" TEXT="WWF Mapper">
+<node CREATED="1405695455843" FOLDED="true" ID="ID_171783512" MODIFIED="1406019477565" TEXT="discovery">
 <node CREATED="1405940969465" ID="ID_1380408032" MODIFIED="1405944111107" TEXT="bg">
 <node CREATED="1405940939412" ID="ID_1528948194" MODIFIED="1405944063793" TEXT="Background">
 <node CREATED="1405940923075" ID="ID_307111691" MODIFIED="1405940945033" TEXT="WWF ">
@@ -957,6 +1093,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
+<node CREATED="1405691449442" ID="ID_911530782" MODIFIED="1405932865910" TEXT="WWF">
 <node CREATED="1405932436416" ID="ID_1201547129" MODIFIED="1405938916095" TEXT="user workflow">
 <node CREATED="1405932451539" ID="ID_969162479" MODIFIED="1405932454760" TEXT="cleaning data">
 <node CREATED="1405932455021" ID="ID_879943841" MODIFIED="1405932456584" TEXT="converting">
@@ -987,114 +1124,7 @@
 <node CREATED="1405697778937" ID="ID_465200320" MODIFIED="1405697799453" TEXT="best not to have fixed contract"/>
 </node>
 </node>
-<node CREATED="1404491445825" ID="ID_1983110028" MODIFIED="1405689646895" TEXT="Tom Lord">
-<node CREATED="1404469085182" ID="ID_456128756" MODIFIED="1404491452401" TEXT="Asl TomL When do YouWiN run out of contract/budget?"/>
 </node>
-<node CREATED="1405348103712" FOLDED="true" ID="ID_670289819" MODIFIED="1405932856807" TEXT="YouWiN Contracts">
-<node CREATED="1405348302588" ID="ID_1277061665" MODIFIED="1405348327891" TEXT="Hi Wale and Mark, &#xa;&#xa; I met Supo and Wale on Tuesday and then spoke to Richard at DFID  I got the impression Wale (correct me if I am wrong) that you are no longer expecting system development work and I know that DFID are not keen to fund such work. On the other hand, while Wale confirmed to Supo that they felt able to take over the system for the remainder of YouWin!3, DFID prefer to keep Aptivate involvement to the end of YouWiN!3 which is currently expected to be December 2014. &#xa;&#xa;The support will be for ad-hoc requests to allow the competition, post-award support and M&amp;E to move ahead as smoothly as possible.  Due to budget cuts we have fewer funds than expected to support YouWiN!3. Our present budget for IT support is for two iterations and the annual maintenance fee and it will be difficult for us to extend over that. I would therefore urge Wale, and through him the Secretariat to try to keep requests to a minimum so that this budget is not exceeded. &#xa;&#xa; Mark: CA4 covered 11 iterations (19-29 only) so a further 2 will take us to 30 and 31. We can get this organised for you before the end of the month.  &#xa;&#xa;  Best  Anthea "/>
-<node CREATED="1405348388075" ID="ID_1792453556" MODIFIED="1405348453069" TEXT="CA4:">
-<node CREATED="1405348442005" ID="ID_1112090748" MODIFIED="1405348445475" TEXT="Iteration 29"/>
-</node>
-<node CREATED="1405348707402" ID="ID_145760095" MODIFIED="1405348708657" TEXT="Kanban">
-<node CREATED="1405348709153" ID="ID_503083363" MODIFIED="1405689646915" TEXT="Iteration 28-29:">
-<node CREATED="1405348716909" ID="ID_1695876230" MODIFIED="1405348720688" TEXT="4 points remaining"/>
-<node CREATED="1405353713999" ID="ID_947611819" MODIFIED="1405353718043" TEXT="taken by June work!"/>
-</node>
-</node>
-<node CREATED="1405348426685" ID="ID_812495665" MODIFIED="1405689829794" TEXT="CA5:">
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1405353691713" ID="ID_1514183336" MODIFIED="1405353701654" TEXT="does not yett exist"/>
-<node CREATED="1405353701897" ID="ID_1060804348" MODIFIED="1405353708009" TEXT="Iteration 30, 31"/>
-</node>
-<node CREATED="1405351248428" ID="ID_844601026" MODIFIED="1405689825471" TEXT="finish the July report">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1404491475849" FOLDED="true" ID="ID_1061724248" MODIFIED="1405700312708" TEXT="v4c">
-<node CREATED="1405087388076" ID="ID_1925298893" MODIFIED="1405682137749" TEXT="call">
-<node CREATED="1405682379692" ID="ID_322912984" MODIFIED="1405682380439" TEXT="old">
-<node CREATED="1405070581866" ID="ID_152692545" MODIFIED="1405682384950" TEXT="demo">
-<node CREATED="1405090945387" ID="ID_1704544059" MODIFIED="1405090958936" TEXT="HTML entities appear in result titles">
-<icon BUILTIN="closed"/>
-</node>
-<node CREATED="1405091336705" ID="ID_1368644479" MODIFIED="1405091353980" TEXT="how does data entry work if we add only the next upcoming quarters, not all 4 eper year?">
-<icon BUILTIN="help"/>
-</node>
-</node>
-<node CREATED="1404380759087" ID="ID_424123093" MODIFIED="1405689646916" TEXT="annual/quarterly plan">
-<node CREATED="1404380771246" ID="ID_654484033" MODIFIED="1404380783260" TEXT="do you want one per year or separate quarterly plan download?"/>
-<node CREATED="1404380854150" ID="ID_1358465588" MODIFIED="1404380866477" TEXT="what do you call your years? (giventhey start in 0ct?)">
-<node CREATED="1405333670832" ID="ID_1341352551" MODIFIED="1405333688549" TEXT="year 1 = 2013, year 2 = 2014, etc"/>
-<node CREATED="1405333688851" ID="ID_709918709" MODIFIED="1405333702422" TEXT="then Q1, 2 3 etc "/>
-<node CREATED="1405333702672" ID="ID_352263674" MODIFIED="1405333706008" TEXT="Q1 starts in Oct"/>
-</node>
-</node>
-<node CREATED="1405087400540" ID="ID_757238106" MODIFIED="1405689646917" TEXT="free stuff?">
-<node CREATED="1405086114773" ID="ID_207380463" MODIFIED="1405087385435" TEXT="3 months fixing?"/>
-<node CREATED="1405086119413" ID="ID_871443967" MODIFIED="1405087395984" TEXT="training -- call us"/>
-<node CREATED="1405086125317" ID="ID_511684896" MODIFIED="1405086135124" TEXT="we can&apos;t have an open commitment to do work for free"/>
-</node>
-</node>
-<node CREATED="1405682433522" ID="ID_659010126" MODIFIED="1405682437448" TEXT="work done"/>
-<node CREATED="1405682437813" ID="ID_196961882" MODIFIED="1405682441736" TEXT="deploy to production?"/>
-<node CREATED="1405682328093" ID="ID_1654583418" MODIFIED="1405682454788" TEXT="iteration 8 resumes">
-<node CREATED="1405086179493" ID="ID_1598744521" MODIFIED="1405682331899" TEXT="week of august 11th"/>
-<node CREATED="1405682333987" ID="ID_1892537700" MODIFIED="1405682342114" TEXT="ko meeting">
-<icon BUILTIN="help"/>
-</node>
-</node>
-</node>
-<node CREATED="1405684288420" ID="ID_813495586" MODIFIED="1405684294271" TEXT="activity for outcome leveles"/>
-</node>
-</node>
-<node CREATED="1400681598771" FOLDED="true" ID="ID_1380001750" MODIFIED="1405938532454" POSITION="left" TEXT="notes">
-<node CREATED="1401352479410" FOLDED="true" ID="ID_330107255" MODIFIED="1405938515763" TEXT="Yemen">
-<node CREATED="1401352830377" ID="ID_1925615670" MODIFIED="1405689646924" TEXT="workflows">
-<node CREATED="1401352498324" ID="ID_189021974" MODIFIED="1405689646928" TEXT="augment">
-<node CREATED="1401352798546" ID="ID_1919699167" MODIFIED="1401352817629" TEXT="search/filter"/>
-<node CREATED="1401352513566" ID="ID_160754124" MODIFIED="1401352786993" TEXT="download"/>
-<node CREATED="1401809388929" ID="ID_1095943664" MODIFIED="1401809392489" TEXT="modify offline"/>
-<node CREATED="1401809393224" ID="ID_377473978" MODIFIED="1401809394996" TEXT="upload again"/>
-</node>
-<node CREATED="1401809377304" ID="ID_885586952" MODIFIED="1405689646930" TEXT="modify">
-<node CREATED="1401809398613" ID="ID_1028750926" MODIFIED="1401809424386" TEXT="different from augment because the structure stays the same (no new columns) but the contents might change"/>
-</node>
-<node CREATED="1401352481728" ID="ID_1964642517" MODIFIED="1405689646930" TEXT="upload ">
-<node CREATED="1401352798546" ID="ID_835677571" MODIFIED="1401352810270" TEXT="search/filter"/>
-</node>
-<node CREATED="1401352500930" ID="ID_1461664678" MODIFIED="1405689646931" TEXT="consume">
-<node CREATED="1401352798546" ID="ID_54997324" MODIFIED="1401352820500" TEXT="search/filter"/>
-<node CREATED="1401352508474" ID="ID_767357108" MODIFIED="1401352509443" TEXT="compare"/>
-<node CREATED="1401352509723" ID="ID_529491266" MODIFIED="1401352786993" TEXT="download">
-<arrowlink DESTINATION="ID_160754124" ENDARROW="Default" ENDINCLINATION="46;0;" ID="Arrow_ID_759270008" STARTARROW="None" STARTINCLINATION="46;0;"/>
-</node>
-</node>
-</node>
-<node CREATED="1401352884148" ID="ID_1182842141" MODIFIED="1404377265380" TEXT="stories">
-<node CREATED="1401352893552" ID="ID_1772422744" MODIFIED="1401352931657" TEXT="search/filter"/>
-<node CREATED="1401352932070" ID="ID_642023993" MODIFIED="1401352954328" TEXT="upload update/replace"/>
-<node CREATED="1401352959354" ID="ID_845381512" MODIFIED="1401352972527" TEXT="compare/analyse"/>
-<node CREATED="1401352954928" ID="ID_268461099" MODIFIED="1401352958405" TEXT="upload new"/>
-<node CREATED="1401352940467" ID="ID_962278148" MODIFIED="1401352945252" TEXT="download"/>
-<node CREATED="1401352973824" ID="ID_590069156" MODIFIED="1401352979981" TEXT="edit metadata"/>
-</node>
-<node CREATED="1401720257470" ID="ID_269589932" MODIFIED="1405689646931" TEXT="events">
-<node CREATED="1401720273179" ID="ID_1096014247" MODIFIED="1405689646932" TEXT="upload">
-<node CREATED="1401720329106" ID="ID_1918529333" MODIFIED="1401720332174" TEXT="add new rows"/>
-</node>
-<node CREATED="1401720333499" ID="ID_768071445" MODIFIED="1405689646932" TEXT="modify">
-<node CREATED="1401720335378" ID="ID_1703236706" MODIFIED="1401720342403" TEXT="replace existing rows"/>
-<node CREATED="1401720342658" ID="ID_856218832" MODIFIED="1401720362196" TEXT="leave all columns in existing rows but add columns"/>
-</node>
-<node CREATED="1401720293618" ID="ID_48438846" MODIFIED="1405689646932" TEXT="delete">
-<node CREATED="1401720298020" ID="ID_498113169" MODIFIED="1401720304169" TEXT="do we keep what has been deleted?"/>
-</node>
-</node>
-<node CREATED="1401197061474" ID="ID_354296444" MODIFIED="1405337722469" TEXT="Actions">
-<node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
-</node>
-</node>
-<node CREATED="1405337638430" ID="ID_481576609" MODIFIED="1405337642691" TEXT="WWF Mapper"/>
 <node CREATED="1404383568005" FOLDED="true" ID="ID_728158290" MODIFIED="1405938514175" TEXT="output">
 <node CREATED="1404383574228" ID="ID_487990213" MODIFIED="1404383576557" TEXT="pain points">
 <node CREATED="1404383576843" ID="ID_1512931449" MODIFIED="1404383580643" TEXT="help us know what to work on next"/>
@@ -1165,32 +1195,6 @@
 </node>
 <node CREATED="1405938451885" ID="ID_783257376" MODIFIED="1405938455198" TEXT="what is the best format"/>
 <node CREATED="1405938455468" ID="ID_503396799" MODIFIED="1405938459065" TEXT="do they convey the user value"/>
-</node>
-</node>
-</node>
-<node CREATED="1400681063027" FOLDED="true" ID="ID_1461444615" MODIFIED="1405935774144" POSITION="left" TEXT="Tasks">
-<node CREATED="1405337962778" ID="ID_200319496" MODIFIED="1405350155763" TEXT="Wednesday">
-<node CREATED="1404491456633" ID="ID_1725395983" MODIFIED="1405337961057" TEXT="Alan">
-<node CREATED="1404401929669" ID="ID_1628327529" LINK="http://lopad.org/Sond2BKcrp" MODIFIED="1404491462627" TEXT="Talk to alan about Output wg process document"/>
-<node CREATED="1405337946104" ID="ID_696394941" MODIFIED="1405337951327" TEXT="YouWin post DFID"/>
-<node CREATED="1405337951707" ID="ID_1711611632" MODIFIED="1405337954120" TEXT="Yemen"/>
-</node>
-</node>
-<node CREATED="1400686687910" FOLDED="true" ID="ID_1634585377" MODIFIED="1405935763819" TEXT="youwin">
-<node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI">
-<node CREATED="1405098756708" ID="ID_1688884132" MODIFIED="1405098760918" TEXT="outstanding new request"/>
-</node>
-<node CREATED="1405098771212" ID="ID_964904087" MODIFIED="1405098793907" TEXT="re-produce spreadsheet of applicants to include missing one">
-<icon BUILTIN="messagebox_warning"/>
-</node>
-<node CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1401962419696" TEXT="Check time-scale for marking/selecting winners"/>
-<node CREATED="1405354246483" ID="ID_1805840549" MODIFIED="1405354253169" TEXT="complete and send report for July">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1402324157530" HGAP="25" ID="ID_1620424893" MODIFIED="1405689646918" TEXT="POST-DFID work" VSHIFT="13">
-<node CREATED="1402324183194" ID="ID_388312104" MODIFIED="1402324192766" TEXT="Enhancements to M&amp;E"/>
-<node CREATED="1402324193186" ID="ID_758207692" MODIFIED="1402324200985" TEXT="Running YouWiN 4+"/>
-<node CREATED="1402324201337" ID="ID_340737605" MODIFIED="1402324213562" TEXT="Automating future competitions"/>
 </node>
 </node>
 </node>
