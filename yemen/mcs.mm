@@ -219,7 +219,7 @@
 <node CREATED="1406019548012" ID="ID_1749496624" MODIFIED="1406019558060" TEXT="Set up sparklshare for wwf">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1405348103712" FOLDED="true" ID="ID_670289819" MODIFIED="1406019537813" TEXT="YouWiN Contracts">
+<node CREATED="1405348103712" FOLDED="true" ID="ID_670289819" MODIFIED="1406041887938" TEXT="YouWiN Contracts">
 <node CREATED="1405348302588" ID="ID_1277061665" MODIFIED="1405348327891" TEXT="Hi Wale and Mark, &#xa;&#xa; I met Supo and Wale on Tuesday and then spoke to Richard at DFID  I got the impression Wale (correct me if I am wrong) that you are no longer expecting system development work and I know that DFID are not keen to fund such work. On the other hand, while Wale confirmed to Supo that they felt able to take over the system for the remainder of YouWin!3, DFID prefer to keep Aptivate involvement to the end of YouWiN!3 which is currently expected to be December 2014. &#xa;&#xa;The support will be for ad-hoc requests to allow the competition, post-award support and M&amp;E to move ahead as smoothly as possible.  Due to budget cuts we have fewer funds than expected to support YouWiN!3. Our present budget for IT support is for two iterations and the annual maintenance fee and it will be difficult for us to extend over that. I would therefore urge Wale, and through him the Secretariat to try to keep requests to a minimum so that this budget is not exceeded. &#xa;&#xa; Mark: CA4 covered 11 iterations (19-29 only) so a further 2 will take us to 30 and 31. We can get this organised for you before the end of the month.  &#xa;&#xa;  Best  Anthea "/>
 <node CREATED="1405348388075" ID="ID_1792453556" MODIFIED="1405348453069" TEXT="CA4:">
 <node CREATED="1405348442005" ID="ID_1112090748" MODIFIED="1405348445475" TEXT="Iteration 29"/>
@@ -242,7 +242,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1404491475849" FOLDED="true" ID="ID_1061724248" MODIFIED="1406019539854" TEXT="v4c">
+<node CREATED="1404491475849" ID="ID_1061724248" MODIFIED="1406041892360" TEXT="v4c">
 <node CREATED="1405087388076" ID="ID_1925298893" MODIFIED="1405682137749" TEXT="call">
 <node CREATED="1405682379692" ID="ID_322912984" MODIFIED="1405682380439" TEXT="old">
 <node CREATED="1405070581866" ID="ID_152692545" MODIFIED="1405682384950" TEXT="demo">
@@ -277,6 +277,7 @@
 </node>
 </node>
 <node CREATED="1405684288420" ID="ID_813495586" MODIFIED="1405684294271" TEXT="activity for outcome leveles"/>
+<node CREATED="1406041893993" ID="ID_1142509051" MODIFIED="1406041893993" TEXT=""/>
 </node>
 </node>
 <node CREATED="1405337962778" ID="ID_200319496" MODIFIED="1405350155763" TEXT="Wednesday">
@@ -351,8 +352,8 @@
 <node CREATED="1401966848004" ID="ID_893361589" MODIFIED="1401966878875" TEXT="Ask Khalid where we can find question text, and what is in the file info file, etc, and about differetn tabs in the sample data file"/>
 </node>
 </node>
-<node CREATED="1405337638430" ID="ID_481576609" MODIFIED="1405337642691" TEXT="WWF Mapper">
-<node CREATED="1405695455843" FOLDED="true" ID="ID_171783512" MODIFIED="1406019477565" TEXT="discovery">
+<node CREATED="1405337638430" FOLDED="true" ID="ID_481576609" MODIFIED="1406040740819" TEXT="WWF Mapper">
+<node CREATED="1405695455843" FOLDED="true" ID="ID_171783512" MODIFIED="1406040740189" TEXT="discovery">
 <node CREATED="1405940969465" ID="ID_1380408032" MODIFIED="1405944111107" TEXT="bg">
 <node CREATED="1405940939412" ID="ID_1528948194" MODIFIED="1405944063793" TEXT="Background">
 <node CREATED="1405940923075" ID="ID_307111691" MODIFIED="1405940945033" TEXT="WWF ">
@@ -879,7 +880,7 @@
 </node>
 <node CREATED="1405936138217" ID="ID_1692850646" MODIFIED="1405938335709" TEXT="2:00">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1405938321681" FOLDED="true" ID="ID_240862513" MODIFIED="1405954738750" TEXT="User Journeys &amp; Stories">
+<node CREATED="1405938321681" FOLDED="true" ID="ID_240862513" MODIFIED="1406040738197" TEXT="User Journeys &amp; Stories">
 <node CREATED="1405949425596" ID="ID_915270035" MODIFIED="1405949542317" TEXT="process">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="messagebox_warning"/>
@@ -1093,7 +1094,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1405691449442" ID="ID_911530782" MODIFIED="1405932865910" TEXT="WWF">
+<node CREATED="1405691449442" FOLDED="true" ID="ID_911530782" MODIFIED="1406028244196" TEXT="WWF">
 <node CREATED="1405932436416" ID="ID_1201547129" MODIFIED="1405938916095" TEXT="user workflow">
 <node CREATED="1405932451539" ID="ID_969162479" MODIFIED="1405932454760" TEXT="cleaning data">
 <node CREATED="1405932455021" ID="ID_879943841" MODIFIED="1405932456584" TEXT="converting">
