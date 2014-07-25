@@ -361,6 +361,21 @@
 <node CREATED="1406202851403" ID="ID_360778099" MODIFIED="1406202858643" TEXT="actions from retrospective">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node COLOR="#442020" CREATED="1406286403970" ID="ID_139865853" MODIFIED="1406286414186" TEXT="Talk to TomL about wwf resources">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="unchecked"/>
+<node CREATED="1406286414905" ID="ID_465038783" MODIFIED="1406286428527" TEXT="Hamish lots of pulls on time">
+<node CREATED="1406286428832" ID="ID_250557013" MODIFIED="1406286431594" TEXT="fell of bike this morning"/>
+<node CREATED="1406286431832" ID="ID_634792234" MODIFIED="1406286433470" TEXT="infra"/>
+<node CREATED="1406286433687" ID="ID_943460984" MODIFIED="1406286437463" TEXT="talks with Alan, etc"/>
+<node CREATED="1406286437688" ID="ID_1513245734" MODIFIED="1406286443017" TEXT="planning for ATA Nigeria trip"/>
+</node>
+<node CREATED="1406286446776" ID="ID_1163095439" MODIFIED="1406286458726" TEXT="Looks like we&apos;ll loose up to 1.5 days H time from current iteration"/>
+<node CREATED="1406286458911" ID="ID_1062058794" MODIFIED="1406286483571" TEXT="Probably made up by Jay time + mcs"/>
+<node CREATED="1406286484144" ID="ID_987725001" MODIFIED="1406286493191" TEXT="but we might end up low on value delivery ">
+<node CREATED="1406286493392" ID="ID_1528165639" MODIFIED="1406286502135" TEXT="Possibility of further work from them on this?"/>
+</node>
+</node>
 </node>
 <node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1406283541228" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI">
