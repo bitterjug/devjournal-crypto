@@ -415,12 +415,14 @@
 <icon BUILTIN="checked"/>
 <node CREATED="1405098756708" ID="ID_1688884132" MODIFIED="1405098760918" TEXT="outstanding new request"/>
 </node>
-<node COLOR="#402828" CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1406287754686" TEXT="Check time-scale for marking/selecting winners">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
 <node COLOR="#442020" CREATED="1405354246483" ID="ID_1805840549" MODIFIED="1406286097210" TEXT="complete and send report for July">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="unchecked"/>
+<node CREATED="1406289218553" ID="ID_1837418487" MODIFIED="1406289237529" TEXT="by end of july">
+<hook NAME="plugins/TimeManagementReminder.xml">
+<Parameters REMINDUSERAT="1406807580048"/>
+</hook>
+</node>
 </node>
 <node CREATED="1406287623199" ID="ID_180151594" MODIFIED="1406287625805" TEXT="ssl certificate"/>
 <node COLOR="#402828" CREATED="1402324157530" FOLDED="true" HGAP="25" ID="ID_1620424893" MODIFIED="1406287894164" TEXT="POST-DFID work" VSHIFT="13">
