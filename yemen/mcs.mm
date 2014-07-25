@@ -366,16 +366,12 @@
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI">
 <node CREATED="1405098756708" ID="ID_1688884132" MODIFIED="1405098760918" TEXT="outstanding new request"/>
 </node>
-<node COLOR="#c4c4c4" CREATED="1405098771212" ID="ID_964904087" MODIFIED="1406283885782" TEXT="re-produce spreadsheet of applicants to include missing one">
-<edge COLOR="#cfcfcf"/>
-<icon BUILTIN="messagebox_warning"/>
-</node>
 <node CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1401962419696" TEXT="Check time-scale for marking/selecting winners"/>
 <node COLOR="#442020" CREATED="1405354246483" ID="ID_1805840549" MODIFIED="1406286097210" TEXT="complete and send report for July">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="unchecked"/>
 </node>
-<node CREATED="1402324157530" HGAP="25" ID="ID_1620424893" MODIFIED="1405689646918" TEXT="POST-DFID work" VSHIFT="13">
+<node CREATED="1402324157530" FOLDED="true" HGAP="25" ID="ID_1620424893" MODIFIED="1406286119363" TEXT="POST-DFID work" VSHIFT="13">
 <node CREATED="1402324183194" ID="ID_388312104" MODIFIED="1402324192766" TEXT="Enhancements to M&amp;E"/>
 <node CREATED="1402324193186" ID="ID_758207692" MODIFIED="1402324200985" TEXT="Running YouWiN 4+"/>
 <node CREATED="1402324201337" ID="ID_340737605" MODIFIED="1402324213562" TEXT="Automating future competitions"/>
