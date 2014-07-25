@@ -334,7 +334,7 @@
 <node CREATED="1400681063027" ID="ID_1461444615" MODIFIED="1406283539631" POSITION="right" TEXT="Tasks">
 <node CREATED="1403772475552" ID="ID_371724963" MODIFIED="1406283860934" TEXT="today">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1405348103712" FOLDED="true" ID="ID_670289819" MODIFIED="1406285962964" TEXT="YouWiN Contracts">
+<node COLOR="#402828" CREATED="1405348103712" FOLDED="true" ID="ID_670289819" MODIFIED="1406287886796" TEXT="YouWiN Contracts">
 <node CREATED="1405348302588" ID="ID_1277061665" MODIFIED="1405348327891" TEXT="Hi Wale and Mark, &#xa;&#xa; I met Supo and Wale on Tuesday and then spoke to Richard at DFID  I got the impression Wale (correct me if I am wrong) that you are no longer expecting system development work and I know that DFID are not keen to fund such work. On the other hand, while Wale confirmed to Supo that they felt able to take over the system for the remainder of YouWin!3, DFID prefer to keep Aptivate involvement to the end of YouWiN!3 which is currently expected to be December 2014. &#xa;&#xa;The support will be for ad-hoc requests to allow the competition, post-award support and M&amp;E to move ahead as smoothly as possible.  Due to budget cuts we have fewer funds than expected to support YouWiN!3. Our present budget for IT support is for two iterations and the annual maintenance fee and it will be difficult for us to extend over that. I would therefore urge Wale, and through him the Secretariat to try to keep requests to a minimum so that this budget is not exceeded. &#xa;&#xa; Mark: CA4 covered 11 iterations (19-29 only) so a further 2 will take us to 30 and 31. We can get this organised for you before the end of the month.  &#xa;&#xa;  Best  Anthea "/>
 <node CREATED="1405348388075" ID="ID_1792453556" MODIFIED="1405348453069" TEXT="CA4:">
 <node CREATED="1405348442005" ID="ID_1112090748" MODIFIED="1405348445475" TEXT="Iteration 29"/>
@@ -357,23 +357,51 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1406193078243" ID="ID_374387955" MODIFIED="1406193124575" TEXT="Write &quot;pump priming&quot; blog"/>
+<node COLOR="#402828" CREATED="1406193078243" ID="ID_374387955" MODIFIED="1406287887221" TEXT="Write &quot;pump priming&quot; blog"/>
 <node CREATED="1406202851403" ID="ID_360778099" MODIFIED="1406202858643" TEXT="actions from retrospective">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#442020" CREATED="1406286403970" ID="ID_139865853" MODIFIED="1406286414186" TEXT="Talk to TomL about wwf resources">
+<node COLOR="#442020" CREATED="1406286403970" ID="ID_139865853" MODIFIED="1406288823790" STYLE="fork">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Talk to TomL
+    </p>
+  </body>
+</html>
+</richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="unchecked"/>
-<node CREATED="1406286414905" ID="ID_465038783" MODIFIED="1406286428527" TEXT="Hamish lots of pulls on time">
+<node COLOR="#442020" CREATED="1406288821228" FOLDED="true" ID="ID_1299678778" MODIFIED="1406288833076">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;about wwf resources
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1406286414905" ID="ID_465038783" MODIFIED="1406288830296" TEXT="Hamish lots of pulls on time">
 <node CREATED="1406286428832" ID="ID_250557013" MODIFIED="1406286431594" TEXT="fell of bike this morning"/>
 <node CREATED="1406286431832" ID="ID_634792234" MODIFIED="1406286433470" TEXT="infra"/>
 <node CREATED="1406286433687" ID="ID_943460984" MODIFIED="1406286437463" TEXT="talks with Alan, etc"/>
 <node CREATED="1406286437688" ID="ID_1513245734" MODIFIED="1406286443017" TEXT="planning for ATA Nigeria trip"/>
 </node>
-<node CREATED="1406286446776" ID="ID_1163095439" MODIFIED="1406286458726" TEXT="Looks like we&apos;ll loose up to 1.5 days H time from current iteration"/>
-<node CREATED="1406286458911" ID="ID_1062058794" MODIFIED="1406286483571" TEXT="Probably made up by Jay time + mcs"/>
-<node CREATED="1406286484144" ID="ID_987725001" MODIFIED="1406286493191" TEXT="but we might end up low on value delivery ">
+<node CREATED="1406286446776" ID="ID_1163095439" MODIFIED="1406288830292" TEXT="Looks like we&apos;ll loose up to 1.5 days H time from current iteration"/>
+<node CREATED="1406286458911" ID="ID_1062058794" MODIFIED="1406288830289" TEXT="Probably made up by Jay time + mcs"/>
+<node CREATED="1406286484144" ID="ID_987725001" MODIFIED="1406288830286" TEXT="but we might end up low on value delivery ">
 <node CREATED="1406286493392" ID="ID_1528165639" MODIFIED="1406286502135" TEXT="Possibility of further work from them on this?"/>
+</node>
+</node>
+<node CREATED="1406288834852" FOLDED="true" ID="ID_96320306" MODIFIED="1406288883964" TEXT="about YouWiN scheduleing">
+<node CREATED="1406288843044" ID="ID_1100448891" MODIFIED="1406288854338" TEXT="We probably need someone at the end of august to import stuf"/>
+<node CREATED="1406288879580" ID="ID_602026851" MODIFIED="1406288883107" TEXT="daniel is on leave"/>
 </node>
 </node>
 <node COLOR="#442020" CREATED="1406287397167" ID="ID_888800571" MODIFIED="1406287412398" TEXT="create private git repo for syncing notes">
@@ -381,23 +409,28 @@
 <icon BUILTIN="unchecked"/>
 </node>
 </node>
-<node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1406283541228" TEXT="youwin">
-<node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI">
+<node COLOR="#402828" CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1406287892252" TEXT="youwin">
+<node COLOR="#c4c4c4" CREATED="1400755906343" FOLDED="true" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1406288092114" TEXT="Prepare data for MUYI">
+<edge COLOR="#cfcfcf"/>
+<icon BUILTIN="checked"/>
 <node CREATED="1405098756708" ID="ID_1688884132" MODIFIED="1405098760918" TEXT="outstanding new request"/>
 </node>
-<node CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1401962419696" TEXT="Check time-scale for marking/selecting winners"/>
+<node COLOR="#402828" CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1406287754686" TEXT="Check time-scale for marking/selecting winners">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 <node COLOR="#442020" CREATED="1405354246483" ID="ID_1805840549" MODIFIED="1406286097210" TEXT="complete and send report for July">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="unchecked"/>
 </node>
-<node CREATED="1402324157530" FOLDED="true" HGAP="25" ID="ID_1620424893" MODIFIED="1406286119363" TEXT="POST-DFID work" VSHIFT="13">
+<node CREATED="1406287623199" ID="ID_180151594" MODIFIED="1406287625805" TEXT="ssl certificate"/>
+<node COLOR="#402828" CREATED="1402324157530" FOLDED="true" HGAP="25" ID="ID_1620424893" MODIFIED="1406287894164" TEXT="POST-DFID work" VSHIFT="13">
 <node CREATED="1402324183194" ID="ID_388312104" MODIFIED="1402324192766" TEXT="Enhancements to M&amp;E"/>
 <node CREATED="1402324193186" ID="ID_758207692" MODIFIED="1402324200985" TEXT="Running YouWiN 4+"/>
 <node CREATED="1402324201337" ID="ID_340737605" MODIFIED="1402324213562" TEXT="Automating future competitions"/>
 </node>
 </node>
-<node CREATED="1404491456633" ID="ID_1725395983" MODIFIED="1406283859683" TEXT="Talk to Alan">
-<node CREATED="1404401929669" FOLDED="true" ID="ID_1628327529" LINK="http://lopad.org/Sond2BKcrp" MODIFIED="1406283842423" TEXT="Talk to alan about Output wg process document">
+<node COLOR="#402828" CREATED="1404491456633" ID="ID_1725395983" MODIFIED="1406287890771" TEXT="Talk to Alan">
+<node COLOR="#402828" CREATED="1404401929669" FOLDED="true" ID="ID_1628327529" LINK="http://lopad.org/Sond2BKcrp" MODIFIED="1406287894740" TEXT="Talk to alan about Output wg process document">
 <node CREATED="1406283813838" ID="ID_1103258708" MODIFIED="1406283839288" TEXT="post september 1">
 <hook NAME="plugins/TimeManagementReminder.xml">
 <Parameters REMINDUSERAT="1409566980172"/>
@@ -416,7 +449,7 @@
 <icon BUILTIN="unchecked"/>
 </node>
 </node>
-<node CREATED="1406211941895" ID="ID_556312766" MODIFIED="1406211974681" TEXT="review youwin proposal for work to include work on making the competition system repeatbale?"/>
+<node COLOR="#402828" CREATED="1406211941895" ID="ID_556312766" MODIFIED="1406287895828" TEXT="review youwin proposal for work to include work on making the competition system repeatbale?"/>
 <node CREATED="1406195725446" ID="ID_162463931" MODIFIED="1406195734767" TEXT="blog about Water Aid design from original sketch?">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
