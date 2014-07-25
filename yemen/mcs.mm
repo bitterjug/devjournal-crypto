@@ -409,7 +409,7 @@
 <icon BUILTIN="unchecked"/>
 </node>
 </node>
-<node COLOR="#402828" CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1406287892252" TEXT="youwin">
+<node COLOR="#402828" CREATED="1400686687910" FOLDED="true" ID="ID_1634585377" MODIFIED="1406289277817" TEXT="youwin">
 <node COLOR="#c4c4c4" CREATED="1400755906343" FOLDED="true" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1406288092114" TEXT="Prepare data for MUYI">
 <edge COLOR="#cfcfcf"/>
 <icon BUILTIN="checked"/>
@@ -436,7 +436,7 @@
 <node CREATED="1402324201337" ID="ID_340737605" MODIFIED="1402324213562" TEXT="Automating future competitions"/>
 </node>
 </node>
-<node COLOR="#402828" CREATED="1404491456633" ID="ID_1725395983" MODIFIED="1406287890771" TEXT="Talk to Alan">
+<node COLOR="#402828" CREATED="1404491456633" FOLDED="true" ID="ID_1725395983" MODIFIED="1406289277144" TEXT="Talk to Alan">
 <node COLOR="#402828" CREATED="1404401929669" FOLDED="true" ID="ID_1628327529" LINK="http://lopad.org/Sond2BKcrp" MODIFIED="1406287894740" TEXT="Talk to alan about Output wg process document">
 <node CREATED="1406283813838" ID="ID_1103258708" MODIFIED="1406283839288" TEXT="post september 1">
 <hook NAME="plugins/TimeManagementReminder.xml">
