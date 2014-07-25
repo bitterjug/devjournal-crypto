@@ -371,8 +371,8 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 <node CREATED="1401962408327" ID="ID_1448054632" MODIFIED="1401962419696" TEXT="Check time-scale for marking/selecting winners"/>
-<node COLOR="#990000" CREATED="1405354246483" ID="ID_1805840549" MODIFIED="1406285942165" TEXT="complete and send report for July">
-<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#442020" CREATED="1405354246483" ID="ID_1805840549" MODIFIED="1406286097210" TEXT="complete and send report for July">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="unchecked"/>
 </node>
 <node CREATED="1402324157530" HGAP="25" ID="ID_1620424893" MODIFIED="1405689646918" TEXT="POST-DFID work" VSHIFT="13">
@@ -396,7 +396,10 @@
 </node>
 <node CREATED="1406215804815" ID="ID_1323251919" MODIFIED="1406215856329" TEXT="recruitment">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1406215846949" ID="ID_472623654" MODIFIED="1406215855519" TEXT="arrange recruitment meeting"/>
+<node COLOR="#442020" CREATED="1406215846949" ID="ID_472623654" MODIFIED="1406286092876" TEXT="arrange recruitment meeting">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="unchecked"/>
+</node>
 </node>
 <node CREATED="1406211941895" ID="ID_556312766" MODIFIED="1406211974681" TEXT="review youwin proposal for work to include work on making the competition system repeatbale?"/>
 <node CREATED="1406195725446" ID="ID_162463931" MODIFIED="1406195734767" TEXT="blog about Water Aid design from original sketch?">
