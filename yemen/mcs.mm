@@ -368,10 +368,7 @@
 </node>
 </node>
 <node COLOR="#402828" CREATED="1406193078243" ID="ID_374387955" MODIFIED="1406287887221" TEXT="Write &quot;pump priming&quot; blog"/>
-<node CREATED="1406202851403" ID="ID_360778099" MODIFIED="1406202858643" TEXT="actions from retrospective">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#442020" CREATED="1406286403970" ID="ID_139865853" MODIFIED="1406288823790" STYLE="fork">
+<node COLOR="#c4c4c4" CREATED="1406286403970" ID="ID_139865853" MODIFIED="1406299095469">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -383,9 +380,10 @@
   </body>
 </html>
 </richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="unchecked"/>
-<node COLOR="#442020" CREATED="1406288821228" FOLDED="true" ID="ID_1299678778" MODIFIED="1406288833076">
+<edge COLOR="#cfcfcf"/>
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="checked"/>
+<node COLOR="#c4c4c4" CREATED="1406288821228" FOLDED="true" ID="ID_1299678778" MODIFIED="1406299095130">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -396,7 +394,9 @@
     </p>
   </body>
 </html></richcontent>
+<edge COLOR="#cfcfcf"/>
 <font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="checked"/>
 <node CREATED="1406286414905" ID="ID_465038783" MODIFIED="1406288830296" TEXT="Hamish lots of pulls on time">
 <node CREATED="1406286428832" ID="ID_250557013" MODIFIED="1406286431594" TEXT="fell of bike this morning"/>
 <node CREATED="1406286431832" ID="ID_634792234" MODIFIED="1406286433470" TEXT="infra"/>
@@ -408,8 +408,14 @@
 <node CREATED="1406286484144" ID="ID_987725001" MODIFIED="1406288830286" TEXT="but we might end up low on value delivery ">
 <node CREATED="1406286493392" ID="ID_1528165639" MODIFIED="1406286502135" TEXT="Possibility of further work from them on this?"/>
 </node>
+<node CREATED="1406299058183" ID="ID_416259694" MODIFIED="1406299068086" TEXT="3ie might not be going ahead">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1406288834852" FOLDED="true" ID="ID_96320306" MODIFIED="1406288883964" TEXT="about YouWiN scheduleing">
+</node>
+<node COLOR="#c4c4c4" CREATED="1406288834852" FOLDED="true" ID="ID_96320306" MODIFIED="1406299095130" TEXT="about YouWiN scheduleing">
+<edge COLOR="#cfcfcf"/>
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="checked"/>
 <node CREATED="1406288843044" ID="ID_1100448891" MODIFIED="1406288854338" TEXT="We probably need someone at the end of august to import stuf"/>
 <node CREATED="1406288879580" ID="ID_602026851" MODIFIED="1406288883107" TEXT="daniel is on leave"/>
 </node>
