@@ -376,6 +376,10 @@
 <node CREATED="1406286493392" ID="ID_1528165639" MODIFIED="1406286502135" TEXT="Possibility of further work from them on this?"/>
 </node>
 </node>
+<node COLOR="#442020" CREATED="1406287397167" ID="ID_888800571" MODIFIED="1406287412398" TEXT="create private git repo for syncing notes">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="unchecked"/>
+</node>
 </node>
 <node CREATED="1400686687910" ID="ID_1634585377" MODIFIED="1406283541228" TEXT="youwin">
 <node CREATED="1400755906343" ID="ID_723613994" LINK="https://projects.aptivate.org/issues/5445" MODIFIED="1400755976444" TEXT="Prepare data for MUYI">
