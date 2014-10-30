@@ -320,11 +320,40 @@ Xmonad and freemind:
 
   sudo apt-get install suckless-tools
   wmname LG3D
-  freemind
+  freemindhttps://github.com/trademapper/trademapper-js
 
 
-## 2014-10-21 Tuesday
 
-### 09:27
+## 2014-10-30 Thursday
 
+### 15:35
 
+Mapping Open Contracting data with TradeMapper
+
+You can use TradeMapper, the open source, browser based mapping tool, to
+visualise any kind of international flow data, not just wildlife trade. Here is
+a demonstration using Open Contracting data.
+
+[image]
+
+Last week [Tim Davies](http://www.timdavies.org.uk/) was in our Cambridge
+office working with us on the [data
+standard](http://ocds.open-contracting.org/standard/r/0__3__3/) for [Open
+Contracting](http://standard.open-contracting.org/). I showed him
+[TradeMapper](https://github.com/trademapper/trademapper-js) and suggested
+visualising international procurement patterns using the Open Contracting
+data. 
+
+Not all open contract data has well encoded location data, but Tim took some
+time out on a delayed train to create a CSV file from some European Union data
+that Development Gateway have converted to the draft Open Contracting standard.
+He used Open Refine to link to country names to ISO country codes that
+TradeMapper uses.  
+
+I made a column mapping, so TradeMapper can open the resulting file and we had
+our proof-of-concept visualisation. Try filtering by Buyer or Supplier country.
+
+We used a small arbitrarily chosen file for this test, so it's hard to ascribe
+any meaning to the resulting image; but it demonstrates both the versatility of
+TradeMapper, and the potential for visualising international Open Contracting
+data, so we're hoping to do more work with it in the near future.
