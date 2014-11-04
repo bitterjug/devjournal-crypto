@@ -357,3 +357,26 @@ We used a small arbitrarily chosen file for this test, so it's hard to ascribe
 any meaning to the resulting image; but it demonstrates both the versatility of
 TradeMapper, and the potential for visualising international Open Contracting
 data, so we're hoping to do more work with it in the near future.
+
+## 2014-11-03 Monday
+
+### 14:35
+
+Addendum: mapping DFID IATI data
+-----------------------------------
+
+It turns out IATI data includes recipient country codes. 
+Knowing this I:
+* downloaded all the [DFID IATI](http://iatiregistry.org/publisher/dfid) files as CSV,
+* opened them all in [Open Refine](http://openrefine.org/),
+* removed any rows without recipient country codes (some of the files are "regional" and don't have them),
+* added a '_from_' column, with value 'GB' (DFID being in Great Britain),
+* removed all the columns we weren't going to be able to meaningfully filter by, to keep the file size down,
+* pulled out the year from the _Activity Start Data_ to give us a year to filter by,
+* hacked up a column mapping for TradeMapper.
+
+The results are [on line
+here](http://trademapper.aptivate.org/?csvtype=iati&loadcsv=http://trademapper.aptivate.org/sample_data/iati/dfid-iati-with-start.csv)
+I've a lot of different types of data mixed up in here (6k lines) so it still
+isn't telling a clear story. But it's another demonstration of the potentialk
+power of TradeMapper to bring data-flow visualisation to the desktop.
