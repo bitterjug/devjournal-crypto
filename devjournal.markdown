@@ -380,3 +380,14 @@ here](http://trademapper.aptivate.org/?csvtype=iati&loadcsv=http://trademapper.a
 I've a lot of different types of data mixed up in here (6k lines) so it still
 isn't telling a clear story. But it's another demonstration of the potentialk
 power of TradeMapper to bring data-flow visualisation to the desktop.
+
+## 2014-11-04 Tuesday
+
+### 10:50
+
+Firefox settings: keep the tabs when full screen:
+
+    about:config
+    browser.fullscreen.autohide: false
+
+
