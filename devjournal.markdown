@@ -395,4 +395,13 @@ Firefox settings: keep the tabs when full screen:
 There is a story to have a demo with Kashana as the title.
 
 
+### 11:50
+
+SCSS:  is controlled by [Django Assets](http://django-assets.readthedocs.org/en/latest/)
+You create an asset file in your app (e.g. main/assets.py) that defines the dependencies
+and you can run a management command to watch for changes and rebuild:
+
+    $ ./manage.py assets watch
+
+    
 
