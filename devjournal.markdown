@@ -403,5 +403,34 @@ and you can run a management command to watch for changes and rebuild:
 
     $ ./manage.py assets watch
 
-    
+## 2014-11-05 Wednesday
+
+### 12:00
+
+Currently you deselect a period by clicking it again with a toggle action.
+This means if you have a quarter selected, and you click on the year it belongs
+to, you don't select the whole of that year, you deselect that year.
+
+Elly wants to add an "all" button next to the quarters to select the whole
+year.  I'd like clicking the year to always mean select the year.  This gives
+us two ways to select the whole year. But only one way to select all the years
+in the project, because there isn't a top level selector for the project as a
+whole.  Elly also wants us to add an "all" button at the year level to select
+the whole project.
+
+The template creates the links for periods and adds their relevant period
+`start` and end `dates` as attributes on the elements.
+
+**Theory:**
+
+Can we somehow create a 'all' link with the project start and end?  Probably
+not as the start and end dates are not well know.  Maybe because the code
+compares both start and end when deciding if the period matches the selection.
+So if we had a link with start and end values that would "never" match any of 
+the periods, would clicking on that have the same effect as unselecting all
+the periods?
+
+It might, but that's not what we want: we would want to actually select the "all" tab
+instead.
+
 
