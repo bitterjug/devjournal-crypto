@@ -430,7 +430,11 @@ So if we had a link with start and end values that would "never" match any of
 the periods, would clicking on that have the same effect as unselecting all
 the periods?
 
-It might, but that's not what we want: we would want to actually select the "all" tab
-instead.
+It might, but that's not what we want: we would want to actually select the
+"all" tab instead. Not sure how that would look like as a UX.
+
+It means when you load the page, you would see the "all" tab selected next to
+the years.  And when you select a year, you would first see the "all" sub-tab
+selected within that.
 
 
