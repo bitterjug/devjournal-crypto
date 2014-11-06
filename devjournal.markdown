@@ -465,4 +465,9 @@ I thought we just set the start and end date of some activity and the system
 detected them and filled in as many periods as we needed.  Lets check the
 period settings on v4c and alfie.
 
+### 11:58
+
+Turns out the periods were set ok but the system uses the milestones to work
+out the extent of the project. So creating some milestones made dates appear.
+
 
