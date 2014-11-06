@@ -451,9 +451,18 @@ And tom has already cleared the db and set the result level to 2.  So the
 problem is that setting the number of levels in the database isn't the only
 thing to do.  It doesn't look right until you also fix the CSS for the levels.
 
-[ ] Fix css for results at level 4
+[x] Fix css for results at level 4
 
-[ ] Fix css for no year selected
+[x] Fix css for no year selected
 
 [ ] Make sure we have some periods and years appearing 
+
+### 11:53
+
+This last one is proving tricky. 
+
+I thought we just set the start and end date of some activity and the system
+detected them and filled in as many periods as we needed.  Lets check the
+period settings on v4c and alfie.
+
 
