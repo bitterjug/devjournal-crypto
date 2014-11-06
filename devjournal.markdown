@@ -479,3 +479,14 @@ Lets go look at that.
 ### 12:40
 
 I want to test my django but the tests fail. 
+
+Error about django-appconf database table not existing.
+Fixed by
+
+    $ ./manage.py test --create-dbb
+
+To re-create the test database. Otherwise it seems to have been reusing an
+existing one which hadn't been updated since the schema was changed and, in
+particular, since appconf was added to the app.
+
+
