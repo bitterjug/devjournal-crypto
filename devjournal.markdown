@@ -470,4 +470,9 @@ period settings on v4c and alfie.
 Turns out the periods were set ok but the system uses the milestones to work
 out the extent of the project. So creating some milestones made dates appear.
 
+### 12:01
+
+Next thing is the project name.
+In the Alfie code, this was already  made into a variable, so configurable.
+Lets go look at that.
 
