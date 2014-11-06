@@ -447,6 +447,7 @@ Apparently the alfie demo is here
 
     http://alfie.demo.aptivate.org/
 
-And tom has already cleared the db and set the result level to 2.
-
+And tom has already cleared the db and set the result level to 2.  So the
+problem is that setting the number of levels in the database isn't the only
+thing to do.  It doesn't look right until you also fix the CSS for the levels.
 
