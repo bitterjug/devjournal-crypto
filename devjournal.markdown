@@ -475,3 +475,7 @@ out the extent of the project. So creating some milestones made dates appear.
 Next thing is the project name.
 In the Alfie code, this was already  made into a variable, so configurable.
 Lets go look at that.
+
+### 12:40
+
+I want to test my django but the tests fail. 
