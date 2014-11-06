@@ -446,3 +446,7 @@ selected within that.
 Apparently the alfie demo is here
 
     http://alfie.demo.aptivate.org/
+
+And tom has already cleared the db and set the result level to 2.
+
+
