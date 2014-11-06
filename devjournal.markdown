@@ -428,7 +428,7 @@ not as the start and end dates are not well know.  Maybe because the code
 compares both start and end when deciding if the period matches the selection.
 So if we had a link with start and end values that would "never" match any of 
 the periods, would clicking on that have the same effect as unselecting all
-the periods?
+the periods?:
 
 It might, but that's not what we want: we would want to actually select the
 "all" tab instead. Not sure how that would look like as a UX.
@@ -438,3 +438,11 @@ the years.  And when you select a year, you would first see the "all" sub-tab
 selected within that.
 
 
+
+## 2014-11-06 Thursday
+
+### 09:28
+
+Apparently the alfie demo is here
+
+    http://alfie.demo.aptivate.org/
