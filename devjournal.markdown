@@ -499,8 +499,10 @@ We're busy getting ready for the launch of the Open Contracting Data Standard
 at next week's Open Government Partnership meeting in Costa Rica.  [The Open
 Contracting Data Standard](http://standard.open-contracting.org/) enables
 governments to publish accessible and structured releases of data and documents
-at each stage of a contracting process, in accordance with the [Open Contracting
-Principles](http://www.open-contracting.org/global_principles).
+at each stage of a contracting process, in accordance with the [Open
+Contracting Principles](http://www.open-contracting.org/global_principles).  We
+can do creative things with this open data, like [visualising it on a
+map](http://aptivate.org/en/blog/2014/10/30/mapping-open-contracting-data-with-trademapper/).
 
 Sarah will be there in person.  Over the past year she has been working with a
 team from the Open Contracting Partnership, including Tim Davies of [The Web
@@ -515,3 +517,4 @@ live when the standard is launched next week, and replace the [existing
 site](http://ocds.open-contracting.org/standard/).  Get a preview by
 viewing the bleeding-edge of work-in-progress on the standard's [master
 branch](http://ocds.open-contracting.org/standard/r/master/).
+
