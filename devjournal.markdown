@@ -509,7 +509,9 @@ standard. The team considered a number of supply and demand use cases and
 created a standard data model, and JSON Schema, to meet their needs. 
 
 The standard itself is an evolving document that lives in its own GitHub
-repository. It is available to browse, together with embedded documentation and
-examples, on its own [Open Contracting Data Standard Website] which we
-developed with Tim Davies.
-
+repository. We just built a shiny new website to showcase the standard with its
+documentation and examples. The site will go live when the standard is launched
+next week, and replace the [existing
+site](http://ocds.open-contracting.org/standard/).  You can get a preview by
+viewing the bleeding-edge of work-in-progress on the standard's 
+[master branch](http://ocds.open-contracting.org/standard/r/master/).
