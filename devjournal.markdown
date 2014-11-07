@@ -490,3 +490,26 @@ existing one which hadn't been updated since the schema was changed and, in
 particular, since appconf was added to the app.
 
 
+
+## 2014-11-07 Friday
+
+### 16:28
+
+We're busy getting ready for the launch of the Open Contracting Data Standard
+at next week's Open Government Partnership meeting in Costa Rica.  [The Open
+Contracting Data Standard](http://standard.open-contracting.org/) enables
+governments to publish accessible and structured releases of data and documents
+at each stage of a contracting process, in accordance with the [Open Contracting
+Principles](http://www.open-contracting.org/global_principles).
+
+Sarah will be there in person.  Over the past year she has been working with a
+team from the Open Contracting Partnership, including Tim Davies of [The Web
+Foundation](http://webfoundation.org/), on the technical aspects of the data
+standard. The team considered a number of supply and demand use cases and
+created a standard data model, and JSON Schema, to meet their needs. 
+
+The standard itself is an evolving document that lives in its own GitHub
+repository. It is available to browse, together with embedded documentation and
+examples, on its own [Open Contracting Data Standard Website] which we
+developed with Tim Davies.
+
