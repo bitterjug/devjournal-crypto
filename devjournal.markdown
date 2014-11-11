@@ -518,3 +518,12 @@ site](http://ocds.open-contracting.org/standard/).  Get a preview by
 viewing the bleeding-edge of work-in-progress on the standard's [master
 branch](http://ocds.open-contracting.org/standard/r/master/).
 
+
+## 2014-11-11 Tuesday
+
+### 12:38
+
+We hacked TradeMapper better.
+
+Thanks to all Fifteen people who came the hack-day Saturday and helped improve
+TradeMapper, the browser-based tool for mapping trade flows.
