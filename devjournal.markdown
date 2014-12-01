@@ -527,3 +527,18 @@ We hacked TradeMapper better.
 
 Thanks to all Fifteen people who came the hack-day Saturday and helped improve
 TradeMapper, the browser-based tool for mapping trade flows.
+
+## 2014-12-01 Monday
+
+### 12:27
+
+Indigo Data bug:
+
+EG On this page: http://lin-360giving.aptivate.org/grantees/360G-phf:28197
+There is a link to www.ggbkorg.in which has the internal address:
+
+    http://lin-360giving.aptivate.org/grantees/www.ggbkorg.in
+
+I tried to access this Organization via the admin, but there's no search and
+the keys in the url `360G-phf:28197` aren't the database keys (they have
+internal numeric keys).
