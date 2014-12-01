@@ -542,3 +542,10 @@ There is a link to www.ggbkorg.in which has the internal address:
 I tried to access this Organization via the admin, but there's no search and
 the keys in the url `360G-phf:28197` aren't the database keys (they have
 internal numeric keys).
+
+Let's install via the [instructions](https://projects.aptivate.org/projects/indigodata/wiki):
+
+    sudo npm install -g elasticsearch
+
+I've got 360giving-demos checked out, pulling recent changes takes AGES!
+
