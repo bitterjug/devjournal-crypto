@@ -563,3 +563,11 @@ Test by ssh to the live server and try sql remotely.
 Well that didn't fix it, sill no matches. So I'm guessing those grantee details
 are not really coming from the Organization table. So where? Have alook at the view
 code associated with the template.
+
+### 14:40
+
+Hmm.
+
+    class GranteeDetailView(DetailView):
+        model = Activity
+        template_name = 'grantees/detail.html'
