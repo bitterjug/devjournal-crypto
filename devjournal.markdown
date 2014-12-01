@@ -549,3 +549,11 @@ Let's install via the [instructions](https://projects.aptivate.org/projects/indi
 
 I've got 360giving-demos checked out, pulling recent changes takes AGES!
 
+
+### 13:08
+
+Got the db image from the project installed locally but can't find any
+organizations with web site urls like the ones in the bugs. I'm wondering if the data
+on the server is more up to date than the image checked in maybe.
+
+Test by ssh to the live server and try sql remotely.
