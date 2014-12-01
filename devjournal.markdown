@@ -557,3 +557,9 @@ organizations with web site urls like the ones in the bugs. I'm wondering if the
 on the server is more up to date than the image checked in maybe.
 
 Test by ssh to the live server and try sql remotely.
+
+### 14:37
+
+Well that didn't fix it, sill no matches. So I'm guessing those grantee details
+are not really coming from the Organization table. So where? Have alook at the view
+code associated with the template.
