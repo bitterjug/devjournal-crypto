@@ -629,3 +629,13 @@ though:
     logHook = updatePointer (Relative 0.5 0.5)
     }
 
+
+### 23:09
+
+When you run `django-admin.py startproject ...` in a docker container,
+you get the files created but owned by root. I changed them with 
+
+    chown -R marks <project>
+
+(leaving them in root group)
+
