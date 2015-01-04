@@ -611,3 +611,21 @@ one is 1.0.1. Therefore as per [instructions](http://docs.docker.com/installatio
 
     sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 36A1D7869245C8950F966E92D8576A8BA88D21E9
     sudo sh -c "echo deb https://get.docker.com/ubuntu docker main > /etc/apt/sources.list.d/docker.list"
+    sudo aptitude remove docker.io
+    sudo aptivate install lxc-docker
+
+### 21:45
+
+Random search for xmonad and adobe air turned up 
+[the follow possible fix](http://vollerthun.eu/2011/06/13/balsamiq-for-wireframes/index.html) for the flicker problem:
+
+The only real bug I’ve encountered in this regard was a strange
+focus-flickering issue with xmonad: every tenth second or so, the focus would
+switch between two windows – yes, the keyboard focus, too. I could fix it,
+though:
+
+    ?import XMonad.Actions.UpdatePointer
+    main = xmonad {
+    logHook = updatePointer (Relative 0.5 0.5)
+    }
+
