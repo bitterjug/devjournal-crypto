@@ -639,3 +639,20 @@ you get the files created but owned by root. I changed them with
 
 (leaving them in root group)
 
+
+### 23:11
+
+Switching the default django app from postgres to mysql:
+- I found the python bindings for `MySQL-python` need to be installed.
+- And then this appears to need the `mysql` binary too, so I do:
+
+    apt-get update && apt-get install -y mysql-client
+
+  in the `Dockerfile` to install it.
+
+After each change to `Dockerfile`, re-run
+
+    fig build
+
+To get the changes applied.
+
