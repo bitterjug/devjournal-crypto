@@ -669,3 +669,10 @@ config but if I
 I can see the entry for the db server.
 So something is awry with the mysql setup.
 
+
+### 23:37
+
+Stuff to fix in the setup:
+
+- [ ] powerline in vim
+- [ ] tmux config copy and paste commands (what do we have on fuji?)
