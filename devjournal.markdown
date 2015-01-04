@@ -656,3 +656,16 @@ After each change to `Dockerfile`, re-run
 
 To get the changes applied.
 
+### 23:32
+
+When I try to convert the default app to work with mysql 
+I get messages about  no host called 'db'. I revert to the
+postgress example  and get a different error about missing
+config but if I 
+
+    fig run web cat /etc/hosts
+
+
+I can see the entry for the db server.
+So something is awry with the mysql setup.
+
