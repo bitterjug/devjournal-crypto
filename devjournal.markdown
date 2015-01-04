@@ -571,3 +571,14 @@ Hmm.
     class GranteeDetailView(DetailView):
         model = Activity
         template_name = 'grantees/detail.html'
+
+## 2015-01-04 Sunday
+
+### 21:12
+
+Upon installing docker, you need to add yourself to the docker group and restart the server
+as per http://docs.docker.com/installation/ubuntulinux/
+
+The command to add yourself to a group is:
+
+    $ sudo gpasswd -a ${USER} docker
