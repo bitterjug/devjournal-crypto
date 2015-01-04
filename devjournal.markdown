@@ -582,3 +582,15 @@ as per http://docs.docker.com/installation/ubuntulinux/
 The command to add yourself to a group is:
 
     $ sudo gpasswd -a ${USER} docker
+
+### 21:15
+
+Oddly, however, `sudo service docker restart` doesn't work:
+
+    docker: unrecognised command
+
+The service is called `docker.io`:
+
+    sudo service docker.io restart
+
+
