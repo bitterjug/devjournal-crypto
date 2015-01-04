@@ -605,7 +605,9 @@ The service is called `docker.io`:
 
 The [mysql Docker image](https://registry.hub.docker.com/_/mysql/) 
 says its supported in docker 1.4.1 but the default Ubuntu maintained
-one is 1.0.1.
+one is 1.0.1. Therefore as per [instructions](http://docs.docker.com/installation/ubuntulinux/):
+
+    Sudo aptitude install apt-transport-https
 
 
 
