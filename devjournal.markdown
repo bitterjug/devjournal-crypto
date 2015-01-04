@@ -583,6 +583,13 @@ The command to add yourself to a group is:
 
     $ sudo gpasswd -a ${USER} docker
 
+This doesn't actually appear to work out of the box. I might  need to log out
+and back in or something. Meanwhile work round by
+
+    newgrp docker
+
+Which appears to start a new shell (history lost) with the new group active.
+
 ### 21:15
 
 Oddly, however, `sudo service docker restart` doesn't work:
@@ -592,5 +599,4 @@ Oddly, however, `sudo service docker restart` doesn't work:
 The service is called `docker.io`:
 
     sudo service docker.io restart
-
 
