@@ -675,4 +675,12 @@ So something is awry with the mysql setup.
 Stuff to fix in the setup:
 
 - [ ] powerline in vim
-- [ ] tmux config copy and paste commands (what do we have on fuji?)
+- [x] tmux config copy and paste commands (what do we have on fuji?)
+  xclip not installed!
+
+### 23:39
+
+
+0 packages upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 17.0 kB of archives. After unpacking 72.7 kB will be used.
+Get: 1 http://gb.archive.ubuntu.com/ubuntu/ trusty/universe xclip amd64 0.12+svn84-4 [17.0 kB]
