@@ -600,3 +600,12 @@ The service is called `docker.io`:
 
     sudo service docker.io restart
 
+
+### 21:35
+
+The [mysql Docker image](https://registry.hub.docker.com/_/mysql/) 
+says its supported in docker 1.4.1 but the default Ubuntu maintained
+one is 1.0.1.
+
+
+
