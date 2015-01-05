@@ -692,3 +692,20 @@ Get: 1 http://gb.archive.ubuntu.com/ubuntu/ trusty/universe xclip amd64 0.12+svn
 - [ ] Add vimperator zenburn theme (can we do this from fresh?)
 
     https://github.com/vimpr/vimperator-colors
+
+### 22:39
+
+After a bit of hitting with a stick, I get the mysql docker image to work with fig.
+I wonder if we were experiencing the non-deterministic failure behaviour where
+it tries to create a database first time it runs and so isn't ready when the
+client needs it.
+
+I tested it by running 
+
+    fig run web bash
+
+And then running 
+
+    mysql -hdb -uuser -ppass
+
+where `db` is the name of the database service in `fig.yml`
