@@ -684,3 +684,11 @@ Stuff to fix in the setup:
 0 packages upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
 Need to get 17.0 kB of archives. After unpacking 72.7 kB will be used.
 Get: 1 http://gb.archive.ubuntu.com/ubuntu/ trusty/universe xclip amd64 0.12+svn84-4 [17.0 kB]
+
+## 2015-01-05 Monday
+
+### 22:21
+
+- [ ] Add vimperator zenburn theme (can we do this from fresh?)
+
+    https://github.com/vimpr/vimperator-colors
