@@ -674,9 +674,18 @@ So something is awry with the mysql setup.
 
 Stuff to fix in the setup:
 
-- [ ] powerline in vim
+- [x] powerline in vim
+
+  powerline config files changed
+
+- [ ] the ctrlp support still seems broken so commented out of 
+  `~/.dotfiles/powerline/config.json` for the moment.
+
 - [x] tmux config copy and paste commands (what do we have on fuji?)
+
   xclip not installed!
+
+
 
 ### 23:39
 
@@ -709,3 +718,9 @@ And then running
     mysql -hdb -uuser -ppass
 
 where `db` is the name of the database service in `fig.yml`
+
+## 2015-01-06 Tuesday
+
+### 12:49
+
+
