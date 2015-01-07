@@ -724,3 +724,11 @@ where `db` is the name of the database service in `fig.yml`
 ### 12:49
 
 
+
+## 2015-01-07 Wednesday
+
+### 11:41
+
+Apparently I can mount Box storage in linux as web dav:
+- http://xmodulo.com/how-to-mount-box-com-cloud-storage-on-linux.html
+- http://seb.so/50gb-of-cloud-space-with-box-automatically-syncd-on-linux-with-webdav/#box_mountwebdav
