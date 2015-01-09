@@ -739,3 +739,9 @@ Apparently I can mount Box storage in linux as web dav:
 
 Apparently we can integrate an editable spreadsheet view into iPython:
 http://nbviewer.ipython.org/gist/rossant/9463955
+
+### 17:35
+
+For next week:
+
+[ ] make tech adoption data for multiple years
