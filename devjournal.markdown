@@ -777,3 +777,7 @@ The data sets do have what looks like weighting fields:
     wt_wave1	wt_combined
 
 Bit it's not obvious how to use these at the moment.
+
+### 12:11
+
+Don't have proper mysql setup with passwsord in /root
