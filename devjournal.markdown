@@ -745,3 +745,11 @@ http://nbviewer.ipython.org/gist/rossant/9463955
 For next week:
 
 [ ] make tech adoption data for multiple years
+
+## 2015-01-12 Monday
+
+### 10:56
+
+Link for details of LSMS questionnaires.
+
+http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTLSMS/0,,contentMDK:22949557~menuPK:4196952~pagePK:64168445~piPK:64168309~theSitePK:3358997~isCURL:Y~isCURL:Y,00.html
