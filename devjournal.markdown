@@ -781,3 +781,9 @@ Bit it's not obvious how to use these at the moment.
 ### 12:11
 
 Don't have proper mysql setup with passwsord in /root
+
+### 15:52
+
+Setting up the desktop I had `mysqld` installed but our `deploy/bootstrap.py` script was failing.
+http://stackoverflow.com/questions/7475223/mysql-config-not-found-when-installing-mysqldb-python-interface
+is the fix. tl;dr: install `libmysqlclient-dev`
