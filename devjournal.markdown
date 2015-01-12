@@ -753,3 +753,27 @@ For next week:
 Link for details of LSMS questionnaires.
 
 http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTLSMS/0,,contentMDK:22949557~menuPK:4196952~pagePK:64168445~piPK:64168309~theSitePK:3358997~isCURL:Y~isCURL:Y,00.html
+
+### 11:05
+
+In this overview from the link above, there is a section on weighting the data.
+
+http://siteresources.worldbank.org/INTLSMS/Resources/3358986-1233781970982/5800988-1282216357396/Nigeria2010_11_GHS_Panel_BINFO_June_2014.pdf
+
+> #### 6.14 Weighting of Data
+> 
+> When a sample of households is selected for a survey, these households
+> represent the entire population of the country. To accurately use the datasets,
+> the data must be weighted to reflect the distribution of the full population in
+> the country. A population weight was calculated for the panel households. This
+> weight variable (wght) has been included in the household dataset: Section A
+> (secta_plantingw1 for post-planting and secta_harvestw1 for post-harvest). When
+> applied, this weight will raise the sample households and individuals to
+> national values adjusting for population concentrations in various areas
+
+
+The data sets do have what looks like weighting fields:
+
+    wt_wave1	wt_combined
+
+Bit it's not obvious how to use these at the moment.
