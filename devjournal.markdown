@@ -820,3 +820,7 @@ them.  The issues are:
 Here's a neat recipe to focus a window or start it if it's not already running:
 
     wmctrl -a FreeMind || freemind &
+
+### 20:51
+
+
