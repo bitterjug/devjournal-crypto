@@ -788,9 +788,6 @@ Setting up the desktop I had `mysqld` installed but our `deploy/bootstrap.py` sc
 http://stackoverflow.com/questions/7475223/mysql-config-not-found-when-installing-mysqldb-python-interface
 is the fix. tl;dr: install `libmysqlclient-dev`
 
-### 16:07
-
-
 
 ## 2015-01-14 Wednesday
 
