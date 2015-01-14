@@ -814,3 +814,9 @@ them.  The issues are:
   to store it in columns.  Basically we want to see how many cassava farmers
   used pesticide (and so on) we think there is a mapping from hhid to the crops
   they grew
+
+### 20:43
+
+Here's a neat recipe to focus a window or start it if it's not already running:
+
+    wmctrl -a FreeMind || freemind &
