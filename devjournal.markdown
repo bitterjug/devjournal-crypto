@@ -791,3 +791,29 @@ is the fix. tl;dr: install `libmysqlclient-dev`
 ### 16:07
 
 
+
+## 2015-01-14 Wednesday
+
+### 12:05
+
+
+I found that the generated CSV file has a couple of issues, and the ipython
+notebook wouldn't load the file at the start at all, so I didn't manage to fix
+them.  The issues are:
+
+- [ ] lack of header in first column (easy to fix by hand editing afterwards)
+
+- [ ] the states for 2010 are capitalised but the states for 2012 are just
+  lower case.  
+
+
+- [ ] We can drop the pesticide quantity and pesticide unit columns.  
+
+- [ ] we ideally want one row per household.  So the yes/no columns would be
+  combined by the rule "if any plot did use X, then the household counts as
+  using X"
+
+- [ ] We'd also like the crop type to be recorded, but we're not sure about how
+  to store it in columns.  Basically we want to see how many cassava farmers
+  used pesticide (and so on) we think there is a mapping from hhid to the crops
+  they grew
