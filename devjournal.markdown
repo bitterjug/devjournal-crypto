@@ -810,10 +810,12 @@ them.  The issues are:
   combined by the rule "if any plot did use X, then the household counts as
   using X"
 
-- [ ] We'd also like the crop type to be recorded, but we're not sure about how
+- [x] We'd also like the crop type to be recorded, but we're not sure about how
   to store it in columns.  Basically we want to see how many cassava farmers
   used pesticide (and so on) we think there is a mapping from hhid to the crops
   they grew
+
+  Done but assuming no household farms both cassava and rice.
 
 ### 20:43
 
@@ -833,8 +835,8 @@ CUA (right handed) copy/paste commands:
 
 ### 18:04
 
- bootstrap modals - http://getbootstrap.com/javascript/#modals
+[bootstrap modals](http://getbootstrap.com/javascript/#modals)
 
 ### 21:29
 
-
+- [ ] Need to set up new sheet to verify no households farm both cassava and rice.
