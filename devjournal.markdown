@@ -830,3 +830,7 @@ CUA (right handed) copy/paste commands:
 
     Cut 	        Copy 	        Paste
     shift+Delete 	control+Insert 	shift+Insert
+
+### 18:04
+
+ bootstrap modals - http://getbootstrap.com/javascript/#modals
