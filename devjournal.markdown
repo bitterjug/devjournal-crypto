@@ -829,4 +829,4 @@ Here's a neat recipe to focus a window or start it if it's not already running:
 CUA (right handed) copy/paste commands:
 
     Cut 	        Copy 	        Paste
-  shift+Delete 	control+Insert 	shift+Insert
+    shift+Delete 	control+Insert 	shift+Insert
