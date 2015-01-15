@@ -806,7 +806,7 @@ them.  The issues are:
 
 - [x] We can drop the pesticide quantity and pesticide unit columns.  
 
-- [ ] we ideally want one row per household.  So the yes/no columns would be
+- [x] we ideally want one row per household.  So the yes/no columns would be
   combined by the rule "if any plot did use X, then the household counts as
   using X"
 
@@ -834,3 +834,7 @@ CUA (right handed) copy/paste commands:
 ### 18:04
 
  bootstrap modals - http://getbootstrap.com/javascript/#modals
+
+### 21:29
+
+
