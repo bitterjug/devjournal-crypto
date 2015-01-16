@@ -900,3 +900,7 @@ version without filters working as an interim progress.
 
 - [ ] Ungrey the technology chart heading.
 
+
+### 15:10
+
+Here's the [Python docs](https://docs.python.org/release/3.1.5/library/stdtypes.html#old-string-formatting-operations) on using `format` over `%` in new code.
