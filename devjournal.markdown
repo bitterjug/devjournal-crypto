@@ -840,3 +840,9 @@ CUA (right handed) copy/paste commands:
 ### 21:29
 
 - [ ] Need to set up new sheet to verify no households farm both cassava and rice.
+
+## 2015-01-16 Friday
+
+### 11:36
+
+Python c-tags not working. Is exuberant-ctags enough to make my vim sidebar work again?
