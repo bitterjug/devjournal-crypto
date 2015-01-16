@@ -855,10 +855,22 @@ fixed it ok.
 
 ### 11:44
 
+# ATA:
+
 The extant tests for  ATA tool mainly test filtering options. So to add the new chart:
 
-- [ ] add the code for it in the homepage template and see what it takes to populate it with the right settings.
+- [x] add the code for it in the homepage template and see what it takes to populate it with the right settings.
+
 
 ### 11:58
 
+# Vim:
+
 - [ ] No syntax error correction for my python. Looks like I'm lacking a linter for syntastic?
+
+### 12:01
+
+# ATA:
+
+- [ ] The value-chain filters for nutrition were different (more sophisticated)
+  than for technology adoption so they need to be cahnged.
