@@ -846,3 +846,9 @@ CUA (right handed) copy/paste commands:
 ### 11:36
 
 Python c-tags not working. Is exuberant-ctags enough to make my vim sidebar work again?
+
+    sudo aptitude instal exuberant-ctags 
+
+fixed it ok.
+
+
