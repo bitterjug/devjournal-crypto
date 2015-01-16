@@ -857,16 +857,18 @@ fixed it ok.
 
 # ATA:
 
-The extant tests for  ATA tool mainly test filtering options. So to add the new chart:
+The extant tests for  ATA tool mainly test filtering options. So to add the new
+chart:
 
-- [x] add the code for it in the homepage template and see what it takes to populate it with the right settings.
-
+- [x] add the code for it in the homepage template and see what it takes to
+  populate it with the right settings.
 
 ### 11:58
 
 # Vim:
 
-- [ ] No syntax error correction for my python. Looks like I'm lacking a linter for syntastic?
+- [ ] No syntax error correction for my python. Looks like I'm lacking a linter
+  for syntastic?
 
 ### 12:01
 
@@ -887,5 +889,9 @@ The extant tests for  ATA tool mainly test filtering options. So to add the new 
   capitalization like, e.g.: "FCT Abuja", which I can't systematically get from 
   "fct abuja", so it would need a lookup. 
 
-  So maybe for a first pass, I 
+  So maybe for a first pass, I would re-generate technology with all lower case
+  state names, because thats easier to do programmatically, and add mapping
+  state names to upper case as a card for the future.
 
+In the meantime I might remove the filtering from the code and check in a
+version without filters working as an interim progress.
