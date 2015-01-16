@@ -858,3 +858,7 @@ fixed it ok.
 The extant tests for  ATA tool mainly test filtering options. So to add the new chart:
 
 - [ ] add the code for it in the homepage template and see what it takes to populate it with the right settings.
+
+### 11:58
+
+- [ ] No syntax error correction for my python. Looks like I'm lacking a linter for syntastic?
