@@ -874,3 +874,18 @@ The extant tests for  ATA tool mainly test filtering options. So to add the new 
 
 - [ ] The value-chain filters for nutrition were different (more sophisticated)
   than for technology adoption so they need to be cahnged.
+
+### 12:15
+
+
+- [ ] The state filters also don't work, but only because the data are
+  different. States in the nutrition dataset have all-lower  case names and in
+  the technology one I chose initial capitalised. Because those state names
+  appear in the filter picker, I think its best to rebuild the nutrition data
+  with capitalised values? Or maybe not, as the python `string.capitalize` only
+  capitalizes the first letter. Whereas the 2012 data state names have irregular
+  capitalization like, e.g.: "FCT Abuja", which I can't systematically get from 
+  "fct abuja", so it would need a lookup. 
+
+  So maybe for a first pass, I 
+
