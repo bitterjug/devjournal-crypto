@@ -895,3 +895,8 @@ chart:
 
 In the meantime I might remove the filtering from the code and check in a
 version without filters working as an interim progress.
+
+### 14:40
+
+- [ ] Ungrey the technology chart heading.
+
