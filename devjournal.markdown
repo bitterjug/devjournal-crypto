@@ -852,3 +852,9 @@ Python c-tags not working. Is exuberant-ctags enough to make my vim sidebar work
 fixed it ok.
 
 
+
+### 11:44
+
+The extant tests for  ATA tool mainly test filtering options. So to add the new chart:
+
+- [ ] add the code for it in the homepage template and see what it takes to populate it with the right settings.
