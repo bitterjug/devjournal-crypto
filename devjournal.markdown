@@ -752,13 +752,13 @@ For next week:
 
 Link for details of LSMS questionnaires.
 
-http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTLSMS/0,,contentMDK:22949557~menuPK:4196952~pagePK:64168445~piPK:64168309~theSitePK:3358997~isCURL:Y~isCURL:Y,00.html
+    http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTLSMS/0,,contentMDK:22949557~menuPK:4196952~pagePK:64168445~piPK:64168309~theSitePK:3358997~isCURL:Y~isCURL:Y,00.html
 
 ### 11:05
 
 In this overview from the link above, there is a section on weighting the data.
 
-http://siteresources.worldbank.org/INTLSMS/Resources/3358986-1233781970982/5800988-1282216357396/Nigeria2010_11_GHS_Panel_BINFO_June_2014.pdf
+    http://siteresources.worldbank.org/INTLSMS/Resources/3358986-1233781970982/5800988-1282216357396/Nigeria2010_11_GHS_Panel_BINFO_June_2014.pdf
 
 > #### 6.14 Weighting of Data
 > 
