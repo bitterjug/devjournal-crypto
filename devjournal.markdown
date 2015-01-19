@@ -922,3 +922,8 @@ there isn't a predefined static-bottom style for navbars (becasue you can't see
 them) so conceptually it should  be a footer. But I don't know how to do one of
 those. And its not priority. So thinking of leaving it out for the moment and
 kludging it later.
+
+### 12:59
+
+- [ ] The header navbar changes height on small screens so the page offset
+  needs to be set dynamically to cope.
