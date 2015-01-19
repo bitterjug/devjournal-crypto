@@ -903,10 +903,22 @@ version without filters working as an interim progress.
 
 ### 15:10
 
-Here's the [Python docs](https://docs.python.org/release/3.1.5/library/stdtypes.html#old-string-formatting-operations) on using `format` over `%` in new code.
+Here's the [Python
+docs](https://docs.python.org/release/3.1.5/library/stdtypes.html#old-string-formatting-operations)
+on using `format` over `%` in new code.
 
 ### 15:31
 
 The keyboard shortcut to open/close the Firefox inspector is:
 
     <Ctrl><Shift>i
+
+## 2015-01-19 Monday
+
+### 11:37
+
+The crappy navbar footer we got for our site credit seems badly formed because
+there isn't a predefined static-bottom style for navbars (becasue you can't see
+them) so conceptually it should  be a footer. But I don't know how to do one of
+those. And its not priority. So thinking of leaving it out for the moment and
+kludging it later.
