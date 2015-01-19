@@ -925,5 +925,15 @@ kludging it later.
 
 ### 12:59
 
-- [ ] The header navbar changes height on small screens so the page offset
+- [x] The header navbar changes height on small screens so the page offset
   needs to be set dynamically to cope.
+
+  That smallest size I think we're not targeting?
+
+### 14:42
+
+- [ ] remove chart header text and make into title above text
+- [ ] Padding between divider row and content
+- [ ] add explore link button
+
+
