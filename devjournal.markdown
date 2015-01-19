@@ -934,6 +934,4 @@ kludging it later.
 
 - [ ] remove chart header text and make into title above text
 - [ ] Padding between divider row and content
-- [ ] add explore link button
-
-
+- [x] add explore link buttons
