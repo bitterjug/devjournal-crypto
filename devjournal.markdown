@@ -940,8 +940,15 @@ kludging it later.
 
 ### 16:49
 
-- [ ] `httpie` to get command line http command -- from Hamish
+- [x] `httpie` to get command line http command -- from Hamish
 
 ### 17:02
 
 - [ ] Fid out how to commit hunks with fugitive
+
+### 17:15
+
+Filtering second production:
+- Kogi/Benue: hide the chart altogether
+- Cassava/Rice: switch to a chart across years
+
