@@ -935,3 +935,9 @@ kludging it later.
 - [ ] remove chart header text and make into title above text
 - [ ] Padding between divider row and content
 - [x] add explore link buttons
+
+## 2015-01-21 Wednesday
+
+### 16:49
+
+httpie to get command line http command -- from Hamish
