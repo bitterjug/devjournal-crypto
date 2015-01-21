@@ -940,4 +940,8 @@ kludging it later.
 
 ### 16:49
 
-httpie to get command line http command -- from Hamish
+- [ ] `httpie` to get command line http command -- from Hamish
+
+### 17:02
+
+- [ ] Fid out how to commit hunks with fugitive
