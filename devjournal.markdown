@@ -950,5 +950,22 @@ kludging it later.
 
 Filtering second production:
 - Kogi/Benue: hide the chart altogether
-- Cassava/Rice: switch to a chart across years
+- Cassava/Rice: switch to a chart across years, e.g.:
 
+        <a
+        target="_blank"
+        href="//ata.livestories.com/chart/embed"
+        data-show-dataset="false"
+        data-colors="#0066b3,#00aaad,#00a65d,#72bf44,#fff200,#faa61a,#f58220,#ef413d,#ed1c24,#a3238e,#5c2d91,#214009"
+        data-filters="filters.Crop=Rice"
+        data-chart-type="column"
+        data-secondary-operation="sum"
+        data-operation="sum"
+        data-indicators="Production,Yield Per Hectare"
+        data-variables="Year"
+        data-dataset="8ba9c30ca16e11e4927006909bee25eb"
+        data-enable-filtering="true"
+        data-height="600"
+        data-width="600"
+        class="insight-tile">Total Production and Avg of Yield Per Hectare across Crop</a>
+        <script async src="//ata.livestories.com/static/js/embed-api.js"></script>
