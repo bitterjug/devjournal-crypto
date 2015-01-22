@@ -969,3 +969,11 @@ Filtering second production:
         data-width="600"
         class="insight-tile">Total Production and Avg of Yield Per Hectare across Crop</a>
         <script async src="//ata.livestories.com/static/js/embed-api.js"></script>
+
+## 2015-01-22 Thursday
+
+### 11:09
+
+- [ ] Talk to Hamish about the Chart Embed object vs the dictionary of its
+  parameters as the right abstraction, and why its easier to test a dict than
+  the object.
