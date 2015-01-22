@@ -982,3 +982,9 @@ Filtering second production:
 
 - [ ]  Write some documentation for django_harness html_parsing mixin
 
+
+### 15:40
+
+Fix the offset for anchor links 
+
+http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
