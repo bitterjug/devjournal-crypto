@@ -977,3 +977,8 @@ Filtering second production:
 - [ ] Talk to Hamish about the Chart Embed object vs the dictionary of its
   parameters as the right abstraction, and why its easier to test a dict than
   the object.
+
+### 12:09
+
+- [ ]  Write some documentation for django_harness html_parsing mixin
+
