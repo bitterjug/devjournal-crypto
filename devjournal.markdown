@@ -1008,3 +1008,9 @@ I have to set the chart iframe size differently in normal and wide charts.
 
 
 ppa:libreoffice/libreoffice-4-3 
+
+### 15:49
+
+Bootstrap, making things stick to the top of the browser screen.
+
+    http://getbootstrap.com/javascript/#affix
