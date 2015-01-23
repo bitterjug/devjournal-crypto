@@ -1003,3 +1003,8 @@ Otherwise, if the normal charts are never supposed to be wider than 600,
 I have to set the chart iframe size differently in normal and wide charts.
 
 
+
+### 14:53
+
+
+ppa:libreoffice/libreoffice-4-3 
