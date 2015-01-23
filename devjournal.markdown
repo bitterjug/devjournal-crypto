@@ -993,4 +993,13 @@ http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-
 
 ### 11:54
 
-I'm looking at the char wdths. I  can adjust the grid widths for the production charts to make the meta 3 and the charts 7, but the charts don't grow to that width on large screen sizes because of the 600 width for the iframe. 
+I'm looking at the char wdths. I  can adjust the grid widths for the production
+charts to make the meta 3 and the charts 7, but the charts don't grow to that
+width on large screen sizes because of the 600 width for the iframe. 
+option 1) change the iframe width for all charts to something larger, e.g. 800??
+then all charts get wider when the screen size is wide enough to allow the
+6-col region to be larger than 600. And for the wide charts, 7-col.
+Otherwise, if the normal charts are never supposed to be wider than 600, 
+I have to set the chart iframe size differently in normal and wide charts.
+
+
