@@ -988,3 +988,9 @@ Filtering second production:
 Fix the offset for anchor links 
 
 http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
+
+## 2015-01-23 Friday
+
+### 11:54
+
+I'm looking at the char wdths. I  can adjust the grid widths for the production charts to make the meta 3 and the charts 7, but the charts don't grow to that width on large screen sizes because of the 600 width for the iframe. 
