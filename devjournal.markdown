@@ -1014,3 +1014,9 @@ ppa:libreoffice/libreoffice-4-3
 Bootstrap, making things stick to the top of the browser screen.
 
     http://getbootstrap.com/javascript/#affix
+
+## 2015-01-27 Tuesday
+
+### 19:37
+
+Syntastic isn't giving me error warnings for python.
