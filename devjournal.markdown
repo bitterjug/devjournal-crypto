@@ -1020,3 +1020,8 @@ Bootstrap, making things stick to the top of the browser screen.
 ### 19:37
 
 Syntastic isn't giving me error warnings for python.
+
+### 20:07
+
+But pymode is. But pymode is super slow each time I write a file (init checking) it does
+regenerate auto-import chache which takes tens of seconds.
