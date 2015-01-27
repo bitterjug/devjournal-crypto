@@ -1025,3 +1025,9 @@ Syntastic isn't giving me error warnings for python.
 
 But pymode is. But pymode is super slow each time I write a file (init checking) it does
 regenerate auto-import chache which takes tens of seconds.
+
+### 20:56
+
+Delete `~/.ropeproject` because it forces everything to use it.
+
+
