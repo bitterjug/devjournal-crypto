@@ -1030,4 +1030,8 @@ regenerate auto-import chache which takes tens of seconds.
 
 Delete `~/.ropeproject` because it forces everything to use it.
 
+### 20:59
+
+To make ultisnips work again, set its working dir somewhere in a sparkleshare folder.
+Maybe use a common one for both setups.
 
