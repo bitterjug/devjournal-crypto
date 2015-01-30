@@ -1045,3 +1045,7 @@ Elastic search (required for authoraid) should really be installed in a docker c
 ### 15:35
 
 Redmine simple [support desk plugin](https://github.com/jfqd/redmine_helpdesk)
+
+### 15:48
+
+- [ ] MAke VimFiler ignore .pyc files (and others?)
