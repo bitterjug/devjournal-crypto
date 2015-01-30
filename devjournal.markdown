@@ -1049,3 +1049,15 @@ Redmine simple [support desk plugin](https://github.com/jfqd/redmine_helpdesk)
 ### 15:48
 
 - [ ] MAke VimFiler ignore .pyc files (and others?)
+
+g:vimfiler_ignore_pattern			 *g:vimfiler_ignore_pattern*
+		Specify the regexp pattern to ignore candidates of the source.
+		This applies on the filenames of candidates.  It's not case
+		sensitive.
+		Note: If you use
+		|<Plug>(vimfiler_toggle_visible_ignore_files)|, the ignore
+		pattern is disabled.
+>
+		let g:vimfiler_ignore_pattern = '^\%(\.git\|\.DS_Store\)$'
+<
+		Default value is '^\.' (dot files pattern).
