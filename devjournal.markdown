@@ -1035,3 +1035,9 @@ Delete `~/.ropeproject` because it forces everything to use it.
 To make ultisnips work again, set its working dir somewhere in a sparkleshare folder.
 Maybe use a common one for both setups.
 
+
+## 2015-01-30 Friday
+
+### 11:06
+
+Elastic search (required for authoraid) should really be installed in a docker container.
