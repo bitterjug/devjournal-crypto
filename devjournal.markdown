@@ -1041,3 +1041,7 @@ Maybe use a common one for both setups.
 ### 11:06
 
 Elastic search (required for authoraid) should really be installed in a docker container.
+
+### 15:35
+
+Redmine simple [support desk plugin](https://github.com/jfqd/redmine_helpdesk)
