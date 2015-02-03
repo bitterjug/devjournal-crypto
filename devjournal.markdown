@@ -1050,7 +1050,7 @@ Redmine simple [support desk plugin](https://github.com/jfqd/redmine_helpdesk)
 
 - [ ] MAke VimFiler ignore .pyc files (and others?)
 
-g:vimfiler_ignore_pattern			 *g:vimfiler_ignore_pattern*
+    g:vimfiler_ignore_pattern			 *g:vimfiler_ignore_pattern*
 		Specify the regexp pattern to ignore candidates of the source.
 		This applies on the filenames of candidates.  It's not case
 		sensitive.
@@ -1061,3 +1061,18 @@ g:vimfiler_ignore_pattern			 *g:vimfiler_ignore_pattern*
 		let g:vimfiler_ignore_pattern = '^\%(\.git\|\.DS_Store\)$'
 <
 		Default value is '^\.' (dot files pattern).
+
+## 2015-02-03 Tuesday
+
+### 12:20
+
+A strategy for email foldes:
+
+- Use procmail (now under git control) to organize into folders
+- Tag the folders with their notmuch equivalent but try using the folde structure in mutt so we can move them and use imap to sunchronise
+- Use notmuch mainly for search. 
+- Therefore maybe add some other useful tags for notmuch.
+
+- What to do about archiving old mail?
+- Maybe use notmuch virtual folders with a date range on them ?
+- But these have to be created manually each time in mutt, which sucks.
