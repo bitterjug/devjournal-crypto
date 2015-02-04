@@ -1076,3 +1076,9 @@ A strategy for email foldes:
 - What to do about archiving old mail?
 - Maybe use notmuch virtual folders with a date range on them ?
 - But these have to be created manually each time in mutt, which sucks.
+
+## 2015-02-04 Wednesday
+
+### 11:38
+
+Hamish using recent pandas 0.15.2 couldn't open any ATA data: Categorical Categories must be unique .. investigate.
