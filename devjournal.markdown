@@ -1082,3 +1082,13 @@ A strategy for email foldes:
 ### 11:38
 
 Hamish using recent pandas 0.15.2 couldn't open any ATA data: Categorical Categories must be unique .. investigate.
+
+### 13:22
+
+For percentage income graph:
+
+11,766 rows (household/plot/crop)
+
+Of whom 
+
+
