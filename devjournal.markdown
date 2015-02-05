@@ -1096,3 +1096,98 @@ Of whom
 ### 22:11
 
 Here's a nice [Javascript spreadsheet-table library](http://handsontable.com/index.html)
+
+## 2015-02-05 Thursday
+
+### 15:23
+
+# Data for ATA Percentage sales
+
+We have been looking at the LSMS data.  We first looked at the post-planting
+data
+
+Then Hamish reviewed the post-harvest data and found some specific questions
+about sale of crop.  
+
+Section A3: 
+Questions
+ - 12 (what was the value of sales to the main buyer) 
+ - 17 (What was the value of sales to or through other buyers)
+ - 18 (If you had sold all crop harvested, what would be the total value?)
+
+ We calculate percentage sales from these data by:
+ - we sum these figures to the level of  household and crop  (so it is still
+   possible to filter by crop)
+ - we divide the total sales (primary and other) by the total possible value
+
+We get probably acceptable numbers of results for rice and cassava across the
+states (see tables below).  But it looks like some of the Naira values for
+sales are unreliable, because for example, the value of crop sold is larger
+than the value of selling all the harvest. I'll attach the raw data to this
+email so you can see for yourself.
+
+
+Number of data points (Household/Crop) by state
+
+2010 rice:
+    taraba         47
+    adamawa        37
+    bauchi         27
+    niger          27
+    kebbi          24
+    kaduna         22
+    ebonyi         18
+    benue          17
+    kwara          15
+    cross river    13
+    nasarawa       13
+    katsina        12
+    borno          10
+    jigawa         10
+    plateau         8
+    gombe           8
+    anambra         7
+    sokoto          5
+    kogi            4
+    kano            4
+    zamfara         4
+    enugu           3
+    yobe            1
+    abia            1
+    ekiti           1
+    fct abuja       1
+
+2010: cassava
+    benue          103
+    akwa ibom       82
+    ebonyi          66
+    delta           39
+    oyo             30
+    cross river     27
+    edo             26
+    kogi            26
+    osun            22
+    taraba          21
+    imo             20
+    bayelsa         19
+    kano            16
+    enugu           15
+    kwara           15
+    ondo            12
+    anambra         11
+    ogun            10
+    bauchi           7
+    rivers           7
+    niger            6
+    ekiti            5
+    lagos            5
+    kaduna           4
+    nasarawa         4
+    fct abuja        3
+    borno            2
+    plateau          2
+    abia             2
+    sokoto           2
+    kebbi            1
+    adamawa          1
+
