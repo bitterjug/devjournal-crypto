@@ -1101,3 +1101,23 @@ Here's a nice [Javascript spreadsheet-table library](http://handsontable.com/ind
 
 ### 15:23
 
+
+## 2015-02-10 Tuesday
+
+### 08:54
+
+# Aptivate Carbon
+
+We are concerned about our impact on the environment.
+Climate change is a major concern in international development.
+We want to consciously deal with the challenges of working 
+in international development, without our work making things worse.
+Similarly, we want to make conscious, informed choices about other 
+aspects of our environmental impact; things like:
+
+* Greenhouse Gas Emissions
+* Procurement (Fair Trade, Ethical suppliers)
+* Food (Organic, Vegetarian, Vegan)
+
+
+
