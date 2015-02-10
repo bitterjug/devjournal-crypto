@@ -1119,12 +1119,15 @@ aspects of our environmental impact; things like:
 * Procurement (Fair Trade, Ethical suppliers)
 * Food (Organic, Vegetarian, Vegan)
 
-We want to make these issues part of the daily conversation at Aptivate: 
-when we consider proposals for change we would like it to become 
-the norm for us to consider the ethics and impact of the change
-along with its financial and social implications.
+We want to make these issues part of the daily conversation at Aptivate, not
+just a kind of accounting exercise, so we can engage our combined creative
+abilities to help find ways to improve.
+For example, we would like it to become normal for us to list and discuss the
+ethics and impact of proposed policy changes, experiments or other
+interventions, along with their financial and social implications.
 
 We will create an environmental policy for Aptivate to document our
 commitments and to use in communications including PD.
+
 
 
