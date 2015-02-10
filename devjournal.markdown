@@ -1129,7 +1129,18 @@ interventions, along with their financial and social implications.
 We will create an environmental policy for Aptivate to document our
 commitments and to use in communications including PD.
 
+We propose to focus on greenhouse gas emissions first, for the first year.
 
+
+
+To do this we think we need the following:
+
+- Draft and review an environmental policy document
+- Make a map of Aptivate's "organisational ecology" and determine our system
+  boundary
+- Put in place a tool (e.g. spreadsheet based) that models our activities and
+  greenhouse gas emissions.
+- Update and publish environmental policy document
 
 
 ### 10:14
