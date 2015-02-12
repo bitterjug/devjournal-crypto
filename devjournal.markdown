@@ -1150,6 +1150,8 @@ link for tim
 https://support.office.microsoft.com/en-gb/article/Consolidate-data-in-multiple-worksheets-007ce8f4-2fae-4fea-9ee5-a0b2c9e36d9b?CorrelationId=0b8afae2-e896-4141-87f8-8e815dbc2082&ui=en-US&rs=en-GB&ad=GB
 https://www.youtube.com/watch?v=MsbdMiruX68
 
-### 11:23
+## 2015-02-12 Thursday
 
+### 12:09
 
+Fix mysql root password http://ubuntu.flowconsult.at/en/mysql-set-change-reset-root-password/
