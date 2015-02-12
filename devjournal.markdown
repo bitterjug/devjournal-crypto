@@ -1155,3 +1155,9 @@ https://www.youtube.com/watch?v=MsbdMiruX68
 ### 12:09
 
 Fix mysql root password http://ubuntu.flowconsult.at/en/mysql-set-change-reset-root-password/
+
+### 17:35
+
+- [ ] Write the text about productivity charts Friday, 
+
+- [ ] Then do the non functional requirements
