@@ -1168,6 +1168,12 @@ Fix mysql root password http://ubuntu.flowconsult.at/en/mysql-set-change-reset-r
 
 Cool! USe `Ctrl-\` (control-backtic) to switch between tab groups in Firefox!
 
-### 11:27
+### 11:28
+
+#Mutt
+
+The `A` macro to add users to abook wasn't working because I bound | to hid the
+sidebar.  So I unbound | and now I can add senders again, but can't re-bind
+that bloody macro to, e.g. ¬ for some reason.
 
 
