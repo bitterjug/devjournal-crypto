@@ -1161,3 +1161,9 @@ Fix mysql root password http://ubuntu.flowconsult.at/en/mysql-set-change-reset-r
 - [ ] Write the text about productivity charts Friday, 
 
 - [ ] Then do the non functional requirements
+
+## 2015-02-13 Friday
+
+### 09:13
+
+Cool! USe `Ctrl-\` (control-backtic) to switch between tab groups in Firefox!
