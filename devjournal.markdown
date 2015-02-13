@@ -1069,7 +1069,7 @@ Redmine simple [support desk plugin](https://github.com/jfqd/redmine_helpdesk)
 A strategy for email foldes:
 
 - Use procmail (now under git control) to organize into folders
-- Tag the folders with their notmuch equivalent but try using the folde structure in mutt so we can move them and use imap to sunchronise
+- Tag the folders with their notmuch equivalent but try using the folder structure in mutt so we can move them and use imap to sunchronise
 - Use notmuch mainly for search. 
 - Therefore maybe add some other useful tags for notmuch.
 
@@ -1167,3 +1167,7 @@ Fix mysql root password http://ubuntu.flowconsult.at/en/mysql-set-change-reset-r
 ### 09:13
 
 Cool! USe `Ctrl-\` (control-backtic) to switch between tab groups in Firefox!
+
+### 11:27
+
+
