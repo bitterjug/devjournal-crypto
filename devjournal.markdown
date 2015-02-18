@@ -1177,3 +1177,16 @@ sidebar.  So I unbound | and now I can add senders again, but can't re-bind
 that bloody macro to, e.g. ¬ for some reason.
 
 
+## 2015-02-18 Wednesday
+
+### 11:23
+
+# ATA
+
+Add a pair of bars in the existing tech adoption chart on if any seed has been
+used.  use post agric survey 11e question 3 - if they said yes or no. the
+question may seem strange (have you used any seed?) of course everybody used
+seed! but this is actually around if you acquired any seed based on the follow
+up questions. So this should be the right one.  [Mapping on this spreadsheet](https://docs.google.com/a/livestories.com/spreadsheets/d/1-3b6zCyPBWLfhLqBiT-6rU6mTVkir5UGw1vzFl9kLg8/edit#gid=748484414)
+
+This will require update to report in all relevant sections.
