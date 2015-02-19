@@ -1197,3 +1197,7 @@ This will require update to report in all relevant sections.
 
 My python setup in vim isn't describing the errors it detects. 
 I dont even know if its syntastic or pymode.
+
+### 16:59
+
+[ ] Turn off line numbers in the ViMfiler pane!
