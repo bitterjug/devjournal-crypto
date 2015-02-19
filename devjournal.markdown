@@ -1190,3 +1190,10 @@ seed! but this is actually around if you acquired any seed based on the follow
 up questions. So this should be the right one.  [Mapping on this spreadsheet](https://docs.google.com/a/livestories.com/spreadsheets/d/1-3b6zCyPBWLfhLqBiT-6rU6mTVkir5UGw1vzFl9kLg8/edit#gid=748484414)
 
 This will require update to report in all relevant sections.
+
+## 2015-02-19 Thursday
+
+### 15:56
+
+My python setup in vim isn't describing the errors it detects. 
+I dont even know if its syntastic or pymode.
