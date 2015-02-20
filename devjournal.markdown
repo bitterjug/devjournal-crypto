@@ -1195,9 +1195,27 @@ This will require update to report in all relevant sections.
 
 ### 15:56
 
-My python setup in vim isn't describing the errors it detects. 
-I dont even know if its syntastic or pymode.
+- [ ] My python setup in vim isn't describing the errors it detects.  I dont
+  even know if its syntastic or pymode.
 
 ### 16:59
 
-[ ] Turn off line numbers in the ViMfiler pane!
+- [ ] Turn off line numbers in the ViMfiler pane!
+
+## 2015-02-20 Friday
+
+### 10:54
+
+# ATA
+
+chart-title-container
+    height: 150px
+
+    p
+        margin-top: 15px (half the text height)
+
+- [x] So make the expolore button 15px up from the bottom of the chart too.
+
+- [ ]Position of the explore button needs top be more than 15 px from bottom when in single column - e./g. margin bottom or similar
+
+
