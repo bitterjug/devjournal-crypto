@@ -1216,8 +1216,7 @@ chart-title-container
 
 - [x] So make the expolore button 15px up from the bottom of the chart too.
 
-- [ ] Position of the explore button needs top be more than 15 px from bottom when in single column - e./g. margin bottom or similar
+- [x] Position of the explore button needs top be more than 15 px from bottom when in single column - e./g. margin bottom or similar
 
-- [ ] The traffic light text is aligned wrongly when the chart floats left.
-
+- [x] The traffic light text is aligned wrongly when the chart floats left.
     - seems to have inherited text alight center!
