@@ -1235,7 +1235,11 @@ chart-title-container
 
 ### 12:15
 
-Useful concepts for working with data :
-- id_variables
-- measured variables
+Useful concepts for working with data:
+- id_variables -- identify the sample point (like zone, state, lga, household id, etc.)
+- measured variables -- give information about the sample point (like income)
+
+In the case of the melt above, we're treating the binary questions "did you buy seed", etc
+as indicating whether a particular method was used, and switching those columns around into 
+values.
 
