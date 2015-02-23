@@ -1220,3 +1220,13 @@ chart-title-container
 
 - [x] The traffic light text is aligned wrongly when the chart floats left.
     - seems to have inherited text alight center!
+
+## 2015-02-23 Monday
+
+### 11:01
+
+# ATA new chart layout
+
+- [ ] Need to see the kind of layout change Jon made for it to work and do the same to the filtered dataset
+
+- [ ] 
