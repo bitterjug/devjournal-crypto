@@ -1227,11 +1227,10 @@ chart-title-container
 
 # ATA new chart layout
 
-- [ ] Need to see the kind of layout change Jon made for it to work and do the same to the filtered dataset
+- [x] Need to see the kind of layout change Jon made for it to work and do the same to the filtered dataset
 
   turns out to be exactly what is handled by [`pandas.melt()`](http://pandas.pydata.org/pandas-docs/stable/reshaping.html)
 
-- [ ] 
 
 ### 12:15
 
