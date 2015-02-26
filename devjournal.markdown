@@ -1246,3 +1246,10 @@ values.
 ### 14:58
 
 - [ ] Replace the data set ids in ATA
+
+## 2015-02-26 Thursday
+
+### 16:27
+
+Merge github accounts (and lose your hsitory)
+https://help.github.com/articles/merging-multiple-user-accounts/
