@@ -1253,3 +1253,10 @@ values.
 
 Merge github accounts (and lose your hsitory)
 https://help.github.com/articles/merging-multiple-user-accounts/
+
+## 2015-03-03 Tuesday
+
+### 12:01
+
+Someone is making completion work badly in vim. 
+Tried disabling neo complete.
