@@ -1265,3 +1265,8 @@ Tried disabling neo complete, and its config lines.
 
 Now when I type `self.` in a test file, it inserts the full text of the
 completion derived from the current file. This is not what want.
+
+### 12:33
+
+Check out this lightweight vim plugin manager
+https://github.com/junegunn/vim-plug/wiki/faq
