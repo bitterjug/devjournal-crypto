@@ -1259,4 +1259,9 @@ https://help.github.com/articles/merging-multiple-user-accounts/
 ### 12:01
 
 Someone is making completion work badly in vim. 
-Tried disabling neo complete.
+Tried disabling neo complete, and its config lines.
+
+### 12:02
+
+Now when I type `self.` in a test file, it inserts the full text of the
+completion derived from the current file. This is not what want.
