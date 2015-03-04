@@ -1274,3 +1274,11 @@ https://github.com/junegunn/vim-plug/wiki/faq
 ### 12:42
 
 The culprit seems to be pymode
+
+## 2015-03-04 Wednesday
+
+### 09:26
+
+My redshift color preferences to keep the display bright during the day and make it dim in the evening only.
+
+    redshift-gtk -t 6500:3700
