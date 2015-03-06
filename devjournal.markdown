@@ -1282,3 +1282,9 @@ The culprit seems to be pymode
 My redshift color preferences to keep the display bright during the day and make it dim in the evening only.
 
     redshift-gtk -t 6500:3700
+
+## 2015-03-06 Friday
+
+### 14:42
+
+Write a vim plugin to provide a completion function from abook mail addresses
