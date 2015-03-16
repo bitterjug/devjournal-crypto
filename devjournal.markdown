@@ -1288,3 +1288,102 @@ My redshift color preferences to keep the display bright during the day and make
 ### 14:42
 
 Write a vim plugin to provide a completion function from abook mail addresses
+
+## 2015-03-16 Monday
+
+### 17:20
+
+# ATA Blog
+
+Tagline
+=======
+
+A monitoring and evaluation application
+that measures the progress of Nigeria's 
+Agricultural Transformation Agenda
+
+
+Purpose 
+=======
+
+The Agricultural Transformation Agenda (ATA) is an initiative of the Nigerian
+Government's Federal Ministry of Agriculture and Rural Development to develop
+the role of agriculture in Nigeria's economy.
+
+The application is a functional prototype that demonstrates how the ATA's
+progress can be measured in the context of a specially developed monitoring and
+evaluation framework.
+
+People 
+=======
+
+This has been a very collaborative project for us.  We worked directly with
+agricultural measurement learning and evaluation experts from the
+[ALINe](http://www.aline.org.uk/) initiative, and data visualisation experts
+from [LiveStories](http://livestories.com/), and adding our own expertise in
+building effective, accessible web tools for international development.  The
+team worked with government officers at Federal and State-level in Nigeria, and
+local policy and development experts. 
+
+The application will be used to demonstrate to  Federal and State-level
+officers the potential to understand the impact of ATA interventions, and to
+plan new ones using evidence from real data. There are many challenges in
+delivering effective tools, especially at State level where infrastructure
+support can be at a low level, and government officers might not have had the
+opportunity to learn the potential of modern IT solutions. The team visited
+offices in the Nigerian states of Kogi and Benue (which were the focus of this
+study) and worked directly with the potential users to determine the best
+design for the application.
+
+During the software development phase the LiveStories came and worked with us
+in our offices in Cambridge. LiveStories are based in Seattle, so this was a
+great opportunity for us to work together, in the same space, and in the same
+time-zone.
+
+Process
+=======
+
+ALINe worked on a theory of change for the ATA and a M&E framework based on the
+main value chains in the sector. For the proof-of-concept application the team
+focussed on two of the 16 value chains: Cassava and Rice, and on two Nigerian
+states: Benue and Kogi. The team visited Federal government offices and offices
+in Benue and Kogi to understand  their requirements. What kind of data were
+they already working with?  What environmental challenges are there for IT
+solutions?  What would they want to get out of a measurement tool for the ATA?
+The LiveStories team lead this part of the project and it was a great chance
+for us to experience their processes and to work with their highly skilled
+technical and design experts. They developed personas and stories that
+fed into the design of the application.
+
+
+We build the prototype application in two phases with a visit to Nigeria 
+between to check in with real users. 
+
+Code
+=======
+
+The design focusses on simplicity and was designed for mobile devices first and
+then adjusted so it still looked great and worked well on larger screens.
+
+The application is really simple: a simple page showing charts of data from
+before and after the start of ATA interventions. The front-end is a Django
+application with one page that handles changes to the selected filters passing
+them on to the embedded charts.  It uses LiveStories as a back-end to store the
+data and to prepare the charts. The bulk of our technical work was in
+extracting and preparing the data for those charts.
+
+
+Most of the data were drawn from the World Bank's [Living Standards Measurement
+Study][lsms] research. We used the excellent [Pandas][] library in [iPython
+notebooks](http://ipython.org/notebook.html) to explore, reshape and clean the
+data.
+
+[Pandas]: http://pandas.pydata.org/) 
+[lsms]:http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTLSMS/0,,menuPK:3359053~pagePK:64168427~piPK:64168435~theSitePK:3358997,00.html
+
+The design draws heavily on Google's [Material Design](http://www.google.com/design/)
+and we used [Bootstrap Material Design](https://fezvrasta.github.io/bootstrap-material-design/)
+to get a great-looking site up with a minimum of effort.
+
+
+
