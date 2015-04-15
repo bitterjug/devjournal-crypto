@@ -1386,4 +1386,32 @@ and we used [Bootstrap Material Design](https://fezvrasta.github.io/bootstrap-ma
 to get a great-looking site up with a minimum of effort.
 
 
+## 2015-04-15 Wednesday
 
+### 15:27
+
+Hi Kieran
+
+I just got back from my Easter leave and have been checking in with Hamish
+about the April INASP work. In the email thread, I notice the following:
+
+
+Hamish:
+>   I have not yet done: ...
+Kieran:
+>>   Just to clarify, is that that you haven't done as run out of time, or
+>>   haven't done but are planning to do?
+
+Hamish:
+>>> I haven't done as I've run out of time (somewhat over time in fact, but
+>>> that's our issue)
+
+The contract for this work requires that we do up to two days work for INASP in
+a month on a time and materials basis. Project management (e.g. time it took
+for all the emails in that thread, including this one) is to be included within
+the 6 days available per quarter. If Hamish has spent more than a day on INASP
+work already in April, including the time he spent clarifying requirements,
+this does not mean that we are over time, but that less than a day remains in
+this month's support time.
+
+Hamish, can you give us a sense of 
