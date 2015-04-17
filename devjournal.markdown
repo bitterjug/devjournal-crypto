@@ -1415,3 +1415,34 @@ this does not mean that we are over time, but that less than a day remains in
 this month's support time.
 
 Hamish, can you give us a sense of 
+
+## 2015-04-17 Friday
+
+### 17:00
+
+
+Infrastructure Investigate Outsourcing Hosting
+
+In the recent Infrastructure workshop we identified that much of Adrians work
+entailed managing and maintaining our hosted services. We provide hosting for
+the web apps we have built for our clients, and we host some internal services
+too. There are a bunch of tasks entailed in looking after these, such as
+keeping and testing backups, responding to security advice, upgrading servers,
+etc. We want to look into the possibility of reducing the hosting work that we do.
+
+It's still early days for this and the purpose of this discussion is to find out
+what risks, and opportunities people see, so we can plan accordingly.
+
+Think of it this way: If we had already done this investigation and we were ready to 
+propose some changes (reductions) to our hosting what woiuld your concerns be?
+What information would you want in order to make the decision?
+
+Likely next step for this investigation might be:
+
+- a workshop for Infrastructure to brainstorm a plan for the investigation
+  (e.g. 4 people, half day)
+
+- Time for an Infrastructure person to gather data and options and prepare
+  the proposal (2 - 4 person days)
+
+
