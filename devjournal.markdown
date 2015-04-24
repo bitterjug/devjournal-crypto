@@ -1455,3 +1455,4 @@ With TESS in the mobile screen I notice:
 
 - no way to navitate back to the "home"
 - when the side bar is there the content doesn't fit on the screen
+- Still branded as Open Learn Works
