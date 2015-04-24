@@ -1446,3 +1446,12 @@ Likely next step for this investigation might be:
   the proposal (2 - 4 person days)
 
 
+
+## 2015-04-24 Friday
+
+### 16:43
+
+With TESS in the mobile screen I notice:
+
+- no way to navitate back to the "home"
+- when the side bar is there the content doesn't fit on the screen
