@@ -1455,12 +1455,8 @@ With TESS in the mobile screen I notice:
 
 - The way back to the top level is the "all india English" link, but the OpenLearnWorks page at the top is still there and goes "offsite"
 - Open Learn Works OU branding still at bottom, do we want this?
-- when the side bar is there the content doesn't fit on the screen
-- Still branded as Open Learn Works
+- when the side bar is there the content doesn't fit on the screen (is this when we get to the live site?)
+- Still branded as Open Learn Works <<<<<< needs re-branding ?? Ask Jay?
 - No preview of embedded videos
 - Creative commons licence link should probably give some local info?
 - other links in page: Copyright, FAQ, etc.
-
-### 17:06
-
-
