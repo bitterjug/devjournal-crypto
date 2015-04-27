@@ -1457,6 +1457,13 @@ With TESS in the mobile screen I notice:
 - Open Learn Works OU branding still at bottom, do we want this?
 - when the side bar is there the content doesn't fit on the screen (is this when we get to the live site?)
 - Still branded as Open Learn Works <<<<<< needs re-branding ?? Ask Jay?
+ -- visual design is essntial for pilot
 - No preview of embedded videos
 - Creative commons licence link should probably give some local info?
 - other links in page: Copyright, FAQ, etc.
+
+## 2015-04-27 Monday
+
+### 10:48
+
+
