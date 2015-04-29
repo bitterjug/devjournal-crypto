@@ -1467,3 +1467,11 @@ With TESS in the mobile screen I notice:
 ### 10:48
 
 
+
+## 2015-04-29 Wednesday
+
+### 15:28
+
+To make thumbnails of tess video files:
+
+    ffmpegthumbnailer -iolink.php\?id=57108\&targetdoc=inclusion_en_video -otest.jpg -s0
