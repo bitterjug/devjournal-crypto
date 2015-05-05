@@ -1,2152 +1,1519 @@
-<!--
-vim: sw=2 ft=ghmarkdown spell
--->
-Writing note.sh
-=================
-
-[strftime](http://www.cplusplus.com/reference/ctime/strftime/)
-is a C++ function exposed in Vim.
-
-## 2013-12-23 21:16 Monday
-
-Make the time-stamps sub-headings and format them so they are sortable and then,
-in theory at least, I can:
-
- *  Insert main headings above them to indicate what I'm working on.
- *  Sort by main heading and then sub-heading (if I'm consistent with the main
-    headings) to get all the note son one heading.
-
-
-## 2013-12-23 23:40 Monday
-
- *  Bindings for xmonad to invoke
- *  Spent way too long working out how to open and close Voom window.
-    finally put it in a vim binding.
-
-
-
-## 2013-12-29 22:56 Sunday
-
-Install 13.10, tried:
-
-  * Geary email. Looks cool, Set up for gmail, not as sophisticated
-    search (yet) as notmuch
-  * Haskell Platofrm finally installs
-  * We have tmux 1.8 with support for proper copy and paste
-  * Played with conky which is weird because it doesn't seem to have
-    a widow border
-  * Finally switched back 
-  * And, strangely, I seem to have filled half my SSD already, with
-    what?
-    
-
-## 2013-12-30 13:09 Monday
-
-Apparently the upgrade has stopped my `cambridgeenergy.localhost`
-working. Visiting that address takes me to the default page for the
-server. So the `etc/hosts` entry appears to be still there.  Also,
-`/etc/apache2/sites-enabled` and `/etc/apache2/sites-available` both
-contain the `cambridgeneergy` configuration file, with the former
-being a sym-link to the latter.
-
-## 2014-01-01 12:50 Wednesday
-
-Fixed broken apache2, eventually, by:
-
-1. Change the virtual host config file name to end with .conf
-2. Added the following inside the `<VirtualHost>` block to turn
-   on access.
-
-    <Directory "">
-    Options  All
-    AllowOverride All
-    Require all granted
-    </Directory>
-
-
-OSI POINT Iteration 30
-=======================
-
-## 2014-01-06 16:14 Monday
-
-  * Prepared sample spreadsheet and sent to client
-  * Searching for the code, apprently we use Piston to generte the spreadsheet
-    (CSV) which kinda makes sense as its a rendering of data.
-
-
-## 2014-01-06 16:56 Monday
-
-Looks like the way to proceed is to 
-
-  - modify the list of field names from get_fieldnames in csv_handler.py
-    and give names to all the new fields (by apending the tree level to each)
-
-  - Then change the serializer to map the budget fields to their appropriately
-    postfixed col names.
-
-## 2014-01-07 10:44 Tuesday
-
-  * Thinking about how to turn a list of column headers from 
-
-        [    ...
-            'budget',
-            ...
-        ]
-
-    into:
-
-        [    ...
-            'budget_pfa',
-            'budget_so',
-            'budget_ma',
-            'budget_sa',
-            ...
-        ]
-        
-    Found `itertools.chain` which chains iterables together and can be used to
-    make a simple shallow version of join/flatten. But it requires all elements
-    to be iterable, whereas I want to flatten `['a', 'b', ['c','d'], 'e']`
-    into `['a', 'b', 'c', 'd', 'e']`. So  I'm skipping it.
-
-
-
-## 2014-01-07 16:44 Tuesday
-
-Working on Filtering by type of planned spending.
-
-  * Follow the example of category_of_work that Daniel did
-  * Start by asserting the field appears in the form
-  * The get_forward and get_reverse joins methods are about navigating the tree
-    from the given start model up to the level where the filtered value is
-    stored.
-  * Also, see what else Daniel had to touch in order to implement category_of_work filtering.
-
-
-
-## 2014-01-08 11:38 Wednesday
-
-  * Daniel's tests look at the generated queries. They don't entail going to
-    the database which is probably a good idea. So the test is effectively that
-    the correct filter is gerated.  There needs to be another test that this query
-    gives the right results too, I guess.
-
-  * Apparently I can get a tf:SomeTreeFilter object and do 
-
-        tf.queries['category_of_work'] 
-        
-    and it will return a list of ... query stuff. 
-
-## 2014-01-08 17:15 Wednesday
-
-Reproduced Daniel's code, need to merge to dev and staging and deploy. And drop a tag.
-
-
-## 2014-01-09 15:02 Thursday
-
-Working on Hide unwanted values from drop-down lists.  It turns out that
-`BudgetCode` objects already have a link to a set of planning year objects that
-determine when they appear. I'm going to re-factor this into a superclass
-(at least in the model) and use the same approach for the other values.
-
-Except user might have to be handled differently.
-
-I want to build something like this for ALFIE.
-
-
-
-## 2014-01-09 17:45 Thursday
-
-Frioday morning:
-
-- test and deploy fix to OSI live
-- Deploy to staging to get server back u
-
-## 2014-01-10 17:57 Friday
-
-
-Stuck debugging
-
-    Cannot resolve keyword 'budgetcode' into field. Choices are:
-    approved_budget, id, locked, money_type, priorityfocusarea, year
-
-in OSI when accessing `BudgetCode.valid_years`. e.g.:
-
-    http://127.0.0.1:8000/admin/accounts/budgetcode/2/
-
-note taking script
-===================
-
-## 2014-01-11 20:21 Saturday
-
-What I want this script to do:
-
-  - Each time called add thet ime as a ### heading
-  - Firs time called each day, add the date and day name as a ## heading
-  - I can still add new # headings with topic
-
-Or maybe:
-
-  - Instead of adding #headings I could add project tags on time lines like
-    this:
-
-        ### 21:21 OSI
-
-    To avoid havig to type them much, the script could copy the last
-    one each time and maybe put the cursor at that point so it's
-    easy to change them?
-
-I want to re-write the shell script as a vim script to do the searching and
-replacing.
-
-The vim function should:
-
-  - only work on *markdown* buffers (return if file type is not
-    markdown)
-  - generate the date string
-  - generate the time string
-  - check if the date string appears in the buffer
-  - if it date string does not already appear in the file, apend
-    it (with surrounding blank lines)
-  - append the date string with blank lines
-
-Perhaps it should run each time the focus goes in the note buffer
-so I can leave it open, but this might end up being annoying.
-Probably better to have a global key-binding  that triggers the
-command in vim if its open, and if its not open, opens it and
-triggers the commend.
-
-Then we need to get the synchronisation working with Git.  In
-fact if we sync with Git it might not be necessary to insert the
-time stamps because I could use the git log to see the history.
-
-
-
-## 2014-01-11 21:40 Saturday
-
-If the new lines are appended using normal commands:
-emulating keystrokes, then they can be _undone_ with
-'u'?
-
-
-## 2014-01-11 22:22 Saturday
-
-The script below (`tmp/note.vim`) inserts the time and date stamp.
-
-    " Note
-    "
-
-    if exists('Note_loaded')
-        delfun Note_add
-    endif
-
-    function Note_add()
-        let l:datestamp = strftime('%F %A')
-        let l:timestamp = strftime('%R')
-        let l:lastline = line('$')
-        let l:dateheader = ['', '## ' . l:datestamp]
-        let l:timeheader = ['', '### ' . l:timestamp, '', '']
-        call append(l:lastline, l:timeheader)
-        call append(l:lastline, l:dateheader)
-    endfunction
-
-    let Note_loaded = 1
-
-Still need to:
-
- -  make inserting the date conditional (use `search()`)
- -  move the cursor to the end of the file
- -  make sure the text can be removed with 'u'
-
-
-## 2014-01-12 Sunday
-
-### 14:55 
-
-This version inserts the date only if it isn't already there
-
-``` VimL
-    " Note
-    "
-
-    if exists('Note_loaded')
-        delfun Note_add
-    endif
-
-    function Note_add()
-        let l:date = '## ' . strftime('%F %A')
-        let l:time = '### ' . strftime('%R')
-        let l:lastline = line('$')
-        call append(l:lastline, ['', l:time, '', ''])
-        if !search(date,'w')
-            call append(l:lastline, ['', l:date])
-        endif
-    endfunction
-
-    let Note_loaded = 1
-```
-
-
-## 2014-01-12 20:13 Sunday
-
-Maybe I want to switch to *orgmode* as it supports putting
-to-do items in amongst notes, which is a use case I have 
-already started using.
-
-
-## 2014-01-12 21:36 Sunday
-
-Reading about *orgmode*, got distracted refactoring my vimrc 
-so multiple `autocmds` become one with a call to a function.
-See the benefit of learning vimscript finally?
-
-## 2014-01-12 23:38 Sunday
-
-I don't like the way orgmode presents embedded code, markdown just lets me
-indent it. But it has the option to collect TODOs from all over the place and
-present them, which might be useful.  It's date stamp stuff is really for
-preparing future dated todos. Which is a bit esoteric. More likely a list of
-todos for a given project. An if Im using time stamping to journal progress,
-going back and checking todos from earlier might seem strange. I can see how it
-might work though where you just add a todo when you're thinking about
-something. And then get the whole list using the plugin commands. And 
-work through them. I've not been very good at working through todos
-since switching to GTG.
-
-## 2014-01-15 12:44 Wednesday
-
-Upgraded to Saucy Salamander this morning.  Freemind doesn't work. Installing
-oracle java 8 according to:
-http://ubuntuhandbook.org/index.php/2013/07/install-oracle-java-6-7-8-on-ubuntu-13-10/
-
-## 2014-01-15 12:58 Wednesday
-
-Java 8 download failed.  I now have a broken had to :
-
-    sudo rm /var/lib/dbkg/lock
-    sudo rm /var/cache/debconf/*
-
-
-## 2014-01-15 14:48 Wednesday
-
-Oracle java 8 installed, still cant open dialogue boxes in freemind.
-Maybe it needs an earlier version, or maybe Oracle broke it.
-
-cambridgeenergy.org.uk
-=======================
-
-## 2014-01-15 22:24 Wednesday
-
-Moved search box to top menu but don't know how to position
-it aligned with the menu items. For some reason it shows up
-as aligned with the top of the page, not down to the bottom 
-of its containing div. CSS is such a drag.
-
-IT might be possible to just remove it from the template
-and put it back with some sort of widget config?
-
-## 2014-01-16 21:33 Thursday
-
-Zenburn theme for gnome terminal
-Via `gconf-editor`:
-
-
-    pallette:
-         #3F3F3F3F3F3F:#FFFF00000000:#EFEFEFEFEFEF:#E3E3CECEABAB:#DFDFAFAF8F8F:#CCCC93939393:#7F7F9F9F7F7F:#DCDCDCDCCCCC:#3F3F3F3F3F3F:#FFFFCFCFCFCF:#EFEFEFEFEFEF:#E3E3CECEABAB:#DFDFAFAF8F8F:#CCCC93939393:#8C8CD0D0D3D3:#DCDCDCDCCCCC
-    foreground:
-        #EFEFEFEFEFEF
-    background:
-        #3F3F3F3F3F3F
-
-## 2014-01-17 09:09 Friday
-
-- [x] Try https://github.com/Shougo/neobundle.vim on vim?  And maybe some other
-  async stuff like the shell?
-
-## 2014-01-17 15:47 Friday
-
-Idea:
-Write Google apps script to pull data out of a Google calendar into a
-spreadsheet and use to log time by different developers (if we
-can do it on our company docs account, we should be able to pull from
-a calendar shred by the devs?)
-
-
-## 2014-01-20 09:47 Monday
-
-Welcome back!
-
-* [x] What does this stuff look like on Github?
-* [x] What does this stuff look like on Github?
-
-For some reason I Can't get these to render as checkboxes.
-
-Also, I want better Markdown syntax highlighting, maybe topoe
-
-
-
-## 2014-01-20 10:53 Monday
-
-### V4C Kick-off meeting
-
-Can we do:
-
- - Site-map/user story/workflow plan for site with Ellie?
- - SSO with Sharepoint should be treated as a lower priority.
- - what is relationshiup with ALFIE code base and V4c?
- - What needs to be on a card for it to become a candidate?
-    - What should it look like (visual design)
-    - How should it behave
-    - the whole journey
-    - Definition of Done (it's done when you can do the following things
-      with the system.) outline of steps to test manually
-
-    - Every feature that has to be in the story should be listed before we
-      start working on it.
-
-        - If there are mock-up images, are they "the spririt" or the exact look
-          of the things we have to build?
-        - A list of features that have to be there, if not directly implied by
-          the mock-ups.
-        - Anything that is not included is not part of the story (c.f.  story
-          of boolean logical search, which entailed definition of a grammar for
-          the search language)
-    - technical approach
-        - e.g save 'Outputs' they are several levels deep nested formsets vs
-          e.g.  backbone
-        - Both are 'unknown' to some degree
-        - Don't feel comfortable enough to estimate
-        - JAvascript approach don't just bung js files in a directory and link
-          to them.
-        - Set up front-end environment, e.g. Grunt/Require.js, etc.
-        - Need javascript tests, need automatic running/ build server
-
- - when can we estimate cards (what to they need)
-
- - [x] Marko to get met a sample of good card details/spec to look at from
-   3ie
-
- - [x] MCS invite Elly and Marko to UML tool 
- - [x] Talk Elly and Marko through data model 
- - [x] SparkleShare for Elly (or Dropbox, ...?)
-
-
-## 2014-01-20 14:53 Monday
-
-Possible insight on sub-indicator: corresponds to rows in the tool Is it the
-atomic level at which you measure, so that later measurements in that row
-replace/override earlier ones. As opposed to being added together.
-
-
-## 2014-01-20 16:19 Monday
-
-Ask George:
-
-- [x] Is achievement of outputs one of the indicators for outcomes?
-- [x] There can be only one Goal, ok, but what about more than one outcome?
-
-
-## 2014-01-24 15:04 Friday
-
-A theory about sub-indicators.
- Sub-indicators:
-        - are non-overalpping category spaces 
-        - where later measurements replace earlier ones
-
-## 2014-01-24 15:34 Friday
-
-`python_2_unicode_compatible`
-
-Helps to write polyglog python
-
-`order` help us set the sequence of, e.g. milestones.
-
-See 'serializers' in DjangoRestFramework.
-ModelViewset in DJR don't look at reverse relationships.
-
-
-
-## 2014-01-28 14:54 Tuesday
-
-This is how Marko creates scoped globals variables in javascript
-
-``` javascript
-    var Aptivate = window.Aptivate = window.Aptivate || {};
-```
-
-## 2014-01-28 16:38 Tuesday
-
-
-Check out what require.js does (one day)
-It controls loading until dependencies are loaded
-and also controls global name spaces.
-
-## 2014-01-29 12:35 Wednesday
-
-- A LogFrame should know what its milestones are
-- These might be a subset of the available reporting periods (this relationship
-  is different from  the Taxonomy-Term relationship. Taxonomy might be
-  'reporting periods' and have more time points than we choose to show as
-  milestones in the LogFrame
-- But I feel uncomfortable with all Terms having an optional link to Logframe 
-  in case they play the role of milestone
-
-- However milestones are qualativively different from other tags because they
-  have an associated end date or date period. 
-  
-- An Indicator should know if and what its sub-indicators are. There might be
-  none.
-- I think it makes sense for Indicator to have an associated sub-indicator
-  Taxonomy whose members are the sub-indicator rows 
-
-* The real decision behind whether Milestones are a kind of taxonomy-term or
-  not is whether it will make it easier to build generic filtering. I just
-  don't know yet.
-
-
-## 2014-01-29 16:49 Wednesday
-
-* Eventually our models (which are in models/models) will be separated
-into separate javascript files and loaded only when needed using require.
-
-## 2014-01-31 19:52 Friday
-
-- `drf-routes-nested` is somewhat tricky to set up with `HyperlinkedModelSerializer`
-for some reason. Switching our logframe and result serializers to ModelSerializer
-enabled one level of nesting.
-
-- Switching the logframe serializer back to Hyperlinkedmodelserializer 
-gets our url represented as a full url. So long as I don't include the 'id'
-field in the field set. If I do, I get 
-
-    Exception at /api/logframes/1/
-
-    Could not resolve URL for hyperlinked relationship using view name
-    "result-detail". You may have failed to include the related model in your
-    API, or incorrectly configured the `lookup_field` attribute on this field.
-    
-I think it might be trying to use our url conf to lookup "result-detail"
-and identify which url pattern to use for reverse.
-
-- Hyperlinkedmodelserializer don't include id by default, instead they have a
-  url field.
-- I get the error if I try and force them to have an 'id' field.
-- Maybe we don't need it if we have URLs?
-- I also get the problem if I try to include linked results.  but I'm not sure
-  I really want to at the moment because instead of a list of urls for the
-  results associated with my logframe, I can go to `/logframe/n/results/` to
-  get a list of them.
-
-- I can get results to render with Hyperlinkedmodelserializers so long as
-  I don't include any linking fields in the field set. In particular I
-  can't link to parent -- another Result, because it is trying to find a
-  view called 'result-detail'.
-
-- The instructions say that to use Hyperlinkedmodelserializer we must make
-  sure our url patterns are named. This is where it's looking for
-  `result-detail`.
-
-## 2014-02-03 12:27 Monday
-
-Backbone nested views: render sub-view in out-of-dom element
-and then add to dom.
-
-
-## 2014-02-03 14:44 Monday
-
-Here's the require config that loads backbone_sync to fix csrf errors 
-witht the django back end.
-
-     var require = {
-         paths: {
-             'jquery': 'lib/jquery',
-             'underscore': 'lib/underscore',
-             'backbone_base': 'lib/backbone',
-             'backbone': 'lib/backbone_sync',
-             'handlebars': 'lib/handlebars',
-         },                
-         shim: {            
-             'underscore': { 
-                 exports: '_' 
-             },                
-             'backbone_base': { 
-                 deps: ['underscore', 'jquery'],    
-                 exports: 'Backbone'     
-             },           
-             'backbone': {
-                 deps: ['backbone_base'],
-                 exports: 'Backbone'  
-             },          
-             'handlebars': {           
-                 exports: 'Handlebars'  
-             }          
-         }
-     };
-
-And here is backbone_sync
-
-    (function() {
-      var _sync = Backbone.sync;
-      Backbone.sync = function(method, model, options){
-        options.beforeSend = function(xhr){
-          var token = $('meta[name="csrf-token"]').attr('content');
-          xhr.setRequestHeader('X-CSRFToken', token);
-        };
-        return _sync(method, model, options);
-      };
-    })();
-
-## 2014-02-03 15:14 Monday
-
-When the element is empty you can't click on it. 
-So add placeholder text, and mark the element with a class so 
-that you can hide it in print style-sheets.
-
-## 2014-02-03 15:36 Monday
-
-
-Handlebars templates -- do we want a new template tag to load them verbatim
-to avoid having to escape them with explicitly verbatim django tags?
-
-## 2014-02-03 15:41 Monday
-
-[Flexbox](http://www.w3.org/TR/css3-flexbox/) for making things that are table-like.
-
-## 2014-02-03 16:52 Monday
-
-[Backgrid](http://backgridjs.com/) a library of backbone widgets to use in grid display.
-
-
-## 2014-02-03 16:54 Monday
-
-Javascript developmentin vim:
-
-- [x] check syntax on save -- syntastic plugin?
-- [ ] highlighting: highlight function names as headings 
-    and method names in objects
-- [ ] Editor tools like [Tern](http://ternjs.net/doc/manual.html)
-
-## 2014-02-06 14:29 Thursday
-
-@v4c
-
- * Use a backbone router -- to trigger different entry point 
-   functions .
-
- * Create overview and results v-pages in separate folder
- pages/result.js
-
-    create the right result from the results collection
-    and use it to instantiate a view to present it
-
- pages/overview.js
-
- * Main would use a router to call the main function from the
-   apropriate page.
-
- * Main would load the relevant data from Aptivate.data into
- collections 
-
-
-* in principle when creating a result, we could also create an empty
-  indicator  at the server side (because result without indicator is not useful)
-
-## 2014-02-06 14:54 Thursday
-
-See [This article](http://elucidblue.com/2012/12/24/making-qunit-play-nice-with-requirejs/) for a way to make Qunit work with require.js
-
-    define(['qunit'], function(qunit) {
-        var testFiles = ['test', 'modules', 'here'];
-        require(testFiles, qunit.load);
-    });
-    
-## 2014-02-06 23:27 Thursday
-
-Added `assumptions` to Aptivate data. Boy that was hard.
-I hate those tests!
-
-Next up, populate the assumption collection (For a logframe) from this dataset (using reset?)
-Check how assumptions part of interface behaves.
-
-## 2014-02-08 15:07 Saturday
-
-`Collection.fetch()` is asynchronous and non-blocking so doing 
-
-    this.assumptions.fetch()
-    this.assumptions.add(...empty one...)
-    
-doesn't put the new one at the end. The second line completes before the first one.
-OK I'm going to switch `fetch` to `reset` soon, when I load data from `Aptivate.data`
-but in the  meantime, here's what works:
-
-            this.assumptions.fetch({
-                success: this.addEmptyAssumption
-            });
-
-
-NOTE: `addEmptyAssmption` had to have `this` bound in order to work.
-
-## 2014-02-08 20:55 Saturday
-
-[This article](http://alexkehayias.tumblr.com/post/26630944947/backbone-in-the-wild-lessons-learned-using-backbone-js) 
-by a django dev writing backbone talks about how to bootstrap your app with a view for the whole thing, and other hints.
-
-Also recommends one view/model per file when working with require
-
-
-## 2014-02-08 21:37 Saturday
-
-Main does too much! Main is loaded asynchronously, so this data set up cannot
-be relid upon and should be moved to a separate script upon which other modules
-may explicitly depend to get the instantiated collections and models.  See:
-http://requirejs.org/docs/api.html#data-main 
-
-
-
-
-## 2014-02-09 20:11 Sunday
-
-Holy Crap! Blocks don't create new scope in Javascript.
-And variable definitions (not assignments) get moved (or 
-[hoisted](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html))
-to the top of their enclosing function scope before execution.
-
-## 2014-02-09 21:41 Sunday
-
-No, seriously, this asynchronous malarky is just mental.  Don't initialize
-members in their declaration if the value depends on anything else. This
-bit me where I was picking up values of our global variable
-`Aptivate.collections`.  This gets set up in `main.js` in what I'm calling
-'run time' but the body of the class definition is executed at `load
-time`, which we cannot rely upon when loading asynchronously with require.
-
-
-I'm wondering whether instead of a global variable we'd be better
-keeping these things in a module object and managing dependencies
-explicitly with require. Having written that down it sounds like
-a complete no brainer. Hmm.
-
-## 2014-02-09 21:44 Sunday
-
-And another thing: we using `backbone-subview` to let the dom elements
-tell us which views to attach where. And we're creating a view per field
-for the inline editing. IT might be possible to use a per-model view and
-let the dom elements specify which field they are interested in.
-See "Inline binding declarations" in 
-[epoxyjs](http://epoxyjs.org/tutorials.html#simple-bindings)
-
-## 2014-02-09 21:52 Sunday
-
-How do we manage one-to-many relationships among models?  E.g. Assumptions
-per Result? At the time of writing I have a single global collection for
-the assumptions, and its url that of all the assumptions in the API. If I
-were to `fetch()` them, I'd end up with many more than I want. Should I
-populate the collection with all the `Assumptions`, and select only those
-I want by magic logic, or create separate collections for each `Result`?
-And how to associate those collections with the `Result` model objects?
-
-The [Backbone docs](http://backbonejs.org/#FAQ-nested) say it's
-common to nest collections inside models. The example shows an example
-of a collection whose url is specific to its owning model object (implying
-nested url scheme for API, which my gut still tells me we should be using)
-
-[This tutorial](http://css.dzone.com/articles/backbone-relational-tutorial)
-refers to something called [backbone-relational](http://backbonerelational.org/)
-
-## 2014-02-09 22:19 Sunday
-
-Our `collections` module had implicit dependency on our `models` module
-because it referred to model names via Aptivate.<model>. But we can't
-guarantee the order in which `models` and `collections` get loaded so this
-dependency is not necessarily met by referring to the global variable.
-Explicit dependencies looking ever more appealing.
-
-
-@rest-framework
-
-## 2014-02-10 09:01 Monday
-
-From Marko:
-
-> I just remembered another possible problem. I *think* django rest
-> doesn't return anything on POST but we want it to return created object
-> so we get its id. Without it we can't update it later. Not sure how to
-> do that but hopefully there's an app for it. 
-
-
-@zombies
-
-## 2014-02-10 09:34 Monday
-
-* [Clean this shit up](http://alexkehayias.tumblr.com/post/26630944947/backbone-in-the-wild-lessons-learned-using-backbone-js) 
-
-* [Zombies](http://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/)
-
-
-@v4c
-
-## 2014-02-10 11:09 Monday
-
-* [x] Pretend the Assumptions collection we have is the one for the selected result
-
-* [x] Build a subset of the structured data:
-
-```
-    Result: Model ------> :Collection ------*> Assumptions:Model
-
-```
-
-* For the time being, let ResultPage have a reference to the result object
-
-## 2014-02-10 15:05 Monday
-
-Finally,
-[this](http://stackoverflow.com/questions/15815216/passing-arguments-to-a-backbone-views-constructor)
-is how you access parameters to constructors.
-
-Or perhaps not. Doesn't seem to work. Try this instead:
-
-``` javascript
-
-        initialize: function(options){
-            this.stuff = options.stuff;
-        }
-```
-
-## 2014-02-10 16:14 Monday
-
-How confident am I that hierarchical models work?
-  * Test update -- do we have to include the parent id or can the API infer it
-    from the URL?
-
-
-## 2014-02-10 16:16 Monday
-
-We now have two two Assumptions collections: the global one and one associated
-with the result.
-
-* [x] Get data into the Result's one.
-    * For the time being, just `fetch()` it. -- later we can set it up with a
-      smarter URL or some query parameters to get the right ones.
- 
-* [x] Use that collection as the one that gets rendered on the page.
-
-* `assumotion/list-view` needs :-
-        - [-] maybe a `render()` to display values already in the collection,
-          and to call on `reset` events?
-        - [x] some wiring to update its view when values change -- already has
-          it
-
-
-## 2014-02-10 16:45 Monday
-
-Javascript vim options
- - [x] syntastic checkinng with jshint
- - [-] better syntax highlighting.
-
-       The `vim-javascript-syntax` plugin tries to highlight the arg list of
-       anonymous functions as a function name. @fail @vim @javascript. Maybe
-       the one it's branched from is better?
-
- - [x] set number
- - [x] 80 character lines
- - [-] snippet for define([ ], function{ ... })
-
-       Doesn't work. Maybe UltiSnips isnt getting my tabs any more.
-       Since I use it rarely, I could bind it to something harder to type.
-
- - [ ] Find out how to remove trailing spaces
-
-
-
-## 2014-02-10 16:58 Monday
-
-Here's a generic 
-[collection view ](https://github.com/anthonyshort/backbone.collectionview)
-for Backbone.
-
-## 2014-02-10 17:15 Monday
-
-Just exactly how the hell do you access arbitrary argument lists in @JavaScript
-functions? 
-[Like this](https://javascriptweblog.wordpress.com/2011/01/18/javascripts-arguments-object-and-beyond/)
-
-
-## 2014-02-11 10:56 Tuesday
-
-We have separate definitions for collections but maybe we don't need them,
-maybe they are simple customizations of  standard collections.
-
-## 2014-02-11 12:03 Tuesday
-
-Removed the custom collection class definitions for a Assumptions and Indicators.
-There still needs to be a class definition:
-
-This:
-
-    new Backbone.Collection.extend({...})();
-
-Doesn't work. The association is wrong. I guess this would work:
-
-    (new Backbone.Collection.extend({...}))();
-
-But that's ugly. So I'm preferring:
-
-    var Xs = Backbone.Collection.extend({...}));
-    new Xs();
-
-## 2014-02-11 12:12 Tuesday
-
-- [-] Make indicator-list subview which gets installed in the whole
-  middle frame under the ribbon.
-- [-] Attach it to the result.indicators
-- [-] Add a subview for indicator container
-- [-] add editabble name and description parts
-
-
-## 2014-02-11 14:00 Tuesday
-
-One day, when Git is a pain, try [Gitv](http://www.gregsexton.org/portfolio/gitv/) for @vim
-
-
-## 2014-02-11 14:23 Tuesday
-
-[Backbone.CollectionView](https://github.com/rotundasoftware/backbone.collectionView/blob/master/src/backbone.collectionView.js)
-uses a collection container to "store, retrieve and shut-down" subviews.
-
-## 2014-02-11 14:26 Tuesday
-
-
-Have reconsidered 
-[Backbone.CollectionView](https://github.com/rotundasoftware/backbone.collectionView/blob/master/src/backbone.collectionView.js)
-for the indicator list (quick scan of functionality) and currently I'm not seeing a close mapping with what we want.
-
-
-
-## 2014-02-11 15:46 Tuesday
-
-Don't be tempted -- as I  just was, to move `_.bindAll(...)` to the end of
-`initialize` if there are `listen_to` calls in there. It's imperative, not declarative:
-you have to _do it_ to those methods before setting them as event handler callbacks.
-
-## 2014-02-11 16:52 Tuesday
-
-Refactored more generic `ListView` out of `AssumptionList`. Used it as the basis for Indicator list.
-Problem is it currently tries to render as a list, which might not be what we want. I suspect the original
-app used either embedded tables or divs, so I might have to remove the list dependency from `Listview`, or at least
-make it overridable. 
-
-## 2014-02-12 09:50 Wednesday
-
-Turns out the tag in `Listview` is overridable in the normal way.
-Simply added it to the instantiation in Result Container.
-
-So now my list to do looks like this:
-
-- [x] Make indicator-list sub-view which gets installed in the whole middle
-  frame under the ribbon.
-- [x] Attach it to the result.indicators
-- [x] Add a sub-view for indicator container
-- [x] add editable name and description parts
-- [x] Make sure the update/save logic works and adds a new row
-- [x] Can we get rid of the simple subclasses of `InputView` if they do nothing
-  more than set values like template and attributes, they could be inlined
-  where they are instantiated.
-- [x] Check why I can't save assumptions, and maybe write a test for it.
-- [x] I just added a `indicator-name.handlebars` which is _the same_ as
-  `result-name.handlebars`. Refactor that shit!
-
-- [-] Can we have a generic xxxx-container view?
-
-## 2014-02-12 11:29 Wednesday
-
-- [ ] Find out how pymode removes trailing white space and do it to Javascript
-
-
-## 2014-02-12 11:45 Wednesday
-
-Here is [in-place editing](https://github.com/hendrikbeneke/backbone-editable/blob/master/backbone_editable.js.coffee) 
-for backbone, in coffeescript
-
-
-## 2014-02-12 11:47 Wednesday
-
-Having touble with the difference between subclassing and instantiating.  AFIK
-in a prototype based language these should be the same. But I'm guessing the
-Backbone's View only copies certain properties into instances when you
-instantiate. Whereas somehow when I create my own subclass and instantiate that
-I can pass anything through. Eek.
-
-## 2014-02-12 14:34 Wednesday
-
-Turns out the functructor for `Backbone.View` only copies properties from `options` 
-to `this` if they are listed in `viewOptions`. 
-
-```javascript
-  var View = Backbone.View = function(options) {
-    ...
-    options || (options = {});
-    _.extend(this, _.pick(options, viewOptions));
-    this.initialize.apply(this, arguments);
-    ...
-  };
-
-  // List of view options to be merged as properties.
-  var viewOptions = ['model', 'collection', 'el', 'id', 'attributes', 'className', 'tagName', 'events'];
-```
-
-But the same arguments that the constructor gets are also passed to `initialize`.
-So I can explicitly copy the additional ones I want over onto `this` inside
-my `initialize`.
-
-```javascript
-    var ListView = Backbone.View.extend({
-
-        initialize: function (options) {
-            this.items = options.collection;
-            this.itemView = options.itemView;
-            this.newModelOptions = options.newModelOptions;
-            this.options = _.clone(options);
-      ...
-```
-
-## 2014-02-12 16:21 Wednesday
-
-Abortive attempt to refactor out the remaining duplication
-of simple views by writing init methods on our generic views
-that copy their required parameters from `options`.  This
-is a bit tricky because extend puts new features on the prototype
-whereas instantiation passes them to the constructor -- whuc then
-passes them on to initialize. And in there if we copy values
-to `this`, we risk overwriting values added with `.extend()`
-with `undefined`, if the value isn't in options. And at the moemnt
-we seem to do some of each.
-
-
-## 2014-02-12 22:40 Wednesday
-
-There is a cunning `_.once()` in Underscorejs, but it doesn't do what
-I hoped it would: Instead of caching the results of a method per
-object, it caches the results of the the function once forever,
-irrespective of object.  There is also `memorize`, but this
-is similar: caches multiple results for efficiency but not
-per object. 
-
-
-
-## 2014-02-12 23:38 Wednesday
-
-Finnally managed to do the refactor I spent all afternoon attempting
-where the small, declarative subclasses of `InputView` view get replaced
-wtih inline declarations. Reduced tne overall number of lines.
-
-I'm noping we can make `InputView` into an even more generic `EditableView`
-(stareted referring to it ass that in anticipation) that will allow us
-to generically specify:
-
- - the input element
- - placeholder text, 
- - etc
-
-Because we can set that stuff as options on the view and also pass them
-to the template ccontext. 
-
-
-
-## 2014-02-12 23:56 Wednesday
-
-Next priority is to link the assumptions and indicators to the selected result objectt.
-
- - [-] Check out if what nested routes in the API do if you post something
- with the wrong key value.
- - [-] Merge that branch with dev and try build the urls for the sub-models based on their owning ones.
- - [-] See what happens when you save POST to those urls
-
-## 2014-02-13 09:36 Thursday
-
-Here's a good trick. BaseView needs `template_selector` to work.  I want to be
-able to supply this either when extending or instantiating.  Extend simply adds
-it to the prototype, but instantiation needs to look for it in the provided
-options argument and copy it over, which by default it won't  because it's not
-one of the standard `viewOptions` that Backbone.View copies accross. My
-current solution below:
-
-``` javascript
-      constructor: function (options) {
-          Backbone.View.apply(this, arguments);
-          _.extend(this, _.pick(options, 'template_selector'));
-      },
-```
-
- - override `constructor` to do this, to leave `initialize` free for subclasses
-   to redefinne safely.
- - call the parent class's constructor explicitly (the only way to do it)
- - `_pick` the require options from the options parameter not to get any other
-   stuff being used for other purposes.
- - `extend` `this` so as not to set the instance attribute if its not defined
-   in `options`. (I had a problem befoproe setting it to `undefined`)
-
-## 2014-02-13 10:40 Thursday
-
-Looking at the nested routes version of the API:
-
-- [-] The trailing slash is back: how do we get rid of that?
-- [x] Even worse! `/logframes/1/` and `/logframes/2/` give the same set of
-  logframes, so even though the urls are nested, it's not iterpreting the key
-  value at all at the moment.
-
-## 2014-02-13 12:44 Thursday
-
-OK I spent all morning trying to figure out how nested routes might
-possibly work; how they might select one object within another.
-AFACT it's only the url structure that it deals with and I Can't see
-how to select the queryset to work with. Pfft!
-
-Ok back to the drawing board.
-
-Let's fish out our properties with query parameters. Do we have those?
-
-
-## 2014-02-13 15:38 Thursday
-
-URL scheme design (after talking with Hamish).
-
-- Each Collection in the client has a url, 
-
-- It wants to be able to get from that url to get its contents
-
-- Since I have collections _per_ containing object (like assumptions _per_
-  result) I want a get to that url to get the assumptions for that result.  So
-  I'd like to be able to go to `/logframe/1/results` to get all the results for
-  the first logframe.
-
-- They also want to be able to put/post to those urls to create/update objects
-  And it might be convenient if we coul just put `{ 'description': "blah" }` to
-  `/result/5/assumptions` to create Assumption `{ result: 5, description: "blah" }`
-
-- Hamish says there are problems with urls of the form `/logframe/1/results/2`
-  beacuse what if result 2 actually belongs to logframe 4? Do we have to
-  validate this?  He suggests `/logframe/1/results` woul list the owned
-  results, but `/results/n` would be the cannical url for any given result.
-
-- The problem I have with this is that I don't want my collections to have
-  different urls to use for getting and putting.
-
-## 2014-02-13 16:31 Thursday
-
-Since we have to roll our own filtering by parts of the URL anyways, there
-isn't much difference between using url components and query parameters (apart
-from it is possible to use some [standard django filtering
-framework](http://www.django-rest-framework.org/api-guide/filtering#djangofilterbackend)
-to add filtering options).
-
- - When you create a nested router, you can pass the lookup field which
-   determines the name of the regexp match parameter for the parent single-item
-   url. IT gets the name of the lookup field from the parent appended to it
-   (`pk` by default) so in this case below:
-
-``` python
-    logframe_router = routers.NestedSimpleRouter(
-        router,
-        r'logframes',
-        lookup='log_frame_',
-    )
-    logframe_router.register(r'results', ResultViewSet)
-```
-
- I end up inside the view with `self.kwargs = { 'log_frame_pk': 2 }` or
- something, which I can pass directlyu to the manager to filter the results objects:
-
-
-``` python
-  class ResultViewSet(viewsets.ModelViewSet):
-      model = Result
-      serializer_class = ResultSerializer
-
-      def get_queryset(self):
-          return Result.objects.filter(**self.kwargs)
-```
-
-  
-
-## 2014-02-13 17:10 Thursday
-
-- [-] We might not want the python api views in @v4c to support get for
-   individual objects, instead we might jsut support lists and put/post?
-
-- [ ] Error checking for urls of the form: `/logframe/1/result/2/assumptions`
-  if result 2 doesn't belong to logframe 1. This is particularly important for
-  posting to these, where we might try and infer the id of the owning object
-  from the url. -- Though we could probably get away with a sloppy version that
-  only looks at the nearest parameter, so posting to
-  `/logframe/1/result/2/assumptions` wouldn't care if result 2 belonged to
-  logframe 1, but would create an assumption with result = 2, unless it
-  specified a different result id.  A more elegant solution would be t do
-  proper checking but we might wait until later for that.
-  
-          
-
-## 2014-02-13 17:18 Thursday
-
-- [x] Make sure we can post to these urls to create, 
-- [-] Make object creation on nested routes fill in the owning object's key
-  value from the URL if it is not set. (This isn't currently urgent because
-  the client side stores the owning object in list view, but I would like 
-  to see if that would go away.)
-
-## 2014-02-14 09:29 Friday
-
-Here' because I don't know where else to put it, is 
-[Radio Swiss Jazz](http://www.radioswissjazz.ch/live/mp3.m3u)
-
-
-## 2014-02-14 10:24 Friday
-
-Merged nested_routes into master. 
-
-We currently set the `urlRoot` explicitly in models AND collections.
-I don't want to do that.  What inference can Backbone do for itself?
-
-``` javascript
-    url: function() {
-      var base =
-        _.result(this, 'urlRoot') ||
-        _.result(this.collection, 'url') ||
-        urlError();
-      if (this.isNew()) return base;
-      return base.replace(/([^\/])$/, '$1/') + encodeURIComponent(this.id);
-    },
-```
-
-Models derive their url from url base, by adding their id to the end.
-The base comes either from `urlRoot`, or from `this.collection.url`.
-
-
-## 2014-02-14 15:08 Friday
-
-USer Interface Events
-- Enter: save
-- Click outside
-  ASK if ou meant to save or not
-- Escape calcel
-
--
-
-## 2014-02-14 15:13 Friday
-
-- [x] Check if source is using the same data field as the description!
-
-## 2014-02-17 09:43 Monday
-
-Addin milestones 
-
- - [x] Seems odd that the collection classes I have defined in
-   `results.js` don't have model set. How do they know what to instantiate
-   when adding new ones? 
-
-   A: I think they just instantiate `Backbone.Model`, and the only
-   behaviour that I require them to have is that they work out 
-   their url from their containing collection; which they do.
-
-## 2014-02-17 11:31 Monday
-
- - [x] Make the milestones  filtered by their owning logframe in the API
-
-## 2014-02-17 12:44 Monday
-
-I wanted a non editable view for milestones.  So I split out the generic view
-rendering from our `list-view` into a `static-list` and leaving `list-view` as
-a subclass that adds the unsaved item behaviour.  In the process I re-bound
-`addEmptyItem` to `rese` event instead of explicitly calling `fetch({ success:
-this.addEmptyItem });`.  The problem is that the reset event is triggered once
-the elements are all removed, but not after they have all been added.  In fact
-you can't know when they have all been added, because `fetch` inserts them one
-at a time with `addd`. So I think we need to bind `addEmptyItem` to the `sync`
-events, if such exist.
-
-## 2014-02-17 13:56 Monday
-
-The above is quite true. Fetch calls add by default but you can make it do
-reset by passing `{ reset: true }` which is kinda what we want when setting up
-the data for the first time.
-
-## 2014-02-17 14:16 Monday
-
-Next up: Render the measurements. Where do those come from?  Are they in the
-model yet? The plan says they should be owned by the indicators.
-
-## 2014-02-17 16:34 Monday
-
-What I'm trying to do now, is:
-
-- Render a table row for the values
-- Each with a sub-view tag to trigger a sub-view
-- And a data tag to identify the milestone column it belongs to
-- Then in the `subviewCreators`, or in side the created view, see if we can
-  pick up these data values to choose the right `Target` model to manipulate. 
-
-## 2014-02-17 17:28 Monday
-
- - The Result page has url `/logframe/1/` but there should be only one Logframe
-   in the system, so maybe the url should be  `/result/<n>` which is the result
-   uniqe ID
-
- - Make fixture with v4c logframe data in.
-
- - Deploy to staging server.
-
-## 2014-02-18 09:05 Tuesday
-
-Update strategy for rendering targets:
-
-- Create a view with both the milestones list and all the available targets
-- Iterate over the milestones, which define  the structure, and see if
-there is a target value for each one
-- If there is, render an editable view for that target value
-- If not, create an unsaved target view
-
-
-## 2014-02-18 11:36 Tuesday
-
- - [x] The targets table for unsaved indicators needs to listen to save events
-   on its owning indicator and re-render
-
- - [-] The `<thead>` in my table doesn't have the title row in it.  Forked
-   backbone-subviews to try and fix the bug where it only works with divs. I
-   can make the qUnit tests run in my browser, but they stop if I add one. Not
-   sure what to do.
-
-## 2014-02-18 15:58 Tuesday
-
- - Make the Milestone collections sort by their order value.  There isn't,
-   as yet, any way to edit those order variables, except for hacking it in the
-   admin interface. But at least we could set up the right milestones that way,
-   with a bit of work.
-
- - Delete buttons!
-
- - Validate numeric inputs for Target values
-
- - Click outside the input box should save, not cancel
-
-
-## 2014-02-19 15:17 Wednesday
-
-NOTE! 
-Django Debug toolbar breaks the app! Don't use it.
-
-
- - I'd like to find a way to make our EditbaleXXX templates more generic.
-   We could pass the enclosing element type in as a context parameter.  Since
-   they are mainly a single element, we in fact generate them programmatically
-   which would be even neater.
-
-## 2014-02-19 15:37 Wednesday
-
-Sub-indicators:
-
-Need to get the sub-indicators collection into the data-model, 
-
-  - [x] add to the Indicator model
-  - [x] Make the gui show any existing subindicator(s)?
-  - [x] Make the api send a 'total' sub-indicator if there aren't any?
-  - Fix it so you can't save Targets unless the subindicator in that row is saved,
-    and so you can't save subindicators until the indicator is saved, etc.
-  - Format numerics with commas
-  - Validate numerics
-
- 
-Sub-indicator view doesn't always show the single 'total' subindicator I have 
-created: this I think is because the data is being loaded asynchronously, and it
-renders before the data arrives. So there needs to be a sub-indicator list
-view that watches the relevant collection, and renders when there are changes
-and is in charge of adding rows when new subindicators come into existence.
-
-## 2014-02-20 11:01 Thursday
-
-Revised to do list:
-
- - [x] The Result page has url `/logframe/1/` but there should be only one
-   Logframe in the system, so maybe the url should be  `/result/<n>` which is 
-   the result uniqe ID
-
- - [x] Changing the result number in the url has no effect, always go to the first one.
-
- - [ ] Make fixture with v4c logframe data in.
-
- - [x] Deploy to staging server.
-
- - [x] Fix it so you can't save Targets unless the subindicator in that row is saved,
-       and so you can't save subindicators until the indicator is saved, etc.
-
- - [-] Format numerics with commas
-
- - [-] Validate numeric inputs for Target values
-
- - [-] Make the Milestone collections sort by their order value.  There isn't,
-   as yet, any way to edit those order variables, except for hacking it in the
-   admin interface. But at least we could set up the right milestones that way,
-   with a bit of work.
-
- - [ ] Delete buttons!
-
- - [-] Click outside the input box should save, not cancel
-
- - [-] The `<thead>` in my table doesn't have the title row in it.  Forked
-   backbone-subviews to try and fix the bug where it only works with divs. I
-   can make the qUnit tests run in my browser, but they stop if I add one. Not
-   sure what to do.
-
- - [-] NEed the ability to add new results at each level of the hierarchy,
-   where does this go? In the overview page?
-
-
- - [-] Might need a default contribution weighting too?
-
- - [-] Impact weighting box floats over result description on result page
-
- - [-] Add other relevant data to Aptivate.data on page and use to set-up in browser initial data structure
-
- - [-] Protect the logframe content with user permissions, at least login required
-
- - [-] Use precompiled handlebars templates
-
- - [-] The ugly black tabs are caused by $tabs-background not being in scope somehow in the relevant file
-
- - [x] After vanilla deploy, the server didn't have permssion to access 
-
-    OSError at /logframe/1/result/2/
-    [Errno 13] Permission denied: '/var/django/v4clogframe/current/django/website/static/.webassets-cache'
-
-
- - [-] I tried re-using the sub-indicator view for each render of the target row, but this stopped
-       it responding to click events for some reason I can't yet figure out
-
-There's an interesting problem with getting the id of a newly created subindicator to use
-in its target values: the new ID doesn't come back from the server until 'some time later' 
-asynchronously.
-
-We need to not render the target values until the subindicator's id is known.
-Which means we need to be listening to its sync events. By calling render on the subindicator row
-view when the subindictor saves, and by not drawing the target values until there _is_ a subindicator
-we can get the desired behaviour for creating subindicators.
-
-Now there is a sumilar probelm with new indicators:
-
-- Saving a new indicator now triggers `sync()` on its subindicators -- to pick up the default subindicator.
-- That row looks good: the newly pulled subindicator has its parent indicator id and Target values in that row are saved ok.
-- But the empty subindicator that appears under the newly-appeared default one is not behaving properly: it doesn't know it's owning indicator, and so target values in that row are not getting saved
-- If I reload he page, it looks the same, with the 'Total' sbindicator and an unsaved subindicator below, but _now_ I the subindicator appears to know its owning indicator and crates a properly functioning row.
-
-## 2014-02-21 12:58 Friday
-
- - [-] Dump logframe from Staging server
-
-## 2014-02-21 17:00 Friday
-
- - [-] Entering white space in an input item and saving makes it
-   impossible to click to edit again.
-
- - [-] Clearing out all the text and pressing enter/tab doesn't send a
-   save with empty string back to the server so the old value is
-   preserved.
-
- - [-] White space in long description fields gets collapsed; map line breaks
-   to `<br>`?
-
- - [-] While trying to use Jquery to animate adding new items, I found out we
-   do unnecessary re-draws: edit the description of an indicator and it
-   re-renders all the target values.  See the following excerpt from
-   `static-list.js`
- 
-
-```javascript
-         addItem: function (item) {
-            // TODO: re-use existing sub-views if possible?
-            var $el = new this.itemView({ model: item }).render().$el.hide();
-            this.$el.append($el);
-            $el.show(500);
-        },
-
-```
-
-
-## 2014-02-26 16:53 Wednesday
-
-Rewrite list views using Backbone.Subviews:
-
-- Render the list as a list of placeholders with sufficient info for their
-  relevant views to be created. This means:
-
-- The parent object should include the related objects attribute as a list of
-  IDs. 
-
-- The Subview creators might pull out the models from the relevant collection
-  (which might also be attached to the parent model, but directly, not in the
-  attributes dict) using, e.g. the id from the placeholder.
-
-- To put the placeholders in the right place the parent object should be the context
-  for rendering the template.
-
-## 2014-02-26 17:09 Wednesday
-
-- I'm guessing that this becomes a base view, i.e. its render is rendering a template 
-with `this.model` as the context.
-
-
-## 2014-02-26 20:15 Wednesday
-
-- Update the api to send 1:n relations as a list of ids
-
-## 2014-02-26 21:12 Wednesday
-
-I think we're looking for indicators too early in the process; that somehow they have
-not been fetched yet.
-
-## 2014-02-27 09:30 Thursday
-
-Race conditions between asynchronously loading data with fetch and rendering
-the page.  Before we did't see these because the list view was listening to add
-and reset methods on the collection, but now it just renders itself and uses
-the forward foreign key pointers from its model to infer the existence of the
-related objects even when those have not yet been loaded. 
-
-- On the plus side, we let the objects take care of their  nesting structure
-  themselves, and it gives a good way to process the internal foreign key data
-  representations (lists of ids)
-
-- On the minus side, we now have to have a loaded collection for the related
-  objects before we can even begin to think about rendering the owner.
-
-  - Unless we program it defensively, somehow?
-
-
-## 2014-02-27 09:55 Thursday
-
-What if instead of having a model to render, template list has a collection,
-and assumes it can render the id of its contents. Then we could load them up
-with the nested Collections alreadyy in the in-page data structure, the urls
-and stuff would stay the same, and the change events for adding items etc would
-come from the correct collections, other wise, for example, we end up listening
-to add/reset evcents on a collection attahed  to `/api/indicators` and when one
-of those is added, how do we know which list to re-render?
-
-## 2014-02-27 10:21 Thursday
-
-Made template-list use a collection instead of a model. This avoids the problem
-of finding a generic way to tell the template which attribute of the model
-contains the list we're interested in iterating.
-
-
-## 2014-02-27 12:09 Thursday
-
-Grrr! Backbone.subviews!
-It caches the sub-views it creates in a hash keyed by the value of `data-subview`.
-So when I create a bunch of them in a loop, they all have the same selector
-which means it uses the one already in the cache. Maybe the caching algorithm 
-needs to know -- in some generic way, if there are multiple instances of the same
-subview creator and cache them by name and identity somehow. Damnit.
-
-
-## 2014-02-27 14:37 Thursday
-
-Here's an interesting idea:
-
-```javascript
-  this.$el.data( "view", this );
-```
-
-## 2014-02-27 17:34 Thursday
-
-Use the DOM to store a ref to the view responsible for an element.
-
-## 2014-02-27 17:34 Thursday
-
-OK, Subviews fixed to accept and cache multiple views of the same kind and the
-app using it in a couple of places. Next thing to do is to extend it to 
-provide the functionality of the add-one-unsaved-item view.
-
-
-## 2014-02-28 15:33 Friday
-
-Rewriting `list-view` as `addone-list`.  The old one overrides `addAll` and
-adds the additional item there. The new one doesn't have `addAll`, it just uses
-`render`. So, when do we add the new one? Render is effectively rendering the
-`this.collection`, so we want the new, unsaved item to be in the collection by
-the time we render. So let's try adding it in `initialize`
-
-## 2014-02-28 17:07 Friday
-
-  I think that by making addone-list call its parent (template-list)'s
-  constructor I am registering a render method on add events that calls the wrong
-  render: the one from base-view not the one from addone-list.
-
-
-Nope, that's not it. It's this: by adding an unsaved item, we're adding
-one that has no id. But the template-list view uses the `id` attribute
-to choose which subview to create. 
-
-
-
-
-## 2014-03-03 10:43 Monday
-
-    
-Now initially the addone-list renders the empty item ok though there's a bug
-which means the empty assumption doesn't save - no url set?  It's a bit of a
-dog's breakfast to avoid problems of recursion when adding the empty item to
-the collection triggers render first time through.
-
-i really want the position of the unsaved item to be determined by the
-template. that means being able to exclude it from the template iteration,
-eithe with template logic or by removing it fro the collection that gets
-passed in, then the template can ask for it explicitly by setting
-data-subview-id="new".
-
-and if I do that, to make marko's requested max size feature I'll have to
-override templatecreator for liss to return null if the collection is full.
-
-## 2014-03-03 12:11 Monday
-
-Now I want to work backward from the template I want to be able to write:
-
-``` handlebars
-{{#each items}}
-<div data-subview="itemView" data-subview-id="{{this.id}}"></div>
-{{/each }}
-<div class="unsaved" data-subview="itemView" data-subview-id="new"></div>
-```
-
-- [x] The unsaved item does not appear in the list of items to iterate
-- [x] The template may explicitly ask for the unsaved item by  using 'new' as
-  the id.
-- [x] The `subviewCreators` can return undefined for the unsaved item when the
-  list has reached its max size
-- [ ] The template can add classes to the items which get propagated onto the
-  subview elements.
-
-I can foresee a problem where the unsaved item view remains with a handle on
-the formerly unsaved item which is now saved.  Using `add()` with fallback to
-return the existing object only works for objects that have an ID. For the new
-one, we get back a fresh one each time.
-
-## 2014-03-03 14:48 Monday
-
-Does the reset that loads initial data into the collection remove the unsaved item
-and thus it no longer knows the collection it belongs to? And if so, what the hell do we do next?
-
-
-## 2014-03-03 16:31 Monday
-
-- [x] Add `itemViewOptions` in list view used when instantiated `itemView`.
-
-## 2014-03-03 18:06 Monday
-
-
-There IS a reset event when the data is loaded.
-This removes the model from the collection.
-Then we get two new models, 1 and 2 in the page.
-Their placeholders cause calls to `subviewCreator `which finds out the relevant objects ok.
-The new placeholder DOESN'T because we already created the view for the new item
-and it is in the subviews cache. So that view has been silently returned to the
-page, but the model is already removed from the collection. 
-
-
-## 2014-03-04 16:47 Tuesday
-
-Testing with qUnit sucks because I want to test the logic of the templates too
-but currently I have to include them in the containing html file to make the tests
-run. What I really want is to load them dynamically as part of running the test.
-What's the answer to that?
-
-
-## 2014-03-05 10:29 Wednesday
-
-- [-] The list views used in the milestone/target view don't lend themselves
-  easily to the re-written views with templates because there are many (one for
-  each milestone/sub-indicator combination) unsaved items. The new view needs
-  each of these to have a unique cache value. 
-
-  Maybe I can use the row/column values as the cache values for unsaved items
-  and actual id's for saved ones. That's going to be a bit more complicated.
-
-
-## 2014-03-05 12:07 Wednesday
-
-- [x] When using the new list class for result overviews, there will no longer
-  be a need to set the element type to `div`.
-
-## 2014-03-05 15:10 Wednesday
-
-Change how `TemplateList `gets its items to the template context after Marko
-addes `getTemplateData`
-
-## 2014-03-05 17:14 Wednesday
-
-- [ ] Replace marko's "work-round" for passing level or something to the subviews
-with a solution using `itemViewOptions`.
-
-## 2014-03-06 15:03 Thursday
-
-- [ ] Uniform spelling and punctuation 
-- [ ] modularise the API code in python when we rewrite it
-
-## 2014-03-06 16:58 Thursday
-
-one reason we get everything wrapped in a div is because of how BaseView works:
-
-``` javascript
-            this.$el.html(
-                template(
-                    this.getTemplateData ? this.getTemplateData(modelJson) : modelJson
-                )
-            );
-```
-
-This says insert the result of rendering the template inside $el. So we neer
-loose the el. This explains why we have unnecessary divs round all the editable
-items.
-
-The template for editable-field is heading towards `<{{tag}}
-class="{{classes}}" ...>{{content}}</{{tag}}> `i.e. totally generic but we have
-all those controls for the created element.
-
-How about the basic design assumption for editable fields is that there is an
-attribute of the model that we want to present in either a) an editable tag,
-e.g. input, or a presentation tag, e.g. div/span/h1, etc. And we just do it
-program aerially, and only use a program aerially in the case where the
-rendering entails more complex html?
-
-## 2014-03-07 09:26 Friday
-
-- [x] I can expand unsaved results and add save activities against them, well I
-  cant' that fails.
-- [x] We need to guard against saving with the field is empty, the back end
-  doesn't like it.
-
-
-
-
-## 2014-03-07 11:18 Friday
-
-Maybe activities should live in their own app? Might be easier if 
-They had a generic relation to attach them to resuts?
-
-## 2014-03-07 11:54 Friday
-
-- [x] Make name fields optional in activities and budgetlines
-- [-] We currently don't enforce, e.g. the 256 max character length on name fields, etc.
-
-
-## 2014-03-10 09:41 Monday
-
-- [-] Leave commas in while editing amount fields
-
-- [ ] Better "information design" for amount totals -- marko doesn't like the
-  bigger fonts and right justified totals
-
-- [ ] Discussion about how we tackle Delete
-
-- [x] Overview page should start with Goal and Outcome expanded, showing outputs, probabl???
-  - [x] Open the dashboard with top two levels expanded (show outputs)
-
-- [-] Discuss how we tackle oob updates (someone added something to the tree I have to refresh the page)
-
-- [-] Results don't have indicators and shit, remove edit button
-
-- [x] Talk to Luke Everett about linking to sharepoint documents
-
-- [-] v4c login css (From ruforum) needs reworking
-
-- [-] Conditional loading, to reduce page size
-
-- [-] Design the feedback process for, e.g. server errors
-
-- [ ] Print stylesheets?
-
-## 2014-03-12 15:31 Wednesday
-
-
-- [-] Can't enter empty amount field for TA. If I clear the field I get `.00` !!
-
-## 2014-03-14 10:35 Friday
-
-- [x] Create new indicator creates two blank subindicator items in the table
-
-## 2014-03-14 15:38 Friday
-
-### Filter by lead:
-
-- [-] Does the Impact really match?  
-
-  yes if you think of this as a computer scientist would: hierarchically but
-  possibly not if you consider the goal and outcome to be different things.  If
-  we were to change the user interface design to resemble the mockups: with the
-  single impact and outcome separate from the outputs, then the message we
-  would be sending would mean those top level items do NOT match. Since there
-  are only one of each there is no information in saying they match (by
-  transitivity).  So maybe we should make both these changes.
-  
-
-## 2014-03-17 10:41 Monday
-
-- [-] When following link to accept system invitation I get "Djano Administration" page,
-need to add some branding
-
-## 2014-03-17 12:25 Monday
-
-- [-] The world "null" appears in indicator descriptions when I try to edit them.
-
-## 2014-03-17 14:40 Monday
-
-- [ ] In Marko's rework of loading data from the flat API we have the
-  subcollections owned by their views. I would prefer to have them owned by the
-  relevant model  object as before so that there is a single data structure for
-  the app and the data structure is effectively isolated there, the views don't
-  need to have knowledge of how the data model objects are related to one
-  another, they just get given a collection, (or subcollection) and render it.
-  This is really bugging me. I don't like the idea that the relationships
-  between objects might be defined more than once if we had different views
-  showing the same object relation in different ways. Instead of just rendering the
-  collection from the data model, they would each recreate that collection and
-  define the data dependency in the view. Yickk!
-
-  Another reason I don't like it is it introduces dependency on Aptivate.logframe
-  all over the place, whereas if I just passed in a collection object or
-  it found one on the given object, it would be easier to create testing configurations.
-
-
-## 2014-03-18 09:46 Tuesday
-
-Adding status updates
-
-- Add [django-cuser](https://github.com/Alir3z4/django-cuser)-
-  
-  Not such a good idea, the Ruforum user stuff has switched out the user model and Cuser
-  doesn't know how to work with different ones. Marko says `request.user` has current user.
-  Maybe just put that into `aptivate.data` and use to fill the field in js?
-
-- [x] Add model for status types 
-- [x] Add admin for status types
-- [x] Create model for status updates 
-  - With datetime field
-- [x] Add API for status types and status updates
-- [x] Add status list to page
-- [x] Put status codes into Aptivate.data
-- [x] Remove unneeded status codes in Aptivate.logframe.statuscodes 
-- [x] Add user (back-end?)
-- [x] Add description
-- [x] Add date
-- [-] Sort by date?
-
-## 2014-03-18 11:15 Tuesday
-
-- [ ] Should status updates be updateable at all? Only by their author?
-- [x] Better text representation of status updates? Include code/date?
-
-## 2014-03-18 12:39 Tuesday
-
-- [-] Do we still get unnecessary divs on our list views? I thought that was
-  cleared up now? But I notice Marko renders acctivitiy lines in separate table
-  from the headings for some reason?
-
-## 2014-03-18 14:15 Tuesday
-
-- [-] In the models file Marko has divided the models according to what page
-  they sit on, I disagree with this way of structuring things around the pages,
-  I want things structured around the data model.
-
-- [-]  Something is wrong with our encapsulation. In order to add a new view, I have to change:
-  - models.js to add the model
-  - collections.js to add the collection, which duplicates the url in the model
-  - app.js to instantiate the collection
-  - router.js to put data into it.
-
-## 2014-03-19 15:17 Wednesday
-
-- [-] Collapsable toggle for status updates to display most recent 
-  - [-] Css it to look active with the finger link
-  - [-] Make status date default to today so they can't enter an update without a date
-  - [-] New status not being added to bottom of list: possibly use auto-allocated dates with timestamps to do ordering?
-
-- [-] Fix colours on search bar
-- [-] Zebra stripe tables to make them more readable in wide screen
-
-
-## 2014-03-20 09:22 Thursday
-
-- [-] Fill in today's date by default in status updates
-- [-] Sorting by date still not working? 
-- [-] I'm not seeing link buttons on Pen RTE
-
-## 2014-03-20 10:52 Thursday
-
-- [x] Clearning the search filter criteria after demo left some items greyed out
-
-## 2014-03-20 11:53 Thursday
-
-if Emeka gets to senior management to agree to 5th iteration, and asks for additional iteration
-can we, in 4 and 5th iteration 
-
-## 2014-03-24 15:41 Monday
-
-- [x] If I hit the clear filter button when some of my outputs or results don't have activities, they get greyed out, this is a false match.
-
-
-## 2014-03-25 09:57 Tuesday
-
-- [x] I cam click on the ionput field under a multi line input in result heading if it has mutiple lines, add bug
-
-## 2014-03-27 14:28 Thursday
-
-- [x]total budgets missing in activities
-
-## 2014-03-28 08:58 Friday
-
-To fix the jittery touchpad on my Thinkpad Edge E330:
-
-```bash
-xinput --set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Noise Cancellation" 20 20
-```
-
-
-## 2014-03-28 09:32 Friday
-
-- [x] Add admin for Column and Actual
-- [x] Add API for column and Actual
-
-
-
-## 2014-03-28 12:18 Friday
-
-- [x] Memory consumption over time, do we really deallocate views?
-
-## 2014-03-28 16:12 Friday
-
-- [ ] Dashboard url doesn't include logframe id, but probably should
-- [ ] ResultEditor view should use JSON renderer in Django Rest Renderers
-
-## 2014-03-31 09:15 Monday
-
-Reviewing my pull requests to Backbone.subviews.  The subview-id version is too
-specific. I'd prefer subviews to define a function that returns the key to use
-in the view cache. Then subclasses of subview -- like my list view, can choose
-to redefine that to do something clever like use the model id, or (in the case
-of my tables) the unique row/column combination. 
-
-The default (preserving current subviews behaviour) would be something like:
-
-``` javascript
-    getSubviewId: function (subviewCreator, $placeholder) {
-      return subviewCreator;
-    },
-```
-
-My version would be something like
-
-``` javascript
-    getSubviewId: function (subviewCreator, $placeholder) {
-      return $placeholder.data('subview-id');
-    },
-```
-
-My question: how to add this in such a way that subclasses can override?
-Especially given that subviews defines an `add()` method which adds its 
-functions to the current view. Should we say something like this?:
-
-``` javascript
-  Backbone.subviews.add = function(view){
-    ...
-    view.getSubviewId = view.getSubviewId || function (subviewCreator, $placeholder) {
-      return subviewCreator;
-    },
-  }
-```
-
-Alternatively, based on something I saw Marko write: simply don't define it in the superclass
-and use it if it exists:
-
-``` javascript
-  subviewId = this.getSubviewId ? this.getSubviewId(subview, placeholder) : subview
-```
-
-This is a much lighter
-
-## 2014-03-31 11:06 Monday
-
-- [x] We need smarter synchronising data between client and server to avoid
-  fetching all the data every time we change pages.
-
-## 2014-03-31 12:17 Monday
-
-- [x] The page should ask you if you want to leave only if there is a currently open editor
-
-## 2014-03-31 15:35 Monday
-
-- [ ] Refactor away the multiple versions of set-order-on-save into a mixin?
-
-## 2014-03-31 17:30 Monday
-
-- [x] Next up: use the upcoming milestone as the heading of column 2?
-
-- [x] Maybe the functions to get the first and next milestones should be
-  external as thy might be used by the view for the table body as well as the
-  header, as we have to know which row content to render
-
-## 2014-04-01 12:08 Tuesday
-
-Collection.find(predicate, context)
-
-Things we would like to do to put on the wiki.
-
-- taxonomies
-
-- configuration of the number of values at each level of the tree
-
-## 2014-04-01 17:22 Tuesday
-
-- [x] Next up, give `monitor-heading` template a subview date-editable for the
-  column date
-
-## 2014-04-02 11:45 Wednesday
-
-- [x] The subindicators should be available on their Indicator
-- [x] Create a fixed list view for the subindicator rows 
-- [x] The targets should be available on the Indicator too
-- [x] The actuals should be available on the Indicator too
-- [-] Having trouble when changing page with client routing: the edit and
-  monitor pages don't load properly.
-- [-] Display the relevant baseline value in the input row
-- [-] Display the relevant next milestone value in the input row
-- [x] Add data entry for Actual in data entry row, if the column is saved (not
-  `isNew()`)
-
-When there are no actuals, we don't have any blank spaces to enter any either.
-In fact we need one in every column that doesn't already have one.
-
-Tried to populate a local collection inside `addAll` of `data-entry-row`.  
-
-Shows I actually pass those values in `extend({})`, but it looks like
-this.actuals isn't getting set.
-
-
-## 2014-04-03 14:58 Thursday
-
-The list view works because it assumes list items have a unique `id` (which they
-do only when they are saved) which finds its way into the placeholder via the
-template and is used to set up the item view. This is not the case for data tables
-where we might have many unsaved items. Instead of an ID, each has a unique
-combination of row and column. 
-
-## 2014-04-03 15:27 Thursday
-
-So I'm adding `getSubiewId()`to Backbome.subviews to let me use something other than
-the `subviewId` to hash subviews.
-
-## 2014-04-04 16:02 Friday
-
-- [-] Re-engineer the indicator milestone table in Edit Result view to use the
-  new approach with template view.
-- [x] Having trouble when changing page with client routing: the edit and
-  monitor pages don't load properly.
-- [x] Display the relevant baseline value in the input row
-- [x] Display the relevant next milestone value in the input row
-
-- [x] Adding a new column object should cause the body of the data table to
-  re-render to include the new columns
-
-  We could listen to events on the indicator's `columns` collection.
-
-- [-] The list of input columns should be sorted by date.  We're leaving this
-  as: you have to reload the page to do it for the moment.
-- [-] We should only show the most recent _n_ data input columns.
-
-- [x] New activity header colours should also be used for the bg f the rest of the item and the side bar
-
-- [ ] `getBaseline` and `getMilestone` of `HeaderRow` view should probably be
-  defined as something like `public static` methods on the `Milestone` model,
-  so that `DataEntryRowView` can use them. How do you do that in Javascript??
-
-## 2014-04-07 10:22 Monday
-
-- [x] We should only show the most recent _n_ data input columns.
-
-- [x] Check that clicking in an Actual and then defocussing doesn't result in error
-
-- [x] Slicing the columns list to limit columns results in no unsaved Actuals being shown
-
-- [-] Use Marko's new site config to set the number of data entry columns shown?
-
-- [x] It looks like our page views don't tidy up after themselves by removing subviews
-
-
-## 2014-04-08 10:42 Tuesday
-
-
-When I get time to fix the v4c code, I Want to get rid of the plague of Aptivate global refefences.
-I want 
-
-## 2014-04-08 10:43 Tuesday
-
-Lets fix these zombies
-
-
-``` javascript
-    function AppView(element){
-      
-      this.element = element;
-
-      this.showView = function (view){
-        if (this.currentView){
-          this.currentView.close();
-        }
-
-        this.currentView = view;
-        this.currentView.render();
-
-        $(this.element).html(this.currentView.el);
-      }
-    }
-```
-
-## 2014-04-08 17:03 Tuesday
-
-Check out the WIP on zombies branch, trying to fix the target table in result editor view
-
-## 2014-04-09 10:19 Wednesday
-
-- [ ] Move the TA consultant bands to the database -- please can we have taxonomies?
-
-- [-] Add permission required to monitor and result edit pages to protect 
-
-- [ ] If I make all the text in a description into a link it must not prevent
-  me from clicking to edit: maybe we could make the 'edit' label that pops up into  clickable?
-
-- [ ] Deploy to production tomorrow !!!
-
-- [ ] Re-engineer the indicator milestone table in Edit Result view to use the
-  new approach with template view.
-  - [ ]  WIP: needs to not show targets for unsavedsubindicator but show them when ione is added
-
-- [ ] Use Marko's new site config to set the number of data entry columns shown?
-
-## 2014-04-11 08:52 Friday
-
-- [ ] Make the TA and Other lines collapsable
-
-## 2014-04-11 11:06 Friday
-
-- [ ] Move indicator.targets declaration from milestone-table to models
-
-## 2014-04-11 12:20 Friday
-
-- [ ] v4c MIS should give feedback if you try and leave the page with unsaved data (but its non-trivial)
-
-## 2014-04-14 10:47 Monday
-
-- [ ] When setting up the app with an exmpty database you need a logframe AND top level result (impact) before you can use the interface
-- [ ] Indicator source should allw links and multi=line input
-
-
-
-
-
+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
+P82LS6n4QDkwiD1K/opbTQ==
